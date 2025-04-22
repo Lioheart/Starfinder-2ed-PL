@@ -1,0 +1,26 @@
+{
+  "id": "lang-pl-sf2e",
+  "title": "Polskie tłumaczenie Starfinder 2ed",
+  "description": "Polskie tłumaczenie Starfinder 2ed",
+  "version": "vDev",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "esmodules": [
+    "src/translator.js",
+    "src/fix-token-names.js"
+  ], 
+  "relationships": {
+    "requires": [
+      {
+        "id": "lang-pl-pf2e",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  },
+  "url": "Filled in by the release workflow",
+  "manifest": "Filled in by the release workflow",
+  "download": "Filled in by the release workflow"
+}
