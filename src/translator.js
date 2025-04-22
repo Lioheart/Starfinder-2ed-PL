@@ -3,7 +3,7 @@ Hooks.once('init', () => {
     game.babele.register({
       module: 'lang-pl-sf2e', // Identyfikator twojego modułu
       lang: 'pl', // Język
-      dir: 'translation/pl', // Katalog z tłumaczeniami
+      dir: 'translation/pl/compendium', // Katalog z tłumaczeniami
     });
   }
 });
