@@ -1,0 +1,25 @@
+{
+    "label": "Cechy Pochodzenia",
+    "entries": {
+        "Four-Armed": {
+            "name": "Czteroręki",
+            "description": "<p>Masz cztery ręce, co pozwala ci dzierżyć i trzymać do czterech broni i sprzętu. W dowolnym momencie jedna para rąk jest oznaczona jako aktywna. Możesz zmienić to oznaczenie z jednej pary rąk na inną, wykonując akcję @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.oW81CfM9ebxXnrw3]{Zmiana Aktywnych Rąk}, która jest pojedynczą akcją. Możesz wykonywać akcje tylko aktywnymi rękami.</p>"
+        },
+        "Genetic Adaptation": {
+            "name": "Adaptacja Genetyczna",
+            "description": "<p>Możesz zmienić kształt swojego ciała i dostosować je do nowych sytuacji. Możesz przekwalifikować atut pochodzenia w ciągu jednego dnia przestoju, a nie w ciągu tygodnia. Możesz przekwalifikować dowolny atut pochodzenia, nawet atut rodowy.</p>"
+        },
+        "Limited Telepathy": {
+            "name": "Ograniczona Telepatia",
+            "description": "<p>Możesz komunikować się mentalnie z istotami w promieniu 30 stóp. Możesz komunikować się tylko z istotami, które posługują się tym samym językiem. Nie daje ci to dostępu do ich myśli i nie przekazuje więcej informacji niż zwykła mowa.</p>"
+        },
+        "Overeager Enthusiasm": {
+            "name": "Nadmierny Entuzjazm",
+            "description": "<p>Często jesteś nieświadomy swojego entuzjazmu do pomagania innym. Otrzymujesz -1 karę okolicznościową do testów Percepcji do @UUID[Compendium.pf2e.actionspf2e.Item.1xRFPTFtWtGJ9ELw]{Wyczucia Motywu} oraz -1 karę okolicznościową do rzutu obronnego Woli przeciwko efektom zauroczenia, z wyjątkiem spokojnych emocji.</p>"
+        },
+        "Six-Armed": {
+            "name": "Sześcioręki",
+            "description": "<p>Masz sześć rąk, co pozwala ci dzierżyć i trzymać do sześciu broni i sprzętu. W dowolnym momencie jedna para rąk jest oznaczona jako aktywna. Możesz zmienić to oznaczenie z jednej pary rąk na inną, wykonując akcję @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.oW81CfM9ebxXnrw3]{Zmiana Aktywnych Rąk}, która jest pojedynczą akcją. Możesz wykonywać akcje tylko aktywnymi rękami.</p>"
+        }
+    }
+}
