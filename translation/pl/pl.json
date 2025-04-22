@@ -1,0 +1,745 @@
+{
+    "PF2E": {
+        "ActionsCheck": {
+            "computers": "Test Komputerów",
+            "piloting": "Test Pilotażu"
+        },
+        "Item": {
+            "Weapon": {
+                "CriticalSpecialization": {
+                    "corrosive": "Cel otrzymuje @Damage[(1d6 + @item.system.runes.potency)[persistent,acid]]. Otrzymujesz premię do obrażeń od kwasu równą premii przedmiotu do rzutów ataku.",
+                    "cryo": "Ta broń zamraża część celu, utrudniając mu poruszanie ciałem. Cel jest @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Niezdarny 1} do początku twojej następnej tury.",
+                    "flame": "Cel otrzymuje @Damage[(1d6 + @item.system.runes.potency)[persistent,fire]]. Otrzymujesz premię przedmiotu do tych obrażeń od ognia równą premii przedmiotu broni do rzutów ataku.",
+                    "grenade": "Zastosuj efekt wymieniony we wpisie granatu do każdej istoty, która wyrzuci krytyczną porażkę przeciwko efektom granatu.",
+                    "laser": "Cel musi wykonać rzut obronny @Check[fortitude|against:class] przeciwko twojemu ST klasy lub zostać @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Zamroczony} do początku twojej następnej tury.",
+                    "mental": "Cel musi wykonać rzut obronny @Check[will|against:class] przeciwko twojemu ST klasy lub zostać @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Ogłupiony 1} do początku twojej następnej tury.",
+                    "missile": "Cel zostaje odrzucony o 5 stóp od źródła eksplozji pocisku. Jest to ruch wymuszony.",
+                    "plasma": "Cel otrzymuje @Damage[(1d6 + @item.system.runes.potency)[persistent,electricity]]. Otrzymujesz premię do obrażeń od elektryczności równą premii do rzutów ataku od przedmiotu.",
+                    "poison": "Cel musi odnieść sukces w @Check[fortitude|against:class] lub dostanie @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Mdłości 1} do początku twojej następnej tury.",
+                    "projectile": "Cel musi odnieść sukces w @Check[fortitude|against:class] lub zostać @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Spowolniony o 1} do początku twojej następnej tury.",
+                    "shock": "Cel musi odnieść sukces w @Check[fortitude|against:class] lub zostać @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Ogłuszony 1} do początku twojej następnej tury.",
+                    "sniper": "Cel otrzymuje 2 dodatkowe obrażenia za każdą kostkę obrażeń od broni.",
+                    "sonic": "Cel musi wykonać @Check[fortitude|against:class] lub zostać @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{Ogłuchły} na 1 minutę."
+                }
+            }
+        },
+        "TraitRatfolk": "Ysoki"
+    },
+    "SF2E": {
+        "Actions": {
+            "AreaFire": {
+                "Description": "Trafiasz każdą istotę w wyznaczonym obszarze o zasięgu równym przyrostowi zasięgu broni (w przypadku stożka lub linii) lub wyznaczonemu promieniowi eksplozji (w przypadku wybuchu). W przypadku wybuchu możesz umieścić punkt centralny w dowolnym miejscu w ramach pierwszego przyrostu zasięgu. Wszystkie istoty znajdujące się w obszarze eksplozji muszą wykonać rzut obronny na Refleks przeciwko ST twojej klasy plus wartość namierzania broni. Obrażenia te są obrażeniami obszarowymi. Stworzenia, które nie zdadzą rzutu obronnego, podlegają efektom występującym przy trafieniu krytycznym tą bronią, w tym efektowi specjalizacji krytycznej broni. Ogień obszarowy ma wydatek równy wartości podanej na broni.",
+                "Title": "Ogień Obszarowy"
+            },
+            "AutoFire": {
+                "Description": "Trafiasz każdą istotę w stożku o zasięgu równym połowie przyrostu zasięgu broni bez wykonywania rzutu ataku. Wszystkie istoty w obszarze otrzymują obrażenia równe obrażeniom zadanym przez broń (podstawowy rzut obronny na Refleks przeciwko ST twojej klasy plus wartość namierzania broni). Obrażenia te są obrażeniami obszarowymi. Stworzenia, które krytycznie nie wykonają rzutu obronnego, podlegają efektom występującym przy trafieniu krytycznym tą bronią, w tym efektowi specjalizacji krytycznej broni. Ogień Automatyczny ma nakład równy liczbie celów w obszarze × 2.",
+                "Title": "Ogień Automatyczny"
+            },
+            "AccessInfosphere": {
+                "Description": "<p>Próbujesz uzyskać dostęp do sieci lokalnej, znanej jako infosfera, aby uzyskać informacje na dany temat. Znalezienie informacji zajmuje zazwyczaj 10 minut, a rezultatem jest Przywołanie Wiedzy na dany temat. Większe badania lub tematy mogą wymagać kilku godzin, podczas gdy jednowyrazowe odpowiedzi na informacje wspólne dla infosfery danej osady mogą zająć tylko minutę, w zależności od uznania MG. Znaczące i dłuższe badania powinny korzystać z podsystemu badań. MG określa ST na podstawie badanego tematu. Może to dodatkowo zależeć od jakości lokalnej infosfery, posiadanych przez nią informacji na dany temat i tego, jak dobrze jest zorganizowana.</p><p><strong>Krytyczny Sukces</strong> Znajdujesz informacje, których szukałeś. Jeśli zostało to użyte na temat, na którym można było użyć Przywołania Wiedzy, zamiast tego można znaleźć te informacje w ciągu 1 minuty.<br><strong>Sukces</strong> Znajdujesz informacje, których szukasz.<br><strong>Krytyczna Porażka</strong> Znajdujesz mylne informacje dzięki nieprawidłowym danym lub internetowym żartownisiom. MG udziela ci fałszywych informacji na temat twojego śledztwa (lub decyduje się nie udzielać ci żadnych informacji, jak w przypadku porażki).</p>",
+                "Notes": {
+                    "criticalFailure": "<strong>Krytyczna Porażka</strong> Znajdujesz mylne informacje dzięki niepoprawnym danym lub internetowym żartownisiom. MG udziela ci fałszywych informacji na temat twojego śledztwa (lub decyduje się nie udzielać ci żadnych informacji, jak w przypadku porażki).",
+                    "criticalSuccess": "<strong>Krytyczny Sukces</strong> Znajdujesz informacje, których szukałeś. Jeśli zostało to użyte na temat, na którym można było użyć Przywołania Wiedzy, zamiast tego można znaleźć te informacje w ciągu 1 minuty.",
+                    "success": "<strong>Sukces</strong> Znajdujesz informacje, których szukasz."
+                },
+                "Title": "Dostęp do Infosfery"
+            },
+            "Drive": {
+                "Description": "<p>Sterujesz swoim pojazdem, aby się poruszać. Zdecyduj, ile akcji zamierzasz wydać przed rozpoczęciem jazdy. Efekty zależą od liczby wydanych akcji. Nie możesz przejeżdżać przez pola zajmowane przez stworzenia, nawet jeśli są one sojusznikami.</p><p><span class=\"action-glyph\">1</span> Spróbuj wykonać Test Pilotażu. W przypadku powodzenia pojazd porusza się z prędkością odpowiadającą jego szybkości i może normalnie skręcać. W przypadku porażki pojazd porusza się z prędkością w linii prostej. W przypadku krytycznej porażki pojazd porusza się ze swoją prędkością w linii prostej i staje się niekontrolowany.<br><span class=\"action-glyph\">2</span> (nieostrożność) Pojazd porusza się z prędkością dwukrotnie większą niż jego szybkość w linii prostej przy aktualnym kursie pojazdu.<br><span class=\"action-glyph\">3</span> (nieostrożność) Otrzymujesz karę -5 do wyniku testu sterowania, aby utrzymać kontrolę nad pojazdem. Pojazd porusza się z trzykrotną szybkością w linii prostej, zgodnie z aktualnym kierunkiem jazdy.</p>",
+                "Drive1": {
+                    "Description": "<p>Spróbuj wykonać Test Pilotażu. W przypadku powodzenia pojazd porusza się z prędkością odpowiadającą jego szybkości i może normalnie skręcać. W przypadku porażki pojazd porusza się z prędkością w linii prostej. W przypadku krytycznej porażki pojazd porusza się ze swoją szybkością w linii prostej i staje się niekontrolowany.</p>",
+                    "Notes": {
+                        "criticalFailure": "<strong>Krytyczna Porażka</strong> Pojazd porusza się z szybkością w linii prostej i staje się niekontrolowany.",
+                        "failure": "<strong>Porażka</strong> Pojazd porusza się z szybkością w linii prostej.",
+                        "success": "<strong>Sukces</strong> Pojazd porusza się z maksymalną szybkością i może normalnie skręcać."
+                    },
+                    "Title": "Prowadzenie 1"
+                },
+                "Drive2": {
+                    "Description": "<p>(nieostrożność) Pojazd porusza się z prędkością dwukrotnie większą niż jego szybkość w linii prostej przy aktualnym kierunku jazdy.</p>",
+                    "Notes": {
+                        "failure": "<strong>Porażka</strong> Pojazd porusza się w linii prostej wzdłuż ostatniego kursu, dryfując do 45 stopni według uznania MG i staje się niekontrolowany.",
+                        "success": "<strong>Sukces</strong> Pojazd porusza się z maksymalnie dwukrotną szybkością w linii prostej, zgodnie z aktualnym kierunkiem jazdy."
+                    },
+                    "Title": "Prowadzenie 2"
+                },
+                "Drive3": {
+                    "Description": "<p>(nieostrożność) Otrzymujesz karę -5 do testu sterowania, aby utrzymać kontrolę nad pojazdem. Pojazd porusza się z trzykrotną szybkością w linii prostej, zgodnie z aktualnym kursem pojazdu.</p>",
+                    "Notes": {
+                        "failure": "<strong>Porażka</strong> Pojazd porusza się w linii prostej wzdłuż ostatniego kursu, dryfując do 45 stopni według uznania MG i staje się niekontrolowany.",
+                        "success": "<strong>Sukces</strong> Pojazd porusza się z prędkością trzykrotnie większą niż jego szybkość w linii prostej, zgodnie z aktualnym kursem pojazdu."
+                    },
+                    "Title": "Prowadzenie 3"
+                },
+                "Title": "Prowadzenie"
+            },
+            "Hack": {
+                "Description": "<p>Próbujesz uzyskać dostęp, kontrolować lub wprowadzać zmiany w aktywnym, zabezpieczonym systemie. W większości przypadków będzie to próba podjęta przeciwko lokalnemu systemowi komputerowemu, do którego uzyskujesz dostęp bezpośrednio lub pośrednio za pomocą zestawu narzędzi hakerskich. Wykonaj Test Komputerów, aby sprawdzić, czy możesz uzyskać dostęp do docelowego systemu. Komputery z ulepszonymi systemami mogą wymagać wielu sukcesów, aby uzyskać dostęp.</p><p><strong>Krytyczny Sukces</strong> Uzyskano dostęp do systemu lub osiągnięto dwa sukcesy w celu uzyskania dostępu do systemu wymagającego więcej niż jednego sukcesu. Nie pozostawiasz śladów swojej ingerencji.<br><strong>Sukces</strong> Uzyskasz dostęp do systemu lub osiągniesz jeden sukces w celu uzyskania dostępu do systemu, który wymaga więcej niż jednego sukcesu.<br><strong>Porażka</strong> Nie udało ci się uzyskać dostępu do systemu lub osiągnąć sukcesu w uzyskaniu dostępu do systemu, który wymaga więcej niż jednego sukcesu. Niektóre systemy komputerowe mogą mieć zabezpieczenia, które aktywują się w przypadku porażki.<br><strong>Krytyczna Porażka</strong> Aktywujesz specjalnie zaprogramowane protokoły bezpieczeństwa lub całkowicie blokujesz sobie dostęp do systemu. Zablokowanie systemu uniemożliwia podjęcie kolejnej próby uzyskania do niego dostępu przez następną godzinę.</p>",
+                "Notes": {
+                    "criticalFailure": "<strong>Krytyczna Porażka</strong> Aktywujesz specjalnie zaprogramowane protokoły bezpieczeństwa lub całkowicie blokujesz sobie dostęp do systemu. Zablokowanie systemu uniemożliwia podjęcie kolejnej próby uzyskania do niego dostępu przez następną godzinę.",
+                    "criticalSuccess": "<strong>Krytyczny Sukces</strong> Uzyskano dostęp do systemu lub dwa sukcesy w celu uzyskania dostępu do systemu wymagającego więcej niż jednego sukcesu. Nie pozostawiasz śladów swojej ingerencji.",
+                    "failure": "<strong>Porażka</strong> Nie udało się uzyskać dostępu do systemu lub osiągnąć sukcesu w uzyskaniu dostępu do systemu, który wymaga więcej niż jednego sukcesu. Niektóre systemy komputerowe mogą mieć zabezpieczenia, które aktywują się w przypadku porażki.",
+                    "success": "<strong>Sukces</strong> Uzyskasz dostęp do systemu lub osiągniesz jeden sukces w celu uzyskania dostępu do systemu, który wymaga więcej niż jednego sukcesu."
+                },
+                "Title": "Hakowanie"
+            },
+            "Navigate": {
+                "Description": "<p>Planujesz krótką podróż. Jest to najczęściej wykorzystywane podczas podróży mechami, pojazdami lub statkami kosmicznymi, ale ta sama umiejętność może zostać wykorzystana do określenia optymalnej trasy podczas podróży pieszej. Pozwala to zaplanować ogólny kierunek na planetoidzie lub poprowadzić statek kosmiczny podczas podróży w układzie. Jeśli nawigujesz krótką podróż, zazwyczaj próbujesz wykonać Test Pilotażu tylko raz dziennie, ale niektóre środowiska lub zmiany mogą wymagać częstszego rzucania. MG określa ST i czas trwania tej czynności (zwykle około minuty). Bardziej nietypowe miejsca lub te, których nie znasz, mogą wymagać od ciebie minimalnej rangi biegłości w Nawigacji.</p><p><strong>Krytyczny Sukces</strong> Doskonale wiesz, gdzie się znajdujesz. Jeśli znajdujesz się w środowisku z kierunkami kardynalnymi, znasz je dokładnie.<br><strong>Sukces</strong> Zyskujesz wystarczającą orientację, by uniknąć beznadziejnego zagubienia. Jeśli znajdujesz się w środowisku z kierunkami kardynalnymi, masz poczucie tych kierunków.</p>",
+                "Notes": {
+                    "criticalSuccess": "<strong>Krytyczny Sukces</strong> Doskonale wiesz, gdzie się znajdujesz. Jeśli znajdujesz się w środowisku z kierunkami kardynalnymi, dokładnie je znasz.",
+                    "success": "<strong>Sukces</strong> Zyskujesz wystarczającą orientację, by uniknąć beznadziejnego zagubienia. Jeśli znajdujesz się w środowisku z kierunkami kardynalnymi, masz poczucie tych kierunków."
+                },
+                "Title": "Nawigowanie"
+            },
+            "PlotCourse": {
+                "Description": "<p>Przygotowujesz się do dłuższej podróży do gwiazd, prawdopodobnie wykorzystując silnik dryfujący swojego statku kosmicznego (lub podobne urządzenie z Prędkością Nadświetlną). Wykonaj Test Pilotażu, aby określić, czy jesteś w stanie wytyczyć odpowiednią ścieżkę do ostatecznego celu. MG określa czas trwania tej czynności i ST.</p><p><strong>Krytyczny Sukces</strong> Udaje ci się dotrzeć do celu w czasie o połowę krótszym od oczekiwanego (minimum 1 dzień).<br><strong>Sukces</strong> Tworzysz użyteczny plan nawigacyjny, dzięki któremu dotrzesz do celu na czas.<br><strong>Porażka</strong> Twój plan ma kilka problemów i ostatecznie docierasz do celu z opóźnieniem.<br><strong>Krytyczna Porażka</strong> Pojawienie się w nieznanym układzie gwiezdnym wymaga wyznaczenia nowego kursu do celu (prawdopodobnie ze zwiększonym ST ze względu na nieznany punkt początkowy).</p>",
+                "Notes": {
+                    "criticalFailure": "<strong>Krytyczna Porażka</strong> Pojawienie się w nieznanym układzie gwiezdnym wymaga wyznaczenia nowego kursu do celu (prawdopodobnie ze zwiększonym ST ze względu na nieznany punkt początkowy).",
+                    "criticalSuccess": "<strong>Krytyczny Sukces</strong> Udaje ci się dotrzeć do celu w czasie o połowę krótszym od oczekiwanego (minimum 1 dzień).",
+                    "failure": "<strong>Porażka</strong> Twój plan ma kilka problemów i ostatecznie docierasz do celu z opóźnieniem.",
+                    "success": "<strong>Sukces</strong> Tworzysz użyteczny plan nawigacyjny, który doprowadzi cię do zamierzonego celu na czas."
+                },
+                "Title": "Wykreślanie Kursu"
+            },
+            "Program": {
+                "Description": "<p>Spędzasz czas na tworzeniu linii kodu komputerowego, które można zintegrować z różnymi systemami komputerowymi. Do pisania kodu komputerowego potrzebny jest atut Programista, który pozwala programować przedmioty posiadające cechę wirtualny. Musisz posiadać odpowiednie formuły, aby tworzyć takie przedmioty, ale często można je znaleźć sprzedawane przez innych programistów na infosferze. Możesz kupić linie kodu od innych programistów, aby pomóc w ukończeniu wirtualnego przedmiotu. Jeśli posiadasz atut „Wynalazca”, możesz użyć akcji „Programowanie”, aby tworzyć formuły dla przedmiotów technicznych. Jeśli posiadasz atut Fabrykator, możesz użyć akcji Programowanie, aby tworzyć przedmioty technologiczne bez cech wirtualnych za pomocą kapsuły kreatora.</p><p><strong>Krytyczny Sukces</strong> Próba zakończyła się sukcesem. Każdy dodatkowy dzień spędzony na Programowaniu zmniejsza kod potrzebny do ukończenia przedmiotu o ilość zależną od twojego poziomu + 1 i rangi biegłości w Komputerach.<br><strong>Sukces</strong> Próba zakończyła się sukcesem. Każdy dodatkowy dzień spędzony na Programowaniu zmniejsza ilość materiałów potrzebnych do ukończenia przedmiotu o kwotę zależną od twojego poziomu i rangi biegłości.<br><strong>Porażka</strong> Nie udało ci się ukończyć przedmiotu. Możesz odzyskać część napisanego kodu za jego pełną wartość. Jeśli chcesz spróbować ponownie, musisz zacząć od początku.<br><strong>Krytyczna Porażka</strong> Nie udało ci się ukończyć przedmiotu. 10% napisanego lub zakupionego kodu jest bezużyteczne, ale resztę można odzyskać. Jeśli chcesz spróbować ponownie, musisz zacząć od początku.</p>",
+                "Notes": {
+                    "criticalFailure": "<strong>Krytyczna Porażka</strong> Nie udało ci się ukończyć przedmiotu. 10% napisanego lub zakupionego kodu jest bezużyteczne, ale resztę można odzyskać. Jeśli chcesz spróbować ponownie, musisz zacząć od początku.",
+                    "criticalSuccess": "<strong>Krytyczny Sukces</strong> Próba zakończyła się sukcesem. Każdy dodatkowy dzień spędzony na Programowaniu zmniejsza kod potrzebny do ukończenia przedmiotu o ilość zależną od twojego poziomu + 1 i stopnia biegłości w Komputerach.",
+                    "failure": "<strong>Porażka</strong> Nie udało ci się ukończyć przedmiotu. Możesz odzyskać część napisanego kodu za jego pełną wartość. Jeśli chcesz spróbować ponownie, musisz zacząć od początku.",
+                    "success": "<strong>Sukces</strong> Próba zakończyła się sukcesem. Każdy dodatkowy dzień spędzony na Programowaniu zmniejsza ilość materiałów potrzebnych do ukończenia przedmiotu o wartość zależną od twojego poziomu i rangi biegłości."
+                },
+                "Title": "Programowanie"
+            },
+            "RunOver": {
+                "Description": "<p>Próbujesz przejechać stwory lub staranować inny pojazd swoim pojazdem. Jeśli zachowujesz kontrolę nad pojazdem, porusza się on w linii prostej z maksymalną prędkością równą dwukrotnej szybkości pojazdu. Próbujesz przejechać wszystkie stworzenia na swojej drodze o dwa rozmiary mniejsze od pojazdu lub mniejsze i możesz spróbować staranować jedną docelową istotę lub obiekt na swojej drodze o jeden rozmiar mniejszy od pojazdu lub większy.</p><p>Każda istota na twojej drodze, w tym taranowany cel, otrzymuje obrażenia kolizyjne pojazdu (podstawowy rzut obronny na Refleks przy ST kolizji pojazdu). Jeśli taranowany cel jest pojazdem, jego pilot może wykonać Test Pilotażu zamiast tego rzutu obronnego na Refleks, z takimi samymi wynikami. Jeśli cel taranowania otrzyma obrażenia, ty i pojazd otrzymacie obrażenia od kolizji (bez rzutu obronnego), a wasz ruch dobiegnie końca.</p>",
+                "Notes": {
+                    "failure": "<strong>Porażka</strong> Pojazd porusza się w linii prostej wzdłuż ostatniego kursu, dryfując do 45 stopni według uznania MG i staje się niekontrolowany."
+                },
+                "Title": "Przejeżdżanie"
+            },
+            "Stop": {
+                "Description": "<p>Zatrzymujesz pojazd.</p>",
+                "Title": "Zatrzymanie"
+            },
+            "Stunt": {
+                "Description": "<p>Wykonujesz akrobacje podczas prowadzenia pojazdu, tymczasowo zwiększając jego efektywne możliwości, ryzykując utratę kontroli. Prowadzisz pojazd i wybierasz wyczyn kaskaderski. Wszystkie Testy Pilotażu wykonywane w ramach wyczynu kaskaderskiego otrzymują wymienioną karę, w tym Testy Pilotażu wykonywane w celu podjęcia nieostrożnej akcji. Jeśli zarówno akcja jazdy, jak i wyczyn kaskaderski są nieostrożne, musisz dwukrotnie wykonać Test Pilotażu, aby zachować kontrolę nad pojazdem.</p><table class=\"pf2e\"><caption>Akrobacje</caption><thead><tr><th>Wyczyn kaskaderski</th><th>Kara</th><th>Korzyść</th></tr></thead><tbody><tr><td>Wycofanie</td><td>-1</td><td>Przesuń o połowę szybkości w tył.</td></tr><tr><td>Unik</td><td>-1</td><td>Porusza się z połową szybkości, aby zyskać premię +1 do KP.</td></tr><tr><td>Odwróć i Spal</td><td>-1</td><td>Przesuń o połowę szybkości, a następnie skręć i ustaw kierunek.</td></tr><tr><td>Beczka</td><td>-2</td><td>Porusza się z połową szybkości, aby zyskać premię +2 do KP.</td></tr><tr><td>Przelot</td><td>-2</td><td>Poruszanie się z połową szybkości przez pole wroga.</td></tr><tr><td>Drift</td><td>-2</td><td>Przesuń o połowę szybkości w bok bez skręcania.</td></tr><tr><td>Obrót w miejscu</td><td>-2</td><td>Obróć, a następnie poruszaj się z pełną szybkością.</td></tr></tbody></table>",
+                "BackOff": {
+                    "Notes": {
+                        "success": "<strong>Sukces</strong> Przesuń o połowę szybkości w tył."
+                    },
+                    "Title": "Wycofanie"
+                },
+                "BarrelRoll": {
+                    "Notes": {
+                        "success": "<strong>Sukces</strong> Poruszaj się z połową szybkości, aby zyskać premię +2 do KP."
+                    },
+                    "Title": "Beczka"
+                },
+                "Drift": {
+                    "Notes": {
+                        "success": "<strong>Sukces</strong> Przesuń o połowę szybkości w bok bez skręcania."
+                    },
+                    "Title": "Drift"
+                },
+                "Evade": {
+                    "Notes": {
+                        "success": "<strong>Sukces</strong> Poruszaj się z połową szybkości, aby zyskać premię +1 do KP."
+                    },
+                    "Title": "Unik"
+                },
+                "FlipAndBurn": {
+                    "Notes": {
+                        "success": "<strong>Sukces</strong> Przesuń o połowę szybkości, a następnie skręć i ustaw kierunek."
+                    },
+                    "Title": "Odwróć i Spal"
+                },
+                "Flyby": {
+                    "Notes": {
+                        "success": "<strong>Sukces</strong> Przesuń się o połowę szybkości przez pole wroga."
+                    },
+                    "Title": "Przelot"
+                },
+                "Modifiers": {
+                    "RecklessPiloting": "Lekkomyślny Pilotaż"
+                },
+                "Notes": {
+                    "failure": "<strong>Porażka</strong> Pojazd porusza się w linii prostej wzdłuż ostatniego kursu, dryfując do 45 stopni według uznania MG i staje się niekontrolowany."
+                },
+                "Title": "Wyczyn Kaskaderski",
+                "TurnInPlace": {
+                    "Notes": {
+                        "success": "<strong>Sukces</strong> Skręć, a następnie ruszaj z pełną szybkością."
+                    },
+                    "Title": "Obrót w miejscu"
+                }
+            },
+            "TakeControl": {
+                "Description": "<p>Przejmujesz kontrolę nad pojazdem. Wykonaj Test Pilotażu; jeśli ci się powiedzie, zostaniesz kierowcą pojazdu lub odzyskasz nad nim kontrolę, jeśli nie był kontrolowany. Niektóre pojazdy mają skomplikowane elementy sterujące, które powodują, że ta akcja staje się czynnością wielozadaniową, a większość pojazdów wymaga co najmniej 3 akcji, jeśli nie są aktywowane.</p>",
+                "Notes": {
+                    "success": "<strong>Sukces</strong> Stajesz się kierowcą pojazdu lub odzyskujesz nad nim kontrolę, jeśli był niekontrolowany."
+                },
+                "Title": "Przejęcie Kontroli"
+            }
+        },
+        "Armor": {
+            "Base": {
+                "AbadarcorpTravelSuit": "Kombinezon Podróżny Abadarcorp",
+                "ArmoredCoat": "Opancerzony Płaszcz",
+                "CarbonSkin": "Skóra z Włókien Węglowych",
+                "EstexSuit": "Kombinezon Estex",
+                "HardlightSeries": "Seria Hardlight",
+                "MicrocordArmor": "Zbroja Microcord",
+                "QuiltedArmor": "Pikowana Zbroja",
+                "SecondSkin": "Druga Skóra",
+                "Tempweave": "Splot Temporalny",
+                "DefrexHide": "Skórzany Defrex",
+                "FreebooterArmor": "Zbroja Korsarza",
+                "LatticeArmor": "Zbroja Kratowa",
+                "ShotalashuArmor": "Zbroja Shotalashu",
+                "SkyfireArmor": "Pancerz Podniebnego Ognia",
+                "Swarmsuit": "Kombinezon Ochronny",
+                "AegisSeries": "Seria Egidy",
+                "DefianceSeries": "Seria Oporu",
+                "HiddenSoldierArmor": "Ukryta Żołnierska Zbroja",
+                "KyokorPlating": "Opancerzenie Kyokor",
+                "Thinplate": "Cienka Płyta",
+                "VeskariumImperialPlate": "Cesarska Zbroja Płytowa Veskarium"
+            },
+            "Group": {
+                "Ceramic": "Ceramiczna",
+                "Polymer": "Polimerowa"
+            }
+        },
+        "BaseWeapon": {
+            "Baton": "Pałka",
+            "Battleglove": "Rękawicza Bojowa",
+            "BioCannon": "Działko Biologiczne",
+            "Knife": "Nóż",
+            "Puzzleblade": "Ostrze Logiczne",
+            "ShockPad": "Nakładka Porażenia",
+            "ZeroKnife": "Nóż Zero",
+            "AucturniteChakram": "Czakram Aukturnit",
+            "BattleRibbon": "Wstążka Bojowa",
+            "BoneScepter": "Kościane Berło",
+            "Cryopike": "Kriopika",
+            "Doshko": "Doshko",
+            "DuelingSword": "Miecz Pojedynkowy",
+            "Fangblade": "Ostrze Kłów",
+            "ForceNeedle": "Igły Mocy",
+            "Grindblade": "Ostrze Szlifierskie",
+            "Hammer": "Młot",
+            "NanoEdgeRapier": "Rapier z Nanokrawędzią",
+            "NeuralLash": "Neuronowy Bicz",
+            "PhaseCutlass": "Fazowy Kordelas",
+            "PlasmaDoshko": "Doshko Plazmy",
+            "PlasmaSword": "Miecz Plazmowy",
+            "Polyglove": "Rękawiczka Poliestrowa",
+            "PulseGauntlet": "Rękawica Pulsacyjna",
+            "ShockTruncheon": "Pałka Porażenia",
+            "ShootingStarknife": "Strzelający Gwiazdonóż",
+            "SingingSpear": "Śpiewająca Włócznia",
+            "Tailblade": "Ostrze Ogonowe",
+            "Talon": "Szpon",
+            "DisintegrationLash": "Bicz Dezintegracji",
+            "Painglaive": "Glewia Bólu",
+            "SkyfireSword": "Miecz Podniebnego Ognia",
+            "ThermalDynafan": "Termiczny Dynafan",
+            "AcidDartRifle": "Kwasowa Strzelba Palmera",
+            "ArcPistol": "Pistolet Łukowy",
+            "ArcRifle": "Karabin Łukowy",
+            "AutotargetRifle": "Strzelba Autonamierzania",
+            "Crossbolter": "Bolter Krzyżowy",
+            "LaserPistol": "Pistolet Laserowy",
+            "LaserRifle": "Karabin Laserowy",
+            "MissileLauncher": "Wyrzutnia Rakiet",
+            "NeedlerPistol": "Pistolet Iglicowy",
+            "PulsecasterPistol": "Pistolet Pulsacyjny",
+            "ReactionBreacher": "Łamacz Reakcji",
+            "Scattergun": "Strzelba",
+            "SeekerRifle": "Karabin Wyborowy",
+            "SemiAutoPistol": "Pistolet Półautomatyczny",
+            "SonicRifle": "Karabin Soniczny",
+            "ZeroPistol": "Pistolet Zero",
+            "ArcEmitter": "Emiter Łukowy",
+            "AssassinRifle": "Karabin Zabójcy",
+            "BoomPistol": "Pistolet Wysięgnikowy",
+            "BreachingGun": "Pistolet Przebijający",
+            "Flamethrower": "Miotacz Płomieni",
+            "GrenadeLauncher": "Granatnik",
+            "InjectionRifle": "Karabin Iniekcyjny",
+            "MachineGun": "Karabin Maszynowy",
+            "Launcher": "Wyrzutnia",
+            "PlasmaCaster": "Karabin Plazmowy",
+            "Rotolaser": "Rotolaser",
+            "ShirrenEyeRifle": "Karabin z Celownikiem",
+            "SingingCoil": "Śpiewające Działo Gaussa",
+            "StellarCannon": "Gwiezdne Działo",
+            "ZeroCannon": "Działo Zero",
+            "AeonRifle": "Karabin Eonu",
+            "ArtilleryLaser": "Laser Artyleryjski",
+            "CardSlinger": "Proca Karciana",
+            "GyrojetPistol": "Pistolet Żyroskopowy",
+            "MagnetarRifle": "Karabin Magnetyczny",
+            "PlasmaCannon": "Działo Plazmowe",
+            "Screamer": "Krzykacz",
+            "StarfallPistol": "Gwiezdny Pistolet",
+            "Streetsweeper": "Zamiatacz Ulic"
+        },
+        "IWR": {
+            "Custom": {
+                "Radiation": "Promieniowanie",
+                "Suppressed": "przeciw tłumieniu"
+            }
+        },
+        "Language": {
+            "Brethedan": "Bretedański",
+            "Castrovelian": "Kastroveliański",
+            "Diasporan": "Diasporański",
+            "Eoxian": "Eoksiański",
+            "Kasatha": "Kasatański",
+            "Kothama": "Kothama",
+            "Kucharn": "Kucharński",
+            "PactCommon": "Wspólny Pakt",
+            "Pahtra": "Pahtrański",
+            "Shirren": "Szirreński",
+            "Triaxian": "Triaksjański",
+            "Vercite": "Wercytowy",
+            "Vesk": "Veskowy",
+            "Lashunta": "Laszuntański",
+            "Morandomandranan": "Morandomandrananiański"
+        },
+        "NPCAbility": {
+            "Hardlight": {
+                "TouchingProjectorLabel": "Projektor dotykowy"
+            }
+        },
+        "SETTINGS": {
+            "Theme": {
+                "HighContrast" : "Wysoki kontrast",
+                "Light": "Jasny",
+                "Dark": "Ciemny",
+                "Name": "Motyw karty Gracza",
+                "None": "Brak (Pathfinder)"
+            }
+        },
+        "Skill": {
+            "Computers": "Komputery",
+            "Piloting": "Pilotaż"
+        },
+        "SpecificRule": {
+            "AreaFire": {
+                "TrackingLabel": "Śledzenie wartości",
+                "Zero": "0",
+                "One": "1",
+                "Two": "2",
+                "Three": "3"
+            },
+            "Barathu": {
+                "AdaptativeLocomotion": {
+                    "Flippers": "Płetwy",
+                    "HookedPseudopods": "Nibynóżki z haczykami",
+                    "Prompt": "Wybierz adaptację"
+                },
+                "ConvergentEvolution": {
+                    "Prompt": "Wybierz atut pochodzenia na 5. lub niższym poziomie."
+                },
+                "ManifoldEvolution": {
+                    "Prompt": "Wybierz atut pochodzenia na 17. lub niższym poziomie."
+                }
+            },
+            "Envoy": {
+                "EffortlessInfluencer": {
+                    "Note": "<p>Gdy powiedzie ci się test z Oszustwem, Dyplomacją lub Zastraszaniem, sojusznicy w promieniu 60 stóp, którzy byli świadkami twojego sukcesu, zyskują premię +1 do następnego testu tej umiejętności w ciągu 1 minuty (lub premię +2, jeśli twój test zakończył się krytycznym sukcesem).</p><p>@UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.ZQM4vfHEKgxvNJik]{Efekt: Skuteczny Inspirator}</p>"
+                },
+                "Directive": {
+                    "LeadByExample": {
+                        "DescriptionAlteration": "Kiedy używasz aktu przywództwa po wydaniu jednej lub więcej dyrektyw wysłannika wcześniej w tej turze, możesz wybrać jedną aktywowaną dyrektywę wysłannika. Przyznasz korzyści płynące z dawania przykładu dla tej dyrektywy, nawet jeśli nie spełniłeś zwykłych wymagań dotyczących dawania przykładu. Możesz to zrobić raz na turę.",
+                        "Prompt": "Aktywować działanie „Dawanie Przykładu”?"
+                    }
+                },
+                "HangInThere": {
+                    "Prompt": "Jakie ST biegłości zostało użyte?"
+                },
+                "LeadershipStyle": {
+                    "Prompt": "Wybierz styl przywództwa"
+                },
+                "SavvyInfluencer": {
+                    "Note": "<p>Za pierwszym razem w ciągu dnia, gdy wyrzucisz naturalną 1 na teście Oszustwa, Dyplomacji lub Zastraszenia, nie zmniejszasz automatycznie swojego stopnia sukcesu (otrzymujesz krytyczną porażkę tylko wtedy, gdy twój wynik jest o 10 niższy niż ST).</p>"
+                }
+            },
+            "Equipment": {
+                "Augmentations": {
+                    "VenomSpur": {
+                        "Label": "Ostroga Jadu"
+                    }
+                },
+                "CommUnit": {
+                    "Lit": "Jednostka łączności jest zapalona"
+                },
+                "Flashlight": {
+                    "Lit": "Latarka jest zapalona"
+                },
+                "ForceField": {
+                    "Advanced": "Próba testu @Check[flat|dc:19]. Jeśli się powiedzie, trafienie krytyczne stanie się normalnym trafieniem.",
+                    "Elite": "Próba testu @Check[flat|dc:17]. Jeśli się powiedzie, trafienie krytyczne stanie się normalnym trafieniem.",
+                    "Tactical": "Próba testu @Check[flat|dc:20]. Jeśli się powiedzie, trafienie krytyczne stanie się normalnym trafieniem.",
+                    "Paragon": "Próba testu @Check[flat|dc:15]. Jeśli się powiedzie, trafienie krytyczne stanie się normalnym trafieniem.",
+                    "Superior": "Próba testu @Check[flat|dc:18]. Jeśli się powiedzie, trafienie krytyczne stanie się normalnym trafieniem.",
+                    "Ultimate": "Próba testu @Check[flat|dc:16]. Jeśli się powiedzie, trafienie krytyczne stanie się normalnym trafieniem."
+                },
+                "SolarianCrystals": {
+                    "Gluon": {
+                        "Note": "W przypadku trafienia krytycznego cel otrzymuje @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Niezdarny 1}, dopóki nie wyleczy się z trwałych obrażeń od krwawienia.",
+                        "Title": "Gluonowy Kryształ Solariański"
+                    },
+                    "Graviton": {
+                        "Note": {
+                            "Commercial": "Przy trafieniu krytycznym, gdy jesteś dostrojony do grawitonu, cel musi wykonać rzut obronny @Check[type:fortitude|dc:23] lub zostanie @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Spowolniony 1} do końca twojej następnej tury.",
+                            "Tactical": {
+                                "Hit": "Kiedy trafisz @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Unieruchomioną} istotę swoją bronią słoneczną, gdy jesteś dostrojony do grawitonu, cel musi wykonać rzut obronny @Check[type:fortitude|dc:31] lub zostanie @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Przewrócony}.",
+                                "CriticalHit": "Przy trafieniu krytycznym, gdy jesteś dostrojony do grawitonu, cel musi wykonać rzut obronny @Check[type:fortitude|dc:31] lub zostanie @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Spowolniony 1} na 2 rundy."
+                            }
+                        },
+                        "Title": "Grawitonowy Kryształ Solariański"
+                    },
+                    "Photon": {
+                        "Note": {
+                            "Commercial": "Przy trafieniu krytycznym, gdy jesteś dostrojony do fotonów, cel musi wykonać rzut obronny @Check[type:fortitude|dc:23] lub zostanie @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Oślepiony} na 1 rundę.",
+                            "Tactical": "Przy trafieniu krytycznym, gdy jesteś dostrojony do fotonów, cel musi wykonać rzut obronny @Check[type:fortitude|dc:31] lub zostanie @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Oślepiony} na 2 rundy."
+                        },
+                        "Title": "Fotonowy Kryształ Solariański"
+                    }
+                }
+            },
+            "Kasatha": {
+                "WeaponFamiliarity": {
+                    "AdvancedWeapons": "Zaawansowane Bronie Kasathan",
+                    "MartialWeapons": "Bronie Żołnierskie Kasathan"
+                }
+            },
+            "Mystic": {
+                "Connection": {
+                    "Akashic": {
+                        "AdvancedEpiphany": "Uczysz się zaklęcia skupienia @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.4qXeaZLAtTxd5tNq].",
+                        "GreaterEpiphany": "Uczysz się zaklęcia skupienia @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.qYzqKP4Plw6jgjGL].",
+                        "Harmony": "Za każdym razem, gdy Transferujesz Witalność, cel otrzymuje psychiczne pobranie z Zapisu Akaszy i może natychmiast podjąć próbę wykonania akcji @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]. Nie uruchamia to żadnych specjalnych zdolności, reakcji ani darmowych akcji, które uruchamiają się, gdy istota używa Przywołania Wiedzy.",
+                        "InitialEpiphany": "Uczysz się zaklęcia skupienia @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.YDkb4zUM5pJRs9SH].",
+                        "PerfectHarmony": "Tworzysz pozawymiarowy pałac pamięci, który działa jako @UUID[Compendium.pf2e.spells-srd.Item.vPWMEyVTreMOoFnm]. Stworzenie drzwi do półpłaszczyzny zajmuje 1 minutę. Pałac pamięci zachowuje ten sam układ za każdym razem, gdy uzyskujesz do niego dostęp, regulowany podczas codziennych przygotowań. Każdy fantazmatyczny pupil w pałacu pamięci działa jak asystent akashic (podobnie jak te stworzone przez zaklęcie *asystent akashic*)."
+                    },
+                    "Elemental": {
+                        "AdvancedEpiphany": "Uczysz się zaklęcia epifanii @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.ufwuEqjIg3yALnLL].",
+                        "ElementalBarrier": {
+                            "Air": "Obrona przed obrażeniami elektrycznymi lub dźwiękowymi",
+                            "Earth": "Obrona przed obrażeniami obuchowymi lub kłutymi",
+                            "Fire": "Obrona przed obrażeniami od ognia",
+                            "Metal": "Obrona przed obrażeniami od kwasu lub cięć",
+                            "Water": "Obrona przed obrażeniami od zimna",
+                            "Wood": "Obrona przed obrażeniami od trucizny"
+                            },
+                        "GreaterEpiphany": "Uczysz się zaklęcia @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.5zWyADC0jPsAlvcd] epifanii.",
+                        "Harmony": "Kiedy leczysz związaną istotę za pomocą sieci witalności, wybierz cechę żywiołu: powietrze, ziemia, ogień, metal, woda lub drewno. Jeśli co najmniej jedna z twoich epifanii żywiołów jest aktywna, musisz wybrać wybraną cechę żywiołu podczas rzucania tych zaklęć. Do końca następnej tury, następny Atak zadaje 1k4 trwałych obrażeń w oparciu o wybraną cechę: elektryczność lub dźwięk dla powietrza, obuchowe lub kłute dla ziemi, kwas lub cięcie dla metalu, ogień dla ognia, zimno dla wody lub trucizna dla drewna. Liczba ta wzrasta do 1k6, gdy nauczysz się zaawansowanej epifanii i 1k8, gdy nauczysz się większej epifanii.",
+                        "InitialEpiphany": "Uczysz się zaklęcia epifanii @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.bS8Au4zlZG3RR78G].",
+                        "PerfectHarmony": "Wybrany podczas codziennych przygotowań, zyskujesz odporność równą połowie twojego poziomu mistycznego na dwa rodzaje obrażeń oparte na dwóch wybranych przez ciebie żywiołach (wymienionych w Harmonii). Kiedy leczysz związanego sojusznika za pomocą Transferu Witalności, sojusznik zyskuje te odporności do początku twojej następnej tury. Efekty te utrzymują się do następnego przygotowania.",
+                        "PerfectHarmonyLabelOne": "Perfekcyjna Harmonia Odporności",
+                        "PerfectHarmonyLabelTwo": "Druga Perfekcyjna Harmonia Odporności",
+                        "PerfectHarmonyTransfer": "Kiedy leczysz związanego sojusznika za pomocą Transferu Witalności, twój sojusznik zyskuje odporność równą połowie twojego poziomu mistycznego na dwa rodzaje obrażeń wybrane podczas codziennych przygotowań do początku twojej następnej tury."
+                    },
+                    "Healing": {
+                        "AdvancedEpiphany": "Uczysz się zaklęcia skupienia @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.yJptJQTlhMfkiBxn].",
+                        "GreaterEpiphany": "Uczysz się zaklęcia skupienia @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.FLFaUv6AJ9FlK7h3].",
+                        "Harmony": "Możesz zdecydować, że twoje zaklęcia i zdolności leczące będą przywracać Punkty Wytrzymałości istotom z cechą leczenia pustki, tak jakby akcja miała cechę pustki. Za każdym razem, gdy leczysz związaną istotę i przywracasz jej maksymalną liczbę Punktów Wytrzymałości, twoja sieć witalności odzyskuje nadmiar Punktów Wytrzymałości, które zaklęcie mogło przywrócić, do twojego poziomu postaci. Tymczasowe Punkty Wytrzymałości nie uruchamiają tej harmonii.",
+                        "InitialEpiphany": "Uczysz się zaklęcia skupienia @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.eASNMXfMHlT8HksK].",
+                        "PerfectHarmony": "Za każdym razem, gdy @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.y9tYChycW6xcdT7J]{Przekazujesz Witalność} pojedynczemu celowi, spróbuj przeciwdziałać dowolnej przypadłości dotykającej tego sojusznika lub spróbuj przeciwdziałać wybranemu efektowi nakładającemu jeden z tych stanów: @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Oślepienie}, @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Zamroczenie}, @UUID[Compendium.pf2e.conditionitems.Item.9 PR9y0bi4JPKnHPR]{Ogłuchnięcie}, @UUID[Compendium.pf2e.conditionitems.Item.4 D2KBtexWXa6oUMR]{Wysączony}, @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Osłabiony}, @UUID[Compendium.pf2e. conditionitems.Item.fesd1n5eVhpCSS18]{Mdłości} lub @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Ogłuszony}. Jeśli nie przeciwdziałałeś efektowi, ale zrobiłbyś to, gdyby jego ranga przeciwdziałania była o 2 niższa, zamiast tego stłum efekt do początku swojej następnej tury. Czas trwania efektu nie upływa, gdy jest on stłumiony."
+                    },
+                    "Rhythm": {
+                        "AdvancedEpiphany": "Uczysz się zaklęcia skupienia @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.Mofxnqsy0x8ZKyk2].",
+                        "GreaterEpiphany": "Uczysz się zaklęcia skupienia @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.cRDGqRtelPj5UTAJ].",
+                        "Harmony": "Kiedy @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.y9tYChycW6xcdT7J]{Przekazujesz Witalność}, możesz przedłużyć czas trwania dowolnej aktywnej epifanii z połączenia rytmicznego o 1 rundę. Jeśli nie ma żadnych aktywnych zaklęć skupienia, a tobie pozostał punkt skupienia, możesz w ramach tej akcji rzucić zaklęcie skupienia jako część 1 akcji.",
+                        "InitialEpiphany": "Uczysz się zaklęcia skupienia @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.BKVIofy6uT5s6S9L].",
+                        "PerfectHarmony": "Za każdym razem, gdy Przekazujesz Witalność, spróbuj przeciwdziałać dowolnej przypadłości dotykającej twojego sojusznika lub spróbuj przeciwdziałać wybranemu przez ciebie efektowi narzucającemu jeden z tych stanów: @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Niezdarny}, @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{Zdezorientowany}, @UUID[Compendium.pf2e.conditionitems.Item.9qGBRpbX9NEwtAAr]{Kontrolowany}, @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Potępiony}, @UUID[Compendium.pf2e.conditionitems.Item.sDPxOjQ9kx2RZE8D]{Ucieczka}, @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Przestraszony}, @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Ogłuszony}, i @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Ogłupiony}. Jeśli nie przeciwdziałałeś efektowi, ale zrobiłbyś to, gdyby jego ranga przeciwdziałania była o 2 niższa, zamiast tego stłum efekt do początku swojej następnej tury. Czas trwania efektu nie upływa, gdy jest on stłumiony."
+                    },
+                    "Shadow": {
+                        "AdvancedEpiphany": "Uczysz się zaklęcia skupienia @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.5LnRNXlbQsh6SVXa].",
+                        "GreaterEpiphany": "Uczysz się zaklęcia skupienia @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.5pF9Dv1b6A7U7sGt].",
+                        "Harmony": "Kiedy używasz @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.y9tYChycW6xcdT7J], cień celu ciemnieje i pęcznieje, redukując jasne światło w promieniu @Template[type:emanation|distance:10] od celu do przyćmionego światła. Jest to postać magicznej ciemności i może pokonać niemagiczne źródła światła lub próby przeciwdziałania magicznemu światłu. Cel staje się @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W] podczas przebywania w tym przyćmionym świetle i może użyć przysłoniętego stanu do @UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]. Trwa to do końca następnej tury.",
+                        "InitialEpiphany": "Uczysz się zaklęcia skupienia @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.0MQUicYsr9diBI11].",
+                        "PerfectHarmony": "Otrzymujesz akcję @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.Px0wiqFEiQdPLvou]. Za każdym razem, gdy użyjesz @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.y9tYChycW6xcdT7J], uzdrowiona istota może użyć tej akcji raz przed końcem swojej następnej tury."
+                    }
+                },
+                "HarmonyLabel": "Harmonia",
+                "PerfectHarmonyLabel": "Perfekcyjna Harmonia",
+                "XenodruidBond": {
+                    "Order": {
+                        "Animal": "Zakon Zwierząt",
+                        "Elemental": "Zakon Żywiołów",
+                        "Plant": "Zakon Roślin",
+                        "Viral": "Zakon Wirusowy"
+                    },
+                    "Prompt": "Wybierz Więź"
+                }
+            },
+            "Operative": {
+                "Proficiency": {
+                    "AdvancedGuns": "Zaawansowane bronie palne",
+                    "MartialAndSimpleGuns": "Bojowa i prosta broń palna",
+                    "SimpleGuns": "Prosta broń palna",
+                    "OneHandedAgileWeapons": "Jednoręczne Zwinne Bronie"
+                },
+                "Specialization": {
+                    "Prompt": "Wybierz specjalizację"
+                }
+            },
+            "Skittermander": {
+                "ClingingBite": {
+                    "GrabAlteration": "Możesz użyć Złapania tylko po udanym trafieniu krytycznym szczękami (a nie przy zwykłym trafieniu) lub gdy posiadasz istotę @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Chwyconą} lub @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Obezwładnioną}."
+                }
+            },
+            "Solarian": {
+                "Arrangement": {
+                    "Prompt": "Wybierz aranżację"
+                },
+                "Attunement": {
+                    "Graviton": "Grawiton",
+                    "Label": "Bieżące Dostrojenie",
+                    "Photon": "Foton",
+                    "Unattuned": "Niedostrojony"
+                },
+                "HarmonicConvergence": {
+                    "Alteration": "Kiedy używasz akcji z cechą dysharmonia, zyskujesz liczbę tymczasowych Punktów Wytrzymałości równą połowie twojego poziomu."
+                },
+                "IndomitableBodyAndMind": "Kiedy uda ci się rzut na Wytrwałość lub rzut obronny przeciwko efektowi psychicznemu lub obezwładniającemu, możesz zdecydować się na zmianę aktualnego dostrojenia. @UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.mzW6zQ1SPEVq8yA9]",
+                "SolarShield": {
+                    "Description": {
+                        "PartOne": "Twoje manifestacje solarne obejmują teraz możliwość stworzenia małej tarczy energii niebiańskiej. Ta tarcza energetyczna nie wymaga użycia rąk, ponieważ unosi się w pobliżu. Możesz podnieść tarczę, co daje ci premię +1 do KP do początku twojej następnej tury.",
+                        "PartTwo": "Gdy tarcza jest podniesiona, możesz użyć reakcji Blok Tarczą. Tarcza ma 5 + 2 × twój poziom Punktów Wytrzymałości i nie ma Twardości. Tarcza nie może zostać uszkodzona, ale jeśli zostanie zniszczona, przez 10 minut nie możesz stworzyć nowej tarczy. Jeśli twoja tarcza zniknie z powodu utraty dostrojenia, to gdy ją ponownie dostroisz, tarcza powróci z taką liczbą Punktów Wytrzymałości, jaką miała wcześniej. Tarcza odzyskuje wszystkie utracone Punkty Wytrzymałości podczas codziennych przygotowań lub za każdym razem, gdy odpoczywasz przez co najmniej 10 minut, nawet jeśli została zniszczona."
+                    },
+                    "Effect": "@UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.q5W7fV1wXvqBFxt8]{Efekt: Tarcza Solarna}",
+                    "GravitonAttuned": {
+                        "Label": "Dostrojony do grawitonu",
+                        "Note": "Twoja tarcza ma twardość równą połowie twojego poziomu, zaokrągloną w górę."
+                    },
+                    "PhotonAttuned": {
+                        "Label": "Dostrojony do fotonów",
+                        "Note": "Jeśli twoja tarcza zostanie zniszczona, sąsiadujący wrogowie muszą wykonać rzut obronny @Check[type:fortitude|dc:resolve(@actor.system.attributes.classDC.value)] przeciwko twojemu klasowemu ST lub zostać @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Zamroczeni} na 1 rundę. W przypadku krytycznej porażki zostają @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Oślepiony} na 1 rundę."
+                    }
+                },
+                "SolarShot": {
+                    "Label": "Strzał Solarny"
+                },
+                "SolarWeapon": {
+                    "Label": "Broń Solarna",
+                    "TwinLabel": "Bliźniacza Broń Solarna",
+                    "GravitonAttuned": {
+                        "Label": "Dostrojony do grawitonu",
+                        "Note": "Po udanym Ataku na istotę przy użyciu broni solarnej, ta istota traktuje wszystkie pola sąsiadujące z polem, na którym została trafiona, jako trudny teren do końca swojej następnej tury."
+                    },
+                    "PhotonAttuned": {
+                        "Label": "Dostrojony do fotonów"
+                    }
+                }
+            },
+            "Soldier": {
+                "FightingStyle": {
+                    "Prompt": "Wybierz styl walki."
+                }
+            },
+            "Technomancer": {
+                "IncognitoSpell": {
+                    "Jailbreak": "Możesz spróbować @UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]{Demoralizować} jedną istotę, używając Arkanów zamiast Zastraszenia, sprawiając, że efekty zaklęcia wydają się nie wymagać wysiłku z twojej strony."
+                },
+                "Jailbreak": "Odblokowanie Systemu",
+                "SafemodeSpell": {
+                    "Jailbreak": "Możesz zdecydować, że zaklęcie to będzie iluzją, która nie zadaje śmiertelnych obrażeń psychicznych. Jeśli zaklęcie wymaga rzutu obronnego na Wytrwałość lub Refleks, staje się on rzutem obronnym na Wolę. Jeśli zaklęcie wymaga rzutu na atak przeciwko KP, zamiast tego wykonujesz rzut na atak przeciwko ST Woli celu. Zaklęcie zyskuje cechy iluzji i mentalny."
+                },
+                "SignalBoost": {
+                    "Alteration": "Zwiększa zasięg zaklęcia o 30 stóp. Zgodnie ze standardem zwiększania zasięgu zaklęć, jeśli zaklęcie ma normalnie zasięg dotyku, zwiększasz jego zasięg do 30 stóp.",
+                    "Jailbreak": "Zwiększa zasięg tego zaklęcia o 60 stóp. Zgodnie ze standardem zwiększania zasięgu zaklęć, jeśli zaklęcie ma normalnie zasięg dotyku, zwiększasz jego zasięg do 60 stóp."
+                }
+            },
+            "Witchwarper": {
+                "Anchor": {
+                    "Prompt": "Wybierz zakotwiczenie."
+                },
+                "Paradox": {
+                    "Analyst": {
+                        "QuantumField": "Widzisz i rozumiesz nieskończone możliwości i złożone równania teoretyczne tak wyraźnie, jakby były wyryte w twoim otoczeniu. Kiedy @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Szukasz} lub @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{Przywołujesz Wiedzę}, możesz zastosować wynik przeciwko dwóm powiązanym istotom, zagrożeniom, obiektom bez opieki i efektom w swoim polu kwantowym. Za każdym razem, gdy podtrzymujesz swoje pole kwantowe, możesz Szukać lub Przywoływać Wiedzę przeciwko odpowiedniemu celowi w swoim polu kwantowym jako darmową akcję."
+                    },
+                    "Anomaly": {
+                        "QuantumField": "Twoje ruchy rozmywają się, gdy obrazy alternatywnych iteracji ciebie migoczą wokół twojej obecnej postaci, a twoja mowa odbija się echem chóru nieziemskich dźwięków. Za każdym razem, gdy wróg znajdujący się w polu kwantowym spróbuje wykonać akcję z cechą koncentracji, zostanie ona zakłócona, chyba że uda mu się wykonać @Check[type:flat|dc:5]."
+                    },
+                    "GapInfluenced": {
+                        "QuantumField": "Nadprzyrodzone zakłócenia wirują wokół ciebie, sprawiając, że myśli stają się śliskie dla tych, którzy nie są przyzwyczajeni do twojej obecności. Jesteś @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Przysłonięty} dla istot znajdujących się w twoim polu kwantowym. Kiedy istota w twoim polu kwantowym trafi cię atakiem, tracisz tę korzyść przeciwko tej istocie do początku twojej następnej tury."
+                    },
+                    "Precog": {
+                        "QuantumField": "Masz niewielką kontrolę nad przepływem czasu, który cię otacza, co pozwala ci przyspieszyć siebie i innych lub zmniejszyć przepływ czasu dla innych. Wrogie stworzenie, które użyje akcji ruchu wewnątrz twojego pola kwantowego, otrzymuje karę statusową -5 stóp do swojej Szybkości podczas tej akcji. Ty i twoi sojusznicy zyskujecie premię +5 stóp do szybkości, gdy używacie akcji ruchu wewnątrz pola kwantowego podczas tej akcji."
+                    },
+                    "Prompt": "Wybierz paradoks."
+                },
+                "QuantumField": {
+                    "AdjacentLabel": "Wewnątrz lub w sąsiedztwie twojego Pola Kwantowego"
+                },
+                "ZoneOverlap": {
+                    "DebrisZone": "Pole kwantowe staje się trudniejszym terenem.",
+                    "RadiantZone": "Nakładanie się stref zmusza stworzenia do wykonania kolejnego rzutu obronnego.",
+                    "TwistedDarkZone": "Nakładanie się stref ignoruje tymczasową niewrażliwość istot, które wcześniej podjęły próbę rzutu obronnego, przez 1 rundę."
+                }
+            },
+            "Vesk": {
+                "WeaponFamiliarity": {
+                    "AdvancedWeapons": "Zaawansowane Bronie Vesk",
+                    "MartialWeapons": "Bronie Żołnierskie Vesk"
+                }
+            }
+        },
+        "Trait": {
+            "Aeon": "Eonowy",
+            "Analog": "Analogowy",
+            "Anchoring": "Zakotwiczenie",
+            "Arc": "Łukowy",
+            "Archaic": "Archaiczny",
+            "Area": "Obszar",
+            "AreaBurst10Ft": "Obszar (Wybuch 10 stóp)",
+            "AreaBurst15Ft": "Obszar (Wybuch 15 stóp)",
+            "AreaCone": "Obszar (Stożek)",
+            "AreaLine": "Obszar (Linia)",
+            "Attuned": "Dostrajanie",
+            "Automatic": "Automatyczny",
+            "Barathu": "Barathu",
+            "Biotech": "Biotechnologia",
+            "Borai": "Borai",
+            "Boost1": "Przyrost 1",
+            "Boost1d4": "Przyrost 1k4",
+            "Breakdown": "Awaryjny",
+            "Caster": "Rzucający",
+            "Ceramic": "Ceramiczny",
+            "Compact": "Kompaktowy",
+            "Cosmic": "Kosmiczny",
+            "CriticalBrawling": "Krytyczny (Bijatyka)",
+            "CriticalCorrosive": "Krytyczny (Korozja)",
+            "CriticalCryo": "Krytyczny (Kriogeniczny)",
+            "CriticalFlame": "Krytyczny (Płomień)",
+            "CriticalMental": "Krytyczny (Mentalny)",
+            "CriticalKnife": "Krytyczny (Nóż)",
+            "CriticalPlasma": "Krytyczny (Plazma)",
+            "CriticalShock": "Krytyczny (Wstrząs)",
+            "CriticalSonic": "Krytyczny (Dźwiękowy)",
+            "Cycle": "Cykl",
+            "Directive": "Dyrektywa",
+            "Disharmony": "Dysharmonia",
+            "Drift": "Drift",
+            "Envoy": "Wysłannik",
+            "Expend1": "Wydatek 1",
+            "Expend10": "Wydatek 10",
+            "Expend2": "Wydatek 2",
+            "Expend5": "Wydatek 5",
+            "Exposed": "Odkryty",
+            "Gravity": "Grawitacja",
+            "Grenade": "Granat",
+            "Installed": "Zainstalowany",
+            "Jinsul": "Jinsul",
+            "Kasatha": "Kasatha",
+            "Kothama": "Kothama",
+            "Kucharn": "Kucharn",
+            "Lashunta": "Lashunta",
+            "Magitech": "Mago-techniczny",
+            "Manifestation": "Manifestacja",
+            "Mechanic":  "Mechanik",
+            "Midwife": "Akuszerka",
+            "Missile": "Pocisk",
+            "ModularArcOrNonlethal": "Różnorodne obr. (Łukowy lub Nieśmiercionośny)",
+            "ModularCOrF": "Różnorodne obr. (C lub F)",
+            "ModularCOrVoid": "Różnorodne obr. (C lub Pustka)",
+            "ModularSOrVoid": "Różnorodne obr. (S lub Pustka)",
+            "Mystic": "Mistyczny",
+            "Nanite": "Nanity",
+            "Operative": "Operacyjny",
+            "Pahtra": "Pahtra",
+            "Polymer": "Polimer",
+            "Powered": "Zasilanie",
+            "Prismeni": "Pryzmat",
+            "ProfessionalCrafting": "Profesjonalny (Rzemiosło)",
+            "ProfessionalComputers": "Profesjonalny (Komputery)",
+            "ProfessionalDeception": "Profesjonalny (Oszustwo)",
+            "ProfessionalPerformance": "Profesjonalny (Występy)",
+            "RangedShove": "Pchnięcie Dystansowe",
+            "Retractable": "Wysuwany",
+            "Robot": "Robot",
+            "Serum": "Serum",
+            "Shirren": "Shirren",
+            "Skittermander": "Skittermander",
+            "Solarian": "Solarian",
+            "Soldier": "Żołnierz",
+            "Tech": "Technologia",
+            "Technomancer":  "Technomanta",
+            "Thought": "Myślowy",
+            "Tracking": "Śledzenie",
+            "Tracking1": "Śledzenie +1",
+            "Tracking2": "Śledzenie +2",
+            "Tracking3": "Śledzenie +3",
+            "Transfer": "Transfer",
+            "Traversal":  "Przenikanie",
+            "Unwieldy": "Nieporęczny",
+            "Upgrade": "Aktualizacja",
+            "Vesk": "Vesk",
+            "Virtual": "Wirtualny",
+            "Witchwarper": "Wiedźma Osnowy",
+            "Zone": "Strefa"
+        },
+        "TraitDescription": {
+            "Aeon": "Możesz umieścić w tej broni jeden kamień eonowy lub zaklęty klejnot w ramach pojedynczej akcji z cechą interakcji. Kiedy posiadasz broń z kamieniem eonowym we wgłębieniu, zyskujesz wszystkie korzyści z kamienia eonowego, tak jakby krążył wokół twojej głowy. Gdy do broni przyłączony jest klejnot zaklęć, zyskujesz liczbę dodatkowych ładunków baterii równą poziomowi przedmiotu klejnotu zaklęć × 5. Ładunki te regenerują się podczas codziennych przygotowań. Dodatkowo, możesz użyć klejnotu zaklęcia podczas korzystania z broni, choć użycie klejnotu w ten sposób nadal go niszczy.",
+            "Analog": "Broń ta unika zaawansowanej elektroniki, systemów komputerowych i źródeł energii elektrycznej, ale została wyprodukowana i skalibrowana przy użyciu zaawansowanej technologii. Broń ta jest niewrażliwa na zdolności wymierzone w technologię. Runy broni nie działają na tej broni, chyba że posiada ona również cechę archaiczności.",
+            "Anchoring": "Możesz używać zdolności z cechą zakotwiczenia tylko wtedy, gdy twoje pole kwantowe jest aktywne. Jeśli użyjesz zdolności w swojej turze, oprócz ich określonych efektów, automatycznie podtrzymają one twoje pole kwantowe.",
+            "Arc": "Atak trafia w najbliższą wrogą istotę w promieniu 10 stóp od pierwszego celu. Jeśli KP drugiego celu jest niższa niż wynik rzutu ataku, zadajesz tej istocie obrażenia elektryczne równe 1 na kość obrażeń od broni.",
+            "Archaic": "Broń ta została wykonana przy użyciu tradycyjnych metod i materiałów, ale nie nadaje się do uderzania w nowoczesne zbroje. Wszystkie bronie z gry fabularnej Pathfinder mają cechę archaiczności. Runy broni działają normalnie z bronią archaiczną.",
+            "Area": "Broń z tą cechą może strzelać tylko przy użyciu akcji ostrzału obszarowego.",
+            "Attuned": "Nie możesz używać zdolności z cechą zestrojenia, gdy nie jesteś zestrojony. Wiele dostrojonych zdolności wymaga specjalnego dostrojenia grawitonowego lub fotonowego, podczas gdy inne mogą zapewniać dodatkowe korzyści w zależności od aktualnego dostrojenia gwiezdnego.",
+            "Automatic": "Oprócz normalnego Ataku, możesz wystrzelić z tej broni używając akcji Autostrzału.",
+            "Biotech": "Ulepszenia biotechnologiczne obejmują modyfikacje DNA w połączeniu z implantami pochodzenia biologicznego, które integrują się z twoją fizjologią. Biotechniczne ulepszenia nie są magiczne, choć wiele z nich pochodzi od (lub naśladuje) stworzenia, które są magiczne z natury.",
+            "Boost": "Możesz naładować broń z tą cechą specjalną za pomocą akcji Interakcji, wydając 1 punkt z magazynka broni. Jeśli cecha wzmocnienia wymienia jedną lub więcej cech, zastosuj wymienione cechy do następnego ataku wykonanego tą bronią. Jeśli cecha wzmocnienia zawiera wartość, zwiększ obrażenia zadawane przez broń o podaną wartość dla każdej kości broni podczas następnego ataku wykonanego tą bronią. Zwiększa to obrażenia zadawane przez broń i jest mnożone przy trafieniu krytycznym. Wzmocnienie tej broni więcej niż jeden raz przed jej odpaleniem nie daje żadnych dodatkowych efektów, a dodatkowy ładunek znika, jeśli broń nie zostanie odpalona do końca następnej tury.",
+            "Breakdown": "Ta broń może zostać rozłożona na wiele małych części. Podczas rozkładania broń jest traktowana jak mały przedmiot o niewielkiej masie. Rozłożenie lub ponowne złożenie rozbitej broni to czynność wymagająca 3 akcji, która ma cechę manipulacji i wymaga użycia dwóch rąk.",
+            "Caster": "Broń ta może zostać zasilona poprzez rzucenie zaklęcia (w tym sztuczki) o co najmniej dwóch akcjach. Jeśli to zrobisz, rozstrzygnij zaklęcie normalnie. Po rzuceniu zaklęcia, jeśli miało ono cechę kwasu, zimna, ognia, elektryczności, ducha, dźwięku, witalności lub pustki, broń zadaje obrażenia tego typu zamiast zwykłych obrażeń do końca następnej tury lub do momentu rzucenia innego zaklęcia. Jeśli zaklęcie zadaje więcej niż jeden rodzaj obrażeń, wybierz jeden z nich podczas odpalania broni. Jeśli broń ma cechę Eonu i zainstalowany klejnot zaklęć, możesz użyć jednej z wcześniej wymienionych cech, jeśli zaklęcie klejnotu zaklęć umieszczonego w broni ma tę cechę, a to nie wymaga rzucenia zaklęcia i jest efektem stałym.",
+            "Compact": "Możesz Podnieść Tarczę za pomocą kompaktowej tarczy, o ile masz wolną rękę lub trzymasz w niej lekki przedmiot, który nie jest bronią.",
+            "Critical": "Ta broń używa specjalizacji krytycznej wymienionego typu broni, a nie własnej.",
+            "Cycle": "Akcje z cechą cyklu zmieniają aktualne gwiezdne dostrojenie na jego przeciwieństwo. Kiedy wykonujesz taką akcję z tą cechą, korzystasz z dodatkowego efektu swojego aktualnego dostrojenia, jeśli akcja miała cechę dostrojenia, ale po zakończeniu akcji twoje dostrojenie zmienia się na jego odpowiednik (a więc dostrojenie grawitonowe, jeśli przed wykonaniem akcji byłeś dostrojony fotonowo, lub odwrotnie).",
+            "Directive": "Akcje z tą cechą to specjalne rozkazy, które zapewniają korzyści sojusznikom, jeśli się do nich zastosują. Sojusznicy muszą być w stanie cię wyczuć, aby skorzystać z twoich poleceń. Ta akcja ma cechę słuchu lub wzroku, w zależności od tego, jak zainspirujesz swoich sojuszników.",
+            "Disharmony": "Akcje z cechą dysharmonii zmieniają twoje aktualne gwiezdne dostrojenie na niedostrojone. Kiedy wykonujesz taką akcję z tą cechą, korzystasz z dodatkowego efektu obecnego dostrojenia, jeśli akcja miała cechę dostrojenia, ale po zakończeniu akcji stajesz się niedostrojony.",
+            "Expend": "Wskazuje ilość amunicji zużywanej przy każdym Ataku dystansowym wykonanym tą bronią. Za każdym razem, gdy broń zostanie wystrzelona, ilość amunicji w jej magazynku zostanie zmniejszona o wskazaną liczbę. Inne zdolności mogą wskazywać na użycie Wydatku jako ilości amunicji wymaganej do wykonania akcji.",
+            "Exposed": "Ta zbroja nie posiada ochrony środowiskowej. Wszystkie pancerze z Pathfindera mają cechę odkryty.",
+            "Grenade": "Broń z tą cechą może zostać rzucona w ramach pojedynczej akcji przy użyciu akcji Ostrzału Obszarowego, tak jakby posiadała cechę obszaru (wybuch).",
+            "Installed": "Niektóre tarcze nie są trzymane, ale są instalowane jako ulepszenia pancerza lub broni. Tarczę zainstalowaną jako ulepszenie pancerza można normalnie podnieść. Tarcze mogą być instalowane tylko w broniach z cechą parowania. Kiedy używasz broni do parowania z ulepszeniem tarczy, aby uzyskać premię do KP, ulepszenie tarczy emituje bezwładnościową barierę tłumiącą i automatycznie podnosisz tarczę. Jeśli użyjesz tej broni w jakimkolwiek innym celu, tarcza nie zostanie podniesiona, a ty nie otrzymasz premii do KP. Nie można podnieść tarczy zainstalowanej jako ulepszenie w żaden inny sposób.",
+            "Magitech": "Wzmocnienia Magotechiczne to połączenie cybernetycznych i magicznych komponentów, zawierające takie elementy jak mistycznie naładowane kryształy, stopy gwiazdometalu i mikrochipy grawerowane runami. Magiczne ulepszenia są magiczne, ale nie można ich rozproszyć, chyba że efekt lub atak określa, że wpływa na ulepszenia.",
+            "Manifestation": "Atuty z tą cechą wzmacniają lub zmieniają twoje manifestacje solarne (rozbłysk, mgławica i broń) lub pozwalają ci stworzyć nowy typ manifestacji solarnej.",
+            "Missile": "Pociski to amunicja, którą można załadować i wystrzelić z wyrzutni rakiet. Pociski mają jeden cel i używają rzutu ataku, aby zadać obrażenia, zadając wymienione obrażenia rozpryskowe każdemu w promieniu zamierzonego celu (nawet jeśli nie wykonasz rzutu ataku). Pociski to przedmioty zużywalne, które są zawsze zużywane po użyciu. Jeśli wyrzucisz trafienie krytyczne przeciwko celowi pocisku i zastosujesz efekt specjalizacji krytycznej pocisków, zastosuj ten efekt tylko do celu ataku.",
+            "Ponderous": "Zbroja posiada ruchome części lub inne komplikacje, które wydłużają początkowy czas reakcji użytkownika. Podczas noszenia zbroi otrzymujesz karę -1 do rzutów inicjatywy. Jeśli nie spełniasz wymaganego przez zbroję poziomu Siły, kara ta wzrasta do wartości równej karze pancerza, jeśli jest on gorszy.",
+            "Powered": "Ta broń biała korzysta z baterii. Możesz aktywować lub dezaktywować broń z zasilaniem za pomocą akcji Interakcji lub w ramach wyciągania lub chowania broni. Ta broń jest dostarczana z zainstalowaną baterią komercyjną i zużywa 1 ładunek dziennie (zamiast 1 ładunku na atak). Jeśli spróbujesz zaatakować bronią z zasilaniem, która jest naładowana lub nieaktywna, działa ona jak broń improwizowana.",
+            "Professional": "Broń z tą cechą może być używana jako narzędzie do wymienionej umiejętności. Dodaj premię przedmiotu do rzutów ataku jako premię przedmiotu do testów umiejętności wykorzystujących wymienioną umiejętność. Dla celów biegłości, możesz traktować tę broń żołnierską jako broń prostą lub tę broń zaawansowaną jako broń żołnierską, aż do osiągnięcia biegłości w wymienionej umiejętności.",
+            "RangedShove": "Ta broń może zostać użyta do @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{Pchnięcia} z umiejętnością Atletyka na odległość do pierwszego przyrostu zasięgu broni. Test umiejętności otrzymuje karę -2 do okoliczności. Możesz dodać premię przedmiotu do rzutów ataku jako premię do tego testu.",
+            "Retractable": "Tarcza może złożyć się do mniejszej postaci przyłączonej do naramiennika, rękawicy lub biżuterii, aby ułatwić podróżowanie i uwolnić ręce. Możesz użyć akcji Interakcji, aby rozwinąć lub zwinąć tarczę. Jeśli tarcza jest schowana, nie można jej podnieść. Gdy tarcza jest rozłożona, możesz ją podnieść, o ile masz wolną rękę lub trzymasz w niej lekki przedmiot, który nie jest bronią. Tarcza utrudnia korzystanie z ręki, gdy jest rozłożona. Chociaż nadal możesz trzymać przedmioty w tej ręce, nie możesz władać bronią w tej ręce ani obsługiwać niczego, co wymaga dwóch rąk.",
+            "Serum": "Są to surowice farmaceutyczne; są one technologiczne, a w niektórych przypadkach hybrydowe, ale mogą być wytwarzane w laboratorium i nie zawierają znaczącej magii. Serum można aktywować za pomocą akcji Interakcji, pijąc je lub podając innej istocie. Serum można podać tylko stworzeniu, które znajduje się w zasięgu i chce je wypić lub jest na tyle bezradne, że nie może mu się oprzeć. Zazwyczaj do aktywacji serum potrzebna jest tylko jedna kończyna.",
+            "Tech": "Przedmioty z cechą technologiczną mogą być wytwarzane przez każdego, ale jeśli posiadają również cechę magiczną, są przedmiotami hybrydowymi i wymagają atutu Magia Maszyn.",
+            "Thought": "Broń z tą cechą jest żywym stworzeniem, z którym można komunikować się za pomocą telepatii. Kiedy dzierżysz tę broń i jesteś w stanie się z nią komunikować, możesz zignorować wszelkie inne cechy, które normalnie posiada broń; dotyczy to tylko innych cech wymienionych we wpisie broni, a nie cech, które broń lub akcje otrzymują w wyniku użycia innych zdolności lub efektów. Jeśli możesz komunikować się z tą bronią, twoja biegłość w posługiwaniu się nią jest równa biegłości w posługiwaniu się bronią prostą.",
+            "Tracking": "Broń ta została wyposażona w kilka zintegrowanych systemów celowniczych, stabilizujących i naprowadzających. Rzuty ataku tą bronią zyskują premię do przedmiotu równą podanej wartości. Ataki obszarowe wykonywane tą bronią zyskują premię do klasowych współczynników ST rzutów obronnych równą podanej wartości.",
+            "Transfer": "Akcje te redukują Punkty Wytrzymałości z sieci witalności. Musisz posiadać Punkty Wytrzymałości w swojej sieci witalności równe lub większe niż koszt transferu, aby użyć tych akcji. Jeśli nie możesz zapłacić kosztu, akcja zostaje przerwana.",
+            "Unwieldy": "Broń z tą cechą jest duża i nieporęczna, nie można z niej strzelać bez wcześniejszego ostygnięcia lub jest trudna w użyciu przy powtarzających się atakach. Nie możesz użyć nieporęcznej broni więcej niż raz na rundę i nie możesz użyć jej do Ataku w ramach reakcji, takiej jak Reaktywne Uderzenie.",
+            "Upgrade": "Broń można dostosować za pomocą ulepszeń, które obejmują technologiczne modyfikacje broni i fuzje broni. Wskazuje, ile ulepszeń może wykorzystać dana broń.",
+            "Virtual": "Przedmioty z cechą wirtualny to programy, które muszą być zainstalowane na innych komputerach, takich jak jednostki komunikacyjne. Do ich stworzenia wymagany jest atut Programista.",
+            "Zone": "Te akcje nakładają dodatkowy efekt na twoje pole kwantowe. Możesz zastosować efekty strefy tylko do pola kwantowego, które nie ma efektu strefy."
+        },
+        "WeaponGroups": {
+            "Corrosive": "Korozyjny",
+            "Cryo": "Kriogeniczny",
+            "Flame": "Płomień",
+            "Grenade": "Granat",
+            "Laser": "Laser",
+            "Mental": "Mentalny",
+            "Missile": "Pocisk",
+            "Plasma": "Plazma",
+            "Poison": "Trucizna",
+            "Projectile": "Pocisk",
+            "Shock": "Wstrząs",
+            "Sniper": "Snajper",
+            "Sonic": "Dźwiękowy"
+        }
+    }
+}
