@@ -1,0 +1,25 @@
+{
+    "label": "Ancestry-Features",
+    "entries": {
+        "Four-Armed": {
+            "name": "Four-Armed",
+            "description": "<p>You have four arms, which allows you to wield and hold up to four hands' worth of weapons and equipment. At any time, one pair of hands is designated your active hands. You can change this designation from one pair of hands to another by taking the @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.oW81CfM9ebxXnrw3]{Switch Active Hands} action, which is a single action. You can only perform actions with your active hands.</p>"
+        },
+        "Genetic Adaptation": {
+            "name": "Genetic Adaptation",
+            "description": "<p>You can reshape and adjust your body to adapt to new situations. You can retrain an ancestry feat in one day of downtime, rather than in one week. You can retrain any ancestry feat, even lineage feats.</p>"
+        },
+        "Limited Telepathy": {
+            "name": "Limited Telepathy",
+            "description": "<p>You can communicate mentally with creatures within 30 feet. You can communicate only with creatures that share a language with you. This doesn't give you any access to their thoughts, and it communicates no more information than normal speech would</p>"
+        },
+        "Overeager Enthusiasm": {
+            "name": "Overeager Enthusiasm",
+            "description": "<p>You are often oblivious in your enthusiasm to help others. You take a –1 circumstance penalty on Perception checks to @UUID[Compendium.pf2e.actionspf2e.Item.1xRFPTFtWtGJ9ELw]{Sense Motive} and a –1 circumstance penalty to Will saves against enchantment effects, except calm emotions.</p>"
+        },
+        "Six-Armed": {
+            "name": "Six-Armed",
+            "description": "<p>You have six arms, which allows you to wield and hold up to six hands' worth of weapons and equipment. At any time, one pair of hands is designated your active hands. You can change this designation from one pair of hands to another by taking the @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.oW81CfM9ebxXnrw3]{Switch Active Hands} action, which is a single action. You can only perform actions with your active hands.</p>"
+        }
+    }
+}

@@ -1,0 +1,789 @@
+{
+    "label": "Iconics",
+    "folders": {
+        "Level 5": "Level 5",
+        "Level 1": "Level 1"
+    },
+    "entries": {
+        "Absalom Station Lore": {
+            "name": "Absalom Station Lore"
+        },
+        "Acquire Asset": {
+            "name": "Acquire Asset"
+        },
+        "Adaptive Talent": {
+            "name": "Adaptive Talent"
+        },
+        "Advanced Targeting System (Starfinder)": {
+            "name": "Advanced Targeting System (Starfinder)"
+        },
+        "Aim": {
+            "name": "Aim"
+        },
+        "Ancestral Paragon": {
+            "name": "Ancestral Paragon"
+        },
+        "Anchor": {
+            "name": "Anchor"
+        },
+        "Anchoring Spells": {
+            "name": "Anchoring Spells"
+        },
+        "Android (Starfinder)": {
+            "name": "Android (Starfinder)"
+        },
+        "Anomaly": {
+            "name": "Anomaly"
+        },
+        "Arc Pistol": {
+            "name": "Arc Pistol"
+        },
+        "Arc Pistol (Tactical)": {
+            "name": "Arc Pistol (Tactical)"
+        },
+        "Arcane Focus Spells": {
+            "name": "Arcane Focus Spells"
+        },
+        "Arcane Spontaneous Spells": {
+            "name": "Arcane Spontaneous Spells"
+        },
+        "Assurance (Arcana)": {
+            "name": "Assurance (Arcana)"
+        },
+        "Attune": {
+            "name": "Attune"
+        },
+        "Attunement Control": {
+            "name": "Attunement Control"
+        },
+        "Auto-CPR Unit": {
+            "name": "Auto-CPR Unit"
+        },
+        "Auto-Fire": {
+            "name": "Auto-Fire"
+        },
+        "Automatic Knowledge": {
+            "name": "Automatic Knowledge"
+        },
+        "Barricade": {
+            "name": "Barricade"
+        },
+        "Battery (Commercial)": {
+            "name": "Battery (Commercial)"
+        },
+        "Battle Medicine": {
+            "name": "Battle Medicine"
+        },
+        "Battleblessed": {
+            "name": "Battleblessed"
+        },
+        "Battleglove": {
+            "name": "Battleglove"
+        },
+        "Battleglove (Commercial)": {
+            "name": "Battleglove (Commercial)"
+        },
+        "Bombard": {
+            "name": "Bombard"
+        },
+        "Briskwander Vesk": {
+            "name": "Briskwander Vesk"
+        },
+        "Broadened Assessment": {
+            "name": "Broadened Assessment"
+        },
+        "Carbon Skin": {
+            "name": "Carbon Skin"
+        },
+        "Cat Fall": {
+            "name": "Cat Fall"
+        },
+        "Caustic Conversion": {
+            "name": "Caustic Conversion"
+        },
+        "Charming Liar": {
+            "name": "Charming Liar"
+        },
+        "Chk-Chk (Level 1)": {
+            "name": "Chk-Chk (Level 1)"
+        },
+        "Chk-Chk (Level 5)": {
+            "name": "Chk-Chk (Level 5)"
+        },
+        "Clear Mind": {
+            "name": "Clear Mind"
+        },
+        "Clever Improviser": {
+            "name": "Clever Improviser"
+        },
+        "Combat Hack": {
+            "name": "Combat Hack"
+        },
+        "Comm Unit": {
+            "name": "Comm Unit"
+        },
+        "Competitive Spirit": {
+            "name": "Competitive Spirit"
+        },
+        "Confident Actualization": {
+            "name": "Confident Actualization"
+        },
+        "Connection": {
+            "name": "Connection"
+        },
+        "Constructed": {
+            "name": "Constructed"
+        },
+        "Container (Ordinary)": {
+            "name": "Container (Ordinary)"
+        },
+        "Crowd Surfing": {
+            "name": "Crowd Surfing"
+        },
+        "Dae (Level 1)": {
+            "name": "Dae (Level 1)"
+        },
+        "Dae (Level 5)": {
+            "name": "Dae (Level 5)"
+        },
+        "Darkness": {
+            "name": "Darkness"
+        },
+        "Darkvision Visor": {
+            "name": "Darkvision Visor"
+        },
+        "Datapad": {
+            "name": "Datapad"
+        },
+        "Deadlift": {
+            "name": "Deadlift"
+        },
+        "Defiant Shirren": {
+            "name": "Defiant Shirren"
+        },
+        "Dermal Plating (Commercial)": {
+            "name": "Dermal Plating (Commercial)"
+        },
+        "Detect Magic": {
+            "name": "Detect Magic"
+        },
+        "Disciple": {
+            "name": "Disciple"
+        },
+        "Divine Focus Spells": {
+            "name": "Divine Focus Spells"
+        },
+        "Divine Spontaneous Spells": {
+            "name": "Divine Spontaneous Spells"
+        },
+        "Doshko": {
+            "name": "Doshko"
+        },
+        "Doshko (Commercial)": {
+            "name": "Doshko (Commercial)"
+        },
+        "Ebb & Flow": {
+            "name": "Ebb & Flow"
+        },
+        "Eldritch Lance": {
+            "name": "Eldritch Lance"
+        },
+        "Emotionally Unaware": {
+            "name": "Emotionally Unaware"
+        },
+        "Envoy": {
+            "name": "Envoy"
+        },
+        "Envoy Directive": {
+            "name": "Envoy Directive"
+        },
+        "Fear": {
+            "name": "Fear"
+        },
+        "Fearless": {
+            "name": "Fearless"
+        },
+        "Fearsome Bulwark": {
+            "name": "Fearsome Bulwark"
+        },
+        "Feather Step": {
+            "name": "Feather Step"
+        },
+        "Feign Death": {
+            "name": "Feign Death"
+        },
+        "Figment": {
+            "name": "Figment"
+        },
+        "Flashfire": {
+            "name": "Flashfire"
+        },
+        "Fleet": {
+            "name": "Fleet"
+        },
+        "Focused": {
+            "name": "Focused"
+        },
+        "Force Barrage": {
+            "name": "Force Barrage"
+        },
+        "Force Connection": {
+            "name": "Force Connection"
+        },
+        "Force Field (Commercial)": {
+            "name": "Force Field (Commercial)"
+        },
+        "Fortitude Expertise": {
+            "name": "Fortitude Expertise"
+        },
+        "Frag Grenade (Commercial)": {
+            "name": "Frag Grenade (Commercial)"
+        },
+        "Free Thinker": {
+            "name": "Free Thinker"
+        },
+        "Freebooter Armor": {
+            "name": "Freebooter Armor"
+        },
+        "Get 'Em!": {
+            "name": "Get 'Em!"
+        },
+        "Get Down!": {
+            "name": "Get Down!"
+        },
+        "Get in There!": {
+            "name": "Get in There!"
+        },
+        "Grenade Launcher (Commercial)": {
+            "name": "Grenade Launcher (Commercial)"
+        },
+        "Grifter": {
+            "name": "Grifter"
+        },
+        "Grim Tendrils": {
+            "name": "Grim Tendrils"
+        },
+        "Group Chat": {
+            "name": "Group Chat"
+        },
+        "Guidance": {
+            "name": "Guidance"
+        },
+        "Guns Blazing": {
+            "name": "Guns Blazing"
+        },
+        "Hacker": {
+            "name": "Hacker"
+        },
+        "Hacking Toolkit": {
+            "name": "Hacking Toolkit"
+        },
+        "Hair Trigger (Starfinder)": {
+            "name": "Hair Trigger (Starfinder)"
+        },
+        "Hardlight Series": {
+            "name": "Hardlight Series"
+        },
+        "Haste": {
+            "name": "Haste"
+        },
+        "Heal": {
+            "name": "Heal"
+        },
+        "Hidden Soldier Armor": {
+            "name": "Hidden Soldier Armor"
+        },
+        "Hologram Skeptic": {
+            "name": "Hologram Skeptic"
+        },
+        "Holoskin (Commercial)": {
+            "name": "Holoskin (Commercial)"
+        },
+        "Holy Talisman": {
+            "name": "Holy Talisman"
+        },
+        "Human (Starfinder)": {
+            "name": "Human (Starfinder)"
+        },
+        "Hypopen (Commercial)": {
+            "name": "Hypopen (Commercial)"
+        },
+        "Hypopen (Tactical)": {
+            "name": "Hypopen (Tactical)"
+        },
+        "Icon": {
+            "name": "Icon"
+        },
+        "Incendiary Grenade (Commercial)": {
+            "name": "Incendiary Grenade (Commercial)"
+        },
+        "Incredible Initiative": {
+            "name": "Incredible Initiative"
+        },
+        "Indomitable Body and Mind": {
+            "name": "Indomitable Body and Mind"
+        },
+        "Infiltrator's Toolkit (Commercial)": {
+            "name": "Infiltrator's Toolkit (Commercial)"
+        },
+        "Infiltrator's Toolkit (Tactical)": {
+            "name": "Infiltrator's Toolkit (Tactical)"
+        },
+        "Infosphere Lore": {
+            "name": "Infosphere Lore"
+        },
+        "Initial Epiphany": {
+            "name": "Initial Epiphany"
+        },
+        "Injury Echo": {
+            "name": "Injury Echo"
+        },
+        "Intimidating Shot": {
+            "name": "Intimidating Shot"
+        },
+        "Invisibility": {
+            "name": "Invisibility"
+        },
+        "Iseph (Level 1)": {
+            "name": "Iseph (Level 1)"
+        },
+        "Iseph (Level 5)": {
+            "name": "Iseph (Level 5)"
+        },
+        "Jetpack (Commercial)": {
+            "name": "Jetpack (Commercial)"
+        },
+        "Jump": {
+            "name": "Jump"
+        },
+        "Kill Steal": {
+            "name": "Kill Steal"
+        },
+        "Kiss it Better": {
+            "name": "Kiss it Better"
+        },
+        "Knife": {
+            "name": "Knife"
+        },
+        "Knife (Commercial)": {
+            "name": "Knife (Commercial)"
+        },
+        "Laser Pistol (Advanced)": {
+            "name": "Laser Pistol (Advanced)"
+        },
+        "Leadership Style": {
+            "name": "Leadership Style"
+        },
+        "Light": {
+            "name": "Light"
+        },
+        "Limited Telepathy": {
+            "name": "Limited Telepathy"
+        },
+        "Machine Gun": {
+            "name": "Machine Gun"
+        },
+        "Machine Gun (Advanced)": {
+            "name": "Machine Gun (Advanced)"
+        },
+        "Magazine (Machine Gun)": {
+            "name": "Magazine (Machine Gun)"
+        },
+        "Magazine (Semi-Auto Pistol)": {
+            "name": "Magazine (Semi-Auto Pistol)"
+        },
+        "Magboots": {
+            "name": "Magboots"
+        },
+        "Master Gunner": {
+            "name": "Master Gunner"
+        },
+        "Media Lore": {
+            "name": "Media Lore"
+        },
+        "Medkit (Commercial)": {
+            "name": "Medkit (Commercial)"
+        },
+        "Medkit (Tactical)": {
+            "name": "Medkit (Tactical)"
+        },
+        "Medpatch (Commercial)": {
+            "name": "Medpatch (Commercial)"
+        },
+        "Medpatch (Tactical)": {
+            "name": "Medpatch (Tactical)"
+        },
+        "Menacing Laughter": {
+            "name": "Menacing Laughter"
+        },
+        "Meyel's Chosen Pahtra": {
+            "name": "Meyel's Chosen Pahtra"
+        },
+        "Microcord Armor": {
+            "name": "Microcord Armor"
+        },
+        "Mobile Aim": {
+            "name": "Mobile Aim"
+        },
+        "Mobile Reload": {
+            "name": "Mobile Reload"
+        },
+        "Mod Fanatic": {
+            "name": "Mod Fanatic"
+        },
+        "Motivating Ringtone": {
+            "name": "Motivating Ringtone"
+        },
+        "Mystic": {
+            "name": "Mystic"
+        },
+        "Mystic Bond": {
+            "name": "Mystic Bond"
+        },
+        "Mystic Spellcasting": {
+            "name": "Mystic Spellcasting"
+        },
+        "Natural Ambition": {
+            "name": "Natural Ambition"
+        },
+        "Navasi (Level 1)": {
+            "name": "Navasi (Level 1)"
+        },
+        "Navasi (Level 5)": {
+            "name": "Navasi (Level 5)"
+        },
+        "Nightvision Adaptation (Starfinder)": {
+            "name": "Nightvision Adaptation (Starfinder)"
+        },
+        "Nimbus Surge": {
+            "name": "Nimbus Surge"
+        },
+        "Obozaya (Level 5)": {
+            "name": "Obozaya (Level 5)"
+        },
+        "On the Move": {
+            "name": "On the Move"
+        },
+        "Oobozaya (Level 1)": {
+            "name": "Oobozaya (Level 1)"
+        },
+        "Operative": {
+            "name": "Operative"
+        },
+        "Operative's Specialization": {
+            "name": "Operative's Specialization"
+        },
+        "Outlaw": {
+            "name": "Outlaw"
+        },
+        "Pahtra": {
+            "name": "Pahtra"
+        },
+        "Painglaive": {
+            "name": "Painglaive"
+        },
+        "Painglaive (Advanced)": {
+            "name": "Painglaive (Advanced)"
+        },
+        "Paradox": {
+            "name": "Paradox"
+        },
+        "Perception Expertise": {
+            "name": "Perception Expertise"
+        },
+        "Phreaker": {
+            "name": "Phreaker"
+        },
+        "Physical Science Lore": {
+            "name": "Physical Science Lore"
+        },
+        "Poetry Journal (Holy Talisman)": {
+            "name": "Poetry Journal (Holy Talisman)"
+        },
+        "Portable Amp": {
+            "name": "Portable Amp"
+        },
+        "Practiced Influencer": {
+            "name": "Practiced Influencer"
+        },
+        "Primal Innate Spells": {
+            "name": "Primal Innate Spells"
+        },
+        "Primary Target": {
+            "name": "Primary Target"
+        },
+        "Quantum Field": {
+            "name": "Quantum Field"
+        },
+        "Quantum Pulse": {
+            "name": "Quantum Pulse"
+        },
+        "Quantum Recycle": {
+            "name": "Quantum Recycle"
+        },
+        "Quick Swap": {
+            "name": "Quick Swap"
+        },
+        "Quickened Processor": {
+            "name": "Quickened Processor"
+        },
+        "Radiant": {
+            "name": "Radiant"
+        },
+        "Re-Forge Solar Weapon": {
+            "name": "Re-Forge Solar Weapon"
+        },
+        "Reactive Strike": {
+            "name": "Reactive Strike"
+        },
+        "Rebellious Defiance": {
+            "name": "Rebellious Defiance"
+        },
+        "Reflex Expertise": {
+            "name": "Reflex Expertise"
+        },
+        "Repair Toolkit (Commercial)": {
+            "name": "Repair Toolkit (Commercial)"
+        },
+        "Resist Energy": {
+            "name": "Resist Energy"
+        },
+        "Saw It Coming": {
+            "name": "Saw It Coming"
+        },
+        "Second Skin": {
+            "name": "Second Skin"
+        },
+        "Second Skin (Tactical)": {
+            "name": "Second Skin (Tactical)"
+        },
+        "Semi-Auto Pistol": {
+            "name": "Semi-Auto Pistol"
+        },
+        "Semi-Auto Pistol (Advanced)": {
+            "name": "Semi-Auto Pistol (Advanced)"
+        },
+        "Shadow": {
+            "name": "Shadow"
+        },
+        "Shadow Snap": {
+            "name": "Shadow Snap"
+        },
+        "Share Pain": {
+            "name": "Share Pain"
+        },
+        "Sharpshooter": {
+            "name": "Sharpshooter"
+        },
+        "Shifting Surge": {
+            "name": "Shifting Surge"
+        },
+        "Shirren": {
+            "name": "Shirren"
+        },
+        "Signature Spells": {
+            "name": "Signature Spells"
+        },
+        "Silver Pieces": {
+            "name": "Silver Pieces"
+        },
+        "Size Up": {
+            "name": "Size Up"
+        },
+        "Skilled Human (Diplomacy)": {
+            "name": "Skilled Human (Diplomacy)"
+        },
+        "Skirmisher": {
+            "name": "Skirmisher"
+        },
+        "Slow": {
+            "name": "Slow"
+        },
+        "Sniper Stance": {
+            "name": "Sniper Stance"
+        },
+        "Social Mastermind": {
+            "name": "Social Mastermind"
+        },
+        "Solar Manifestations": {
+            "name": "Solar Manifestations"
+        },
+        "Solar Shot": {
+            "name": "Solar Shot"
+        },
+        "Solarian": {
+            "name": "Solarian"
+        },
+        "Solarian Arrangement": {
+            "name": "Solarian Arrangement"
+        },
+        "Solarian Weapon Expertise": {
+            "name": "Solarian Weapon Expertise"
+        },
+        "Soldier": {
+            "name": "Soldier"
+        },
+        "Soldier Fighting Styles": {
+            "name": "Soldier Fighting Styles"
+        },
+        "Soldier Weapon Expert": {
+            "name": "Soldier Weapon Expert"
+        },
+        "Soul Surge": {
+            "name": "Soul Surge"
+        },
+        "Sparkling Performance": {
+            "name": "Sparkling Performance"
+        },
+        "Specialized Skill Set": {
+            "name": "Specialized Skill Set"
+        },
+        "Spell Gem of Invisibilty(2nd)": {
+            "name": "Spell Gem of Invisibilty(2nd)"
+        },
+        "Spell Gem of Personal Gravity(3rd)": {
+            "name": "Spell Gem of Personal Gravity(3rd)"
+        },
+        "Spell Gem of Translate (3rd)": {
+            "name": "Spell Gem of Translate (3rd)"
+        },
+        "Spot Healing": {
+            "name": "Spot Healing"
+        },
+        "Stellar Attunement": {
+            "name": "Stellar Attunement"
+        },
+        "Stellar Rush": {
+            "name": "Stellar Rush"
+        },
+        "Sunshades (Tactical)": {
+            "name": "Sunshades (Tactical)"
+        },
+        "Supernova": {
+            "name": "Supernova"
+        },
+        "Suppressing Fire": {
+            "name": "Suppressing Fire"
+        },
+        "Switch Places": {
+            "name": "Switch Places"
+        },
+        "Switch Target": {
+            "name": "Switch Target"
+        },
+        "Tactical Advance": {
+            "name": "Tactical Advance"
+        },
+        "Tailwind": {
+            "name": "Tailwind"
+        },
+        "Tangible Object": {
+            "name": "Tangible Object"
+        },
+        "Tempweave": {
+            "name": "Tempweave"
+        },
+        "Terrifying Bravado": {
+            "name": "Terrifying Bravado"
+        },
+        "Touch Something Real": {
+            "name": "Touch Something Real"
+        },
+        "Toughness": {
+            "name": "Toughness"
+        },
+        "Transfer Vitality": {
+            "name": "Transfer Vitality"
+        },
+        "Trooper": {
+            "name": "Trooper"
+        },
+        "Ultralight Wings (Commercial)": {
+            "name": "Ultralight Wings (Commercial)"
+        },
+        "Unconventional Weaponry": {
+            "name": "Unconventional Weaponry"
+        },
+        "Underworld Lore": {
+            "name": "Underworld Lore"
+        },
+        "Untrained Improvisation": {
+            "name": "Untrained Improvisation"
+        },
+        "Urban Operator": {
+            "name": "Urban Operator"
+        },
+        "Vampiric Feast": {
+            "name": "Vampiric Feast"
+        },
+        "Verdant Code": {
+            "name": "Verdant Code"
+        },
+        "Versatile Human": {
+            "name": "Versatile Human"
+        },
+        "Vesk": {
+            "name": "Vesk"
+        },
+        "Vitality Network": {
+            "name": "Vitality Network"
+        },
+        "Void Warp": {
+            "name": "Void Warp"
+        },
+        "Void Whispers": {
+            "name": "Void Whispers"
+        },
+        "Walking Armory": {
+            "name": "Walking Armory"
+        },
+        "Warfare Lore": {
+            "name": "Warfare Lore"
+        },
+        "Warp Reality": {
+            "name": "Warp Reality"
+        },
+        "Warp Terrain": {
+            "name": "Warp Terrain"
+        },
+        "Warp Wounds": {
+            "name": "Warp Wounds"
+        },
+        "Watch Out!": {
+            "name": "Watch Out!"
+        },
+        "Weapon Expertise": {
+            "name": "Weapon Expertise"
+        },
+        "Widen Area": {
+            "name": "Widen Area"
+        },
+        "Wise to the Game": {
+            "name": "Wise to the Game"
+        },
+        "Witchwarper": {
+            "name": "Witchwarper"
+        },
+        "Witchwarper Spellcasting": {
+            "name": "Witchwarper Spellcasting"
+        },
+        "Zemir (Level 1)": {
+            "name": "Zemir (Level 1)"
+        },
+        "Zemir (Level 5)": {
+            "name": "Zemir (Level 5)"
+        },
+        "Zero Knife": {
+            "name": "Zero Knife"
+        },
+        "Zero Knife (Commercial)": {
+            "name": "Zero Knife (Commercial)"
+        },
+        "Zon-Shelyn": {
+            "name": "Zon-Shelyn"
+        },
+        "Zon-Shelyn Lore": {
+            "name": "Zon-Shelyn Lore"
+        }
+    }
+}

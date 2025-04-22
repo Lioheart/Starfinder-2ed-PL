@@ -1,0 +1,29 @@
+{
+    "label": "Classes",
+    "entries": {
+        "Envoy": {
+            "name": "Envoy",
+            "description": "<p><em>You're a master influencer. You make your way in the universe with a charming smile, quick wit, and keen sense of self-preservation. You're a leader who motivates your teammates, pushes them past their limits, and helps them through tough spots. You excel at getting others to do what you want, but you're always ready to face trouble head on when things take a turn for the worse. You might be a con artist, diplomat, performer, or even a military officer—or you might take on whatever role the situation demands.</em></p><p><em>@UUID[Compendium.starfinder-field-test-for-pf2e.sf2e-journals.JournalEntry.JQAMedkXzpu3xv8N.JournalEntryPage.KIQZaGST8rgB15gX]{Envoy}</em></p>"
+        },
+        "Mystic": {
+            "name": "Mystic",
+            "description": "<p><em>You are a conduit, channeling the fundamental forces that connect and bind everything in the cosmos. You tap into that power to form deep spiritual bonds with close friends. You draw from this supernatural wellspring to empower your allies, restore their health when they're injured. By maintaining and nourishing your bonds, you tap into a cache of life energy you can call upon to supercharge your healing magic. Your powers take unique shape based on the connection you choose.</em></p><p><em>@UUID[Compendium.starfinder-field-test-for-pf2e.sf2e-journals.JournalEntry.JQAMedkXzpu3xv8N.JournalEntryPage.8CF2x5wMiBjJFfgp]{Mystic}</em></p>"
+        },
+        "Operative": {
+            "name": "Operative",
+            "description": "<p><em>You're a focused and quick-witted professional who thrives in high-stakes combat. Your deadly aim and tactical training give you an edge over the competition—for you, even the most powerful enemy is just another mark to take out. You have impressive prowess in your chosen field of specialization.</em></p><p><em>@UUID[Compendium.starfinder-field-test-for-pf2e.sf2e-journals.JournalEntry.JQAMedkXzpu3xv8N.JournalEntryPage.fW64iLBJVrUFSdPe]{Operative}</em></p>"
+        },
+        "Solarian": {
+            "name": "Solarian",
+            "description": "<p><em>You are a conduit for the stellar forces of the cosmos: a solar knight. The powers of gravity and light represent the extremes of these forces, and you can attune yourself between them. As an agent of this cycle, you manifest an array of solar equipment, and use your own connection to stellar forces to empower them. Regardless of which extreme of the stellar spectrum you prefer, you can change your attunement between them to take advantage of bespoke powers earned through hard meditation and practice.</em></p><p><em>@UUID[Compendium.starfinder-field-test-for-pf2e.sf2e-journals.JournalEntry.JQAMedkXzpu3xv8N.JournalEntryPage.lP7NyqiY0dBXK3zY]</em></p>"
+        },
+        "Soldier": {
+            "name": "Soldier",
+            "description": "<p><em>You are a master of area weapons, heavy armor, and taking punishment. You stand in the thick of the battle and unleash devastating salvos against your foes, while taking withering fire in return. By laying down a barrage of suppressing fire with powerful weapons, you set your allies up to fulfill their respective roles, while encouraging enemies to focus on you.</em></p><p><em>@UUID[Compendium.starfinder-field-test-for-pf2e.sf2e-journals.JournalEntry.JQAMedkXzpu3xv8N.JournalEntryPage.qzqG51UFKlrsJGZS]{Soldier}</em></p>"
+        },
+        "Witchwarper": {
+            "name": "Witchwarper",
+            "description": "<p><em>A strange paradoxical event forever altered your existence, and now you can manipulate reality. You explore the infinite possibilities of the multiverse, possibly visualizing variant timelines. You create fields that subvert space and time, allowing you to cast powerful magic. You've learned to focus on an anchoring memory, concept, or object to help you identify reality.</em></p><p><em>@UUID[Compendium.starfinder-field-test-for-pf2e.sf2e-journals.JournalEntry.JQAMedkXzpu3xv8N.JournalEntryPage.cqoBvyuWuy7Mm0bW]{Witchwarper}</em></p>"
+        }
+    }
+}

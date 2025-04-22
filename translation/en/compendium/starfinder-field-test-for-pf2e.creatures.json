@@ -1,0 +1,2114 @@
+{
+    "label": "Creatures",
+    "entries": {
+        "+1 Status to All Saves vs. Magic": {
+            "name": "+1 Status to All Saves vs. Magic"
+        },
+        "A Game of Entropy": {
+            "name": "A Game of Entropy"
+        },
+        "A Word from our Sponsors": {
+            "name": "A Word from our Sponsors"
+        },
+        "Absorb": {
+            "name": "Absorb"
+        },
+        "Accept Your Fate": {
+            "name": "Accept Your Fate"
+        },
+        "Acidic Mouth Cannon": {
+            "name": "Acidic Mouth Cannon"
+        },
+        "Ad Twist": {
+            "name": "Ad Twist"
+        },
+        "Adamantine Claw": {
+            "name": "Adamantine Claw"
+        },
+        "Adamantine Fangs": {
+            "name": "Adamantine Fangs"
+        },
+        "Adaptation": {
+            "name": "Adaptation"
+        },
+        "Adhere": {
+            "name": "Adhere"
+        },
+        "Advanced Aeon Rifle": {
+            "name": "Advanced Aeon Rifle"
+        },
+        "Advanced Arc Pistol": {
+            "name": "Advanced Arc Pistol"
+        },
+        "Advanced Baton": {
+            "name": "Advanced Baton"
+        },
+        "Advanced Disintegration Lash": {
+            "name": "Advanced Disintegration Lash"
+        },
+        "Advanced Doshko": {
+            "name": "Advanced Doshko"
+        },
+        "Advanced Dueling Sword": {
+            "name": "Advanced Dueling Sword"
+        },
+        "Advanced Freebooter Armor": {
+            "name": "Advanced Freebooter Armor"
+        },
+        "Advanced Injection Rifle": {
+            "name": "Advanced Injection Rifle"
+        },
+        "Advanced Kyokor Plating": {
+            "name": "Advanced Kyokor Plating"
+        },
+        "Advanced Laser Pistol": {
+            "name": "Advanced Laser Pistol"
+        },
+        "Advanced Lattice Armor": {
+            "name": "Advanced Lattice Armor"
+        },
+        "Advanced Machine Gun": {
+            "name": "Advanced Machine Gun"
+        },
+        "Advanced Microcord Armor": {
+            "name": "Advanced Microcord Armor"
+        },
+        "Advanced Needler Pistol": {
+            "name": "Advanced Needler Pistol"
+        },
+        "Advanced Phase Shield": {
+            "name": "Advanced Phase Shield"
+        },
+        "Advanced Plasma Doshko": {
+            "name": "Advanced Plasma Doshko"
+        },
+        "Advanced Screamer": {
+            "name": "Advanced Screamer"
+        },
+        "Advanced Seeker Rifle": {
+            "name": "Advanced Seeker Rifle"
+        },
+        "Advanced Semi-Auto Pistol": {
+            "name": "Advanced Semi-Auto Pistol"
+        },
+        "Advanced Skyfire Armor": {
+            "name": "Advanced Skyfire Armor"
+        },
+        "Advanced Veskarium Imperial Plate": {
+            "name": "Advanced Veskarium Imperial Plate"
+        },
+        "Advanced Zero Knife": {
+            "name": "Advanced Zero Knife"
+        },
+        "Aeon Guard Armor (Commercial)": {
+            "name": "Aeon Guard Armor (Commercial)"
+        },
+        "Aeon Guard Soldier": {
+            "name": "Aeon Guard Soldier"
+        },
+        "Aeon Rifle": {
+            "name": "Aeon Rifle"
+        },
+        "Aeon Rifle (Commercial)": {
+            "name": "Aeon Rifle (Commercial)"
+        },
+        "Aeon Stone (Cloudy Blue Rhomboid)": {
+            "name": "Aeon Stone (Cloudy Blue Rhomboid)"
+        },
+        "Aeon Stone (Consumed)": {
+            "name": "Aeon Stone (Consumed)"
+        },
+        "Aeon Throne Aggrandizement": {
+            "name": "Aeon Throne Aggrandizement"
+        },
+        "Agent of Chaos": {
+            "name": "Agent of Chaos"
+        },
+        "Aim": {
+            "name": "Aim"
+        },
+        "All-Around Vision": {
+            "name": "All-Around Vision"
+        },
+        "Ambush": {
+            "name": "Ambush"
+        },
+        "Amnieka Bubble": {
+            "name": "Amnieka Bubble"
+        },
+        "Amnieka Midwife": {
+            "name": "Amnieka Midwife"
+        },
+        "Analyze Target": {
+            "name": "Analyze Target"
+        },
+        "Animated Vesk Statue": {
+            "name": "Animated Vesk Statue"
+        },
+        "Apocalypse Smite": {
+            "name": "Apocalypse Smite"
+        },
+        "Arc Pistol": {
+            "name": "Arc Pistol"
+        },
+        "Arcane Innate Spells": {
+            "name": "Arcane Innate Spells"
+        },
+        "Arcane Prepared Spells": {
+            "name": "Arcane Prepared Spells"
+        },
+        "Arcane Seal": {
+            "name": "Arcane Seal"
+        },
+        "Arcing Strikes": {
+            "name": "Arcing Strikes"
+        },
+        "Area Fire": {
+            "name": "Area Fire"
+        },
+        "Arm Blade": {
+            "name": "Arm Blade"
+        },
+        "Armed Defrex": {
+            "name": "Armed Defrex"
+        },
+        "Assemble": {
+            "name": "Assemble"
+        },
+        "Assembly Ooze": {
+            "name": "Assembly Ooze"
+        },
+        "Asteray": {
+            "name": "Asteray"
+        },
+        "Atrocite": {
+            "name": "Atrocite"
+        },
+        "Attach": {
+            "name": "Attach"
+        },
+        "Attune": {
+            "name": "Attune"
+        },
+        "Attunement": {
+            "name": "Attunement"
+        },
+        "Aucturn Lore": {
+            "name": "Aucturn Lore"
+        },
+        "Aucturnite Chakram": {
+            "name": "Aucturnite Chakram"
+        },
+        "Aucturnite Ichor": {
+            "name": "Aucturnite Ichor"
+        },
+        "Aucturnite Susurrus": {
+            "name": "Aucturnite Susurrus"
+        },
+        "Aucturnite Swarm": {
+            "name": "Aucturnite Swarm"
+        },
+        "Augury": {
+            "name": "Augury"
+        },
+        "Auto-Fire": {
+            "name": "Auto-Fire"
+        },
+        "Automated Defense Turret": {
+            "name": "Automated Defense Turret"
+        },
+        "Autotarget Rifle": {
+            "name": "Autotarget Rifle"
+        },
+        "Awaken": {
+            "name": "Awaken"
+        },
+        "Azlanti Dissident": {
+            "name": "Azlanti Dissident"
+        },
+        "Ballistic Missile (Commercial)": {
+            "name": "Ballistic Missile (Commercial)"
+        },
+        "Bash Fire": {
+            "name": "Bash Fire"
+        },
+        "Bastorox": {
+            "name": "Bastorox"
+        },
+        "Battering Arm": {
+            "name": "Battering Arm"
+        },
+        "Battery (Advanced)": {
+            "name": "Battery (Advanced)"
+        },
+        "Battery (Commercial)": {
+            "name": "Battery (Commercial)"
+        },
+        "Battery (Tactical)": {
+            "name": "Battery (Tactical)"
+        },
+        "Battle Casting": {
+            "name": "Battle Casting"
+        },
+        "Battleglove": {
+            "name": "Battleglove"
+        },
+        "Belch": {
+            "name": "Belch"
+        },
+        "Bioelectric Jolt": {
+            "name": "Bioelectric Jolt"
+        },
+        "Bite": {
+            "name": "Bite"
+        },
+        "Blazing Curtain": {
+            "name": "Blazing Curtain"
+        },
+        "Blood Accretion": {
+            "name": "Blood Accretion"
+        },
+        "Blossoming Interference": {
+            "name": "Blossoming Interference"
+        },
+        "Blur": {
+            "name": "Blur"
+        },
+        "Body Shield": {
+            "name": "Body Shield"
+        },
+        "Bolstering Aura": {
+            "name": "Bolstering Aura"
+        },
+        "Bolstering Biopod": {
+            "name": "Bolstering Biopod"
+        },
+        "Bolts": {
+            "name": "Bolts"
+        },
+        "Bomb Barrage": {
+            "name": "Bomb Barrage"
+        },
+        "Bombardment": {
+            "name": "Bombardment"
+        },
+        "Bonded with the Bloom": {
+            "name": "Bonded with the Bloom"
+        },
+        "Bone Tracker": {
+            "name": "Bone Tracker"
+        },
+        "Boom!": {
+            "name": "Boom!"
+        },
+        "Bristle Flash": {
+            "name": "Bristle Flash"
+        },
+        "Bronze Doshko": {
+            "name": "Bronze Doshko"
+        },
+        "Burrowing Reveal": {
+            "name": "Burrowing Reveal"
+        },
+        "Bursting Spore Bud": {
+            "name": "Bursting Spore Bud"
+        },
+        "Buy! Buy! Buy!": {
+            "name": "Buy! Buy! Buy!"
+        },
+        "Camouflage": {
+            "name": "Camouflage"
+        },
+        "Canny Assault": {
+            "name": "Canny Assault"
+        },
+        "Captain Vasoya": {
+            "name": "Captain Vasoya"
+        },
+        "Carbon Skin": {
+            "name": "Carbon Skin"
+        },
+        "Carbon Skin (Advanced)": {
+            "name": "Carbon Skin (Advanced)"
+        },
+        "Caustic Conversion": {
+            "name": "Caustic Conversion"
+        },
+        "Caustic Spit": {
+            "name": "Caustic Spit"
+        },
+        "Cave-In": {
+            "name": "Cave-In"
+        },
+        "Ceaseless Buzzing": {
+            "name": "Ceaseless Buzzing"
+        },
+        "Chain Fire": {
+            "name": "Chain Fire"
+        },
+        "Charm": {
+            "name": "Charm"
+        },
+        "Chilling Stings": {
+            "name": "Chilling Stings"
+        },
+        "Chilling Wasp Toxin": {
+            "name": "Chilling Wasp Toxin"
+        },
+        "Chrono Push": {
+            "name": "Chrono Push"
+        },
+        "Claw": {
+            "name": "Claw"
+        },
+        "Claws": {
+            "name": "Claws"
+        },
+        "Cleanse Affliction": {
+            "name": "Cleanse Affliction"
+        },
+        "Clear Mind": {
+            "name": "Clear Mind"
+        },
+        "Cloaking Device (Commercial)": {
+            "name": "Cloaking Device (Commercial)"
+        },
+        "Cockatrice Summoning Rune": {
+            "name": "Cockatrice Summoning Rune"
+        },
+        "Comet Wasp Larva": {
+            "name": "Comet Wasp Larva"
+        },
+        "Comet Wasp Swarm": {
+            "name": "Comet Wasp Swarm"
+        },
+        "Command": {
+            "name": "Command"
+        },
+        "Commander Eiran": {
+            "name": "Commander Eiran"
+        },
+        "Commanding Laughter": {
+            "name": "Commanding Laughter"
+        },
+        "Commercial Knife": {
+            "name": "Commercial Knife"
+        },
+        "Commercial Semi-Auto Pistol": {
+            "name": "Commercial Semi-Auto Pistol"
+        },
+        "Computer Glitch Gremlin": {
+            "name": "Computer Glitch Gremlin"
+        },
+        "Computers": {
+            "name": "Computers"
+        },
+        "Concealing Coil": {
+            "name": "Concealing Coil"
+        },
+        "Confusion": {
+            "name": "Confusion"
+        },
+        "Constant Spells": {
+            "name": "Constant Spells"
+        },
+        "Constrict Safety Straps": {
+            "name": "Constrict Safety Straps"
+        },
+        "Construct Armor (Hardness 6)": {
+            "name": "Construct Armor (Hardness 6)"
+        },
+        "Consume Flesh": {
+            "name": "Consume Flesh"
+        },
+        "Control Machine": {
+            "name": "Control Machine"
+        },
+        "Coordinated Digestion": {
+            "name": "Coordinated Digestion"
+        },
+        "Coordinated Fire": {
+            "name": "Coordinated Fire"
+        },
+        "Coordinated Shuffle": {
+            "name": "Coordinated Shuffle"
+        },
+        "Corpse Flash Mob": {
+            "name": "Corpse Flash Mob"
+        },
+        "Corpse Fleet Infantry": {
+            "name": "Corpse Fleet Infantry"
+        },
+        "Corpse Fleet Lore": {
+            "name": "Corpse Fleet Lore"
+        },
+        "Corpse Fleet Officer": {
+            "name": "Corpse Fleet Officer"
+        },
+        "Corpse Fleet Screamer": {
+            "name": "Corpse Fleet Screamer"
+        },
+        "Corpse Fleet Sniper": {
+            "name": "Corpse Fleet Sniper"
+        },
+        "Corrosive Jet": {
+            "name": "Corrosive Jet"
+        },
+        "Cosmic Blood Scent": {
+            "name": "Cosmic Blood Scent"
+        },
+        "Countdown to Destruction": {
+            "name": "Countdown to Destruction"
+        },
+        "Covering Posture": {
+            "name": "Covering Posture"
+        },
+        "Crashed Mauler": {
+            "name": "Crashed Mauler"
+        },
+        "Crawling Shadows": {
+            "name": "Crawling Shadows"
+        },
+        "Create Servitor": {
+            "name": "Create Servitor"
+        },
+        "Crest-Eater": {
+            "name": "Crest-Eater"
+        },
+        "Crest-Eater Venom": {
+            "name": "Crest-Eater Venom"
+        },
+        "Crimson Queen": {
+            "name": "Crimson Queen"
+        },
+        "Crimson Queen Sniper": {
+            "name": "Crimson Queen Sniper"
+        },
+        "Crisis of Faith": {
+            "name": "Crisis of Faith"
+        },
+        "Criticism Vulnerability": {
+            "name": "Criticism Vulnerability"
+        },
+        "Crossbolter": {
+            "name": "Crossbolter"
+        },
+        "Cultist Garb": {
+            "name": "Cultist Garb"
+        },
+        "Cursed Junk Swarm": {
+            "name": "Cursed Junk Swarm"
+        },
+        "Cybernetic Shuln": {
+            "name": "Cybernetic Shuln"
+        },
+        "Cybernetic Zombie": {
+            "name": "Cybernetic Zombie"
+        },
+        "Cybernetics": {
+            "name": "Cybernetics"
+        },
+        "Darkness": {
+            "name": "Darkness"
+        },
+        "Darkvision Visor": {
+            "name": "Darkvision Visor"
+        },
+        "Daze": {
+            "name": "Daze"
+        },
+        "Deadly Collapse": {
+            "name": "Deadly Collapse"
+        },
+        "Decimate the Living": {
+            "name": "Decimate the Living"
+        },
+        "Decompressing Gaze": {
+            "name": "Decompressing Gaze"
+        },
+        "Decompressing Glance": {
+            "name": "Decompressing Glance"
+        },
+        "Defensive Reload": {
+            "name": "Defensive Reload"
+        },
+        "Defiance Armor (Commercial)": {
+            "name": "Defiance Armor (Commercial)"
+        },
+        "Defrex Hide (Advanced)": {
+            "name": "Defrex Hide (Advanced)"
+        },
+        "Delete": {
+            "name": "Delete"
+        },
+        "Demagnetization": {
+            "name": "Demagnetization"
+        },
+        "Desperate Final Moments": {
+            "name": "Desperate Final Moments"
+        },
+        "Detect Magic": {
+            "name": "Detect Magic"
+        },
+        "Detect Thoughts": {
+            "name": "Detect Thoughts"
+        },
+        "Detect Thoughts (Constant)": {
+            "name": "Detect Thoughts (Constant)"
+        },
+        "Detonate": {
+            "name": "Detonate"
+        },
+        "Devourer's Teeth": {
+            "name": "Devourer's Teeth"
+        },
+        "Digital Telepathy": {
+            "name": "Digital Telepathy"
+        },
+        "Disassemble": {
+            "name": "Disassemble"
+        },
+        "Discharge": {
+            "name": "Discharge"
+        },
+        "Disintegrate": {
+            "name": "Disintegrate"
+        },
+        "Disintegration Chamber": {
+            "name": "Disintegration Chamber"
+        },
+        "Disintegration Lash": {
+            "name": "Disintegration Lash"
+        },
+        "Dislodge": {
+            "name": "Dislodge"
+        },
+        "Dispel Magic": {
+            "name": "Dispel Magic"
+        },
+        "Disrupting Pulse": {
+            "name": "Disrupting Pulse"
+        },
+        "Distracting Holo Ad": {
+            "name": "Distracting Holo Ad"
+        },
+        "Divine Immolation": {
+            "name": "Divine Immolation"
+        },
+        "Divine Innate Spells": {
+            "name": "Divine Innate Spells"
+        },
+        "Divine Spontaneous Spells": {
+            "name": "Divine Spontaneous Spells"
+        },
+        "Divine Wrath": {
+            "name": "Divine Wrath"
+        },
+        "Dominate": {
+            "name": "Dominate"
+        },
+        "Dominate (At Will)": {
+            "name": "Dominate (At Will)"
+        },
+        "Doom Scroll": {
+            "name": "Doom Scroll"
+        },
+        "Doshko": {
+            "name": "Doshko"
+        },
+        "Double Tap": {
+            "name": "Double Tap"
+        },
+        "Drift Calliphor Swarm": {
+            "name": "Drift Calliphor Swarm"
+        },
+        "Drill": {
+            "name": "Drill"
+        },
+        "Drilling Charge": {
+            "name": "Drilling Charge"
+        },
+        "Drink Blood": {
+            "name": "Drink Blood"
+        },
+        "Dust Weevil Venom": {
+            "name": "Dust Weevil Venom"
+        },
+        "Earthshattering Strike": {
+            "name": "Earthshattering Strike"
+        },
+        "Earworm": {
+            "name": "Earworm"
+        },
+        "Easily Misled": {
+            "name": "Easily Misled"
+        },
+        "Eerie Scream": {
+            "name": "Eerie Scream"
+        },
+        "Effect: Vitality Network": {
+            "name": "Effect: Vitality Network"
+        },
+        "Eldritch Belch": {
+            "name": "Eldritch Belch"
+        },
+        "Eldritch Lance": {
+            "name": "Eldritch Lance"
+        },
+        "Eldritch Maw": {
+            "name": "Eldritch Maw"
+        },
+        "Eldritch Ray": {
+            "name": "Eldritch Ray"
+        },
+        "Eldritch Wrath": {
+            "name": "Eldritch Wrath"
+        },
+        "Electric Arc": {
+            "name": "Electric Arc"
+        },
+        "Electric Discharge": {
+            "name": "Electric Discharge"
+        },
+        "Electrical Blast": {
+            "name": "Electrical Blast"
+        },
+        "Electrical Surge": {
+            "name": "Electrical Surge"
+        },
+        "Electrovore": {
+            "name": "Electrovore"
+        },
+        "Emganat": {
+            "name": "Emganat"
+        },
+        "Empty Phial": {
+            "name": "Empty Phial"
+        },
+        "Energy Drain": {
+            "name": "Energy Drain"
+        },
+        "Energy Ray": {
+            "name": "Energy Ray"
+        },
+        "Energy Shield Shards": {
+            "name": "Energy Shield Shards"
+        },
+        "Energy Shielding (Commercial) (Fire)": {
+            "name": "Energy Shielding (Commercial) (Fire)"
+        },
+        "Enfeeble": {
+            "name": "Enfeeble"
+        },
+        "Enraging Presence": {
+            "name": "Enraging Presence"
+        },
+        "Entropic Decay": {
+            "name": "Entropic Decay"
+        },
+        "Entropy Strike": {
+            "name": "Entropy Strike"
+        },
+        "Entropy's Grasp": {
+            "name": "Entropy's Grasp"
+        },
+        "Equipment Disposal": {
+            "name": "Equipment Disposal"
+        },
+        "Evangelist": {
+            "name": "Evangelist"
+        },
+        "Evasive Maneuver": {
+            "name": "Evasive Maneuver"
+        },
+        "Exigency": {
+            "name": "Exigency"
+        },
+        "Exploding Generator": {
+            "name": "Exploding Generator"
+        },
+        "Extreme Radiation Sickness": {
+            "name": "Extreme Radiation Sickness"
+        },
+        "False Vision": {
+            "name": "False Vision"
+        },
+        "Famesworn": {
+            "name": "Famesworn"
+        },
+        "Fanatical Frenzy": {
+            "name": "Fanatical Frenzy"
+        },
+        "Fang of the Devourer": {
+            "name": "Fang of the Devourer"
+        },
+        "Fast Healing 2 (While Touching its Projector)": {
+            "name": "Fast Healing 2 (While Touching its Projector)"
+        },
+        "Fast Healing 5": {
+            "name": "Fast Healing 5"
+        },
+        "Fear": {
+            "name": "Fear"
+        },
+        "Feeding Tendril": {
+            "name": "Feeding Tendril"
+        },
+        "Feeding Time": {
+            "name": "Feeding Time"
+        },
+        "Feral Ghoul": {
+            "name": "Feral Ghoul"
+        },
+        "Ferocity": {
+            "name": "Ferocity"
+        },
+        "Ferrofluid Ooze": {
+            "name": "Ferrofluid Ooze"
+        },
+        "Fiendish Ellicoth": {
+            "name": "Fiendish Ellicoth"
+        },
+        "Figment": {
+            "name": "Figment"
+        },
+        "Fill Vitality": {
+            "name": "Fill Vitality"
+        },
+        "Fire Suppressor": {
+            "name": "Fire Suppressor"
+        },
+        "Fist": {
+            "name": "Fist"
+        },
+        "Flurry": {
+            "name": "Flurry"
+        },
+        "Fly": {
+            "name": "Fly"
+        },
+        "Foot": {
+            "name": "Foot"
+        },
+        "Force Barrage": {
+            "name": "Force Barrage"
+        },
+        "Frag Grenade (Superior)": {
+            "name": "Frag Grenade (Superior)"
+        },
+        "Freebooter Armor": {
+            "name": "Freebooter Armor"
+        },
+        "Freebooter Armor (Advanced)": {
+            "name": "Freebooter Armor (Advanced)"
+        },
+        "Freeze": {
+            "name": "Freeze"
+        },
+        "Frenzied Jaws": {
+            "name": "Frenzied Jaws"
+        },
+        "Frightful Presence": {
+            "name": "Frightful Presence"
+        },
+        "Frost Blast": {
+            "name": "Frost Blast"
+        },
+        "Frost Turret": {
+            "name": "Frost Turret"
+        },
+        "Fungal Armor": {
+            "name": "Fungal Armor"
+        },
+        "Fungal Bomb": {
+            "name": "Fungal Bomb"
+        },
+        "Fungal Warden": {
+            "name": "Fungal Warden"
+        },
+        "Furious Roar": {
+            "name": "Furious Roar"
+        },
+        "Fused Gatling Gun": {
+            "name": "Fused Gatling Gun"
+        },
+        "Fused Gatling Gun Bash": {
+            "name": "Fused Gatling Gun Bash"
+        },
+        "Fusillade": {
+            "name": "Fusillade"
+        },
+        "Gecko Grip (At Will)": {
+            "name": "Gecko Grip (At Will)"
+        },
+        "Genetic Regeneration": {
+            "name": "Genetic Regeneration"
+        },
+        "Ghost Courier": {
+            "name": "Ghost Courier"
+        },
+        "Giant Dust Weevil": {
+            "name": "Giant Dust Weevil"
+        },
+        "Glass Serpent": {
+            "name": "Glass Serpent"
+        },
+        "Glitch Aura": {
+            "name": "Glitch Aura"
+        },
+        "Gnashing Slam": {
+            "name": "Gnashing Slam"
+        },
+        "Gnaw": {
+            "name": "Gnaw"
+        },
+        "Go for the Eyes!": {
+            "name": "Go for the Eyes!"
+        },
+        "Goblin Mine": {
+            "name": "Goblin Mine"
+        },
+        "Going Down": {
+            "name": "Going Down"
+        },
+        "Gorge": {
+            "name": "Gorge"
+        },
+        "Got Your Back!": {
+            "name": "Got Your Back!"
+        },
+        "Grab": {
+            "name": "Grab"
+        },
+        "Grave Whispers": {
+            "name": "Grave Whispers"
+        },
+        "Gravid Mound": {
+            "name": "Gravid Mound"
+        },
+        "Gravity Field": {
+            "name": "Gravity Field"
+        },
+        "Gravity Grab": {
+            "name": "Gravity Grab"
+        },
+        "Gravity Tether": {
+            "name": "Gravity Tether"
+        },
+        "Grim Tendrils": {
+            "name": "Grim Tendrils"
+        },
+        "Guarded Mind": {
+            "name": "Guarded Mind"
+        },
+        "Hardlight Beam": {
+            "name": "Hardlight Beam"
+        },
+        "Hardlight Scamp": {
+            "name": "Hardlight Scamp"
+        },
+        "Harm": {
+            "name": "Harm"
+        },
+        "Haste": {
+            "name": "Haste"
+        },
+        "Hatchling Swarm": {
+            "name": "Hatchling Swarm"
+        },
+        "Haunted Cockpit": {
+            "name": "Haunted Cockpit"
+        },
+        "Heat Vent": {
+            "name": "Heat Vent"
+        },
+        "Heliacal Maw Ferocitum": {
+            "name": "Heliacal Maw Ferocitum"
+        },
+        "Heliacal Maw Stellar Hulk": {
+            "name": "Heliacal Maw Stellar Hulk"
+        },
+        "Hesper": {
+            "name": "Hesper"
+        },
+        "Holographic Creature": {
+            "name": "Holographic Creature"
+        },
+        "Holographic Object (At Will)": {
+            "name": "Holographic Object (At Will)"
+        },
+        "Holospark": {
+            "name": "Holospark"
+        },
+        "Hoof": {
+            "name": "Hoof"
+        },
+        "Horn": {
+            "name": "Horn"
+        },
+        "Horns": {
+            "name": "Horns"
+        },
+        "Howl": {
+            "name": "Howl"
+        },
+        "Hypopen (Commercial)": {
+            "name": "Hypopen (Commercial)"
+        },
+        "Illusory Object": {
+            "name": "Illusory Object"
+        },
+        "Immolation": {
+            "name": "Immolation"
+        },
+        "Immolsivix": {
+            "name": "Immolsivix"
+        },
+        "Immunity to Skorrfern Poison": {
+            "name": "Immunity to Skorrfern Poison"
+        },
+        "Implant Eggs": {
+            "name": "Implant Eggs"
+        },
+        "Improved Grab": {
+            "name": "Improved Grab"
+        },
+        "Improved Knockdown": {
+            "name": "Improved Knockdown"
+        },
+        "Incendiary Grenade (Commercial)": {
+            "name": "Incendiary Grenade (Commercial)"
+        },
+        "Incendiary Grenade (Superior)": {
+            "name": "Incendiary Grenade (Superior)"
+        },
+        "Injection Rifle": {
+            "name": "Injection Rifle"
+        },
+        "Injury Echo": {
+            "name": "Injury Echo"
+        },
+        "Integrated Commercial Laser Pistol": {
+            "name": "Integrated Commercial Laser Pistol"
+        },
+        "Integrated Pulsecaster Pistol": {
+            "name": "Integrated Pulsecaster Pistol"
+        },
+        "Integrated Superior Laser Rifle": {
+            "name": "Integrated Superior Laser Rifle"
+        },
+        "Integrated Tactical Laser Rifle (Advanced Battery)": {
+            "name": "Integrated Tactical Laser Rifle (Advanced Battery)"
+        },
+        "Integrated Welding Torch": {
+            "name": "Integrated Welding Torch"
+        },
+        "Intimidation Vulnerability": {
+            "name": "Intimidation Vulnerability"
+        },
+        "Into the Fray": {
+            "name": "Into the Fray"
+        },
+        "Invisibility": {
+            "name": "Invisibility"
+        },
+        "Irresistible Refrain": {
+            "name": "Irresistible Refrain"
+        },
+        "Jaws": {
+            "name": "Jaws"
+        },
+        "Jeskraal": {
+            "name": "Jeskraal"
+        },
+        "Jetpack (Commercial)": {
+            "name": "Jetpack (Commercial)"
+        },
+        "Jinsul Trooper": {
+            "name": "Jinsul Trooper"
+        },
+        "Jolt": {
+            "name": "Jolt"
+        },
+        "Jolting Console": {
+            "name": "Jolting Console"
+        },
+        "Jump Scare": {
+            "name": "Jump Scare"
+        },
+        "Jungle Flash Fire": {
+            "name": "Jungle Flash Fire"
+        },
+        "Kehtaria Fungal Bloom": {
+            "name": "Kehtaria Fungal Bloom"
+        },
+        "Kehtarian Mulch Muncher": {
+            "name": "Kehtarian Mulch Muncher"
+        },
+        "Knife": {
+            "name": "Knife"
+        },
+        "Knock": {
+            "name": "Knock"
+        },
+        "Knockdown": {
+            "name": "Knockdown"
+        },
+        "Kurshudi": {
+            "name": "Kurshudi"
+        },
+        "Laser": {
+            "name": "Laser"
+        },
+        "Laser Barrage": {
+            "name": "Laser Barrage"
+        },
+        "Laser Beam": {
+            "name": "Laser Beam"
+        },
+        "Laser Blast": {
+            "name": "Laser Blast"
+        },
+        "Laser Pistol": {
+            "name": "Laser Pistol"
+        },
+        "Laser Pistol (Commercial)": {
+            "name": "Laser Pistol (Commercial)"
+        },
+        "Laser Pistol (Commercial, Integrated)": {
+            "name": "Laser Pistol (Commercial, Integrated)"
+        },
+        "Laser Rifle": {
+            "name": "Laser Rifle"
+        },
+        "Laser Turret": {
+            "name": "Laser Turret"
+        },
+        "Laser Web": {
+            "name": "Laser Web"
+        },
+        "Launch Runesaw": {
+            "name": "Launch Runesaw"
+        },
+        "Lead Salvo": {
+            "name": "Lead Salvo"
+        },
+        "Leech Memories": {
+            "name": "Leech Memories"
+        },
+        "Leg Blade": {
+            "name": "Leg Blade"
+        },
+        "Light": {
+            "name": "Light"
+        },
+        "Light Blindness": {
+            "name": "Light Blindness"
+        },
+        "Light Vulnerability": {
+            "name": "Light Vulnerability"
+        },
+        "Lightning Cannon": {
+            "name": "Lightning Cannon"
+        },
+        "Loading Screen": {
+            "name": "Loading Screen"
+        },
+        "Lockdown Protocol": {
+            "name": "Lockdown Protocol"
+        },
+        "Low-Light Vision": {
+            "name": "Low-Light Vision"
+        },
+        "Lumbering Charge": {
+            "name": "Lumbering Charge"
+        },
+        "Machine Gun": {
+            "name": "Machine Gun"
+        },
+        "Magazine (Injection Rifle)": {
+            "name": "Magazine (Injection Rifle)"
+        },
+        "Magazine (Machine Gun)": {
+            "name": "Magazine (Machine Gun)"
+        },
+        "Magazine (Needler Pistol)": {
+            "name": "Magazine (Needler Pistol)"
+        },
+        "Magazine (Semi-Auto Pistol)": {
+            "name": "Magazine (Semi-Auto Pistol)"
+        },
+        "Magazine (Shirren-eye Rifle)": {
+            "name": "Magazine (Shirren-eye Rifle)"
+        },
+        "Magnetic Field": {
+            "name": "Magnetic Field"
+        },
+        "Magnetic Leap": {
+            "name": "Magnetic Leap"
+        },
+        "Magnetic Sense": {
+            "name": "Magnetic Sense"
+        },
+        "Maintenance Robot": {
+            "name": "Maintenance Robot"
+        },
+        "Makosa": {
+            "name": "Makosa"
+        },
+        "Makosa (4-5 Players Easier)": {
+            "name": "Makosa (4-5 Players Easier)"
+        },
+        "Makosa (6 Players Easier)": {
+            "name": "Makosa (6 Players Easier)"
+        },
+        "Malfunctioning Elevator": {
+            "name": "Malfunctioning Elevator"
+        },
+        "Malfunctioning Projector": {
+            "name": "Malfunctioning Projector"
+        },
+        "Mandibles": {
+            "name": "Mandibles"
+        },
+        "Materialize": {
+            "name": "Materialize"
+        },
+        "Matter Consumption": {
+            "name": "Matter Consumption"
+        },
+        "Mauler Engine Overload": {
+            "name": "Mauler Engine Overload"
+        },
+        "Mechanical Trickery": {
+            "name": "Mechanical Trickery"
+        },
+        "Media Flurry": {
+            "name": "Media Flurry"
+        },
+        "Medpatch (Commercial)": {
+            "name": "Medpatch (Commercial)"
+        },
+        "Memento Mold": {
+            "name": "Memento Mold"
+        },
+        "Memento Mold Spores": {
+            "name": "Memento Mold Spores"
+        },
+        "Memory Crystals": {
+            "name": "Memory Crystals"
+        },
+        "Memory Field": {
+            "name": "Memory Field"
+        },
+        "Menacing Display": {
+            "name": "Menacing Display"
+        },
+        "Mental Anguish": {
+            "name": "Mental Anguish"
+        },
+        "Mental Static": {
+            "name": "Mental Static"
+        },
+        "Message": {
+            "name": "Message"
+        },
+        "Metema the Eternal": {
+            "name": "Metema the Eternal"
+        },
+        "Mimic": {
+            "name": "Mimic"
+        },
+        "Mind Skewer": {
+            "name": "Mind Skewer"
+        },
+        "Mindlink": {
+            "name": "Mindlink"
+        },
+        "Mining Lore": {
+            "name": "Mining Lore"
+        },
+        "Missile Barrage": {
+            "name": "Missile Barrage"
+        },
+        "Missile Launcher": {
+            "name": "Missile Launcher"
+        },
+        "Mobile Aim": {
+            "name": "Mobile Aim"
+        },
+        "Monstrous Fury": {
+            "name": "Monstrous Fury"
+        },
+        "Motion Sense": {
+            "name": "Motion Sense"
+        },
+        "Motivating Ringtone": {
+            "name": "Motivating Ringtone"
+        },
+        "Mutating Touch": {
+            "name": "Mutating Touch"
+        },
+        "Muzzle Beam": {
+            "name": "Muzzle Beam"
+        },
+        "Nanite": {
+            "name": "Nanite"
+        },
+        "Nanite Release": {
+            "name": "Nanite Release"
+        },
+        "Nanite Surge": {
+            "name": "Nanite Surge"
+        },
+        "Nanite Swarm": {
+            "name": "Nanite Swarm"
+        },
+        "Needler Pistol": {
+            "name": "Needler Pistol"
+        },
+        "Newborn Cult Lore": {
+            "name": "Newborn Cult Lore"
+        },
+        "Newborn Disciple": {
+            "name": "Newborn Disciple"
+        },
+        "Newborn Lore": {
+            "name": "Newborn Lore"
+        },
+        "Nihili": {
+            "name": "Nihili"
+        },
+        "Noise Blast": {
+            "name": "Noise Blast"
+        },
+        "Observer-Class Security Robot": {
+            "name": "Observer-Class Security Robot"
+        },
+        "Occult Innate Spells": {
+            "name": "Occult Innate Spells"
+        },
+        "Occult Journal": {
+            "name": "Occult Journal"
+        },
+        "Occult Spontaneous Spells": {
+            "name": "Occult Spontaneous Spells"
+        },
+        "Open Fire": {
+            "name": "Open Fire"
+        },
+        "Opening Salvo": {
+            "name": "Opening Salvo"
+        },
+        "Orbital Bombardment": {
+            "name": "Orbital Bombardment"
+        },
+        "Overheat": {
+            "name": "Overheat"
+        },
+        "Overload Systems": {
+            "name": "Overload Systems"
+        },
+        "Phantasmal Calamity": {
+            "name": "Phantasmal Calamity"
+        },
+        "Phase Cutlass": {
+            "name": "Phase Cutlass"
+        },
+        "Phase Cutlass (Commercial)": {
+            "name": "Phase Cutlass (Commercial)"
+        },
+        "Phase Shift": {
+            "name": "Phase Shift"
+        },
+        "Physical Science Lore": {
+            "name": "Physical Science Lore"
+        },
+        "Piloting Lore": {
+            "name": "Piloting Lore"
+        },
+        "Plasma Moth": {
+            "name": "Plasma Moth"
+        },
+        "Plasma Network": {
+            "name": "Plasma Network"
+        },
+        "Plasma Shock": {
+            "name": "Plasma Shock"
+        },
+        "Power Build-Up": {
+            "name": "Power Build-Up"
+        },
+        "Power Up": {
+            "name": "Power Up"
+        },
+        "Prestidigitation": {
+            "name": "Prestidigitation"
+        },
+        "Prey on Fear": {
+            "name": "Prey on Fear"
+        },
+        "Primal Innate Spells": {
+            "name": "Primal Innate Spells"
+        },
+        "Primary Target": {
+            "name": "Primary Target"
+        },
+        "Primordial Roar": {
+            "name": "Primordial Roar"
+        },
+        "Projectile Ammo": {
+            "name": "Projectile Ammo"
+        },
+        "Promession": {
+            "name": "Promession"
+        },
+        "Protection": {
+            "name": "Protection"
+        },
+        "Protection-Class Security Robot": {
+            "name": "Protection-Class Security Robot"
+        },
+        "Proximity Alert": {
+            "name": "Proximity Alert"
+        },
+        "Pseudopod": {
+            "name": "Pseudopod"
+        },
+        "Psychic Composition": {
+            "name": "Psychic Composition"
+        },
+        "Psychic Doula": {
+            "name": "Psychic Doula"
+        },
+        "Psychic Screech": {
+            "name": "Psychic Screech"
+        },
+        "Psychic Wail": {
+            "name": "Psychic Wail"
+        },
+        "Pulse Gauntlet": {
+            "name": "Pulse Gauntlet"
+        },
+        "Pulse Gauntlet  (Commercial)": {
+            "name": "Pulse Gauntlet  (Commercial)"
+        },
+        "Pulsecaster Pistol": {
+            "name": "Pulsecaster Pistol"
+        },
+        "Pump up the Volume": {
+            "name": "Pump up the Volume"
+        },
+        "Punishment For Failure": {
+            "name": "Punishment For Failure"
+        },
+        "Push": {
+            "name": "Push"
+        },
+        "Push 15 feet": {
+            "name": "Push 15 feet"
+        },
+        "Quantum Clone": {
+            "name": "Quantum Clone"
+        },
+        "Quick Swap": {
+            "name": "Quick Swap"
+        },
+        "Quilted Armor": {
+            "name": "Quilted Armor"
+        },
+        "Radiation Aura": {
+            "name": "Radiation Aura"
+        },
+        "Radiation Sense": {
+            "name": "Radiation Sense"
+        },
+        "Raise Protective Shell": {
+            "name": "Raise Protective Shell"
+        },
+        "Ravenous Invisibility": {
+            "name": "Ravenous Invisibility"
+        },
+        "Reactive Strike": {
+            "name": "Reactive Strike"
+        },
+        "Reactive Strike (Tendril Only)": {
+            "name": "Reactive Strike (Tendril Only)"
+        },
+        "Reactive Tentacles": {
+            "name": "Reactive Tentacles"
+        },
+        "Reactor Security Seal": {
+            "name": "Reactor Security Seal"
+        },
+        "Reactor Sprite": {
+            "name": "Reactor Sprite"
+        },
+        "Recharge Weapon": {
+            "name": "Recharge Weapon"
+        },
+        "Refract Spell": {
+            "name": "Refract Spell"
+        },
+        "Regeneration 10 (Deactivated by Acid)": {
+            "name": "Regeneration 10 (Deactivated by Acid)"
+        },
+        "Regeneration 12 (Deactivated by Mental Or Holy)": {
+            "name": "Regeneration 12 (Deactivated by Mental Or Holy)"
+        },
+        "Regeneration 20 (Deactivated by Electricity Or Fire)": {
+            "name": "Regeneration 20 (Deactivated by Electricity Or Fire)"
+        },
+        "Repair Drone": {
+            "name": "Repair Drone"
+        },
+        "Repair Toolkit (Integrated)": {
+            "name": "Repair Toolkit (Integrated)"
+        },
+        "Return to Aucturn": {
+            "name": "Return to Aucturn"
+        },
+        "Revitalizing Surge": {
+            "name": "Revitalizing Surge"
+        },
+        "Reward of Obedience": {
+            "name": "Reward of Obedience"
+        },
+        "Ricochet": {
+            "name": "Ricochet"
+        },
+        "Rocket Launcher": {
+            "name": "Rocket Launcher"
+        },
+        "Rotolaser": {
+            "name": "Rotolaser"
+        },
+        "Runesaw": {
+            "name": "Runesaw"
+        },
+        "Sample 62": {
+            "name": "Sample 62"
+        },
+        "Savage": {
+            "name": "Savage"
+        },
+        "Scamp-Spawning Projector": {
+            "name": "Scamp-Spawning Projector"
+        },
+        "Scattershard": {
+            "name": "Scattershard"
+        },
+        "Scouting Eye (At Will)": {
+            "name": "Scouting Eye (At Will)"
+        },
+        "Scree Strider": {
+            "name": "Scree Strider"
+        },
+        "Second Skin": {
+            "name": "Second Skin"
+        },
+        "Sediya Vrath": {
+            "name": "Sediya Vrath"
+        },
+        "Selective Invisibility": {
+            "name": "Selective Invisibility"
+        },
+        "Self Destruct": {
+            "name": "Self Destruct"
+        },
+        "Semi-Auto Pistol": {
+            "name": "Semi-Auto Pistol"
+        },
+        "Sense Tech (100 feet)": {
+            "name": "Sense Tech (100 feet)"
+        },
+        "Sensor Song": {
+            "name": "Sensor Song"
+        },
+        "Sentry Turret": {
+            "name": "Sentry Turret"
+        },
+        "Shadow Tendril": {
+            "name": "Shadow Tendril"
+        },
+        "Shard Shot": {
+            "name": "Shard Shot"
+        },
+        "Share Life": {
+            "name": "Share Life"
+        },
+        "Share Pain": {
+            "name": "Share Pain"
+        },
+        "Sharp Tool": {
+            "name": "Sharp Tool"
+        },
+        "Sharpshooter": {
+            "name": "Sharpshooter"
+        },
+        "Sharpshooter Serum (Commercial)": {
+            "name": "Sharpshooter Serum (Commercial)"
+        },
+        "Shattering Impact": {
+            "name": "Shattering Impact"
+        },
+        "Shell": {
+            "name": "Shell"
+        },
+        "Shell Display": {
+            "name": "Shell Display"
+        },
+        "Shield": {
+            "name": "Shield"
+        },
+        "Shield Arm": {
+            "name": "Shield Arm"
+        },
+        "Shield Block": {
+            "name": "Shield Block"
+        },
+        "Shield and Shoot": {
+            "name": "Shield and Shoot"
+        },
+        "Shielding Fronds": {
+            "name": "Shielding Fronds"
+        },
+        "Shifting Surge": {
+            "name": "Shifting Surge"
+        },
+        "Shimmersight": {
+            "name": "Shimmersight"
+        },
+        "Shimmerspawn": {
+            "name": "Shimmerspawn"
+        },
+        "Shimmerstone Mech": {
+            "name": "Shimmerstone Mech"
+        },
+        "Shimmerstone Mech (Easier)": {
+            "name": "Shimmerstone Mech (Easier)"
+        },
+        "Shimmerstone Network": {
+            "name": "Shimmerstone Network"
+        },
+        "Shimmerstone Robot": {
+            "name": "Shimmerstone Robot"
+        },
+        "Shirren-eye Rifle": {
+            "name": "Shirren-eye Rifle"
+        },
+        "Shock Grid": {
+            "name": "Shock Grid"
+        },
+        "Shock Module (Commercial)": {
+            "name": "Shock Module (Commercial)"
+        },
+        "Shocking Twist": {
+            "name": "Shocking Twist"
+        },
+        "Shooting Starknife": {
+            "name": "Shooting Starknife"
+        },
+        "Show No Mercy": {
+            "name": "Show No Mercy"
+        },
+        "Shuln Saliva": {
+            "name": "Shuln Saliva"
+        },
+        "Sihedron Guard Specialist": {
+            "name": "Sihedron Guard Specialist"
+        },
+        "Siphon": {
+            "name": "Siphon"
+        },
+        "Skorresh": {
+            "name": "Skorresh"
+        },
+        "Skorresh Symbiosis": {
+            "name": "Skorresh Symbiosis"
+        },
+        "Skorrfern": {
+            "name": "Skorrfern"
+        },
+        "Slam": {
+            "name": "Slam"
+        },
+        "Slam Shut": {
+            "name": "Slam Shut"
+        },
+        "Slamming Door": {
+            "name": "Slamming Door"
+        },
+        "Slice Reality": {
+            "name": "Slice Reality"
+        },
+        "Slicing Junk": {
+            "name": "Slicing Junk"
+        },
+        "Slink in Shadows": {
+            "name": "Slink in Shadows"
+        },
+        "Slow": {
+            "name": "Slow"
+        },
+        "Sniper's Aim": {
+            "name": "Sniper's Aim"
+        },
+        "Solar Cry": {
+            "name": "Solar Cry"
+        },
+        "Solar Shot": {
+            "name": "Solar Shot"
+        },
+        "Solar Weapon": {
+            "name": "Solar Weapon"
+        },
+        "Sonic Bellow": {
+            "name": "Sonic Bellow"
+        },
+        "Sonic Breath": {
+            "name": "Sonic Breath"
+        },
+        "Sonic Chorus": {
+            "name": "Sonic Chorus"
+        },
+        "Sonic Moan": {
+            "name": "Sonic Moan"
+        },
+        "Sonic Scream": {
+            "name": "Sonic Scream"
+        },
+        "Sonic Scream Spell Gem (3rd-rank spell)": {
+            "name": "Sonic Scream Spell Gem (3rd-rank spell)"
+        },
+        "Soul Drain": {
+            "name": "Soul Drain"
+        },
+        "Soul Surge": {
+            "name": "Soul Surge"
+        },
+        "Sound Body": {
+            "name": "Sound Body"
+        },
+        "Space Goblin Gunner": {
+            "name": "Space Goblin Gunner"
+        },
+        "Space Goblin Shuffle": {
+            "name": "Space Goblin Shuffle"
+        },
+        "Space Station Gremlin": {
+            "name": "Space Station Gremlin"
+        },
+        "Spark": {
+            "name": "Spark"
+        },
+        "Sparks": {
+            "name": "Sparks"
+        },
+        "Spawn Scamp": {
+            "name": "Spawn Scamp"
+        },
+        "Spawn Swarm": {
+            "name": "Spawn Swarm"
+        },
+        "Spell Sanction": {
+            "name": "Spell Sanction"
+        },
+        "Spellwrack": {
+            "name": "Spellwrack"
+        },
+        "Spicy Sweet": {
+            "name": "Spicy Sweet"
+        },
+        "Spike, Eldritch Squox": {
+            "name": "Spike, Eldritch Squox"
+        },
+        "Spontaneous Combustion": {
+            "name": "Spontaneous Combustion"
+        },
+        "Spore Bloom": {
+            "name": "Spore Bloom"
+        },
+        "Spore Cannon": {
+            "name": "Spore Cannon"
+        },
+        "Spore Explosion": {
+            "name": "Spore Explosion"
+        },
+        "Spore Missile": {
+            "name": "Spore Missile"
+        },
+        "Spore Salvo": {
+            "name": "Spore Salvo"
+        },
+        "Spore Shield": {
+            "name": "Spore Shield"
+        },
+        "Sporeling": {
+            "name": "Sporeling"
+        },
+        "Spring Pop": {
+            "name": "Spring Pop"
+        },
+        "Squox": {
+            "name": "Squox"
+        },
+        "Squox Tricks": {
+            "name": "Squox Tricks"
+        },
+        "Stagecraft": {
+            "name": "Stagecraft"
+        },
+        "Stalksword": {
+            "name": "Stalksword"
+        },
+        "Starfall Pistol": {
+            "name": "Starfall Pistol"
+        },
+        "Static Sense": {
+            "name": "Static Sense"
+        },
+        "Steal Shadow": {
+            "name": "Steal Shadow"
+        },
+        "Stellar Bombardment Engine": {
+            "name": "Stellar Bombardment Engine"
+        },
+        "Stench": {
+            "name": "Stench"
+        },
+        "Strafing Bombard": {
+            "name": "Strafing Bombard"
+        },
+        "Strafing Kerplunk": {
+            "name": "Strafing Kerplunk"
+        },
+        "Strider Leap": {
+            "name": "Strider Leap"
+        },
+        "Stridermander Tyrant": {
+            "name": "Stridermander Tyrant"
+        },
+        "Stumble": {
+            "name": "Stumble"
+        },
+        "Sudden Discharge": {
+            "name": "Sudden Discharge"
+        },
+        "Sudden Rush": {
+            "name": "Sudden Rush"
+        },
+        "Summon Monster": {
+            "name": "Summon Monster"
+        },
+        "Supercharge Weapon": {
+            "name": "Supercharge Weapon"
+        },
+        "Supercharged Eldritch Ray": {
+            "name": "Supercharged Eldritch Ray"
+        },
+        "Superior Arc Pistol": {
+            "name": "Superior Arc Pistol"
+        },
+        "Superior Machine Gun": {
+            "name": "Superior Machine Gun"
+        },
+        "Suppressing Fire": {
+            "name": "Suppressing Fire"
+        },
+        "Suppression": {
+            "name": "Suppression"
+        },
+        "Sure Strike": {
+            "name": "Sure Strike"
+        },
+        "Swallow Whole": {
+            "name": "Swallow Whole"
+        },
+        "Swarm Dissolver": {
+            "name": "Swarm Dissolver"
+        },
+        "Swarm Mind": {
+            "name": "Swarm Mind"
+        },
+        "Swarming Bites": {
+            "name": "Swarming Bites"
+        },
+        "Swarming Stings": {
+            "name": "Swarming Stings"
+        },
+        "Swift Leap": {
+            "name": "Swift Leap"
+        },
+        "Swordwhip": {
+            "name": "Swordwhip"
+        },
+        "Synaptic Pulse": {
+            "name": "Synaptic Pulse"
+        },
+        "Tactical Carbon Skin": {
+            "name": "Tactical Carbon Skin"
+        },
+        "Tactical Crossbolter": {
+            "name": "Tactical Crossbolter"
+        },
+        "Tactical Freebooter Armor": {
+            "name": "Tactical Freebooter Armor"
+        },
+        "Tactical Laser Rifle": {
+            "name": "Tactical Laser Rifle"
+        },
+        "Tactical Shirren-eye Rifle": {
+            "name": "Tactical Shirren-eye Rifle"
+        },
+        "Tactical Tutelage": {
+            "name": "Tactical Tutelage"
+        },
+        "Tail": {
+            "name": "Tail"
+        },
+        "Tail Slap": {
+            "name": "Tail Slap"
+        },
+        "Tail Whip": {
+            "name": "Tail Whip"
+        },
+        "Take Root": {
+            "name": "Take Root"
+        },
+        "Targets Detected": {
+            "name": "Targets Detected"
+        },
+        "Tashtari": {
+            "name": "Tashtari"
+        },
+        "Tashtari Alpha": {
+            "name": "Tashtari Alpha"
+        },
+        "Tech Travel": {
+            "name": "Tech Travel"
+        },
+        "Tech-Rending Strikes": {
+            "name": "Tech-Rending Strikes"
+        },
+        "Telekinetic Maneuver": {
+            "name": "Telekinetic Maneuver"
+        },
+        "Telekinetic Strangulation": {
+            "name": "Telekinetic Strangulation"
+        },
+        "Telekinetic Tantrum": {
+            "name": "Telekinetic Tantrum"
+        },
+        "Telepathy": {
+            "name": "Telepathy"
+        },
+        "Telepathy 100 feet": {
+            "name": "Telepathy 100 feet"
+        },
+        "Teleport": {
+            "name": "Teleport"
+        },
+        "Tentacle": {
+            "name": "Tentacle"
+        },
+        "Tentacle Sting": {
+            "name": "Tentacle Sting"
+        },
+        "Tentacle Whip": {
+            "name": "Tentacle Whip"
+        },
+        "Tethered": {
+            "name": "Tethered"
+        },
+        "Thane Hacher": {
+            "name": "Thane Hacher"
+        },
+        "Thunderstrike": {
+            "name": "Thunderstrike"
+        },
+        "Tongue Lash": {
+            "name": "Tongue Lash"
+        },
+        "Topple Over": {
+            "name": "Topple Over"
+        },
+        "Toppling Crates": {
+            "name": "Toppling Crates"
+        },
+        "Trained Squox": {
+            "name": "Trained Squox"
+        },
+        "Trample": {
+            "name": "Trample"
+        },
+        "TranquiliZo!": {
+            "name": "TranquiliZo!"
+        },
+        "Transfer Vitality": {
+            "name": "Transfer Vitality"
+        },
+        "Translocate": {
+            "name": "Translocate"
+        },
+        "Translocate (At Will)": {
+            "name": "Translocate (At Will)"
+        },
+        "Traumatic Moment": {
+            "name": "Traumatic Moment"
+        },
+        "Tremorsense (Imprecise) 60 feet": {
+            "name": "Tremorsense (Imprecise) 60 feet"
+        },
+        "Troll Bombard": {
+            "name": "Troll Bombard"
+        },
+        "Truesight": {
+            "name": "Truesight"
+        },
+        "Truesight (Constant)": {
+            "name": "Truesight (Constant)"
+        },
+        "Truespeech (Constant)": {
+            "name": "Truespeech (Constant)"
+        },
+        "Trunk": {
+            "name": "Trunk"
+        },
+        "Turn to Mist": {
+            "name": "Turn to Mist"
+        },
+        "Umbral Echo": {
+            "name": "Umbral Echo"
+        },
+        "Umbral Spawn": {
+            "name": "Umbral Spawn"
+        },
+        "Unfettered Movement": {
+            "name": "Unfettered Movement"
+        },
+        "Unfettered Movement (At Will)": {
+            "name": "Unfettered Movement (At Will)"
+        },
+        "Unrelenting Flurry": {
+            "name": "Unrelenting Flurry"
+        },
+        "Unstable Spark": {
+            "name": "Unstable Spark"
+        },
+        "Unstoppable Burrow": {
+            "name": "Unstoppable Burrow"
+        },
+        "Veil of Privacy": {
+            "name": "Veil of Privacy"
+        },
+        "Venom Spit": {
+            "name": "Venom Spit"
+        },
+        "Vent": {
+            "name": "Vent"
+        },
+        "Vent Energy": {
+            "name": "Vent Energy"
+        },
+        "Venting Airlock": {
+            "name": "Venting Airlock"
+        },
+        "Vial of Blood": {
+            "name": "Vial of Blood"
+        },
+        "Vibe Check": {
+            "name": "Vibe Check"
+        },
+        "Vicious Impalement": {
+            "name": "Vicious Impalement"
+        },
+        "Vine": {
+            "name": "Vine"
+        },
+        "Virtue in Service": {
+            "name": "Virtue in Service"
+        },
+        "Vital Spray": {
+            "name": "Vital Spray"
+        },
+        "Vitality Network": {
+            "name": "Vitality Network"
+        },
+        "Voice of Destruction": {
+            "name": "Voice of Destruction"
+        },
+        "Void Barrage": {
+            "name": "Void Barrage"
+        },
+        "Void Bolt": {
+            "name": "Void Bolt"
+        },
+        "Void Healing": {
+            "name": "Void Healing"
+        },
+        "Void Scour": {
+            "name": "Void Scour"
+        },
+        "Void Shark": {
+            "name": "Void Shark"
+        },
+        "Void Warp": {
+            "name": "Void Warp"
+        },
+        "Void Whispers": {
+            "name": "Void Whispers"
+        },
+        "Wake Rider": {
+            "name": "Wake Rider"
+        },
+        "Wall of Plasma": {
+            "name": "Wall of Plasma"
+        },
+        "War Sanction": {
+            "name": "War Sanction"
+        },
+        "Warfare Lore": {
+            "name": "Warfare Lore"
+        },
+        "Warp Mind": {
+            "name": "Warp Mind"
+        },
+        "Wave of Despair": {
+            "name": "Wave of Despair"
+        },
+        "Weight of Ages": {
+            "name": "Weight of Ages"
+        },
+        "Welding Torch": {
+            "name": "Welding Torch"
+        },
+        "Wilderness Advance": {
+            "name": "Wilderness Advance"
+        },
+        "Wing": {
+            "name": "Wing"
+        },
+        "Wing Gust": {
+            "name": "Wing Gust"
+        },
+        "Words of Destruction": {
+            "name": "Words of Destruction"
+        },
+        "X-Ray Vision": {
+            "name": "X-Ray Vision"
+        },
+        "Zap": {
+            "name": "Zap"
+        },
+        "Zero Knife": {
+            "name": "Zero Knife"
+        },
+        "Zo!ceratops": {
+            "name": "Zo!ceratops"
+        },
+        "laser": {
+            "name": "laser"
+        }
+    }
+}

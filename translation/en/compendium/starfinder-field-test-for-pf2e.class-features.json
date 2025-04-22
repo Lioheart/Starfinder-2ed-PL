@@ -1,0 +1,565 @@
+{
+    "label": "Class-Features",
+    "entries": {
+        "Action Hero": {
+            "name": "Action Hero",
+            "description": "<p>You believe that almost any problem can be solved by shooting your way out. Somehow, your sheer bravado and over-the-top actions have a way of working out for you, despite logic often suggesting otherwise. To you, there's no problem that a copious amount of bullets or laser blasts can't cure, though you can sometimes mix it up and find other solutions if you need. You've become a specialist at wielding automatic weapons and can employ them to devastating effect when confronted with foes.</p><p>When you successfully make a ranged Strike with a weapon with the automatic trait, you @UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.enA7BxAjBb7ns1iF]{Suppress} the target until the start of your next turn. In addition, when you @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.6ctkxUnVwqooSvgg]{Auto-Fire}, the size of the cone is equal to the weapon's full range increment instead of half. When using the Auto-Fire action, you can designate a target anywhere in the cone to be your primary target instead of the target closest to you.</p>"
+        },
+        "Adaptive Talent": {
+            "name": "Adaptive Talent",
+            "description": "<p>You're quick thinking and adaptable, capable of picking up new skills and talents with little practice or training. During your daily preparations, select one skill feat that you meet the prerequisites for. You gain this skill feat until you prepare again. Since you have this feat temporarily, you can't use it as a prerequisite for a permanent character option. You can use this for effects that temporarily give you access to other abilities, such as taking Multilingual to temporarily learn a new language.</p>\n<p>As your envoy level increases, so does your ability to adapt to new situations. At 9th level and 15th level, increase the number of skill feats you gain this way by 1. You can use feats that you temporarily gain through adaptive talent as a prerequisite for other feats that you temporarily gain through adaptive talent, but you still can't use them as prerequisites for permanent character options.</p>"
+        },
+        "Advanced Epiphany": {
+            "name": "Advanced Epiphany",
+            "description": "<p>You understand your connection on a deeper level. You learn your connection's advanced epiphany focus spell.</p>"
+        },
+        "Advanced Paradox": {
+            "name": "Advanced Paradox",
+            "description": "<p>Through further experimentation and research, you have discovered secrets of your paradox and unlocked new abilities. You gain the advanced warp spell associated with your paradox.</p>"
+        },
+        "Akashic": {
+            "name": "Akashic",
+            "description": "<p>You maintain a permanent psychic link to the Akashic Record, the supernatural repository of all knowledge in the multiverse. This connection allows you to access knowledge that otherwise would remain out of the grasp of regular mortal minds.</p><p><strong>Spellcasting Tradition</strong> occult</p><p><strong>Connection Skill</strong> Occultism</p><p><strong>Granted Spells</strong></p><ul><li><em>cantrip</em> @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.cAmT1koSUoQHSYs1];</li><li><em>1st</em> @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.bHQ8Y4XZfUa2UEno];</li><li><em>2nd</em> @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.cykzPdDC93OkC1IN];</li><li><em>3rd</em> @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.n5y3lNLqjnnYYe67];</li><li><em>4th</em> @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.6koMxltOVtV6BT6U];</li><li><em>5th</em> @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.CqUNTZCSlmddfulL];</li><li><em>6th</em> @UUID[Compendium.pf2e.spells-srd.Item.jj5d830iUi2ZlQfs];</li><li><em>7th</em> @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.Y2p6IpVvilYizYAr];</li><li><em>8th</em> @UUID[Compendium.pf2e.spells-srd.Item.KtTGLbLG9nqMbUYL];</li><li><em>9th</em> @UUID[Compendium.pf2e.spells-srd.Item.kUSShxXzY1sPtJA0]</li></ul><p><strong>Harmony</strong> Whenever you Transfer Vitality, the target receives a psychic download from the Akashic Record and can immediately attempt a @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo] action. This doesn't trigger any special abilities, reactions, or free actions that trigger when a creature uses Recall Knowledge.</p><p><strong>Initial Epiphany</strong> You learn the @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.YDkb4zUM5pJRs9SH] focus spell.</p><p><strong>Advanced Epiphany</strong> You learn the @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.4qXeaZLAtTxd5tNq] focus spell.</p><p><strong>Greater Epiphany</strong> You learn the @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.qYzqKP4Plw6jgjGL] focus spell.</p><p><strong>Perfect Harmony</strong> You create an extradimensional memory palace that functions as @UUID[Compendium.pf2e.spells-srd.Item.vPWMEyVTreMOoFnm]. Creating a door to the demiplane takes 1 minute. The memory palace keeps the same layout each time you access it, adjustable during daily preparations. Each phantasmal minion in your memory palace functions as an akashic assistant (like those created by the <em>akashic assistant</em> spell).</p>"
+        },
+        "Analyst": {
+            "name": "Analyst",
+            "description": "<p>There's a hidden code that powers the universe and realms beyond, and somehow you can tap into it by focusing your intellect—you can see the equations. By manipulating probability to suit your strategic needs, you can control the flow of combat just as well as the flow of a conversation or strings of digital information.</p><p><strong>Spellcasting Tradition</strong> arcane</p><p><strong>Paradox Skill</strong> Computers</p><p><strong>Granted Spells</strong></p><ul><li>cantrip: @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.soIbLojIZyKRhyA8]</li><li>1st: @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.ahrdUKm1HXw7EyFw]</li><li>2nd: @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.DgDnoPiIBoHG2NY4]</li><li>3rd: @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.kNJQ8Ucs2sJfmJQE]</li><li>4th: @UUID[Compendium.pf2e.spells-srd.Item.pkcOby5prOausy1k]</li><li>5th: @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.CqUNTZCSlmddfulL]</li><li>6th: @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.jn2xCGbOZn6idH0A]</li><li>7th: @UUID[Compendium.pf2e.spells-srd.Item.AlbpWWN87yGegoAF]</li><li>8th: @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.zYkCKmlLmgbUT8Uk]</li><li>9th: @UUID[Compendium.pf2e.spells-srd.Item.qsNeG9KZpODSACMq]</li></ul><p><strong>Warp Spells</strong></p><ul><li>initial: @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.pWCoLwZl0BqzzGeG]</li><li>advanced: @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.BCXP86RjFUZPMGM9]</li><li>greater: @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.1EdpI4R98yuHhi4z]</li></ul><p><strong>Quantum Field</strong> You see and understand infinite possibilities and complex theoretical equations as clearly as though they were etched into your surroundings. When you @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ] or @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo], you can apply the result against two related creatures, hazards, unattended objects, and effects in your quantum field. Whenever you sustain your quantum field, you can Seek or Recall Knowledge against an appropriate target in your quantum field as a free action.</p>"
+        },
+        "Anchor": {
+            "name": "Anchor",
+            "description": "<p>Whatever paradox altered the course of your existence, something helps keep you anchored to reality. This may be a physical object you carry, memories of your home or loved ones, or even a concept or ideal you obsess over. At 1st level, select an anchor.</p>"
+        },
+        "Anchoring Spells": {
+            "name": "Anchoring Spells",
+            "description": "<p>You become more familiar with magic you practice regularly, drawing on those spells as another anchor to reality. When you are inside or adjacent to your quantum field and cast a signature spell, the spell gains the anchoring trait.</p>"
+        },
+        "Anomaly": {
+            "name": "Anomaly",
+            "description": "<p>Your existence itself is an anomaly that defies the normal parameters of your current reality. You might have encountered something that disrupted your core existence, or you crossed the veil from an alternate reality. You create a bubble of altered reality, projecting elements of other realities into your current universe.</p><p><strong>Tradition</strong> arcane</p><p><strong>Paradox Skill</strong> Deception</p><p><strong>Granted Spells</strong></p><ul><li>cantrip: @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.CLGyt6l3ESlOJm4l]</li><li>1st: @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.FXIhLIMgi0QDTr3w]</li><li>2nd: @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.Yrn3lrjodiklt7l3]</li><li>3rd: @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.sUyKlISvDwTaJ8pg]</li><li>4th: @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.YK7tR3Rn9RF8rwag]</li><li>5th: @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.cU3H60fJk0yCc2Ua]</li><li>6th: @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.jn2xCGbOZn6idH0A]</li><li>7th: @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.GNbPLs7S7RetVuPy]</li><li>8th: @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.oL2Brc1eSBxrAjMP]</li><li>9th: @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.KQgvZaPWMVRZEyHB]</li></ul><p><strong>Warp Spells</strong></p><ul><li>initial: @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.CdSavPkIJyYFhqnt]</li><li>advanced: @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.0GYvnRSnK0jaxN9h]</li><li>greater: @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.BoiLJzgHsyRI7N6p]</li></ul><p><strong>Quantum Field</strong> Your movements blur as images of alternate iterations of you flicker around your current form, and your speech echoes with a chorus of otherworldly sounds. Any time an enemy within the quantum field attempts an action with the concentrate trait, the action is disrupted unless they succeed at a @Check[type:flat|dc:5].</p>"
+        },
+        "Armor Expertise": {
+            "name": "Armor Expertise",
+            "description": "<p>The bond you've forged with your friends is an unbreakable shield you've learned to defend with your life. Your proficiency rank in light armor and unarmored defense increases to expert.</p>"
+        },
+        "Armor Mastery": {
+            "name": "Armor Mastery",
+            "description": "<p>You are able to deftly protect yourself in almost any situation. Your proficiency ranks for light, and medium armor, as well as for unarmored defense, increase to master.</p>"
+        },
+        "Armor Storm": {
+            "name": "Armor Storm",
+            "description": "<p>Your armor is like an extension of your skin (or other appropriate surface layer), and you're able to leverage it alongside the heavy weapons you employ. Foes you suppress quickly stumble while attempting to overcome your durability, granting you an edge in absorbing their incoming firepower. You likely move to the forefront and try to focus your enemy's attention on yourself.</p><p>You never count as being in the area of a ranged weapon you've made an attack with. You gain resistance equal to half your level (minimum 1) against attacks made by @UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.enA7BxAjBb7ns1iF]{Suppressed} targets.</p><p>You can @UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{Disarm}, @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Grapple}, @UUID[Compendium.pf2e.actionspf2e.Item.lOE4yjUnETTdaf2T]{Reposition}, @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{Shove}, or @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{Trip} even if you don't have a free hand. You gain a +1 status bonus to Athletics checks to Disarm, Grapple, Reposition, Shove, and Trip suppressed foes. When you successfully Disarm, Grapple, Reposition, Shove, or Trip a creature, it becomes suppressed until the start of your next turn.</p>"
+        },
+        "Balanced": {
+            "name": "Balanced",
+            "description": "<p>You find yourself existing between the gravitic and photonic extremes of stellar forces, believing that a balance between the two is where one finds perfection. This means that you often swap between attunements in your daily life and enjoy using graviton and photon abilities in an interweaved tapestry.</p><p><strong>Favored Attunement:</strong> Graviton and Photon. Choose which attunement you have outside of combat, and when using the Attune action you can select which attunement you wish to be.</p><p><strong>Revelations</strong>: initial: @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.cQMj2w63yyN1A9W3]{Binaric Assault}; advanced: @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.QWJQQDh6OcKAiG1r]{Ascended Stability}; greater: @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.EvcD5wCRJPM9hAHK]{Astrological Sense}</p><p><strong>Arrangement Skill</strong>: Medicine or Society</p>"
+        },
+        "Bombard": {
+            "name": "Bombard",
+            "description": "<p>There's nothing like a reliable heavy gun (or maybe several) to get you through tough times. You've come to terms with the fact that your weapons might sometimes hit your allies but work to minimize such instances of \"friendly fire.\" In fact, you've honed your skill with heavy weapons so much that all but the most indirect of strikes cause your allies to duck down or force them to adapt to the havoc you unleash.</p><p>When you attack with an area weapon, you adjust the shot to allow allies to better avoid it. You can select a number of allies within the area of your weapon's fire equal to half your Constitution modifier. Selected allies are unaffected by your attacks. In addition, enemies who succeed (but not critically succeed) their save against an area attack you make are still @UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.enA7BxAjBb7ns1iF]{Suppressed} until the start of your next turn.</p>"
+        },
+        "Close Quarters": {
+            "name": "Close Quarters",
+            "description": "<p>While you still have the necessary training to employ heavy weapons, you've learned that it's important to keep a backup for when foes get too close. You may be a skilled Veskarium trooper who knows their way around a doshko, or a devotee of Zon-Shelyn who brings holy wrath with a painglaive. Blows with heavy close combat weapons punish your foes just as effectively as when you fire a rotolaser or a missile launcher.</p><p>When you successfully make a Strike with a two-handed melee weapon, you @UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.enA7BxAjBb7ns1iF]{Suppress} the target until the start of your next turn. In addition, you gain the @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.rgZ9EvqnyGdafiMv]{Punitive Strike} reaction.</p>"
+        },
+        "Connection": {
+            "name": "Connection",
+            "description": "<p>All mystics have a supernatural connection with a cosmic force that grants magical powers. The exact nature of your connection can vary widely—you might worship a god or pantheon, embody a metaphysical concept, commune with the souls of your ancestors, or something else—and even mystics who share the same connection may interpret it differently. Your connection determines the type of spells you cast and the spell tradition you choose spells from, the epiphanies you learn, your additional trained skill, and a harmony that usually grants creatures a special benefit when you heal them with your vitality network.</p><p>@UUID[Compendium.starfinder-field-test-for-pf2e.class-features.Item.CVyiPHkQu208wreh]{Akashic}</p><p>@UUID[Compendium.starfinder-field-test-for-pf2e.class-features.Item.lzBFo89a2Tm5rDfG]{Elemental}</p><p>@UUID[Compendium.starfinder-field-test-for-pf2e.class-features.Item.jWm80UVAXhv6Soi7]{Healing}</p><p>@UUID[Compendium.starfinder-field-test-for-pf2e.class-features.Item.kllR7YYgYcoAl28W]{Rhythm}</p><p>@UUID[Compendium.starfinder-field-test-for-pf2e.class-features.Item.mmCL4teRsMO2qNxc]{Shadow}</p>"
+        },
+        "Controlled Body": {
+            "name": "Controlled Body",
+            "description": "<p>You instinctively react to sudden danger by manipulating subtle gravitational forces to get out of harm's way. Your proficiency rank for Reflex saves increases to master. When you roll a success on a Reflex save, you get a critical success instead.</p>"
+        },
+        "Core Memories": {
+            "name": "Core Memories",
+            "description": "<p>Precious memories keep you connected to reality. These memories might involve your family, upbringing, or home world. They might be a series of formative events in your life, such as key turning points, critical decisions, or the serendipitous events which led you to meet someone important to you. Whatever the nature and number of your memories, you can focus on them to remind yourself which of the infinite possible realities impacts you the most: your own.</p><p><strong>Anchor Benefit</strong> You can access core memories from a small part of you that still exists in another reality. During your daily preparations, choose a skill you're trained in. You gain @UUID[Compendium.pf2e.feats-srd.Item.W6Gl9ePmItfDHji0]{Assurance} in that skill. If you are expert in that skill and the skill has the @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{Recall Knowledge} action, you gain @UUID[Compendium.pf2e.feats-srd.Item.H3I2X0f7v4EzwxuN]{Automatic Knowledge} in that skill.</p><p><strong>Anchoring Action</strong> @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.MtvUbSOHg3afFmqu]{Restorative Recollection}</p>"
+        },
+        "Critical Aim": {
+            "name": "Critical Aim",
+            "description": "<p>The first time in a round when you @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.LRbwV8LMLi6FFKjW]{Aim} and successfully make a ranged Strike against your mark, add your weapon's critical specialization effect to the attack even if you did not score a critical hit.</p>"
+        },
+        "Defensive Aura": {
+            "name": "Defensive Aura",
+            "description": "<p>The flow of magic through your spellcasting and your defensive training combine to help you avoid attacks. Your proficiency ranks in light armor and unarmored defense increase to expert.</p>"
+        },
+        "Degradant": {
+            "name": "Degradant",
+            "description": "<p>You embody the slow degradation of all things. There is a beauty in the dance of stars, and you watch it as eagerly as you watch the interplay between those who come into your orbit.</p><p><strong>Favored Attunement</strong>: Graviton</p><p><strong>Revelations</strong>: initial: @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.YdOtskSkZXO9ERzF]{Black Hole}; advanced: @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.Gy4zPZjcQ5r3hVSo]{Defy Gravity}; greater: @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.fvOIXr6DBinSFC0f]{Singularity}</p><p><strong>Arrangement Skill</strong>: Deception or Intimidation</p>"
+        },
+        "Effortless Influencer": {
+            "name": "Effortless Influencer",
+            "description": "<p>The frequency of @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.mtuJWYgaRQJYsEsZ]{Practiced Influencer} increases to three times per day. Furthermore, when you succeed at a check with Deception, Diplomacy, or Intimidation, allies within 60 feet who witnessed your success gain a +1 status bonus to the next check they attempt with that skill within 1 minute (or a +2 bonus if your check was a critical success).</p><p>@UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.ZQM4vfHEKgxvNJik]{Effect: Effortless Influencer}</p>"
+        },
+        "Elemental": {
+            "name": "Elemental",
+            "description": "<p>You channel the raw power of the primordial elements that converge to create the Universe and everything in it. You might have a strong affinity with the elemental planes of existence, or just a natural understanding of the basic elements of creation.</p><p><strong>Spellcasting Tradition</strong> primal</p><p><strong>Connection Skill</strong> Nature</p><p><strong>Granted Spells</strong></p><ul><li><em>cantrip</em> @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.RH9ZY9BSIa38M1Hk]</li><li><em>1st</em> @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.FXIhLIMgi0QDTr3w]</li><li><em>2nd</em> @UUID[Compendium.pf2e.spells-srd.Item.WPu3UE3kTXSLqO40]</li><li><em>3rd</em> @UUID[Compendium.pf2e.spells-srd.Item.fI20AVwOzJMHXRdo]</li><li><em>4th</em> @UUID[Compendium.pf2e.spells-srd.Item.YrzBLPLd3r9m6t1p]</li><li><em>5th</em> @UUID[Compendium.pf2e.spells-srd.Item.jQdm301h6e8hIY4U]</li><li><em>6th</em> @UUID[Compendium.pf2e.spells-srd.Item.jj5d830iUi2ZlQfs]</li><li><em>7th</em> @UUID[Compendium.pf2e.spells-srd.Item.XS7Wyh5YC0NWeWyB]</li><li><em>8th</em> @UUID[Compendium.pf2e.spells-srd.Item.wfleiawxsfhpRRwf]</li><li><em>9th</em> @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.FDm63NThHyPBWmNz]</li></ul><p>For <em>spiritual armament</em>, <em>fire shield</em>, <em>spiritual guardian</em>, <em>blessed boundary</em>, <em>fiery body</em>, and <em>telekinetic tantrum</em> replace the elemental trait and damage type with the trait and damage type of your active <em>elemental weapon</em> or <em>elemental barrier</em> epiphany spells.</p><p><strong>Harmony</strong> When you heal a bonded creature with your vitality network, choose an elemental trait: air, earth, fire, metal, water, or wood. If one or more of your elemental epiphanies are active, you must select the elemental trait you chose as part of casting those spells. Until the end of their next turn, the target's next Strike deals 1d4 persistent damage based on the chosen trait: electricity or sonic for air, bludgeoning or piercing for earth, acid or slashing for metal, fire for fire, cold for water, or poison for wood. This increases to 1d6 when you learn your advanced epiphany and 1d8 when you learn your greater epiphany.</p><p><strong>Initial Epiphany</strong> You learn the @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.bS8Au4zlZG3RR78G] epiphany spell.</p><p><strong>Advanced Epiphany</strong> You learn the @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.ufwuEqjIg3yALnLL] epiphany spell.</p><p><strong>Greater Epiphany</strong> You learn the @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.5zWyADC0jPsAlvcd] epiphany spell.</p><p><strong>Perfect Harmony</strong> Chosen during your daily preparations, you gain resistance equal to half your mystic level to two damage types based on two elements you select (as listed in Harmony). When you heal a bonded ally with Transfer Vitality, your ally gains these resistances until the beginning of your next turn. These effects last until your next preparations.</p>"
+        },
+        "Envoy Directive": {
+            "name": "Envoy Directive",
+            "description": "<p>Envoys encourage their allies by using directives. A directive is an insight, order, or stratagem that benefits any allies who follow it. Each envoy directive includes a way for the envoy to lead by example. If the envoy takes their own advice and follows through on their own directive before the end of their turn, they unlock an additional advantage for themselves and their allies. By default, most directives have the visual trait, representing the envoy performing guiding motions to assist. However, envoys can choose to replace the visual trait with, or simply add, the auditory trait to represent shouts of encouragement as part of these actions.</p>\n<p>You begin with one envoy directive. You can learn more directives through the envoy class and envoy class feats. You can use any number of directives a round, but you can't use the same directive more than once a round. An envoy's directive and the benefits it grants last until the beginning of your next turn.</p>\n<p>You gain the @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.FXlhxST6fuaFt3Nh]{Get 'Em!} envoy directive.</p>"
+        },
+        "Envoy Expertise": {
+            "name": "Envoy Expertise",
+            "description": "<p>You've come a long way, and your hands-on experience has improved your skills. Your proficiency rank for your envoy class DC increases to expert.</p>"
+        },
+        "Envoy Weapon Expertise": {
+            "name": "Envoy Weapon Expertise",
+            "description": "<p>You've learned a few tricks with your weapons. Your proficiency ranks for simple weapons, martial weapons, and unarmed attacks increase to expert. Whenever you attack your asset or the target of your @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.FXlhxST6fuaFt3Nh]{Get 'Em!}, you gain access to the critical specialization effects of all weapons for which you have expert proficiency.</p>"
+        },
+        "Erudite Warrior": {
+            "name": "Erudite Warrior",
+            "description": "<p>Not every situation should be solved with a gun and sometimes it's better to just talk things through. You've come to appreciate specific facets of a galactic culture and can hold your own in a conversation to avoid unnecessary conflict. However, should a conflict arise, you're the first to display your aptitude with your weapons, cowing foes with your skill.</p><p>You're trained in Diplomacy or Society and a Lore skill of your choice. When you gain armor expertise, you gain expert proficiency in Diplomacy or Society (whichever you selected). This increases to master proficiency in the selected skill when you gain armor mastery and again to legendary when you gain legendary armor. You also gain the @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.MhHbQJyCQHFqBFcb]{Oppressive Presence} action.</p>"
+        },
+        "Expert Spellcaster": {
+            "name": "Expert Spellcaster",
+            "description": "<p><strong>Mystic</strong> You have formed a more powerful bond with your connection. Your proficiency ranks for spell attack modifier and spell DC statistics increase to expert.</p>"
+        },
+        "Fearsome Bulwark": {
+            "name": "Fearsome Bulwark",
+            "description": "<p>Your sheer mass terrifies foes when they see you. You can use your Constitution modifier instead of your Charisma modifier on Intimidation checks, and instead of your Strength modifier on Athletics checks to @UUID[Compendium.pf2e.actionspf2e.Item.lOE4yjUnETTdaf2T]{Reposition} or @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{Shove}.</p>"
+        },
+        "Focal Point": {
+            "name": "Focal Point",
+            "description": "<p>You're intensely focused on a specific subject or idea, to the point that other things fade into the background—even paradoxes and alternate realities. Your focal point might be a field of study, an abstract concept, a hobby, or even your favorite media.</p><p><strong>Anchor Benefit</strong> Your single-minded focus helps you concentrate. If a reaction would disrupt your spellcasting action, attempt a @Check[type:flat|dc:15]. If you succeed, your action isn't disrupted.</p><p><strong>Anchoring Action</strong> @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.TjyYjndfDdyd8nN6]{Intense Focus}</p>"
+        },
+        "Focused": {
+            "name": "Focused",
+            "description": "<p>You're highly focused, and little can distract or sway you from your course of action. Your proficiency rank for Will saves increases to expert.</p>"
+        },
+        "Fortitude Expertise": {
+            "name": "Fortitude Expertise",
+            "description": "<p><strong>Envoy</strong> Your physique is incredibly hardy. Your proficiency rank for Fortitude saves increases to expert.</p><p><strong>Mystic</strong> Your physique is incredibly hardy. Your proficiency rank for Fortitude saves increases to expert.</p>"
+        },
+        "Four-Armed": {
+            "name": "Four-Armed",
+            "description": "<p>You have four arms, which allows you to wield and hold up to four hands' worth of weapons and equipment. At any time, one pair of hands is designated your active hands. You can change this designation from one pair of hands to another by taking the @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.oW81CfM9ebxXnrw3]{Switch Active Hands} action, which is a single action. You can only perform actions with your active hands.</p>"
+        },
+        "From the Front": {
+            "name": "From the Front",
+            "description": "<p>You're most comfortable leading your allies from the front lines of battle while you fight alongside them. You might employ a shield to help weather the storm of incoming gunfire, or simply lead with a pointed finger and a shout of encouragement as you run into the center of the enemy formation.</p><p><strong>Leadership Skill (1st)</strong> Athletics</p><p><strong>Leadership Perk (1st)</strong> You're trained in medium armor. When you gain light armor expertise, you also gain expert proficiency in medium armor, and when you gain light armor mastery, you also gain master proficiency in medium armor.</p><p><strong>Acts of Leadership (6th)</strong> @UUID[Compendium.pf2e.actionspf2e.Item.xjGwis0uaC2305pm]{Raise a Shield}, take a move action to move within an enemy's reach</p>"
+        },
+        "From the Shadows": {
+            "name": "From the Shadows",
+            "description": "<p>You prefer to direct and inspire your allies in subtle ways, without drawing too much attention from your enemies. This lets you control the flow of battle from the backfield, or be closer to the action but still just out of sight.</p><p><strong>Leadership Skill (1st)</strong> Stealth</p><p><strong>Leadership Perk (1st)</strong> You gain @UUID[Compendium.pf2e.feats-srd.Item.W6Gl9ePmItfDHji0]{Assurance (Stealth)} as a bonus feat.</p><p><strong>Acts of Leadership (6th)</strong> @UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]{Hide}, @UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{Sneak}, @UUID[Compendium.pf2e.actionspf2e.Item.ust1jJSCZQUhBZIz]{Take Cover}</p>"
+        },
+        "Galaxy Renowned": {
+            "name": "Galaxy Renowned",
+            "description": "<p>You're renowned throughout the galaxy for your skills and efficiency. Your proficiency rank increases to legendary with advanced guns. Your proficiency rank for your operative class DC increases to master. When you use Tactical Advance, you can Stride up to double your Speed, rather than up to your Speed.</p>"
+        },
+        "Gap Influenced": {
+            "name": "Gap Influenced",
+            "description": "<p>The Gap shaped you in some way, whether through enduring study or personal experience. Perhaps you were born during the Gap or lived through it thanks to an incredible lifespan, stasis technology, or time travel. You might even be a scholar of the Gap who peered back in time and glimpsed a scrambled shred of truth whatever the case, it's left you curious to learn more about that mysterious era.</p><p><strong>Tradition</strong> occult</p><p><strong>Paradox Skill</strong> Society</p><p><strong>Granted Spells</strong></p><ul><li>cantrip: @UUID[Compendium.pf2e.spells-srd.Item.4gBIw4IDrSfFHik4]</li><li>1st: @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.drvdhQ2vDoocH7f6]</li><li>2nd: @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.kRJg587SmUloc5kN]</li><li>3rd: @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.N4yo1ViE9yKLTHRE]</li><li>4th: @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.7S2EU5HfLULn9z82]</li><li>5th: @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.mYCwqoRRkCEjPIl8]</li><li>6th: @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.2ILhSSU3F0VcU4rL]</li><li>7th: @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.xDuktpYTml9loyj5]</li><li>8th: @UUID[Compendium.pf2e.spells-srd.Item.M0jQlpQYUr0pp2Sv]</li><li>9th: @UUID[Compendium.pf2e.spells-srd.Item.kUSShxXzY1sPtJA0]</li></ul><p><strong>Warp Spells</strong></p><ul><li>initial: @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.bT7xEJwVLxVNzXt0]</li><li>advanced: @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.z4tEoxGxNlgMzIQs]</li><li>greater: @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.8Y4p6k0bcQLd1wTr]</li></ul><p><strong>Quantum Field</strong> Supernatural static swirls around you, making thoughts slippery for those unaccustomed to your presence. You are @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W] to creatures within your quantum field. When a creature within your quantum field hits you with an attack, you lose this benefit against that creature until the start of your next turn.</p>"
+        },
+        "Genetic Adaptation": {
+            "name": "Genetic Adaptation",
+            "description": "<p>You can reshape and adjust your body to adapt to new situations. You can retrain an ancestry feat in one day of downtime, rather than in one week. You can retrain any ancestry feat, even lineage feats.</p>"
+        },
+        "Ghost": {
+            "name": "Ghost",
+            "description": "<p>You specialize in slipping into a location, completing an objective, and extricating yourself without being discovered, often utilizing stealth tactics, cover identities, disguises, or spy tech. Whether you're an assassin getting close to your target, a spy gathering sensitive intelligence, a grifter out to dupe your mark, or a thief casing the joint for your next job, you're good at blending in and avoiding notice. You're trained in Deception. You gain a skill feat for Deception.</p><p><strong>Exploit:</strong> You're adept at taking your foes by surprise. You can @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.LRbwV8LMLi6FFKjW]{Aim} at targets you are @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{Undetected} by as a free action. If you successfully Strike a target you are undetected by, or has an attitude of friendly towards you, they become @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} for 1 round.</p><p><strong>Enhanced Exploit:</strong> You avoid detection even after making contact with the enemy. You gain the @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.k7hLNRVybqxyvurU]{Ghost Tap} action.</p>"
+        },
+        "Greater Epiphany": {
+            "name": "Greater Epiphany",
+            "description": "<p>Your soul aligns more perfectly with your connection. You learn your connection's greater epiphany focus spell.</p>"
+        },
+        "Greater Paradox": {
+            "name": "Greater Paradox",
+            "description": "<p>Further research into your paradox has uncovered greater secrets. You gain the greater warp spell associated with your paradox.</p>"
+        },
+        "Greater Resolve": {
+            "name": "Greater Resolve",
+            "description": "<p>Your ambition and stubbornness grant you mental resiliency.</p><p>Your proficiency rank for Will saves increases to legendary. When you roll a success at a Will save, you get a critical success. When you roll a critical failure at a Will save, you get a failure instead. When you roll a failure on a Will save against a damaging effect, you take half damage.</p>"
+        },
+        "Greater Weapon Specialization": {
+            "name": "Greater Weapon Specialization",
+            "description": "<p>Your damage from weapon specialization increases to 4 with weapons and unarmed attacks in which you're an expert, 6 if you're a master, and 8 if you're legendary.</p>"
+        },
+        "Group Chat": {
+            "name": "Group Chat",
+            "description": "<p>Those bonded by your mystic connection can always communicate telepathically while visible to one another. As long as two bonded creatures are on the same plane of existence and both are alive, they remain aware of one another's present state, general direction and distance from one another, and if they are conscious, @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Unconscious}, @UUID[Compendium.pf2e.conditionitems.Item.yZRUzMqrMmfLu0V1]{Dying} or dead. You also gain the @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.k3HGWxZjXsIFTWmn]{Network Spell} action.</p>"
+        },
+        "Guns Blazing": {
+            "name": "Guns Blazing",
+            "description": "<p>You lead your team by making an impression, and the best way to make an impression is with firepower. If you're not in a gunfight, you're probably bragging about your latest gunfight at the bar.</p><p><strong>Leadership Skill (1st)</strong> Acrobatics</p><p><strong>Leadership Perk (1st)</strong> You gain @UUID[Compendium.pf2e.feats-srd.Item.2kwXTUjYYhoAGySr]{Incredible Initiative} as a bonus feat.</p><p><strong>Acts of Leadership (6th)</strong> Make a ranged Strike against an enemy that has a multiple attack penalty, perform an @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.oc0ZKnk5zD0GXqZi]{Area Fire} or @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.6ctkxUnVwqooSvgg]{Auto-Fire}, reload an empty ranged weapon</p>"
+        },
+        "Healing": {
+            "name": "Healing",
+            "description": "<p>You are connected to the fount of vitality and void energy that flows through all living things on every planet, and you weave this cycle's ebb and flow into spells that heal your allies and harm your enemies.</p><p><strong>Spellcasting Tradition</strong> divine</p><p><strong>Connection Skill</strong> Medicine</p><p><strong>Granted Spells</strong></p><ul><li><em>cantrip</em> @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.vWHkSGsb0aPuj3BE]</li><li><em>1st</em> @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.gUNeahoAJMH9Uatm]</li><li><em>2nd</em> @UUID[Compendium.pf2e.spells-srd.Item.8ViwItUgwT4lOvvb]</li><li><em>3rd</em> @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.551Xcyo35ZCoS6WH]</li><li><em>4th</em> @UUID[Compendium.pf2e.spells-srd.Item.TUj8eugNqAvB1vVR]</li><li><em>5th</em> @UUID[Compendium.pf2e.spells-srd.Item.y0Vy7iNL3ET8K00C]</li><li><em>6th</em> @UUID[Compendium.pf2e.spells-srd.Item.fd31tAHSSGXyOxW6]</li><li><em>7th</em> @UUID[Compendium.pf2e.spells-srd.Item.WG91Z5TiR6oO5FOw]</li><li><em>8th</em> @UUID[Compendium.pf2e.spells-srd.Item.C2w3YfBKjIRS07DP]</li><li><em>9th</em> @UUID[Compendium.pf2e.spells-srd.Item.pswdik31kuHEvdno]</li></ul><p><strong>Harmony</strong> You can choose for your healing spells and abilities to restore Hit Points to creatures with void healing as though the action had the void trait. Whenever you heal a bonded creature and restore them to their maximum Hit Points, your vitality network regains the excess Hit Points the spell could have restored, up to your character level. Temporary Hit Points do not trigger this harmony.</p><p><strong>Initial Epiphany</strong> You learn the @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.eASNMXfMHlT8HksK] focus spell.</p><p><strong>Advanced Epiphany</strong> You learn the @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.yJptJQTlhMfkiBxn] focus spell.</p><p><strong>Greater Epiphany</strong> You learn the @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.FLFaUv6AJ9FlK7h3] focus spell.</p><p><strong>Perfect Harmony</strong> Whenever you @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.y9tYChycW6xcdT7J]{Transfer Vitality} to a single target, attempt to counteract any one affliction affecting that ally, or attempt to counteract an effect of your choice imposing one of these conditions: @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded}, @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled}, @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{Deafened}, @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained}, @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled}, @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened}, or @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned}. If you didn't counteract the effect, but you would have if its counteract rank were 2 lower, instead suppress the effect until the beginning of your next turn. The effect's duration doesn't elapse while it's suppressed.</p>"
+        },
+        "Hidden Agenda": {
+            "name": "Hidden Agenda",
+            "description": "<p>You've become an expert at veiling your schemes. When a creature rolls a critical success at a Perception check to @UUID[Compendium.pf2e.actionspf2e.Item.1xRFPTFtWtGJ9ELw]{Sense Motive} against you, or a skill check to @UUID[Compendium.pf2e.actionspf2e.Item.plBGdZhqq5JBl1D8]{Gather Information} or @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{Recall Knowledge} about your secrets, they get a success instead. When you roll a critical failure at a saving throw against an effect or ability that would read or reveal your thoughts, emotions, or intentions, magically or otherwise, you get a failure instead.</p>"
+        },
+        "Hotshot": {
+            "name": "Hotshot",
+            "description": "<p>From the driver's seat of a vehicle or the cockpit of a starship, you're always at home piloting a vehicle and can provide orders to allies without a second thought. In stressful situations you pilot your allies just as effectively as the vehicle you're driving.</p><p><strong>Leadership Skill (1st)</strong> Piloting</p><p><strong>Leadership Perk (1st)</strong> You gain @UUID[Compendium.pf2e.feats-srd.Item.K2R1xGTgBnSCDMUl]{Express Driver} as a bonus feat.</p><p><strong>Acts of Leadership (6th)</strong> @UUID[Compendium.pf2e.actionspf2e.Item.uS3qDAgOkZ7b8ERL]{Drive}, @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.9Msf0P33UR5mNRuz]{Take Control}, @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.ailFBRjKuGCOAsCR]{Stunt}</p>"
+        },
+        "Improvised Mastery": {
+            "name": "Improvised Mastery",
+            "description": "<p>Whether by luck or instinct, you display impressive talent on the fly. You gain the @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.W0mMwOY1UKFHUHok]{Improvised Mastery} action.</p>"
+        },
+        "In the Spotlight": {
+            "name": "In the Spotlight",
+            "description": "<p>Whether through conversation, clever lies, dazzling performances, or threats, you use your charm and cunning to influence others. Directing your team's actions is second nature to you.</p><p><strong>Leadership Skill (1st)</strong> Performance</p><p><strong>Leadership Perk (1st)</strong> You gain @UUID[Compendium.pf2e.feats-srd.Item.xqAdXRd2gSQcqp5E]{Impressive Performance} as a bonus feat.</p><p><strong>Acts of Leadership (6th)</strong> @UUID[Compendium.pf2e.actionspf2e.Item.EEDElIyin4z60PXx]{Perform}, issue another directive</p>"
+        },
+        "Incredible Senses": {
+            "name": "Incredible Senses",
+            "description": "<p><strong>Envoy</strong> You notice things that are almost impossible for an ordinary person to detect. Your proficiency rank for Perception increases to legendary.</p><hr /><p><strong>Operative</strong> Your eyes are incredibly sharp even without a scope. Your proficiency rank for Perception increases to legendary.</p>"
+        },
+        "Indiscernable Agenda": {
+            "name": "Indiscernable Agenda",
+            "description": "<p>It's nigh impossible for your enemies to learn about your schemes or penetrate your long-term plans. When a creature rolls a critical success or success at a Perception check to @UUID[Compendium.pf2e.actionspf2e.Item.1xRFPTFtWtGJ9ELw]{Sense Motive} against you, or on a skill check to Gather Information or Recall Knowledge about your secrets, they get a failure instead. When you roll a critical failure or failure at a saving throw against an effect or ability that would read or reveal your thoughts, emotions, or intentions, you get a success instead.</p>"
+        },
+        "Indomitable Body and Mind": {
+            "name": "Indomitable Body and Mind",
+            "description": "<p>Through meditation and perseverance, you've gained a broader control of your body. Your proficiency rank in Fortitude saves increases to expert. When you roll a success at a Fortitude or Will save against a mental or incapacitation effect, you can choose to change your current attunement.</p>"
+        },
+        "Infiltrator": {
+            "name": "Infiltrator",
+            "description": "<p>You specialize in bypassing security systems, hazards, traps, and other defenses. From hacking a computer system or cutting power to a building to bypassing a biometric lock and cracking a secure vault, you're skilled at accessing locations without alerting security or tripping safeguards. You're trained in Computers. You gain a skill feat for Computers.</p><p><strong>Exploit:</strong> You cause technological items and creatures to experience glitches and malfunctions with minimal effort. You gain the @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.XurgSJrHN5P8V1j1]{Sabotage} action.</p><p><strong>Enhanced Exploit:</strong> You can use Sabotage as a free action whenever you critically hit a tech creature with a melee attack or a ranged attack in your first range increment, targeting the triggering creature. You can use Sabotage as a reaction whenever a creature wielding a tech weapon, or a tech creature, critically fails a melee attack roll against you, targeting the triggering weapon or creature.</p>"
+        },
+        "Infosphere Director": {
+            "name": "Infosphere Director",
+            "description": "<p>You know how to control the flow of information, which can be critical during a battle or while planning your next mission. You might spend your downtime time hacking, programing , or just surfing infospheres to stay up to date on the latest news. Issuing commands via a datapad or wirelessly just comes naturally to you.</p><p><strong>Leadership Skill (1st)</strong> Computers</p><p><strong>Leadership Perk (1st)</strong> You gain @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.cfwf6Ar4r1kMvNub]{Digital Diversion} as a bonus feat.</p><p><strong>Acts of Leadership (6th)</strong> @UUID[Compendium.pf2e.actionspf2e.Item.GkmbTGfg8KcgynOA]{Create a Diversion} using Computers, @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{Recall Knowledge}</p>"
+        },
+        "Initial Epiphany": {
+            "name": "Initial Epiphany",
+            "description": "<p>You discover the most basic truth of your connection. You learn your connection's initial epiphany spell. Epiphany spells are a type of focus spell. It costs 1 Focus Point to cast a focus spell, and you start with a focus pool of 1 Focus Point. You refill your focus pool during your daily preparations, and you can regain 1 Focus Point by spending 10 minutes using the Refocus activity to perform, spend time with your bonded allies, or otherwise ponder the nature of your connection. Focus spells are automatically heightened to half your level rounded up, much like cantrips. Focus spells don't require spell slots, and you can't cast them using spell slots. Taking feats can give you more focus spells and increase the size of your focus pool, though your focus pool can never hold more than 3 Focus Points.</p>"
+        },
+        "Leader's Confidence": {
+            "name": "Leader's Confidence",
+            "description": "<p>Whether you're cool and collected or voicing confidence through gritted teeth, you prepare your team for incoming danger. You gain the @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.hXcgSVdVJcA5cqnh]{Steel Yourselves!} envoy directive.</p>"
+        },
+        "Leadership Style": {
+            "name": "Leadership Style",
+            "description": "<p>Whether it comes naturally, you trained for it, or you were thrown into a leadership role unexpectedly, you've developed a personal style of leading others. At 1st level, select a leadership style. You become trained in the indicated leadership skill, and you gain the indicated leadership perk. At 6th level, certain actions become your acts of leadership and grant you a benefit when you perform those acts. These actions vary depending on your selected leadership style.</p><p>When you use an act of leadership after issuing one or more envoy directives earlier that turn, you can choose one envoy directive you activated. You grant the lead by example benefits for that directive even if you didn't meet the usual requirements to lead by example. You can do this once per turn.</p><p>@UUID[Compendium.starfinder-field-test-for-pf2e.class-features.Item.FZzsSAI4JUgTEb3H]{From the Front}</p><p>@UUID[Compendium.starfinder-field-test-for-pf2e.class-features.Item.etUCB6gzOPTJi9hl]{From the Shadows}</p><p>@UUID[Compendium.starfinder-field-test-for-pf2e.class-features.Item.0jwYW7VIT2cxKYzG]{Guns Blazing}</p><p>@UUID[Compendium.starfinder-field-test-for-pf2e.class-features.Item.x60TxLELNPV0wMDs]{Hotshot}</p><p>@UUID[Compendium.starfinder-field-test-for-pf2e.class-features.Item.zG1PJsUA6goaGayk]{In the Spotlight}</p><p>@UUID[Compendium.starfinder-field-test-for-pf2e.class-features.Item.zlulamPv3uBZOYM8]{Infosphere Director}</p><p>@UUID[Compendium.starfinder-field-test-for-pf2e.class-features.Item.4cXPZBtoph5OQARY]{Through Desperate Times}</p>"
+        },
+        "Legendary Gunner": {
+            "name": "Legendary Gunner",
+            "description": "<p>You're known across the galaxy for your skill with guns. Your proficiency rank increases to legendary with simple and martial guns, and to master with advanced guns. Your proficiency rank increases to expert with simple weapons, martial weapons, and unarmed attacks.</p>"
+        },
+        "Legendary Improvisation": {
+            "name": "Legendary Improvisation",
+            "description": "<p>Your improvisation skills have dramatically improved.@UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.W0mMwOY1UKFHUHok]{Improvised Mastery} triggers on skill checks using a skill that you don't have legendary proficiency in, rather than master proficiency, and it grants you legendary proficiency for the triggering check, rather than master proficiency.</p>"
+        },
+        "Legendary Soldier": {
+            "name": "Legendary Soldier",
+            "description": "<p>Your actions are the stuff of legends, and your skill with controlling your weapons is unmatched. Your proficiency rank for your soldier class DC increases to legendary.</p>"
+        },
+        "Legendary Spellcaster": {
+            "name": "Legendary Spellcaster",
+            "description": "<p><strong>Mystic</strong> Magic flows through your every pore. Your proficiency ranks for spell attack modifier and spell DC increase to legendary.</p>"
+        },
+        "Light Armor Expertise": {
+            "name": "Light Armor Expertise",
+            "description": "<p>You've learned how to dodge while wearing light or no armor. Your proficiency ranks for light armor and unarmored defense increase to expert.</p>"
+        },
+        "Light Armor Mastery": {
+            "name": "Light Armor Mastery",
+            "description": "<p>Your skill with light armor improves, increasing your ability to dodge blows. Your proficiency ranks for light armor and unarmored defense increase to master.</p>"
+        },
+        "Limited Telepathy": {
+            "name": "Limited Telepathy",
+            "description": "<p>You can communicate mentally with creatures within 30 feet. You can communicate only with creatures that share a language with you. This doesn't give you any access to their thoughts, and it communicates no more information than normal speech would</p>"
+        },
+        "Master Gunner": {
+            "name": "Master Gunner",
+            "description": "<p>You're a highly skilled sharpshooter and never go anywhere without your gun. Your proficiency rank increases to master with simple and martial guns, and increases to expert with advanced guns. You gain access to the critical specialization effects for all guns for which you have expert proficiency.</p>"
+        },
+        "Master Spellcaster": {
+            "name": "Master Spellcaster",
+            "description": "<p><strong>Mystic</strong> You command powerful magic channeled through your connection. Your proficiency ranks for spell attack modifier and spell DC increase to master.</p>"
+        },
+        "Masterful Advance": {
+            "name": "Masterful Advance",
+            "description": "<p>When you use @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.SWHe1OEtGajrRWrZ]{Tactical Advance}, you can Stride up to your Speed, rather than up to half your Speed.</p>"
+        },
+        "Mobile Reload": {
+            "name": "Mobile Reload",
+            "description": "<p>Your gun is a part of you, and you've learned to reload while performing other actions. Whenever you Interact to reload a ranged weapon, you can also Step or Stride.</p>"
+        },
+        "Mystic Bond": {
+            "name": "Mystic Bond",
+            "description": "<p>You use your connection to form a bond between yourself and others, most typically your closest companions or those you'll be working with for a prolonged period of time. Forming bonds is different for every mystic, but always involves using a 10-minute activity related to the mystic's connection that requires you to be adjacent to the creature with whom you wish to bond. You can maintain a bond with up to 10 other willing creatures, and the bond lasts until you or the bonded creature are no longer willing to be part of the bond. You are always considered part of your own bond and don't count toward the 10-creature limit.</p><p>You always know the general distance and direction toward other bonded creatures, their Hit Point totals, and if they are conscious, @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Unconscious}, @UUID[Compendium.pf2e.conditionitems.Item.yZRUzMqrMmfLu0V1]{Dying}, or dead. This ability doesn't work across planes (including when in transit in the Drift), and some special magical or technological effects might interfere with your ability to detect your allies.</p>"
+        },
+        "Mystic Spellcasting": {
+            "name": "Mystic Spellcasting",
+            "description": "<p>You are a spellcaster and can cast spells using the Cast a Spell activity. As a mystic, when you cast spells, you might intone a prayer or hum a song inspired by your epiphanies, you might gesture or dance in patterns that follow the flow of your connection's network, and you might accompany your spellcasting with wisps of energy flowing between you and your bonded allies.</p><p>Each day, you can cast up to three 1st-rank spells. You must know spells to cast them, and you learn them via the spell repertoire class feature. The number of spells you can cast each day is called your spell slots.</p><p>As you increase in level as a mystic, your number of spells per day increases, as does the highest rank of spells you can cast, as shown on the Mystic Spells per Day table.</p><p>Some of your spells require you to attempt a spell attack to see how effective they are, or have your enemies roll against your spell DC (typically by attempting a saving throw). Since your key attribute is Wisdom, your spell attack modifiers and spell DCs use your Wisdom modifier.</p><h3>Heightening Spells</h3><p>When you get spell slots of 2nd rank and higher, you can fill those slots with stronger versions of lower-rank spells. This increases the spell's rank to match the spell slot. You must have a spell in your spell repertoire at the rank you want to cast in order to heighten it to that rank. Many spells have specific improvements when they are heightened to certain ranks. The signature spells class feature lets you heighten certain spells freely.</p><h3>Cantrips</h3><p>Some of your spells are cantrips. A cantrip is a special type of spell that doesn't use spell slots. You can cast a cantrip at will, any number of times per day. A cantrip is automatically heightened to half your level rounded up—this is usually equal to the highest rank of mystic spell slot you have. For example, as a 1st-level mystic, your cantrips are 1st-rank spells, and as a 5th-level mystic, your cantrips are 3rd-rank spells.</p><h2>Spell Repertoire</h2><p>The collection of spells you can cast is called your spell repertoire. At 1st level, you learn two 1st-rank spells of your choice and four cantrips of your choice, as well as an additional spell and cantrip from your connection. You choose these from the common spells from the tradition corresponding to your connection, or from other spells from that tradition to which you have access. You can cast any spell in your spell repertoire by using a spell slot of an appropriate spell rank.</p><p>You add to this spell repertoire as you increase in level. Each time you get a spell slot, you add a spell of the same rank to your spell repertoire. When you gain access to a new rank of spells, your first new spell is always the spell granted by your connection, but you can choose the other spells. At 2nd level, you select another 1st-rank spell; at 3rd level, you gain a new spell from your connection and two other 2nd-rank spells, and so on. When you add spells, you might select a higher-rank version of a spell you already know so that you can cast a heightened version of that spell.</p><p>Though you gain them at the same rate, your spell slots and the spells in your spell repertoire are separate. If a feat or other ability adds a spell to your spell repertoire, it wouldn't give you another spell slot, and vice versa.</p><h3>Swapping Spells In Your Repertoire</h3><p>As you gain new spells in your spell repertoire, you might want to replace some of the spells you previously learned. Each time you gain a level and learn new spells, you can swap out one of your old spells for a different spell of the same rank. This spell can be a cantrip, but you can't swap out epiphany spells. You can also swap out spells by retraining during downtime.</p>"
+        },
+        "Mystic Weapon Expertise": {
+            "name": "Mystic Weapon Expertise",
+            "description": "<p>You defeat your foes with the power of friendship and overwhelming firepower. Your proficiency rank for simple weapons and unarmed attacks increases to expert.</p>"
+        },
+        "On the Move": {
+            "name": "On the Move",
+            "description": "<p>You're fast on your feet, hard to pin down and able to better maneuver against foes who might try to pin you down. You gain a +5-foot status bonus to your Speed. This bonus increases by 5 feet for every 5 levels you have beyond 3rd. Additionally, you gain the @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.SWHe1OEtGajrRWrZ]{Tactical Advance} action.</p>"
+        },
+        "Operative Expertise": {
+            "name": "Operative Expertise",
+            "description": "<p>Your techniques are now harder to resist. Your proficiency rank for your operative class DC increases to expert.</p>"
+        },
+        "Operative Reflexes": {
+            "name": "Operative Reflexes",
+            "description": "<p>You've learned to move quickly to avoid explosions, sentry turrets, and worse. Your proficiency rank for Reflex saves increases to master. When you roll a success on a Reflex save, you get a critical success instead.</p>"
+        },
+        "Operative Resilience": {
+            "name": "Operative Resilience",
+            "description": "<p>You have a hardy physique. Your proficiency rank for Fortitude saves increases to expert.</p>"
+        },
+        "Operative's Edge": {
+            "name": "Operative's Edge",
+            "description": "<p>You've developed keen awareness and attention to detail. Your proficiency rank for Perception increases to master. In addition, you gain a +2 circumstance bonus to initiative rolls, making you faster to react during combat. If you take the Incredible Initiative feat, your circumstance bonus to initiative rolls becomes +3 instead.</p>"
+        },
+        "Operative's Specialization": {
+            "name": "Operative's Specialization",
+            "description": "<p>As an operative, you have a particular set of skills based on your ongoing training. Choose an operative's specialization. This specialization grants you training in one skill, a skill feat for that skill, and an exploit. At 9th level, you gain the enhanced exploit granted by your specialization.</p><p>@UUID[Compendium.starfinder-field-test-for-pf2e.class-features.Item.9YYpW8GzNL5E4GXO]{Ghost}</p><p>@UUID[Compendium.starfinder-field-test-for-pf2e.class-features.Item.Rqcl0KxiEljmhyDT]{Infiltrator}</p><p>@UUID[Compendium.starfinder-field-test-for-pf2e.class-features.Item.CNtcTOw0dLHdNna1]{Skirmisher}</p><p>@UUID[Compendium.starfinder-field-test-for-pf2e.class-features.Item.WCbFOSycmBVHQfnN]{Sniper}</p><p>@UUID[Compendium.starfinder-field-test-for-pf2e.class-features.Item.OBUIFNBSHc2EfDER]{Striker}</p>"
+        },
+        "Overeager Enthusiasm": {
+            "name": "Overeager Enthusiasm",
+            "description": "<p>You are often oblivious in your enthusiasm to help others. You take a –1 circumstance penalty on Perception checks to @UUID[Compendium.pf2e.actionspf2e.Item.1xRFPTFtWtGJ9ELw]{Sense Motive} and a –1 circumstance penalty to Will saves against emotion effects, except the @UUID[Compendium.pf2e.spells-srd.Item.b515AZlB0sridKSq]{calm} spell.</p>"
+        },
+        "Paradox": {
+            "name": "Paradox",
+            "description": "<p>Your existence is somehow contrary to the status quo of the universe, causing quantum ripples that empower your spellcasting talent and open doorways to strange worlds. Perhaps you're from an alternate reality or a different timeline, or perhaps you experienced a phenomenon that altered your path, discovered a time-glitching alien device, or developed a thesis on quantum magical theory. Whatever your story, you've become a living paradox.</p><p>At 1st level, select your paradox, which determines the tradition of your spells, additional spells you learn, additional trained skills, and the effects of your quantum field. You also gain Focus Points and special focus spells called warp spells based on your paradox.</p><p>@UUID[Compendium.starfinder-field-test-for-pf2e.class-features.Item.RLToUc8CVskgLZWJ]{Analyst}</p><p>@UUID[Compendium.starfinder-field-test-for-pf2e.class-features.Item.ttsu0MLrAgQjdVbT]{Anomaly}</p><p>@UUID[Compendium.starfinder-field-test-for-pf2e.class-features.Item.fQRiPpFybICoKXsj]{Gap Influenced}</p><p>@UUID[Compendium.starfinder-field-test-for-pf2e.class-features.Item.N24ZQO1ZpMfTm23z]{Precog}</p>"
+        },
+        "Pensive Assessor": {
+            "name": "Pensive Assessor",
+            "description": "<p>Your careful training and honed senses give you increased awareness of your surroundings. Your proficiency rank for Perception increases to master. In addition, you gain a +2 circumstance bonus to Perception checks for initiative, making you faster to react during combat. This bonus increases to +3 if you have the @UUID[Compendium.pf2e.feats-srd.Item.2kwXTUjYYhoAGySr]{Incredible Initiative} general feat.</p>"
+        },
+        "Perception Expertise": {
+            "name": "Perception Expertise",
+            "description": "<p><strong>Envoy</strong> You've a keen eye for details and always manage to remain alert to threats around you. Your proficiency rank for Perception increases to expert.</p><p><strong>Soldier</strong> You remain alert to threats around you and can react a moment's notice. Your proficiency rank for Perception increases to expert.</p><p><strong>Mystic</strong> You remain alert to threats around you. Your proficiency rank for Perception increases to expert.</p>"
+        },
+        "Perception Legend": {
+            "name": "Perception Legend",
+            "description": "<p>You notice the almost imperceptible. Your proficiency rank for Perception increases to legendary.</p>"
+        },
+        "Perception Mastery": {
+            "name": "Perception Mastery",
+            "description": "<p><strong>Envoy</strong> Through your adventures, you've developed keen awareness and attention to detail. Your proficiency rank in Perception increases to master.</p>"
+        },
+        "Perfect Harmony": {
+            "name": "Perfect Harmony",
+            "description": "<p>You discover the ultimate truth of your connection and how it comprises the foundation of the cosmos. You learn your connection's perfect harmony.</p>"
+        },
+        "Practiced Influencer": {
+            "name": "Practiced Influencer",
+            "description": "<p>You're a master at influencing others and using your skills to get the best result out of a social situation. You rarely say the wrong thing or cause a negotiation to go south. You gain the @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.mtuJWYgaRQJYsEsZ]{Practiced Influencer} action.</p>"
+        },
+        "Precog": {
+            "name": "Precog",
+            "description": "<p>Some event has unstuck you in time. You might come from the distant past or a far-flung future. Perhaps you've traveled from some forsaken timeline to stop a cataclysmic event. Whatever the reason, you're now gifted with the ability to see and manipulate time in a way that few others comprehend.</p><p><strong>Tradition</strong> occult</p><p><strong>Paradox Skill</strong> Piloting</p><p><strong>Granted Spells</strong></p><ul><li>cantrip: @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.ITK4ZWoYq5oSOTRM]</li><li>1st: @UUID[Compendium.pf2e.spells-srd.Item.aEM2cttJ2eYcLssW]</li><li>2nd: @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.cykzPdDC93OkC1IN]</li><li>3rd: @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.41eiakxOYO96avgr]</li><li>4th: @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.LVTgiDmm3g9dt0Sa]</li><li>5th: @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.mYCwqoRRkCEjPIl8]</li><li>6th: @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.zMxl2O1P5stsskdF]</li><li>7th: @UUID[Compendium.pf2e.spells-srd.Item.WG91Z5TiR6oO5FOw]</li><li>8th: @UUID[Compendium.pf2e.spells-srd.Item.4MOew29Z1oCX8O28]</li><li>9th: @UUID[Compendium.pf2e.spells-srd.Item.4WS7HrFjwNvTn8T2]</li></ul><p><strong>Warp Spells</strong></p><ul><li>initial: @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.lmYkyB1sPQYiMeKR]</li><li>advanced: @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.wPqPSW6lwhuKE2TI]</li><li>greater: @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.aeLOas6xxoPYjKOU]</li></ul><p><strong>Quantum Field</strong> You have a modicum of control of the flow of time that surrounds you, allowing you to speed yourself and others up, or decrease the flow of time for others. An enemy creature that uses a move action inside your quantum field takes a –5-foot status penalty to its Speed during that action. You and your allies gain a +5-foot status bonus to Speed when you use a move action inside your quantum field during that action.</p>"
+        },
+        "Primary Target": {
+            "name": "Primary Target",
+            "description": "<p>You can pick out a single target to bring down greater fire on when unleashing the full devastation of your powerful area weaponry.</p><p>When you make an attack with an area of effect weapon (such as from the @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.oc0ZKnk5zD0GXqZi]{Area Fire} or @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.6ctkxUnVwqooSvgg]{Auto-Fire} actions), you can choose a single creature either adjacent to the center point of the attack or the closest to you within a cone or line to be your primary target.</p><p>Before resolving the area of effect attack, make a ranged Strike using your weapon against the selected target. Ignore the unwieldy trait on your weapon when using this action. If two or more creatures are equidistant or closest, you can choose which one is your primary target. If you successfully hit your primary target with this Strike and the target rolls a success against your Area Fire or Auto-Fire action, they get a failure instead. This Strike doesn’t count toward your multiple attack penalty.</p>"
+        },
+        "Quantum Field": {
+            "name": "Quantum Field",
+            "description": "<p>You can draw on paradoxical forces to create a reality-warping quantum field. This might manifest as a haze in the air that shows shimmers of alternate realities or appear as walls of glowing magical equations only you can understand. The effects of your quantum field are determined by your paradox. You can further enhance and manipulate your quantum field through your witchwarper feat selections and by casting warp spells. You can activate or extend the duration of your quantum field by using reality-warping magic.</p><p>You have the @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.WtIVuQcabH6Gqg6i]{Warp Reality} action, which lets you activate your quantum field. This action gains the arcane or occult trait based on the tradition of your selected paradox.</p>"
+        },
+        "Quantum Pulse": {
+            "name": "Quantum Pulse",
+            "description": "<p><strong>Trigger</strong> You roll initiative.</p><hr /><p>You're always ready to let loose with your paradoxical abilities and can create your field with a thought. As combat begins, you release a pulse of quantum energy, activating your quantum field as if you'd used @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.WtIVuQcabH6Gqg6i]{Warp Reality}.</p>"
+        },
+        "Quantum Thesis": {
+            "name": "Quantum Thesis",
+            "description": "<p>You command the most potent magic and can cast spells of truly incredible power. Add two common 10th-rank spells of your tradition to your repertoire. You gain a single 10th-rank spell slot you can use to cast these spells, using witchwarper spellcasting. Unlike other spell slots, you don't gain more 10th-rank spells as you level up, and they can't be used for abilities that let you cast spells without expending spell slots or abilities that give you more spell slots. You can take the @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.1FpIDO6kCOiIR1KE]{Quantum Research} witchwarper feat to gain a second slot.</p>"
+        },
+        "Radiant": {
+            "name": "Radiant",
+            "description": "<p>The light of a star shines more brightly than anything else in the cosmos, and you desire to shine just as brightly. As a follower of the radiant path, you channel that cosmic light into bursts of energy that manifest as flames or revitalizing photonic energy. There are few who understand the stellar fire of a star better than you, and you can channel that energy into personal enthusiasm, either by dedicating yourself to a profession or just having a radiant personality that appeals to others and makes you the center of attention.</p><p><strong>Favored Attunement</strong>: Photon</p><p><strong>Revelations</strong>: initial: @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.jPy4UlsL5AlVwKYC]{Supernova}; advanced: @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.ePrzwBAwVZk5OFg3]{Solar Wind}; greater: @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.k7IZh5sSHImLt1Yz]{Big Bang}</p><p><strong>Arrangement Skill</strong>: Crafting or Diplomacy</p>"
+        },
+        "Reflex Expertise": {
+            "name": "Reflex Expertise",
+            "description": "<p><strong>Mystic</strong> You've honed your ability to dodge dangers and more easily move around the battlefield without taking damage from area attacks. Your proficiency rank for Reflex saves increases to expert.</p><hr /><p><strong>Soldier</strong> Your reactionary defenses grow stronger. Your proficiency rank for Reflex saves increases to expert.</p><hr /><p><strong>Witchwarper</strong> Your awareness of possible dangers, through incredible analysis or an understanding of the wider multiverse, increases your reflexes. Your proficiency rank for Reflex saves increases to expert.</p>"
+        },
+        "Reflex Mastery": {
+            "name": "Reflex Mastery",
+            "description": "<p>You've learned to move quickly to avoid explosions, dragon's breath, and worse. Your proficiency rank for Reflex saves increases to master. When you roll a success on a Reflex save, you get a critical success instead.</p>"
+        },
+        "Resilient Soul": {
+            "name": "Resilient Soul",
+            "description": "<p>The links to your connection and your bonded companions bolster your soul against doubt. Your proficiency rank for Will saves increases to master. When you roll a success at a Will save, you get a critical success instead.</p>"
+        },
+        "Resolve": {
+            "name": "Resolve",
+            "description": "<p><strong>Envoy</strong> You've strengthened your mind with an inner reservoir of determination. Your proficiency rank for Will saves increases to master. When you roll a success on a Will save, you get a critical success instead.</p><p><strong>Operative</strong> You've steeled your mind with resolve. Your proficiency rank for Will saves increases to master. When you roll a success on a Will save, you get a critical success instead.</p>"
+        },
+        "Rhythm": {
+            "name": "Rhythm",
+            "description": "<p>You feel the melody that moves the stars, channeling this cosmic beat through the power of audible rhythm and universal vibrations known by many as the Song of the Spheres. You might also simply have a melody or tune in your mind that you feel compelled to share with the wider cosmos, beginning with the allies tied to your bond.</p><p><strong>Spellcasting Tradition</strong> primal</p><p><strong>Connection Skill</strong> Performance</p><p><strong>Granted Spells</strong></p><ul><li><em>cantrip</em> @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.gntsQUBAauW7K9zI]</li><li><em>1st</em> @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.jCr8Airvs1u5D1yR]</li><li><em>2nd</em> @UUID[Compendium.pf2e.spells-srd.Item.b515AZlB0sridKSq]</li><li><em>3rd</em> @UUID[Compendium.pf2e.spells-srd.Item.K2WpC3FFoHrqX9Q5]</li><li><em>4th</em> @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.2ob00VzUi87MwIbk]</li><li><em>5th</em> @UUID[Compendium.pf2e.spells-srd.Item.BilnTGuXrof9Dt9D]</li><li><em>6th</em> @UUID[Compendium.pf2e.spells-srd.Item.RQjSQVZRG497cJhX]</li><li><em>7th</em> @UUID[Compendium.pf2e.spells-srd.Item.73rToy0v5Ra9NvL6]</li><li><em>8th</em> @UUID[Compendium.pf2e.spells-srd.Item.Jvyy6oVIQsD34MHB]</li><li><em>9th</em> @UUID[Compendium.pf2e.spells-srd.Item.FmNDwqMEjeTEGPrY]</li></ul><p><strong>Harmony</strong> When you @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.y9tYChycW6xcdT7J]{Transfer Vitality}, you can extend the duration of any active epiphany from the rhythm connection by 1 round. If there are no active focus spells and you have a Focus Point remaining, you can instead cast a 1-action focus spell as part of this action.</p><p><strong>Initial Epiphany</strong> You learn the @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.BKVIofy6uT5s6S9L] focus spell.</p><p><strong>Advanced Epiphany</strong> You learn the @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.Mofxnqsy0x8ZKyk2] focus spell.</p><p><strong>Greater Epiphany</strong> You learn the @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.cRDGqRtelPj5UTAJ] focus spell.</p><p><strong>Perfect Harmony</strong> Whenever you Transfer Vitality, attempt to counteract any one affliction affecting your ally, or attempt to counteract an effect of your choice imposing one of these conditions: @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy}, @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{Confused}, @UUID[Compendium.pf2e.conditionitems.Item.9qGBRpbX9NEwtAAr]{Controlled}, @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Doomed}, @UUID[Compendium.pf2e.conditionitems.Item.sDPxOjQ9kx2RZE8D]{Fleeing}, @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened}, @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned}, and @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied}. If you didn't counteract the effect, but you would have if its counteract rank were 2 lower, instead suppress the effect until the beginning of your next turn. The effect's duration doesn't elapse while it's suppressed.</p>"
+        },
+        "Savvy Influencer": {
+            "name": "Savvy Influencer",
+            "description": "<p>You can use @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.mtuJWYgaRQJYsEsZ]{Practiced Influencer} twice per day. Additionally, the first time per day when you roll a natural 1 on a Deception, Diplomacy, or Intimidation check, you don't automatically reduce your degree of success (you get a critical failure only if your result is 10 lower than the DC).</p>"
+        },
+        "Shadow": {
+            "name": "Shadow",
+            "description": "<p>You know every shadow is a gateway to the Netherworld, and like an artist molding clay, you form that realm's shadowy substance into terrible and wondrous shapes at your whim. Your ability to control shadows might mean a dark passenger guides you.</p><p><strong>Spellcasting Tradition</strong> divine</p><p><strong>Connection Skill</strong> Stealth</p><p><strong>Granted Spells</strong></p><ul><li><em>cantrip</em> @UUID[Compendium.pf2e.spells-srd.Item.0zU8CPejjQFnhZFI]</li><li><em>1st</em> @UUID[Compendium.pf2e.spells-srd.Item.k34hDOfIIMAxNL4a]</li><li><em>2nd</em> @UUID[Compendium.pf2e.spells-srd.Item.XXqE1eY3w3z6xJCB]</li><li><em>3rd</em> @UUID[Compendium.pf2e.spells-srd.Item.WsUwpfmhKrKwoIe3]</li><li><em>4th</em> @UUID[Compendium.pf2e.spells-srd.Item.srEKUvym9kDVbEhD]</li><li><em>5th</em> @UUID[Compendium.pf2e.spells-srd.Item.rxvS7EMJ7qmexAyA]</li><li><em>6th</em> @UUID[Compendium.pf2e.spells-srd.Item.WPXzPl7YbMEIGWfi]</li><li><em>7th</em> @UUID[Compendium.pf2e.spells-srd.Item.O6VQC1Bs4aSYDa6R]</li><li><em>8th</em> @UUID[Compendium.pf2e.spells-srd.Item.wfleiawxsfhpRRwf]</li><li><em>9th</em> @UUID[Compendium.pf2e.spells-srd.Item.MJx7DmjsWYzDZ3a4]</li></ul><p><strong>Harmony</strong> When you @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.y9tYChycW6xcdT7J], the target's shadow darkens and swells, reducing bright light within a @Template[type:emanation|distance:10] of the target to dim light. This is a form of magical darkness and can overcome non-magical light sources or attempts to counteract magical light. The target becomes @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W] while in this dim light, and can use the concealed condition to @UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]. This lasts until the end of your next turn. Even creatures with darkvision (but not greater darkvision) can barely see through the darkness and they treat targets seen through the darkness as concealed.</p><p><strong>Initial Epiphany</strong> You learn the @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.0MQUicYsr9diBI11] focus spell.</p><p><strong>Advanced Epiphany</strong> You learn the @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.5LnRNXlbQsh6SVXa] focus spell.</p><p><strong>Greater Epiphany</strong> You learn the @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.5pF9Dv1b6A7U7sGt] focus spell.</p><p><strong>Perfect Harmony</strong> You gain the @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.Px0wiqFEiQdPLvou] action. Whenever you @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.y9tYChycW6xcdT7J], the healed creature can use this action once before the end of their next turn.</p>"
+        },
+        "Sharpshooter": {
+            "name": "Sharpshooter",
+            "description": "<p>You can spot a target's weak points. You gain the @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.LRbwV8LMLi6FFKjW]{Aim} action.</p>"
+        },
+        "Signature Spells": {
+            "name": "Signature Spells",
+            "description": "<p>You've learned to cast some of your spells more flexibly, granting you extra control over your spellcasting. For each spell rank you have access to, choose one spell of that rank to be a signature spell. You don't need to learn heightened versions of signature spells separately; instead, you can heighten these spells freely. If you've learned a signature spell at a higher level than its minimum, you can also cast all its lower-rank versions without learning those separately. If you swap out a signature spell, you can choose a replacement signature spell of the same spell rank at which you learned the previous spell. You can also retrain specifically to change a signature spell to a different spell of that rank without swapping any spells; this takes as much time as retraining a spell normally does.</p>"
+        },
+        "Silver Tongue": {
+            "name": "Silver Tongue",
+            "description": "<p>Your savvy and skill are unparalleled. Select Deception, Diplomacy, or Intimidation. That skill's proficiency rank and your leadership skill increase to legendary. If that skill was already legendary, you can reroll that skill check once per day and take the higher result. This reroll is a fortune effect. Your proficiency rank for your envoy class DC increases to master.</p>"
+        },
+        "Six-Armed": {
+            "name": "Six-Armed",
+            "description": "<p>You have six arms, which allows you to wield and hold up to six hands' worth of weapons and equipment. At any time, one pair of hands is designated your active hands. You can change this designation from one pair of hands to another by taking the @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.oW81CfM9ebxXnrw3]{Switch Active Hands} action, which is a single action. You can only perform actions with your active hands.</p>"
+        },
+        "Skirmisher": {
+            "name": "Skirmisher",
+            "description": "<p>You specialize in close quarters missions that require you to operate in crowded and tight spaces, such as inside buildings or vehicles, down narrow alleys, and within crowds. Whether you're a mugger, a bodyguard, an assassin, or an urban mercenary, you favor pistols and can use them efficiently in tight spaces. You're trained in Acrobatics. You gain a skill feat for Acrobatics.</p><p><strong>Exploit:</strong> You're adept at utilizing pistols in close combat and can employ them in a fight just as well as some might use a sword. Your ranged Strikes with one-handed ranged weapons don't trigger reactions that are triggered by a ranged attack. You gain the @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.TmM2RY93qR25KU8D]{Hair Trigger} feat as a bonus feat.</p><p><strong>Enhanced Exploit:</strong> Your point-blank shots are particularly deadly. When you make a successful Strike against an adjacent enemy with a one-handed ranged weapon, you calculate the damage as if the lowest-rolled weapon damage die for the attack had the maximum result instead. At 17th level, the two lowest-rolled damage dice increase to the maximum result.</p>"
+        },
+        "Sniper": {
+            "name": "Sniper",
+            "description": "<p>You specialize in targeting foes from far away and attacking while unseen. Whether you're peeking around a corner, perching on a distant rooftop, or aiming from the back line of a squad formation, you favor sniper rifles and prefer to line up the perfect shot rather than rush into combat. You're trained in Stealth. You gain a skill feat for Stealth.</p><p><strong>Exploit:</strong> You ignore the volley trait of guns you wield. You gain one of the following operative feats as a bonus feat: @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.XsMsPa52fuYSwj7N]{Keep Them in Your Sights} or @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.bichxi9CPayyh0xF]{Scope Sight}.</p><p><strong>Enhanced Exploit:</strong> If you fail your first ranged Strike against your mark using a sniper rifle, you can automatically reload your sniper rifle as a free action and you ignore your sniper rifle’s unwieldy trait until the end of your turn.</p>"
+        },
+        "Social Mastermind": {
+            "name": "Social Mastermind",
+            "description": "<p>You rely on your force of personality and powers of persuasion to influence others, for good or for ill. You gain the activity @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.03orjjkalSZC6Mtb]{Size Up} and the action @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.3AoG7FzHx903o4nO]{Saw It Coming}.</p>"
+        },
+        "Solar Manifestations": {
+            "name": "Solar Manifestations",
+            "description": "<p>Your deep understanding of the stellar forces of the universe manifests in a variety of tangible ways. You can create and maintain all three different manifestations: solar flare, a solar nimbus, and a solar weapon. Your manifestations temporarily vanish if you become unattuned.</p><h3>Solar Flare</h3><p>A small mote of solar power hovers nearby or appears embedded on some part of your body, such as the palm of your hand or on your face. This flare of energy can unleash energy in a short range. Your solar flare is otherwise treated as a martial ranged weapon in the brawling weapon group.</p><p>@UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.0o7v0LwOjvvNJRCw]{Solar Shot}</p><h3>Solar Nimbus</h3><p>A layer of photonic energy surrounds you, overlaying your body or worn armor. This layer of star stuff provides you with protection that works alongside existing armor. It appears as a layer of glowing light or solid darkness, depending on your current state of attunement. The general appearance and shape of the nimbus is your choice and could appear as a thin layer of energy or imposing spiked energy armor layered atop your existing equipment. This design has no impact on its function and doesn't provide any additional bonuses.</p><p>@UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.fy5RQYfWhum3Bz9H]{Nimbus Surge}</p><h3>Solar Weapon</h3><p>Through sheer will, you can call forth a tangible weapon comprised of the essence of stars. When you Attune, you can manifest your weapon as part of the action. When manifesting your weapon, it appears in a free hand of your choice, unless it has the free-hand trait, at which point it can manifest in any hand. Your solar weapon is a martial melee weapon. It deals 1d8 of your choice of bludgeoning, piercing, or slashing damage. You can select up to two of the following traits for your weapon. Alternatively, you can select the reach or two-hand 1d10 trait for your weapon instead of selecting two of the following traits.</p><ul><li>Disarm</li><li>Free-Hand</li><li>Grapple</li><li>Nonlethal</li><li>Parry</li><li>Shove</li><li>Sweep</li><li>Trip</li><li>Versatile (B/P/S only)</li></ul><p>You can select one of the following weapon groups for your weapon to be a part of.</p><ul><li>Axe</li><li>Brawling</li><li>Club</li><li>Flail</li><li>Hammer</li><li>Knife</li><li>Pick</li><li>Polearm</li><li>Spear</li><li>Sword</li></ul><p>You can change the properties of your solar weapon through the @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.7p3HC6xc2ui6fU3V]{Re-Forge Solar Weapon} activity. Your solar weapon gains additional benefits based on your current attunement.</p><p><strong>Graviton-Attuned</strong> When you successfully Strike a creature using your solar weapon, that creature treats all squares adjacent to the square where they were struck as being difficult terrain until the end of its next turn.</p><p><strong>Photon-Attuned</strong> When you successfully Strike a creature with your solar weapon, you deal an additional amount of fire damage equal to half your level (rounded up).</p>"
+        },
+        "Solar Paradigm": {
+            "name": "Solar Paradigm",
+            "description": "<p>Your proficiency rank for your solar weapon increases to legendary.</p>"
+        },
+        "Solarian Armor Expertise": {
+            "name": "Solarian Armor Expertise",
+            "description": "<p>You have spent so much time in armor that you know how to make the most of its protection. Your proficiency ranks for light and medium armor, as well as for unarmored defense, increase to expert.</p>"
+        },
+        "Solarian Arrangement": {
+            "name": "Solarian Arrangement",
+            "description": "<p>As adherents of the cycle of creation and destruction, solarians maintain strong personal beliefs that attach themselves to specific aspects of the cycle. At 1st level, your arrangement grants you a favored attunement, which determines your starting attunement state in combat (unless you've used the @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.1EewWFSgMbYZKykO]{Attunement Control} exploration action) and what state the @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.JLo2gJ2s0BXUKsLQ]{Attune} action attunes you to. It also provides you with an initial revelation, and proficiency with a particular skill. You also gain advanced and greater revelations at later levels.</p><p>@UUID[Compendium.starfinder-field-test-for-pf2e.class-features.Item.dLgIh1aJTzfEA29V]{Balanced}</p><p>@UUID[Compendium.starfinder-field-test-for-pf2e.class-features.Item.fPxeqA1H3AZLbOAi]{Degradant}</p><p>@UUID[Compendium.starfinder-field-test-for-pf2e.class-features.Item.saCXcdMlmSXhhViU]{Radiant}</p>"
+        },
+        "Solarian Expertise": {
+            "name": "Solarian Expertise",
+            "description": "<p>Your proficiency rank for your solarian class DC increases to expert.</p>"
+        },
+        "Solarian Mastery": {
+            "name": "Solarian Mastery",
+            "description": "<p>Your proficiency rank for your solarian class DC increases to master.</p>"
+        },
+        "Solarian Weapon Expertise": {
+            "name": "Solarian Weapon Expertise",
+            "description": "<p>You unlock further understanding of the many weapons of the cosmos. Your proficiency ranks for simple weapons, martial weapons and unarmed attacks increase to expert. You gain access to the critical specialization effects for your solar weapon.</p>"
+        },
+        "Solarian Weapon Mastery": {
+            "name": "Solarian Weapon Mastery",
+            "description": "<p>Your weapon becomes and extension of yourself. Your proficiency ranks for simple weapons, martial weapons and unarmed attacks increases to master.</p>"
+        },
+        "Soldier Expertise": {
+            "name": "Soldier Expertise",
+            "description": "<p>Your ability to unleash area of effect attacks and utilize your equipment improves. Your proficiency rank for your soldier class DC increases to expert.</p>"
+        },
+        "Soldier Fighting Styles": {
+            "name": "Soldier Fighting Styles",
+            "description": "<p>As a soldier, you applied yourself to a specific style of combat. Your style determines how you tend to approach combat and often changes how you take advantage of your ability to suppress targets. Choose a soldier fighting style. The fighting styles presented in this book are as follows.</p><p>@UUID[Compendium.starfinder-field-test-for-pf2e.class-features.Item.sy40CowlzpsjQkKd]{Armor Storm}</p><p>@UUID[Compendium.starfinder-field-test-for-pf2e.class-features.Item.3MlqssuArJ7cSVvm]{Bombard}</p><p>@UUID[Compendium.starfinder-field-test-for-pf2e.class-features.Item.B5rLEsiNdQzKUPOE]{Close Quarters}</p>"
+        },
+        "Soldier Mastery": {
+            "name": "Soldier Mastery",
+            "description": "<p>Through skill and dedication, you've mastered devastating weapons. Your proficiency rank for your soldier class DC increases to master. Your proficiency ranks for unarmed attacks, simple weapons, and martial weapons increase to master.</p>"
+        },
+        "Soldier Weapon Expert": {
+            "name": "Soldier Weapon Expert",
+            "description": "<p>You've learned how to use your weapons in a way that pulverizes your foes and makes the best use of your area attacks. Your proficiency ranks for simple weapons, martial weapons, and unarmed attacks increases to expert. You gain access to the critical specialization effects for weapons with the area or automatic traits.</p>"
+        },
+        "Soldier's Resolution": {
+            "name": "Soldier's Resolution",
+            "description": "<p>Your proficiency rank for Will saves increases to master. When you roll a success on a Will save, you get a critical success instead.</p>"
+        },
+        "Specialized Skill Set": {
+            "name": "Specialized Skill Set",
+            "description": "<p>At 3rd level, 7th level, and 15th level, you gain a skill feat. This feat must be for the trained skill from your operative's specialization.</p>"
+        },
+        "Stellar Attunement": {
+            "name": "Stellar Attunement",
+            "description": "<p>As a solarian, your existence cycles between the aspects of stars. You begin with two aspects: photon (the power of stars to emit heat, light, and plasma) or graviton (the power of stars to attract and imprison objects through gravity). At any time, you are considered graviton-attuned, photon-attuned, or unattuned. Many of your abilities have additional effects based on your current attunement, and some abilities swap your current state of attunement to another state.</p><p>Your default state of attunement is dictated by the favored attunement of your selected stellar arrangement. In encounter mode, you can use the @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.JLo2gJ2s0BXUKsLQ]{Attune} action to re-attune to your favored state. In exploration mode, you can take the @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.1EewWFSgMbYZKykO]{Attunement Control} activity to ensure that you are in constant control of what state of attunement you begin combat in, regardless of your favored attunement.</p>"
+        },
+        "Striker": {
+            "name": "Striker",
+            "description": "<p>You specialize in hand-to-hand combat and prefer to fight using your fists or lightweight melee weapons, rather than guns. Whether you're a daredevil who lives for the thrill, a martial artist who likes to show off, or an assassin who kills with a personal touch, you take the fight to your foes and use your body as a weapon. You're trained in Athletics. You gain a skill feat for Athletics. You can choose Strength as your key attribute.</p><p><strong>Exploit:</strong> You have expert proficiency with unarmed and one-handed melee weapons with the agile trait instead of with martial guns. Whenever you increase your proficiency with martial guns, you instead increase your proficiency with one-handed agile melee weapons and simple guns.</p><p>You can use one-handed melee weapons with the agile trait and melee unarmed attacks with the agile trait to Aim and to satisfy requirements and use operative feats and features that require a ranged Strike or gun.</p><p>You gain the @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.MAKgtzblKAN2CQa1]{Reactive Step} reaction.</p><p><strong>Enhanced Exploit:</strong> You find yourself able to overwhelm foes that you study. You gain the @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.Mzv57gHOchXo0Nly]{Overwhelming Strike} free action.</p>"
+        },
+        "Suppressing Fire": {
+            "name": "Suppressing Fire",
+            "description": "<p>You have a knack for using powerful weapons to hinder your foes and prevent them from operating at their peak. If you make an attack with a weapon that has the area trait (such as from the @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.oc0ZKnk5zD0GXqZi]{Area Fire} or @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.6ctkxUnVwqooSvgg]{Auto-Fire} actions), you use it in a manner that suppresses your targets. Enemies in the affected area who fail their save against your attack become @UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.enA7BxAjBb7ns1iF]{Suppressed} until the start of your next turn. A suppressed target takes a –1 circumstance penalty on attack rolls and takes a –10-foot status penalty to its Speeds. Some Soldier abilities and class feats interact further with the suppressed condition.</p>"
+        },
+        "Tactical Barrage": {
+            "name": "Tactical Barrage",
+            "description": "<p>You unleash a devastating barrage of attacks upon your mark. Your multiple attack penalty for attacks against your mark is –3 (–2 with an agile weapon) on your second attack of the turn instead of –5, and –6 (–4 with an agile weapon) on your third or subsequent attack of the turn, instead of –10.</p>"
+        },
+        "Tactician": {
+            "name": "Tactician",
+            "description": "<p>You know your allies' abilities well, and you can motivate them to leverage their strengths at a key moment. During your daily preparations, review your team's capabilities with up to five allies. You and each of these allies decide whether each is an attacker, defender, expert, or spellcaster for purposes of this ability. Later, you can issue the following directive: @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.VIINXR1UeGV5La4K]{Show 'Em What You Got!}</p>"
+        },
+        "Tangible Object": {
+            "name": "Tangible Object",
+            "description": "<p>A small object, usually something you wear or can hold with one appendage, gives you comfort. It might be a trinket or article of clothing with sentimental value, a gadget to fidget with, or perhaps it just has a texture you find pleasing. The object is a physical thing, and not a digital or illusory product. Touching or thinking about the item helps you quiet the paradoxical ideas in your mind and focus on what's around you and what is tangible.</p><p><strong>Anchor Benefit</strong> The presence or weight of your chosen object helps ground you in this reality. You gain a +1 circumstance bonus to both Perception checks and Will saves against illusions and holograms. When you come within 10 feet of an illusion or hologram that can be disbelieved, the GM rolls a secret check for you to disbelieve it, even if you didn't spend an action to Interact with the illusion or hologram.</p><p><strong>Anchoring Action</strong> @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.nqO7txndCdyRKevE]{Touch Something Real}</p>"
+        },
+        "Through Desperate Times": {
+            "name": "Through Desperate Times",
+            "description": "<p>You stepped up to lead during difficult times, and it's your job to help your team live to see another day. Luckily, you have the skills that can save the lives of others in a pinch. Your life might be plagued by some traumatic event, or you participated in some notorious battle. Your allies trust your instincts because of whatever event defined you. Letting them down is out of the question.</p><p><strong>Leadership Skill (1st)</strong> Medicine</p><p><strong>Leadership Perk (1st)</strong> You gain @UUID[Compendium.pf2e.feats-srd.Item.wYerMk6F1RZb0Fwt]{Battle Medicine} as a bonus feat.</p><p><strong>Acts of Leadership (6th)</strong> @UUID[Compendium.pf2e.actionspf2e.Item.MHLuKy4nQO2Z4Am1]{Administer First Aid}, Battle Medicine, use a healing item on an ally</p>"
+        },
+        "Tough as Nails": {
+            "name": "Tough as Nails",
+            "description": "<p>Your proficiency rank for Fortitude saves increases to master. When you roll a success on a Fortitude save, you get a critical success instead.</p>"
+        },
+        "Transcendence": {
+            "name": "Transcendence",
+            "description": "<p>You're a true conduit of your connection and manifest your transcendence with powerful spells. You gain a single 10th-rank spell slot and can prepare a spell in that slot using mystic spellcasting. Unlike with other spell slots, you can't use 10th-rank slots with abilities that give you more spell slots or that let you cast spells without expending spell slots. You don't gain more 10th-rank spells as you level up, but you can take the @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.dCvAYFESkGyur1yw]{Transcended Existence} feat to gain a second slot.</p>"
+        },
+        "Transcendent Will": {
+            "name": "Transcendent Will",
+            "description": "<p>The intense experiences you've accumulated through your studies or travels have strengthened your mental fortitude. Your proficiency rank for Will saves increases to master. When you roll a success on a Will save you get a critical success instead.</p>"
+        },
+        "Unshakable Juggernaut": {
+            "name": "Unshakable Juggernaut",
+            "description": "<p>Your proficiency rank for Fortitude saves increases to legendary. When you roll a critical failure on a Fortitude save, you get a failure instead. When you fail a Fortitude save against an effect that deals damage, you halve the damage you take.</p>"
+        },
+        "Urban Operator": {
+            "name": "Urban Operator",
+            "description": "<p>You're accustomed to working in urban environments and can move swiftly through the crowded cityscape. You ignore difficult terrain from trash and crowds, and greater difficult terrain from urban environment trash and crowds are only difficult terrain for you.</p>"
+        },
+        "Vitality Network": {
+            "name": "Vitality Network",
+            "description": "<p>Your soul supports a network of magical energy that connects and heals those in your bond. Your vitality network has a maximum capacity equal to 6 + 4 Hit Points per mystic level. You gain the @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.y9tYChycW6xcdT7J]{Transfer Vitality} action that you can use to take Hit Points out of your network and into yourself or your allies as healing.</p><p>Life or death situations help strengthen your bonds with your allies. At the start of each turn in combat, when you regain actions, your vitality network regains 4 Hit Points; if you are master in your connection skill, it regains 6 Hit Points instead; if you are legendary, it regains 8 Hit Points. When you Refocus, your vitality network regains all its Hit Points.</p>"
+        },
+        "Walking Armory": {
+            "name": "Walking Armory",
+            "description": "<p>You wield heavy equipment and can carry it. When determining your Strength for using armor, you can instead choose to use your Constitution modifier. If you already meet the Strength requirement for the armor you're wearing, reduce that armor's Bulk by 1 (to a minimum of 1). In addition, increase the amount of Bulk you can carry before becoming encumbered by half your Constitution modifier rounded up. Increase your maximum carried Bulk by your Constitution modifier.</p>"
+        },
+        "Warped Infinities": {
+            "name": "Warped Infinities",
+            "description": "<p>You have mastered reality and can make it your plaything. The radius of your quantum field becomes 100 feet. When you activate or Sustain your quantum field, you can modify the area of its effect by excluding any number of squares.</p>"
+        },
+        "Weapon Mastery": {
+            "name": "Weapon Mastery",
+            "description": "<p>You fully understand your weapons. Your proficiency ranks for simple weapons, martial weapons, and unarmed attacks increase to master.</p>"
+        },
+        "Weapon Specialization": {
+            "name": "Weapon Specialization",
+            "description": "<p>You've learned how to inflict greater injuries with the weapons you know best. You deal 2 additional damage with weapons and unarmed attacks in which you are an expert. This damage increases to 3 damage if you're a master, and 4 damage if you're legendary.</p>"
+        },
+        "Willful Defiance": {
+            "name": "Willful Defiance",
+            "description": "<p>Your meditative practices steel you against mental intrusions. Your proficiency rank for Will saves increases to master. When you roll a success on a Will save against a mental or incapacitation effect, you get a critical success instead.</p>"
+        },
+        "Wise to the Game": {
+            "name": "Wise to the Game",
+            "description": "<p>Using your words to influence others is second nature to you, and you easily recognize when others attempt to use the same tactics against you. You gain a +1 status bonus to your Perception DC against attempts to @UUID[Compendium.pf2e.actionspf2e.Item.QNAVeNKtHA0EUw4X]{Feint} or @UUID[Compendium.pf2e.actionspf2e.Item.ewwCglB7XOPLUz72]{Lie} to you and attempts to divert your attention with @UUID[Compendium.pf2e.actionspf2e.Item.GkmbTGfg8KcgynOA]{Create a Diversion}, and a +1 status bonus to your Will DC against attempts to @UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]{Demoralize} you. This bonus increases to +2 against your asset.</p>"
+        },
+        "Witchwarper Spellcasting": {
+            "name": "Witchwarper Spellcasting",
+            "description": "<p>Your paradox grants you magical power. You can cast spells using the Cast a Spell activity. As a witchwarper, when you cast spells, you might describe your revelations about other realities aloud, accompanied by elegant gestures while arcane equations or occult symbols blaze around you.</p><p>Each day, you can cast up to three 1st-rank spells. You must know spells to cast them, and you learn them via the spell repertoire class feature. The number of spells you can cast each day is called your spell slots.</p><p>As you increase in level as a witchwarper, your number of spells per day increases, as does the highest rank of spells you can cast, as shown on the table below.</p><p>Some of your spells require you to attempt a spell attack to see how effective they are, or have your enemies roll against your spell DC (typically by attempting a saving throw). Since your key attribute is Intelligence, your spell attack modifiers and spell DCs use your Intelligence modifier.</p><h3>Heightening Spells</h3><p>When you get spell slots of 2nd rank and higher, you can fill those slots with stronger versions of lower-rank spells. This increases the spell's rank, heightening it to match the spell slot. You must have a spell in your spell repertoire at the rank you want to cast in order to heighten it to that rank. Many spells have specific improvements when they are heightened to certain ranks.</p><h3>Cantrips</h3><p>Some of your spells are cantrips. A cantrip is a special type of spell that doesn't use spell slots. You can cast a cantrip at will, any number of times per day. A cantrip is always automatically heightened to half your level rounded up—this is usually equal to the highest rank of witchwarper spell slot you have. For example, as a 1st-level witchwarper, your cantrips are 1st-rank spells, and as a 5th-level witchwarper, your cantrips are 3rd-rank spells.</p><h3>Warp Spells</h3><p>You can create bizarre and powerful magical phenomena known as warp spells. You learn your initial warp spell. These visual flourishes might include floating equations, visions of alternate realities with distinct properties, or subtle alterations as reality warps around you. Warp spells are a type of focus spell. It costs 1 Focus Point to cast a warp spell, and you start with a focus pool of 1 Focus Point. You refill your focus pool during your daily preparations, and you can regain 1 Focus Point by spending 10 minutes using the Refocus activity to contemplate infinite worlds or conduct quantum magical research.</p><p>Focus spells are automatically heightened to half your level rounded up, much like cantrips. Focus spells don't require spell slots, and you can't cast them using spell slots. Taking feats can give you more focus spells and increase the size of your focus pool, though your focus pool can never hold more than 3 Focus Points.</p><p>Warp spells have the anchoring trait, unlike other focus spells. This trait means you can only use warp spells while your quantum field is activated, and you can choose to sustain your quantum field when you cast warp spells.</p><p>You learn warps based your paradox.</p><h2>Spell Repertoire</h2><p>The collection of spells you can cast is called your spell repertoire. At 1st level, you learn two 1st-rank spells of your choice and four cantrips of your choice, as well as an additional spell and cantrip from your paradox. You choose these from the common spells from the tradition corresponding to your paradox. You can cast any spell in your spell repertoire by using a spell slot of an appropriate spell rank.</p><p>You add to this spell repertoire as you increase in level. Each time you get a spell slot (see Witchwarper Spells per Day), you add a spell to your spell repertoire of the same rank. At 2nd level, select another 1st-rank spell; at 3rd level, you gain a new spell from your paradox and two other 2nd-rank spells, and so on. When you add spells, you might add a higher-rank version of a spell you already have, so you can cast a heightened version of that spell.</p><p>Though you gain them at the same rate, your spell slots and the spells in your spell repertoire are separate. If a feat or other ability adds a spell to your spell repertoire, it wouldn't give you another spell slot, and vice versa.</p><h3>Swapping Spells In Your Repertoire</h3><p>As you gain new spells in your repertoire, you might want to replace some of the spells you previously learned. Each time you gain a level and learn new spells, you can swap out one of your old spells for a different spell of the same rank. This spell can be a cantrip, but you can't swap out spells gained from your paradox. You can also swap out spells by retraining during downtime.</p>"
+        }
+    }
+}

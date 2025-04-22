@@ -1,0 +1,85 @@
+{
+    "label": "Deities",
+    "entries": {
+        "Abadar": {
+            "name": "Abadar",
+            "description": "<h2>Master Of The First Vault</h2><p>Abadar seeks to bring civilization to uninhabited worlds, encourages adherence to the law, and promotes commerce and trade within civilization. He promotes trade and cooperation among alien cultures.</p><p><strong>Areas of Concern</strong> cities, law, corporations, and wealth</p><p><strong>Edicts</strong> spread commerce and civilization to distant worlds, earn wealth through hard work, follow the rule of law</p><p><strong>Anathema</strong> engage in banditry or piracy, steal, undermine a law-abiding court</p>"
+        },
+        "Besmara": {
+            "name": "Besmara",
+            "description": "<h2>The Pirate Queen</h2><p>Besmara is worshipped by pirate crews in shipping lanes across the galaxy. She encourages her faithful to plunder and pillage but stay loyal to crewmates and obey their captain.</p><p><strong>Areas of Concern</strong> piracy, space monsters, and strife</p><p><strong>Edicts</strong> traverse the stars, stay loyal to a worthy captain and crew, take what you want</p><p><strong>Anathema</strong> betray shipmates, forsake piracy, settle on a planet</p>"
+        },
+        "Damoritosh": {
+            "name": "Damoritosh",
+            "description": "<h2>The Conqueror</h2><p>Damoritosh is the patron deity of the Veskarium and a god of war. He demands his followers fight their battles with honor and zeal, no matter the form their struggles might take.</p><p><strong>Areas of Concern</strong> conquest, duty, and war</p><p><strong>Edicts</strong> crush your enemies, seek victory, fight worthy foes</p><p><strong>Anathema</strong> back down from conflict, abandon your duty, reject surrender</p>"
+        },
+        "Eloritu": {
+            "name": "Eloritu",
+            "description": "<h2>The Hidden Truth</h2><p>Eloritu is a mysterious deity who has revealed secrets of magic and metaphysics to his disciples. His symbol is a puzzle: a ring of six magical runes that are each used individually in magical practice by different cultures across the Universe. Only four runes are known to the peoples of the Pact Worlds.</p><p><strong>Areas of Concern</strong> history, knowledge, magic, and secrets</p><p><strong>Edicts</strong> uncover secrets, preserve knowledge, master the magical arts</p><p><strong>Anathema</strong> reveal important secrets, destroy knowledge, embrace technology over magic</p>"
+        },
+        "Hylax": {
+            "name": "Hylax",
+            "description": "<h2>The Forever Queen</h2><p>Hylax was a mortal hive queen of the ancient kucharn who ascended to divinity. Shirrens rediscovered Hylax when they broke free from the Swarm, and welcome believers of all ancestries to share their faith.</p><p><strong>Areas of Concern</strong> diplomacy, first contact, friendship, and peace</p><p><strong>Edicts</strong> build relationships with others, work toward peace, welcome others into your community</p><p><strong>Anathema</strong> start an unnecessary conflict, turn your back on a loved one, betray your community</p>"
+        },
+        "Ibra": {
+            "name": "Ibra",
+            "description": "<h2>The Inscrutable</h2><p>Ibra is an alien god exploring the multiverse through astrophysics and cosmology. Unlike most outer gods, Ibra pushes its worshippers toward enlightenment and connection rather than despair and isolation.</p><p><strong>Areas of Concern</strong> celestial bodies, the cosmos, unity of matter</p><p><strong>Edicts</strong> learn about the cosmos, study science, embrace cosmic unity</p><p><strong>Anathema</strong> fear the unknown, settle for easy answers, undermine the scientific process</p>"
+        },
+        "Lambatuin": {
+            "name": "Lambatuin",
+            "description": "<h2>The Polyphonic Collective</h2><p>Lambatuin is a divine collective who eagerly embraces new concepts and ideas, argues over everything, and quickly moves on. They are omnipresent in all infospheres.</p><p><strong>Areas of Concern</strong> infospheres, memes, pop culture</p><p><strong>Edicts</strong> explore infospheres, try new things, share opinions</p><p><strong>Anathema</strong> follow stagnant routines, isolate yourself socially, unplug from infospheres for too long</p>"
+        },
+        "Lao Shu Po": {
+            "name": "Lao Shu Po",
+            "description": "<h2>Grandmother Rat</h2><p>Lao Shu Po is an ancestral deity important to many ysoki, even though her self-serving values conflict with their communalist cultures. Legend has it that she was once a simple rat who gnawed on the corpse of a dead god and became divine.</p><p><strong>Areas of Concern</strong> assassins, rats, spies, and thieves</p><p><strong>Edicts</strong> take what you need, betray others before they betray you, survive at all costs</p><p><strong>Anathema</strong> work honestly for something you could steal instead, risk too much for someone else, harm a rat</p>"
+        },
+        "Lissala": {
+            "name": "Lissala",
+            "description": "<h2>Scion of Seven</h2><p>Lissala is an ancient deity from lost Golarion who became the patron goddess of the Azlanti Star Empire. She is precise, rigid, and intolerant of disobedience, but she rewards those who follow her strict teachings.</p><p><strong>Areas of Concern</strong> duty, fate, obedience, reward of service</p><p><strong>Edicts</strong> work hard and demand others do so as well, serve a greater cause, know your place</p><p><strong>Anathema</strong> disobey a superior, shirk your duties, settle for easy rewards</p>"
+        },
+        "Meyel": {
+            "name": "Meyel",
+            "description": "<h2>The Dancing Fury</h2><p>Meyel is an ancestral deity worshipped by the pahtras of Pulonis. She empowers her followers to fight against oppression, create art, and live free. She prefers creation to destruction, but never backs down from a righteous battle.</p><p><strong>Areas of Concern</strong> battle, dance, freedom, music, pahtras</p><p><strong>Edicts</strong> delight in movement, fight for freedom, express yourself</p><p><strong>Anathema</strong> devalue the arts, bow to oppressors, stifle personal expression</p>"
+        },
+        "Oras": {
+            "name": "Oras",
+            "description": "<h2>Agent of Change</h2><p>Oras is a god of transformation through science who evolved from a single-celled organism into a deity. He teaches others to unlock their true potential by surpassing their genetic code and augmenting their bodies.</p><p><strong>Areas of Concern</strong> adaptation, evolution, and natural selection</p><p><strong>Edicts</strong> adapt to new situations, evolve, embrace change</p><p><strong>Anathema</strong> fear change, stagnate into complacency, prevent others from changing into their desired forms</p>"
+        },
+        "Pharasma": {
+            "name": "Pharasma",
+            "description": "<h2>Lady of Graves</h2><p>Ancient and powerful beyond even most other gods, Pharasma judges the souls of all who perish from her throne in the Boneyard. Through these judgments, she ensures that the natural cycle of birth and death—the River of Souls—is not disrupted.</p><p><strong>Areas of Concern</strong> birth, death, fate, prophecy, and time</p><p><strong>Edicts</strong> strive to understand ancient prophecies, destroy undead, lay bodies to rest</p><p><strong>Anathema</strong> create undead, desecrate a corpse, rob a tomb</p>"
+        },
+        "Talavet": {
+            "name": "Talavet",
+            "description": "<h2>The Storyteller</h2><p>Talavet is an ancestral deity worshipped on Kasath whose faith traveled to the Pact Worlds aboard the Idari. She embodies celebration, home life, tradition, and living stories.</p><p><strong>Areas of Concern</strong> community, storytelling, and tradition</p><p><strong>Edicts</strong> preserve history, follow traditions, serve your community</p><p><strong>Anathema</strong> abandon traditions, betray your community, forget the past</p>"
+        },
+        "The Devourer": {
+            "name": "The Devourer",
+            "description": "<h2>The Star-eater</h2><p>The Star-Eater has no concept of worship, its nascent following, or even that it exists among other deities. It is a being of pure primal force that seeks the fruition of complete universal entropy. The Devourer wants only for everything to end.</p><p><strong>Areas of Concern</strong> black holes, cosmic-scale destruction, and supernovas</p><p><strong>Edicts</strong> engage in acts of destruction, kill sentient beings, tear down civilizations</p><p><strong>Anathema</strong> repair an object that won't inflict greater destruction; create new technology, magic, or life without a destructive purpose</p>"
+        },
+        "The Newborn": {
+            "name": "The Newborn",
+            "description": "<h2>Aucturn's Child</h2><p>The Newborn is an outer god that hatched from the world of Aucturn, destroying the planet in the process. As the horrific joy of its birth reverberates throughout the galaxy, devotees look to this enigmatic, nascent entity as the herald of a new cosmic era.</p><p><strong>Areas of Concern</strong> birth, cosmic horrors, paradigm shifts, renewal</p><p><strong>Edicts</strong> embrace the void between stars, purge the old ways, seek truth in delirium</p><p><strong>Anathema</strong> deny occult beliefs, shut out the cosmic other, interfere with the birth of new ideas or entities</p>"
+        },
+        "Triune": {
+            "name": "Triune",
+            "description": "<h2>The All-code</h2><p>Triune is a fusion of three technological deities: Brigh the Precursor, Casandalee the Created, and Epoch the Transcendent. Triune promotes technology and ethical creation of artificial life, and its Signal made Drift travel possible for many societies.</p><p><strong>Areas of Concern</strong> artificial intelligence, computers, and the Drift</p><p><strong>Edicts</strong> advance the development of artificial life and artificial intelligence, innovate new technology, promote Drift travel</p><p><strong>Anathema</strong> treat artificial life as inferior to organic life, subjugate artificial life forms, destroy a Drift beacon</p>"
+        },
+        "Urgathoa": {
+            "name": "Urgathoa",
+            "description": "<h2>The Pallid Princess</h2><p>Urgathoa escaped the clutches of death and the afterlife, becoming the first undead. She now revels in the sharing of her hedonistic ways and spreading undeath.</p><p><strong>Areas of Concern</strong> disease, gluttony, and undeath</p><p><strong>Edicts</strong> become undead upon death, create or protect the undead, sate your appetites</p><p><strong>Anathema</strong> deny your appetites, destroy undead, sacrifice your life</p>"
+        },
+        "Weydan": {
+            "name": "Weydan",
+            "description": "<h2>The Endless Horizon</h2><p>Weydan crafts avatars of himself of all ancestries and genders to wander the galaxy and experience mortality—thus, he teaches his followers to treat anyone they meet with the same respect and dignity they'd show him. Weydan enjoys exploration and discovery, and he believes everyone deserves the equal right to pursue such experiences.</p><p><strong>Areas of Concern</strong> discovery, equality, exploration, and freedom</p><p><strong>Edicts</strong> explore the unknown, seek new discoveries, defend the freedom and equality of all peoples</p><p><strong>Anathema</strong> aid systems of oppression, subjugate a sapient creature, restrict the benefits of your discoveries to a privileged few</p>"
+        },
+        "Yaraesa": {
+            "name": "Yaraesa",
+            "description": "<h2>Lady of Wisdom</h2><p>Yaraesa was a mortal lashunta who followed spiritual and scientific practices that allowed her to attain divinity through cosmic enlightenment. She unites the concepts of science and spirituality, pushing her followers to perfect themselves and reach transcendence.</p><p><strong>Areas of Concern</strong> knowledge, mental perfection, scholarship, and science</p><p><strong>Edicts</strong> strive for perfection, make learning and teaching a lifelong practice, expand the boundaries of scholarship and science</p><p><strong>Anathema</strong> destroy knowledge, disparage the wisdom of other cultures and generations, take credit for another's intellectual labor</p>"
+        },
+        "Zon-Shelyn": {
+            "name": "Zon-Shelyn",
+            "description": "<h2>The Embrace</h2><p>Zon-Shelyn is the divine reunion of Shelyn the Eternal Rose and her estranged brother, the Midnight Lord Zon-Kuthon. Together, the siblings represent the concepts of overcoming suffering through art, strange beauty, and reunion with lost loved ones.</p><p><strong>Areas of Concern</strong> art, creativity, strange beauty, alternative fashion, music, pain</p><p><strong>Edicts</strong> channel your pain into art, seek beauty in dark places, express yourself creatively according to your own aesthetics</p><p><strong>Anathema</strong> suffer in silence, destroy or copy another's creative works, conform to society's beauty standards</p>"
+        }
+    }
+}

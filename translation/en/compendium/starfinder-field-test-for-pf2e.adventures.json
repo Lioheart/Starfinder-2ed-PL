@@ -1,0 +1,141 @@
+{
+    "label": "Adventures",
+    "entries": {
+        "Field Test #5": {
+            "name": "Field Test #5",
+            "folders": {
+                "Starfinder Field Test #5": "Starfinder Field Test #5"
+            },
+            "scenes": {
+                "Data Center": {
+                    "name": "Data Center"
+                },
+                "Shopping Mall": {
+                    "name": "Shopping Mall"
+                }
+            },
+            "actors": {
+                "Aeon Guard Soldier": {
+                    "name": "Aeon Guard Soldier",
+                    "tokenName": "Aeon Guard Soldier",
+                    "items": {
+                        "Warfare Lore": {
+                            "name": "Warfare Lore"
+                        },
+                        "Evasive Maneuver": {
+                            "name": "Evasive Maneuver",
+                            "description": "<p><strong>Trigger</strong> The soldier takes damage from a ranged Strike or spell</p>\n<hr />\n<p><strong>Effect</strong> The soldier Steps or Takes Cover.</p>"
+                        },
+                        "Pulse Gauntlet": {
+                            "name": "Pulse Gauntlet"
+                        },
+                        "Aeon Rifle": {
+                            "name": "Aeon Rifle"
+                        },
+                        "Coordinated Fire": {
+                            "name": "Coordinated Fire",
+                            "description": "<p>After the soldier attempts a Strike against a target (regardless of success or failure), the next Strike one of the soldier's allies makes against the same target gains a +2 circumstance bonus to the attack roll. If a Strike with a bonus from coordinated fire hits, the target becomes @UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.enA7BxAjBb7ns1iF]{Suppressed} until the end of the attacking ally's next turn.</p>"
+                        },
+                        "Sharpshooter": {
+                            "name": "Sharpshooter",
+                            "description": "<p>When the soldier makes a ranged Strike against a target with an AC bonus from lesser or standard cover, they reduce the AC bonus by 1 for that Strike.</p>"
+                        },
+                        "Show No Mercy": {
+                            "name": "Show No Mercy",
+                            "description": "<p>The soldier gains a +2 circumstance bonus to damage rolls against @UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.enA7BxAjBb7ns1iF]{Suppressed} targets.</p>"
+                        },
+                        "Aeon Guard Armor (Commercial)": {
+                            "name": "Aeon Guard Armor (Commercial)"
+                        },
+                        "Aeon Rifle (Commercial)": {
+                            "name": "Aeon Rifle (Commercial)"
+                        },
+                        "Pulse Gauntlet  (Commercial)": {
+                            "name": "Pulse Gauntlet  (Commercial)"
+                        }
+                    }
+                },
+                "Corpse Fleet Infantry": {
+                    "name": "Corpse Fleet Infantry",
+                    "tokenName": "Corpse Fleet Infantry",
+                    "items": {
+                        "Corpse Fleet Lore": {
+                            "name": "Corpse Fleet Lore"
+                        },
+                        "Phase Cutlass (Commercial)": {
+                            "name": "Phase Cutlass (Commercial)"
+                        },
+                        "Coordinated Shuffle": {
+                            "name": "Coordinated Shuffle",
+                            "description": "<p><strong>Trigger</strong> An adjacent ally moves away from the Corpse Fleet infantry</p>\n<hr />\n<p><strong>Effect</strong> The Corpse Fleet infantry follows their ally's lead, and immediately Strides up to half their Speed. They must move in the same direction as the triggering ally.</p>"
+                        },
+                        "Battleglove": {
+                            "name": "Battleglove"
+                        },
+                        "Autotarget Rifle": {
+                            "name": "Autotarget Rifle"
+                        },
+                        "Arc Pistol": {
+                            "name": "Arc Pistol"
+                        },
+                        "Fusillade": {
+                            "name": "Fusillade",
+                            "description": "<p>The Corpse Fleet infantry's ranged Strikes deal 1d4 extra precision damage when the Corpse Fleet infantry is within reach of at least one other Corpse Fleet infantry wielding a ranged weapon.</p>"
+                        }
+                    }
+                },
+                "Cybernetic Zombie": {
+                    "name": "Cybernetic Zombie",
+                    "tokenName": "Cybernetic Zombie",
+                    "items": {
+                        "Cybernetics": {
+                            "name": "Cybernetics",
+                            "description": "<p>The zombie's cybernetics can be disabled for 1 hour with a successful DC 15 check to [[/act disable-device dc=15]]{Disable a Device}. The zombie's cybernetics are disabled for 1 hour if it takes any electricity damage. A cybernetic zombie with disabled cybernetics is @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} and can't use reactions (including Self Destruct).</p>"
+                        },
+                        "Self Destruct": {
+                            "name": "Self Destruct",
+                            "description": "<p><strong>Requirements</strong> A cybernetic zombie must use this reaction when the trigger is met unless its cybernetics are disabled</p>\n<p><strong>Trigger</strong> The cybernetic zombie is reduced to 0 Hit Points</p>\n<hr />\n<p><strong>Effect</strong> The zombie's damaged cybernetics explode, dealing @Damage[1d8[electricity]] damage in a @Template[type:emanation|distance:10]{10-foot radius} (@Check[type:reflex|dc:15|basic:true] save). This ability destroys any technological items on the zombie.</p>"
+                        },
+                        "Fist": {
+                            "name": "Fist"
+                        },
+                        "Integrated Commercial Laser Pistol": {
+                            "name": "Integrated Commercial Laser Pistol"
+                        }
+                    }
+                },
+                "Glass Serpent": {
+                    "name": "Glass Serpent",
+                    "tokenName": "Glass Serpent",
+                    "items": {
+                        "Ravenous Invisibility": {
+                            "name": "Ravenous Invisibility",
+                            "description": "<p>The glass serpent is naturally @UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{Invisible}. When a glass serpent takes a hostile action of any kind, it is @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Hidden} instead of undetected until the start of its next turn, as parts of its body become momentarily tangible. A glass serpent that has swallowed a creature becomes visible for the next day as its meal is digested. If the swallowed creature escapes or is otherwise removed, the glass serpent immediately returns to being invisible.</p>"
+                        },
+                        "Ambush": {
+                            "name": "Ambush",
+                            "description": "<p><strong>Trigger</strong> A creature passes within 20 feet of the glass serpent and has not detected the glass serpent</p>\n<hr />\n<p><strong>Effect</strong> The glass serpent lunges out of hiding. It Strides directly toward the triggering creature and makes a jaws Strike against it. The target is @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} to this attack.</p>"
+                        },
+                        "Jaws": {
+                            "name": "Jaws"
+                        },
+                        "Tail Whip": {
+                            "name": "Tail Whip"
+                        },
+                        "Concealing Coil": {
+                            "name": "Concealing Coil",
+                            "description": "<p><strong>Requirements</strong> The glass serpent's last action was a successful Strike with a tail whip</p>\n<hr />\n<p><strong>Effect</strong> The creature the glass serpent hit is @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed} from all creatures except the glass serpent until that creature moves out of the glass serpent's reach or until the start of the glass serpent's next turn.</p>"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "mapping": {
+        "actors": {
+            "publicNotes": "system.details.publicNotes",
+            "privateNotes": "system.details.privateNotes",
+            "languagesDetails": "system.details.languages.details"
+        }
+    }
+}

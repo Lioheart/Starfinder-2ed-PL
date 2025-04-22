@@ -1,0 +1,273 @@
+{
+    "label": "Actions",
+    "entries": {
+        "Access Infosphere": {
+            "name": "Access Infosphere",
+            "description": "<p><strong>Requirements</strong> You are using a computer with infosphere access.</p><hr /><p>You attempt to access a local network, known as an infosphere, to come up with information on a topic. This typically takes 10 minutes of research to find information, with results like Recalling Knowledge on a topic. Larger investigations or topics could require several hours, while single-word answers of information common to that settlement's infosphere may only take a minute, based on the GM's discretion. Significant and longer investigations should use the research subsystem. The GM determines the DC based on the topic you're researching. This can be further influenced by the quality of the local infosphere, what information it might possess on the topic, and how well organized it is.</p><hr /><p><strong>Critical Success</strong> You find the information you were searching for. If this was used on a topic you could have used Recall Knowledge on, you instead find this information in 1 minute.</p><p><strong>Success</strong> You find the information you were looking for.</p><p><strong>Critical Failure</strong> You find misleading information thanks to incorrect data or online pranksters. The GM provides you false information on your topic of investigation (or decides to give you no information, as on a failure).</p>"
+        },
+        "Adaptive Locomotion": {
+            "name": "Adaptive Locomotion",
+            "description": "<p><strong>Frequency</strong> once per hour</p><hr /><p><strong>Effect</strong> You transform your limbs into either flippers or hooked pseudopods, to better traverse the surrounding environment. If you select flippers, you gain a swim Speed of 20 feet. If you select hooked pseudopods, you gain a climb Speed of 20 feet. This transformation lasts for 10 minutes.</p>"
+        },
+        "Aim": {
+            "name": "Aim",
+            "description": "<p><strong>Requirements</strong> You're wielding a ranged weapon that doesn't have the area trait.</p><hr /><p>You take careful aim at a single creature that you are aware of, designating them as your mark. Until the end of your turn, your ranged Strikes against your mark using the required ranged weapon, deal an additional 1d4 precision damage, and reduce the circumstance bonus to AC your mark gets from cover by 1. These benefits only apply if your mark is within your weapon's first range increment. You can only have one mark at a time.</p><p>As your operative level increases, so does your ability to Aim. Increase the number of dice for the precision damage by one at 5th, 11th, and 17th levels. At 11th level, you reduce the circumstance bonus to AC your mark gains from cover by 2 rather than 1. At 17th level, you reduce the circumstance bonus to AC your mark gains from cover by 4 rather than 2.</p>"
+        },
+        "Area Fire": {
+            "name": "Area Fire",
+            "description": "<p>You hit each creature in the designated area with a range equal to the weapon's range increment (for cone or line) or the designated radius of the explosion (for burst). For burst, you can position the center point anywhere within your first range increment. Any creatures in the area must succeed at a @Check[reflex|against:class|basic] save against your class DC plus the tracking value of the weapon (you do not roll an attack roll). This damage is area damage. Creatures who critically fail this save are subject to effects that occur on a critical hit with this weapon, including the weapon's critical specialization effect. Area Fire has an expend equal to the value listed on the weapon.</p>"
+        },
+        "Ascended Stability": {
+            "name": "Ascended Stability",
+            "description": "<p><strong>Trigger</strong> An ability or effect would cause you to become unattuned.</p><hr /><p>You take a fraction of a moment to re-center yourself and remember the balance that calms the violent spectrums of the cycle. You do not become unattuned and remain in your current attunement state.</p>"
+        },
+        "Astrologic Sense": {
+            "name": "Astrologic Sense",
+            "description": "<p><strong>Frequency</strong> once per 10 minutes</p><hr /><p>You briefly meditate on your connection to the cosmos and how the interplay between stellar forces can affect your foes. For the remainder of your turn, if an action you take would result in a variable effect based on your attunement, determine the result of both effects. If this determination requires you to roll damage, then roll the damage. If it requires the target to make a save, then have the target roll the save. This only applies to damage or effects that are specified in the attunement options of abilities, so things like the damage roll for your solar weapon are not determined in advance.</p><p>Once you've determined the possible effects for both attunement states, you can select which of the two you would like to have occur, regardless of your current attunement. If the ability would change your state, you count as being attuned to whatever attunement state you selected to take effect.</p>"
+        },
+        "Attune": {
+            "name": "Attune",
+            "description": "<p><strong>Frequency</strong> once per round</p><hr /><p>You steady your body and mind and attune yourself to your stellar focus. If you are unattuned or not in your favored state, you become attuned to the favored attunement of your stellar arrangement. You can also manifest any of your solar manifestations if they are currently dormant, and if you have the free hands to use them.</p><p>@UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.lUZuBzMe0UAllDxX]{Effect: Solar Weapon}</p><hr /><p><strong>Special</strong> In addition to the above usage, you can also Attune as a free action when you roll initiative.</p>"
+        },
+        "Attunement Control": {
+            "name": "Attunement Control",
+            "description": "<p>While exploring, you have an attuned state of your choosing. If you Attune as a free action when you roll initiative, you can select your attunement regardless of your stellar arrangement's favored attunement.</p>"
+        },
+        "Auto-Fire": {
+            "name": "Auto-Fire",
+            "description": "<p>You hit each creature in a cone with a range equal to half the weapon's range increment without making an attack roll. Any creatures in the area take damage equal to the weapon's damage (@Check[reflex|against:class|basic] save against your class DC plus the tracking value of the weapon). This damage is area damage. Creatures that critically fail this save are subject to effects that occur on a critical hit with this weapon, including the weapon's critical specialization effect. Automatic Fire has an expend equal to the number of targets in the area × 2.</p>"
+        },
+        "Beginner's Luck": {
+            "name": "Beginner's Luck",
+            "description": "<p><strong>Frequency</strong> once per day</p><p><strong>Trigger</strong> You fail a skill check using a skill that you're untrained in</p><hr /><p><strong>Effect</strong> Reroll the triggering skill check and use the better result.</p>"
+        },
+        "Big Bang": {
+            "name": "Big Bang",
+            "description": "<p><strong>Frequency</strong> once per hour.</p><p><strong>Requirements</strong> You are photon-attuned.</p><hr /><p>You call upon the cosmic force that created the universe, unleashing a blast of purging cosmic fire that reverts all things to their basic components and overcomes even magical defenses. This fills a @Template[type:emanation|distance:30] and deals @Damage[(max(10,@actor.level - 5)d6)[fire]] damage with a @Check[type:reflex|dc:resolve(@actor.system.attributes.classDC.value)] save against your class DC. You and any number of selected adjacent allies are unaffected by this blast.</p><hr /><p><strong>Critical Success</strong> The creature is unaffected.</p><p><strong>Success</strong> The creature takes half damage.</p><p><strong>Failure</strong> The creature takes full damage and @Damage[2d6[persistent,fire]] damage.</p><p><strong>Critical Failure</strong> The creature takes double damage, @Damage[4d6[persistent,fire]] damage, and you can attempt to counteract a spell on the creature, using half your level, rounded up, as the counteract rank.</p><hr /><p><strong>Level (+1)</strong> Increase the damage by 1d6.</p>"
+        },
+        "Binaric Assault": {
+            "name": "Binaric Assault",
+            "description": "<p>You coordinate your attacks with both your solar flare and solar weapon. Make a Strike with your solar weapon and a Solar Shot, each using your current multiple attack penalty and both at the same target. You can make these attacks in whichever order you desire. If an attack hits, resolve the damage and effects, then swap your current attunement. This counts as two attacks when calculating your multiple attack penalty. If both attacks fail to hit, you become unattuned.</p>"
+        },
+        "Black Hole": {
+            "name": "Black Hole",
+            "description": "<p><strong>Frequency</strong> once per 10 minutes.</p><p><strong>Requirements</strong> You are graviton-attuned.</p><hr /><p>You concentrate on the gravitational forces around you, pulling matter towards you in emulation of a cosmic event. Select any number of creatures within a @Template[type:emanation|distance:30]{30-foot radius}. Each affected creature takes @Damage[(ceil(@actor.level/2)d8)[bludgeoning]] damage and must attempt a @Check[type:fortitude|dc:resolve(@actor.system.attributes.classDC.value)] save against your class DC.</p><hr /><p><strong>Critical Success</strong> The creature is unaffected.</p><p><strong>Success</strong> The creature takes half damage and is pulled 5 feet towards you.</p><p><strong>Failure</strong> The creature takes full damage, is pulled 15 feet towards you, and is knocked @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}.</p><p><strong>Critical Failure</strong> The creature takes double damage, is pulled 30 feet towards you, and is knocked prone.</p><hr /><p><strong>Level (+2)</strong> Increase the damage by 1d8.</p>"
+        },
+        "Defy Gravity": {
+            "name": "Defy Gravity",
+            "description": "<p><strong>Requirements</strong> You are graviton-attuned.</p><hr /><p>You break the bonds of gravity. You gain a fly Speed equal to your Speed while you are graviton-attuned.</p>"
+        },
+        "Deny Failure": {
+            "name": "Deny Failure",
+            "description": "<p><strong>Frequency</strong> once per day</p><p><strong>Trigger</strong> You fail or critically fail a saving throw</p><hr /><p><strong>Effect</strong> You refuse to accept your failure! Reroll the triggering saving throw. If your result is a critical failure, this use of Deny Failure doesn't count toward its frequency.</p>"
+        },
+        "Drive": {
+            "name": "Drive",
+            "description": "<p><strong>Requirements</strong> You are piloting a vehicle.</p><hr /><p>You pilot your vehicle to move. Decide how many actions you intend to spend before you begin Driving. The effects depend on the number of actions you spend. You can't Drive through spaces occupied by creatures, even if they are allies.</p><p><span class=\"pf2-icon\">1</span> Attempt a Piloting check. On a success, the vehicle moves up to its Speed and can turn normally. On a failure, the vehicle moves its Speed in a straight line. On a critical failure, the vehicle moves its Speed in a straight line and becomes uncontrolled.</p><p><span class=\"pf2-icon\">2</span> (reckless) The vehicle moves up to twice its Speed in a straight line at the vehicle's current heading.</p><p><span class=\"pf2-icon\">3</span> (reckless) You take a –5 penalty on your piloting check to maintain control of the vehicle. The vehicle moves up to three times its Speed in a straight line at the vehicle's current heading.</p>"
+        },
+        "Get 'Em!": {
+            "name": "Get 'Em!",
+            "description": "<p>You single out an enemy for you and your allies to focus your attacks on. This concentrated assault weakens that enemy's defenses. Select a creature within 60 feet that you can see. That creature takes a –1 circumstance penalty to AC and Reflex saves until the beginning of your next turn.</p><p>@UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.BTTaOMgJbcOMQ4IA]{Effect: Get 'Em!}</p><p><strong>Lead by Example</strong> If you attack the target you select before the end of your turn, you reveal a weak point in your foe's defenses. You gain a circumstance bonus to damage rolls against the target equal to 1 + half your Charisma modifier, and your allies gain a +1 circumstance bonus to damage rolls against the target. As your envoy level increases, so does this damage. Increase the damage by 1 at 5th, 10th, 15th, and 20th levels.</p>"
+        },
+        "Ghost Tap": {
+            "name": "Ghost Tap",
+            "description": "<p>You take a stealthy shot then disappear into the background. Make a ranged Strike against a creature, then attempt a Stealth check to @UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]{Hide}. In an urban setting with multiple creatures, you can instead choose to make a Deception check to Hide. You gain a +2 circumstance bonus to this check if the creature was unaware of you or has an attitude of friendly toward you.</p><hr /><p><strong>Success</strong> If the creature could see you, you're now @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Hidden} from it instead of observed. If you were hidden from or undetected by the creature, you retain that condition.</p><p><strong>Failure</strong> You become observed.</p>"
+        },
+        "Hack": {
+            "name": "Hack",
+            "description": "<p><strong>Requirements</strong> You have a hacking toolkit.</p><hr /><p>You try to access, control, or make changes to an active, secured system. In most cases, this is going to be an attempt made against a local computer system that you access directly or indirectly through the use of a hacking toolkit. Attempt a @Check[type:computers] check to determine if you can access the targeted system. Computers with improved systems might require multiple successes to access.</p><hr /><p><strong>Critical Success</strong> You access the system, or you achieve two successes toward accessing a system requiring more than one success. You leave no trace of your tampering.</p><p><strong>Success</strong> You access the system, or you achieve one success toward accessing a system that requires more than one success.</p><p><strong>Failure</strong> You fail to access the system or achieve any success toward accessing a system that requires more than one success. Some computerized systems might have security measures that activate on a failure.</p><p><strong>Critical Failure</strong> You activate specially ingrained security protocols or completely lock yourself out of the system. Being locked out of a system prevents you from attempting another check to access it for the next hour.</p>"
+        },
+        "Improvised Mastery": {
+            "name": "Improvised Mastery",
+            "description": "<p><strong>Frequency</strong> once per day</p><p><strong>Trigger</strong> You are about to attempt a skill check using a skill that you don't have master proficiency in, but you haven't rolled yet.</p><hr /><p>You trust your instincts to see you through. You gain master proficiency with the triggering skill for the skill check.</p><p>@UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.5fy13kq1YkOoyjGg]{Effect: Improvised Mastery}</p>"
+        },
+        "Install Upgrade": {
+            "name": "Install Upgrade",
+            "description": "<p><strong>Requirements</strong> You must use a repair toolkit.</p><hr /><p>You spend 10 minutes installing an upgrade into a suit of armor or weapon, placing it into an empty upgrade slot. You can also use this activity to uninstall an upgrade. You can't install more upgrades than there are upgrade slots. Installing or uninstalling an upgrade requires using a repair toolkit with two hands.</p>"
+        },
+        "Intense Focus": {
+            "name": "Intense Focus",
+            "description": "<p><strong>Frequency</strong> once per round</p><hr /><p>Your focus becomes so intense that you can easily reassess your condition and surroundings. Reduce the value of your @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy} condition by 1, or ignore the effects of the @UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.enA7BxAjBb7ns1iF]{Suppressed} condition until the start of your next turn.</p>"
+        },
+        "Living Shield": {
+            "name": "Living Shield",
+            "description": "<p><strong>Trigger</strong> An enemy damages your ally who is benefiting from cover provided by you</p><hr /><p><strong>Effect</strong> Reduce the triggering damage your targeted ally takes by an amount equal to your level plus your Constitution modifier. You take an amount of damage equal to the damage negated.</p>"
+        },
+        "Nanite Form Strike": {
+            "name": "Nanite Form Strike",
+            "description": "<p>You deal @Damage[10d6[acid]] damage to all creatures sharing your space (@Check[type:reflex|basic:true|dc:resolve(@actor.attributes.classOrSpellDC.value)] save with a DC equal to your class DC or spell DC, whichever is higher).</p>"
+        },
+        "Navigate": {
+            "name": "Navigate",
+            "description": "<p>You plan a short journey. While this is most often used when traveling with a mech, vehicle, or starship, the same skill can be used to determine the optimal route to take while traveling on foot. This lets you plan a general heading on a planetoid or guide your starship on an in-system voyage. If you are navigating a short journey, you typically attempt a @Check[type:piloting] check only once per day, but some environments or changes might necessitate rolling more often. The GM determines the DC and how long this activity takes (usually just a minute or so). More unusual locales or those you're unfamiliar with might require you to have a minimum proficiency rank to Navigate.</p><hr /><p><strong>Critical Success</strong> You get an excellent sense of where you are. If you are in an environment with cardinal directions, you know them exactly.</p><p><strong>Success</strong> You gain enough orientation to avoid becoming hopelessly lost. If you are in an environment with cardinal directions, you have a sense of those directions.</p>"
+        },
+        "Network Spell": {
+            "name": "Network Spell",
+            "description": "<p><strong>Transfer Cost</strong> the rank of the spell you cast with your next action</p><hr /><p>You channel your spell to manifest from one of your allies instead of yourself. If the next action you use is to Cast a Spell with an area, range, or target, the spell manifests from one of your bonded allies instead of yourself. Use the ally’s space to determine the spell’s source, range, and area of effect, but line of sight and line of effect must be met from both you and your ally when the spell is cast. While this might fool someone who only sees your ally, unless you are @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Hidden} or the spell has the subtle trait, any creature able to see both you and your ally can easily determine you are the source of the spell. If the spell has the subtle trait, you and your ally may Cast the Spell in a way that makes the ally appear to have cast it without that trait.</p>"
+        },
+        "New Plan!": {
+            "name": "New Plan!",
+            "description": "<p><strong>Trigger</strong> An ally you reviewed stratagems with is about to attempt an attack roll or skill check</p>\n<hr />\n<p><strong>Effect</strong> The ally rolls the triggering check twice and takes the better of the two results. That ally then becomes temporarily immune to your Master Plan until your next daily preparations.</p>"
+        },
+        "Nimbus Surge": {
+            "name": "Nimbus Surge",
+            "description": "<p><strong>Trigger</strong> You take damage from a melee attack.</p><hr /><p>Your nimbus reacts to trauma.</p><p><strong>Graviton-Attuned</strong> The triggering creature must succeed at a @Check[type:fortitude|dc:resolve(@actor.system.attributes.classDC.value)] save against your class DC or be pushed 5 feet away from you.</p><p><strong>Photon-Attuned</strong> The triggering creature takes @Damage[(ceil(@actor.level/2))[fire]]{fire damage} equal to half your level (rounded up).</p>"
+        },
+        "Oppressive Presence": {
+            "name": "Oppressive Presence",
+            "description": "<p><strong>Frequency</strong> once per round</p><hr /><p>You unnerve foes with a look, or similarly attract their attention through your subtle movements or words. Target an enemy creature you can see within 60 feet. The target becomes @UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.enA7BxAjBb7ns1iF]{Suppressed} until the start of your next turn. If the targeted enemy targets you with a Strike or other offensive action, it loses the suppressed condition from this effect.</p>"
+        },
+        "Overwhelming Strike": {
+            "name": "Overwhelming Strike",
+            "description": "<p><strong>Trigger</strong> Your Strike hits a creature you've designated as your mark and deals damage.</p><hr /><p>You apply one of the following overwhelms, which lasts until the end of your next turn.</p><ul><li><strong>Overwhelm</strong> The target becomes @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard}.</li><li><strong>Overwhelm</strong> The target becomes @UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.enA7BxAjBb7ns1iF]{Suppressed}.</li><li><strong>Overwhelm</strong> The target can't @UUID[Compendium.pf2e.actionspf2e.Item.ust1jJSCZQUhBZIz]{Take Cover} or benefit from cover.</li></ul>"
+        },
+        "Piercing Spikes": {
+            "name": "Piercing Spikes",
+            "description": "<p><strong>Trigger</strong> You become @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed} by a creature</p><hr /><p><strong>Effect</strong> You twist and thrash your body around, dealing 1d4 plus your Strength modfier piercing damage to the triggering creature (@Damage[(ceil(@actor.level/4)+@actor.system.abilties.str.mod)[piercing]]). This damage increases by 1d4 at 5th level and every four levels thereafter.</p>"
+        },
+        "Plate Deflection": {
+            "name": "Plate Deflection",
+            "description": "<p><strong>Frequency</strong> once per day</p><p><strong>Trigger</strong> A foe hits you with a critical hit</p><hr /><p><strong>Effect</strong> You deflect the attack to a heavily armored part of your body. You don't take double damage from the critical hit but still take other effects.</p>"
+        },
+        "Plot Course": {
+            "name": "Plot Course",
+            "description": "<p>You prepare for a longer journey into the stars, likely making use of your starship's Drift Engine (or similar FTL device). Attempt a @Check[type:piloting] check to determine if you can chart a suitable path to your ultimate destination. The GM determines how long this activity takes and the DC.</p><hr /><p><strong>Critical Success</strong> You manage to reach your destination in half the expected time (minimum 1 day).</p><p><strong>Success</strong> You create a usable navigational plan that gets you to your intended destination on time.</p><p><strong>Failure</strong> Your plan has several problems, and you end up reaching your destination late.</p><p><strong>Critical Failure</strong> You arrive in an unfamiliar star system, requiring you to plot a new course to your destination (likely at an increased DC due to the unfamiliar starting point).</p>"
+        },
+        "Practiced Influencer": {
+            "name": "Practiced Influencer",
+            "description": "<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> You are about to roll a Deception, Diplomacy, or Intimidation check, but you haven't rolled yet.</p>\n<hr />\n<p>You roll the triggering Deception, Diplomacy, or Intimidation check twice, and use the higher result.</p>"
+        },
+        "Program": {
+            "name": "Program",
+            "description": "<p>You spend your time creating lines of computer code that can be integrated into various computerized systems. You need the @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.pubj4WTHFcyoOieC]{Programmer} skill feat to write computer code, Programming items that have the virtual trait. You must have the formulas to craft these items, but they can often be found sold by other programmers on an infosphere. You can buy lines of code from other programmers to help complete your virtual item. You can use the Program action to create formulas for tech items if you have the Inventor skill feat. You can use the Program action to create tech items without the virtual trait by using a creator capsule if you have the Fabricator skill feat.</p><hr /><p><strong>Critical Success</strong> Your attempt is successful. Each additional day spent Programming reduces the code needed to complete the item by an amount based on your level + 1 and your proficiency rank in Computers.</p><p><strong>Success</strong> Your attempt is successful. Each additional day spent Programming reduces the materials needed to complete the item by an amount based on your level and your proficiency rank.</p><p><strong>Failure</strong> You fail to complete the item. You can salvage some of the code you've written for its full value. If you want to try again, you must start over.</p><p><strong>Critical Failure</strong> You fail to complete the item. 10% of the code you've written or purchased is unusable, but you can salvage the rest. If you want to try again, you must start over.</p>"
+        },
+        "Punitive Strike": {
+            "name": "Punitive Strike",
+            "description": "<p><strong>Trigger</strong> A creature within your reach uses a manipulate action, makes a ranged Strike, uses a move action, or leaves a square during a move action it's using.</p><hr /><p>Your foe's momentary lapse in defense gives you an opening. Ignore the unwieldy trait on your weapon when using this action. Make a melee Strike against the triggering creature. If your attack hits, the target is @UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.enA7BxAjBb7ns1iF]{Suppressed}, and if the trigger was a move action, you disrupt that action. This Strike doesn't count toward your multiple attack penalty, and your multiple attack penalty doesn't apply to this Strike.</p>"
+        },
+        "Push Off": {
+            "name": "Push Off",
+            "description": "<p><strong>Requirements</strong> You have at least one hand or leg (or suitable appendage) free, and you're @UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.z1ucw4CLwLqHoAp3]{Untethered}.</p><hr /><p>You use an object or creature of the same size or larger as you as leverage to change the direction you're floating in. Float up to half your Speed in your chosen direction. The distance you move at the end of your turn while untethered changes to the amount you moved during this action.</p><p>You can Push Off as a free action immediately after you make a successful melee Strike or @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{Shove}.</p>"
+        },
+        "Re-Forge Solar Weapon": {
+            "name": "Re-Forge Solar Weapon",
+            "description": "<p>You spend 10 minutes focusing on the composition of your solar weapon. You can change the damage type of your weapon (typically between bludgeoning, piercing, or slashing), the currently selected traits for your weapon, and the weapon group your weapon belongs to. Your weapon maintains your selections until the next time you Re-Forge Solar Weapon.</p><p>@UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.lUZuBzMe0UAllDxX]{Effect: Solar Weapon}</p>"
+        },
+        "Reactive Step": {
+            "name": "Reactive Step",
+            "description": "<p><strong>Trigger</strong> A creature within your reach leaves a square during a move action it's using.</p><hr /><p>You're able to move deftly around your foes, getting out of tricky situations or managing to put yourself into a place where you hold the advantage. You Step twice, ending as close as possible to the triggering creature.</p>"
+        },
+        "Rebellious Defiance": {
+            "name": "Rebellious Defiance",
+            "description": "<p>You decry one foe within 100 feet that you can see as a tyrant or villain, and prepare yourself to defy them, even unto death. You gain a +1 circumstance bonus on your attack rolls against this foe, and gain a +1 circumstance bonus to saving throws against the attacks, spells, and effects of this foe. These benefits last for 1 minute.</p>"
+        },
+        "Redirect Current": {
+            "name": "Redirect Current",
+            "description": "<p><strong>Frequency</strong> once per hour</p><p><strong>Trigger</strong> You're dealt electricity damage, and your electricity resistance doesn't reduce this damage to 0</p><hr /><p><strong>Effect</strong> After being shocked, you seize the electricity coursing through your body and redirect it at another creature within 30 feet. That creature cannot have already taken damage from the effect that damaged you. That creature is dealt electricity damage equal to the amount of Hit Points you lost from the triggering electricity damage (@Check[type:reflex|dc:resolve(@actor.system.attributes.classOrSpellDC.value)|basic:true] save using your class DC or spell DC, whichever is higher).</p>"
+        },
+        "Redirect Energy": {
+            "name": "Redirect Energy",
+            "description": "<p><strong>Trigger</strong> You are dealt cold damage or fire damage</p><hr /><p><strong>Effect</strong> You tap into the harmful energy directed at you and redirect its essence into a melee weapon you're holding. Until the end of your next turn, the selected weapon deals an additional 1d4 damage of the triggering damage type. During this time, you lose any resistance to the triggering damage type granted to you by Perfectly Balanced.</p>"
+        },
+        "Restorative Recollection": {
+            "name": "Restorative Recollection",
+            "description": "<p><strong>Frequency</strong> once per round</p><hr /><p>There is a part of your mind in another reality always processing your situation. You can @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{Recall Knowledge} with any skill you are trained in. Decrease your @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned} value by 2 or @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed} value by 1. If you lost an action this turn due to the stunned or slowed condition, you can use Restorative Recollection as a free action.</p>"
+        },
+        "Run Over": {
+            "name": "Run Over",
+            "description": "<p><strong>Requirements</strong> You are piloting a vehicle.</p><hr /><p>You try to run over creatures or ram another vehicle with your vehicle. If you maintain control of your vehicle, it moves up to twice its Speed in a straight line at the vehicle's current heading. You attempt to run over any creatures in your path two sizes smaller than the vehicle or smaller, and you can attempt to ram one target creature or object in your path one size smaller than the vehicle or larger.</p><p>Each creature in your path, including a rammed target, takes the vehicle's collision damage (basic Reflex save at vehicle's collision DC). If the rammed target is a vehicle, its pilot can attempt a piloting check in place of this Reflex save, with the same results. If the target of your ram takes damage, you and your vehicle each take collision damage (no save) and your movement ends.</p>"
+        },
+        "Sabotage": {
+            "name": "Sabotage",
+            "description": "<p>You disrupt enemy tech to cover your tracks or gain a tactical advantage. Select a single tech creature or tech item within 15 feet that you can see. If your target is a tech creature, attempt a Computers or Crafting check against the creature's Fortitude DC. If your target is an item, attempt a Thievery check against the item's DC or the Reflex DC of the creature possessing the item, if the item is being carried, held, or worn and the DC would be higher.</p><p>If you're an expert in Computers, Crafting, or Thievery, you can use Sabotage on a tech creature or tech item within 30 feet. If you're a master, you can use it within 45 feet. If you're legendary, you can use it within 60 feet.</p><hr /><p><strong>Critical Success</strong> The creature or item becomes @UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.6A2QDy8wRGCVQsSd]{Glitching 1} for 1 minute.</p><p><strong>Success</strong> The creature or item becomes glitching 1 for 2 rounds.</p><p><strong>Failure</strong> Your attempt fails and requires more persistent analysis. The target is immune to your Sabotage until the end of your next turn.</p><p><strong>Critical Failure</strong> Your attempt backfires. The target is immune to your Sabotage for 10 minutes.</p>"
+        },
+        "Saw It Coming": {
+            "name": "Saw It Coming",
+            "description": "<p><strong>Trigger</strong> You are about to roll initiative in an encounter in which your asset is one of your opponents.</p>\n<hr />\n<p>You read the demeanor, body language, and instinctive tics of your asset as easily as you read a comm unit, allowing you to react a moment before those around you and gain an edge in the coming battle. You gain a +1 circumstance bonus to your initiative roll, and you can immediately do one of the following: Interact to draw a weapon, Step, or Stride.</p>"
+        },
+        "Shimmering Dazzle": {
+            "name": "Shimmering Dazzle",
+            "description": "<p>You cause your chitin to flare and shimmer in a hypnotic display of shifting color and soothing motion. Pick a creature within 30 feet, that creature must succeed a @Check[type:fortitude|dc:resolve(@actor.system.attributes.classDC.value)] save against your class DC or become @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled} for 1 round.</p>"
+        },
+        "Show 'Em What You Got!": {
+            "name": "Show 'Em What You Got!",
+            "description": "<p><strong>Frequency</strong> once per 10 minutes</p><hr /><p>You inspire your allies to use their talents and push themselves to the best of their abilities in a stressful situation. You and your allies within 100 feet gain a benefit based on the role you each chose during daily preparations. All benefits last until the beginning of your next turn.</p><ul><li>Attackers can roll twice and use the better result the next time they attempt to Strike a foe.</li><li>Defenders can force their attacker to roll twice and use the worse result the next time they're attacked, or they can roll twice and use the better result the next time they attempt a saving throw.</li><li>Experts can roll twice and use the better result the next time they attempt a skill check.</li><li>Spellcasters can roll twice and use the better result the next time they roll an attack roll or check as part of Casting a Spell, or can force one target of that spell to roll twice and use the worse result when attempting a saving throw against the spell.</li></ul><p><strong>Lead by Example</strong> If you use the benefit based on your chosen role before the end of your turn, each of your allies within 100 feet who chose a role during your daily preparations gains temporary Hit Points equal to your level. These temporary Hit Points last 1 minute.</p><p>@UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.QGhlqHLkAVrwFa0q]{Effect: Show 'Em What You Got!}</p>"
+        },
+        "Singularity": {
+            "name": "Singularity",
+            "description": "<p><strong>Frequency</strong> once per hour.</p><p><strong>Requirements</strong> You are graviton-attuned.</p><hr /><p>You concentrate and manifest the pinpoint center of a black hole within 60 feet. This occupies a single 5-foot space. Creatures within the singularity's space take @Damage[((10 + 2*max(0,floor((@actor.level -15)/2)))d8)[void]] damage with a @Check[type:reflex|dc:resolve(@actor.system.attributes.classDC.value)|basic:true] save against your class DC. Any creature dropped to 0 Hit Points by this effect is torn asunder and pulled into the singularity, leaving no remains. Until the end of your next turn, the singularity's space and all adjacent squares count as an area of supernatural darkness that no creatures (even those with greater darkvision) can see through. Creatures beginning their round within the area of the darkness must succeed a @Check[type:fortitude|dc:resolve(@actor.system.attributes.classDC.value)|basic:true] save against your class DC or become @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} for that round.</p><hr /><p><strong>Level (+2)</strong> increase the damage by 2d8.</p>"
+        },
+        "Size Up": {
+            "name": "Size Up",
+            "description": "<p><strong>Frequency</strong> once per hour</p><hr /><p>You spend 1 minute observing a specific individual, 10 minutes researching a specific individual on the infosphere, or 1 hour networking and gathering information about a specific individual in a settlement or appropriate location that they frequent, learning how best to endear yourself to, scare, or otherwise manipulate that individual. This subject is your asset. If you assess your asset via observation, you don't need to know their identity, but if you assess your asset via research or networking, you must know their identity, which requires at least two relevant pieces of information about them. Examples of relevant information could include their name, their place of origin, their current residence, the name of their parent or significant other, their employer, or their organizational affiliation. The GM determines what constitutes relevant information for this purpose, based on the asset you've selected.</p><p>You gain a +1 circumstance bonus to Deception, Diplomacy, Intimidation, and Perception checks made against your asset or in relation to your asset if the target knows your asset, and a +1 circumstance bonus to attempts to Recall Knowledge about your asset.</p><p>You can maintain a number of assets equal to your Charisma modifier. If you Size Up other assets after that, your new asset replaces a previous one.</p><p>@UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.taCGQhvyOYmjE1eO]{Effect: Size Up}</p>"
+        },
+        "Solar Shot": {
+            "name": "Solar Shot",
+            "description": "<p>You use your flare to unleash a directed blast of energy at a target. Make a ranged Strike against the AC of a creature in range. Add your Strength modifier to the damage roll. Your attunement determines the damage type and maximum range of the attack.</p><p><strong>Graviton-Attuned</strong> 1d8 bludgeoning, 15 feet. On a critical success, you can attempt a @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{Trip} using your Athletics even if you don't have a free hand or are not adjacent to the target.</p><p><strong>Photon-Attuned</strong> 1d6 fire, 30 feet. On a critical success, the target also takes 1d6 persistent fire damage.</p><hr /><p><strong>Level (+4)</strong> The damage increases by one die.</p>"
+        },
+        "Solar Wind": {
+            "name": "Solar Wind",
+            "description": "<p><strong>Requirements</strong> You are photon-attuned.</p><hr /><p>You can partly discorporate your body, becoming a blur of stellar matter that travels carried by invisible solar winds. While photon-attuned, you gain a +10-foot circumstance bonus to Speed and can move through the space of a single unwilling creature each time you Stride.</p>"
+        },
+        "Soul Shield": {
+            "name": "Soul Shield",
+            "description": "<p><strong>Trigger</strong> You would be dealt void damage</p>\n<hr />\n<p><strong>Effect</strong> You push your soul out of your body and use it as a shield to protect your living form from the ravages of the void. Against the triggering damage and until the beginning of your next turn, you gain void healing, meaning you are healed by void damage and harmed by vitality damage.</p>"
+        },
+        "Steel Yourselves!": {
+            "name": "Steel Yourselves!",
+            "description": "<p><strong>Frequency</strong> once per hour</p><hr /><p>You encourage your allies to brace for impact or otherwise prepare for incoming damage. Until the beginning of your next turn, you and any ally within 60 feet who can sense you can spend 1 action to Brace For Impact. This action has the concentrate trait. Whoever Braces for Impact gains temporary Hit Points equal to 2 + half your level for 1 minute.</p><p>@UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.JaysqWTGfMgvx93E]{Effect: Brace For Impact}</p><p><strong>Lead by Example</strong> If you spend an action to Brace For Impact before the end of your turn, you and any ally who Braces for Impact before the start of your next turn also gains a +1 status bonus to saving throws against effects that deal damage for 1 minute.</p>"
+        },
+        "Stop": {
+            "name": "Stop",
+            "description": "<p><strong>Requirements</strong> You are piloting a vehicle in motion.</p><hr /><p>You bring the vehicle to a stop.</p>"
+        },
+        "Stunt": {
+            "name": "Stunt",
+            "description": "<p>You perform a stunt while Driving your vehicle, temporarily improving its effective capabilities at the risk of losing control. Drive your vehicle and choose a stunt. All piloting checks attempted as part of your Stunt receive the listed penalty, including piloting checks made to take a reckless action. If the Drive action and Stunt are both reckless, you must attempt the piloting check to keep control of the vehicle twice.</p><table class=\"pf2e\"><thead><tr><th>Stunt</th><th>Penalty</th><th>Benefit</th></tr></thead><tbody><tr><td>Back Off</td><td>-1</td><td>Move half Speed backwards.</td></tr><tr><td>Evade</td><td>-1</td><td>Move half Speed to gain a +1 status bonus to AC.</td></tr><tr><td>Flip and Burn</td><td>-1</td><td>Move half Speed, then turn and direction.</td></tr><tr><td>Barrel Roll</td><td>-2</td><td>Move half Speed to gain a +2 status bonus to AC.</td></tr><tr><td>Flyby</td><td>-2</td><td>Move half Speed through an enemy square.</td></tr><tr><td>Drift</td><td>-2</td><td>Move half Speed sideways without turning.</td></tr><tr><td>Turn in Place</td><td>-2</td><td>Turn, then move full Speed.</td></tr></tbody></table>"
+        },
+        "Supernova": {
+            "name": "Supernova",
+            "description": "<p><strong>Frequency</strong> once per 10 minutes</p><p><strong>Requirements</strong> You are photon-attuned.</p><hr /><p>You unleash your pent-up aggression, causing it to erupt like the stellar events that end stars. You can choose to affect creatures in a @Template[type:emanation|distance:15]{15-foot} or @Template[type:emanation|distance:30]. Each affected creature takes @Damage[(@actor.level)d8[fire]] damage and must attempt a @Check[type:fortitude|dc:resolve(@actor.system.attributes.classDC.value)] save against your class DC. If you choose the 30-foot option, you instead deal @Damage[(@actor.level)d6[fire]] damage.</p><hr /><p><strong>Critical Success</strong> The creature is unaffected.</p><p><strong>Success</strong> The creature takes half damage and is @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled} for 1 round.</p><p><strong>Failure</strong> The creature takes full damage and is @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded} for 1 round.</p><p><strong>Critical Failure</strong> The creature takes double damage and is blinded for 1 minute.</p><hr /><p><strong>Level (+1)</strong> Increase the damage by 1d8 (or 1d6 for the 30-foot version).</p>"
+        },
+        "Switch Active Hands": {
+            "name": "Switch Active Hands",
+            "description": "<p>You designate a pair of limbs as your active hands. You can only have one pair of hands designated as your active hands at a time.</p>"
+        },
+        "Tactical Advance": {
+            "name": "Tactical Advance",
+            "description": "<p><strong>Requirements</strong> You're not encumbered.</p><hr /><p>You dodge, roll, and weave out of danger, leaving no openings as you move across the battlefield. Stride up to half your Speed. This movement doesn't trigger reactions.</p>"
+        },
+        "Take Control": {
+            "name": "Take Control",
+            "description": "<p><strong>Requirements</strong> You are aboard a vehicle and adjacent to its controls.</p><hr /><p>You take control of a vehicle. Attempt a @Check[type:piloting] check; on a success, you become the vehicle's pilot, or regain control of the vehicle if it was uncontrolled. Some vehicles have complicated controls that cause this action to become a multi-action activity, and most vehicles take at least 3 actions if they aren't activated.</p>"
+        },
+        "Targeted Immunization": {
+            "name": "Targeted Immunization",
+            "description": "<p><strong>Trigger</strong> You recover from a disease or poison</p>\n<hr />\n<p><strong>Effect</strong> You instinctively synthesize antigens that make you immune to the triggering disease or poison. This immunity lasts for the next day or until you next use Targeted Immunization.</p>"
+        },
+        "Touch Something Real": {
+            "name": "Touch Something Real",
+            "description": "<p><strong>Frequency</strong> once per round</p><p><strong>Requirements</strong> You have a free hand.</p><hr /><p>Briefly touching or fidgeting with your anchor helps you evaluate your situation clearly. Decrease the value of your @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened} or @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied} condition by 1. If you have none of these conditions, you instead gain a +1 circumstance bonus to Will saves against fear effects until the start of your next turn.</p>"
+        },
+        "Transfer Vitality": {
+            "name": "Transfer Vitality",
+            "description": "<p>You can transfer one or more Hit Points from your vitality network into yourself or a bonded creature you can see within 60 feet. This ability works on creatures with void healing as though this action had the void trait.</p>"
+        },
+        "Umbral Stride": {
+            "name": "Umbral Stride",
+            "description": "<p><strong>Frequency</strong> once per round</p><p><strong>Requirements</strong> You are in dim light or darkness.</p><hr /><p>You're able to control your body in such a way that you can move into shadows as though you were taking a normal step. You teleport up to 30 feet. The destination must be in dim light or darkness and must be within your line of sight and line of effect.</p>"
+        },
+        "Unbound Mind": {
+            "name": "Unbound Mind",
+            "description": "<p><strong>Trigger</strong> You attempt a saving throw against a mental effect, but you haven't rolled yet</p>\n<hr />\n<p><strong>Effect</strong> You refuse to conform to the will of others, shaking off their attempts to control you with sheer determination. You gain a +1 circumstance bonus to saving throws on the triggering save and other saves against mental effects until the start of your next turn.</p>\n<p>@UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.XNhqqGQWvfYEiUnq]{Effect: Unbound Mind}</p>"
+        },
+        "Unfurl Wings": {
+            "name": "Unfurl Wings",
+            "description": "<p><strong>Frequency</strong> once per day</p><hr /><p><strong>Effect</strong> You unfurl your wings, granting you a fly Speed equal to your land Speed plus 10 feet. Your wings remain unfurled for 10 minutes. You can end this duration early as a single action.</p>"
+        },
+        "Warp Reality": {
+            "name": "Warp Reality",
+            "description": "<p><strong>Requirements</strong> It's your turn, and your quantum field isn't active.</p><hr /><p>Your quantum field activates and lasts as long as you Sustain it (up to 10 minutes) or until the end of your next turn. Your quantum field is a @Template[type:burst|distance:15]{15-foot-radius burst} centered on a point you choose within 100 feet. While your quantum field is active, you can use actions that have the anchoring trait. Your quantum field's other specific effects are determined by your paradox. You can choose whether creatures in the area are affected by your quantum field.</p><p>Your quantum field automatically deactivates if you're knocked out, you dismiss it, or if you move more than 100 feet away from it.</p>"
+        }
+    }
+}
