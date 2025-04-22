@@ -1,0 +1,29 @@
+{
+    "label": "Klasy",
+    "entries": {
+        "Envoy": {
+            "name": "Wysłannik",
+            "description": "<p><em>Jesteś mistrzem wywierania wpływu. Swoją drogę we wszechświecie torujesz czarującym uśmiechem, szybkim dowcipem i bystrym zmysłem samozachowawczym. Jesteś liderem, który motywuje swoich kolegów z zespołu, przekracza ich granice i pomaga im przetrwać trudne chwile. Doskonale radzisz sobie z nakłanianiem innych do robienia tego, co chcesz, ale zawsze jesteś gotowy stawić czoła kłopotom, gdy sprawy przybierają gorszy obrót. Możesz być oszustem, dyplomatą, wykonawcą, a nawet oficerem wojskowym - lub możesz przyjąć dowolną rolę wymaganą przez sytuację.</em></p><p><em>@UUID[Compendium.starfinder-field-test-for-pf2e.sf2e-journals.JournalEntry.JQAMedkXzpu3xv8N.JournalEntryPage.KIQZaGST8rgB15gX]{Wysłannik}</em></p>"
+        },
+        "Mystic": {
+            "name": "Mistyk",
+            "description": "<p><em>Jesteś przewodnikiem, przekazującym fundamentalne moce, które łączą i wiążą wszystko w kosmosie. Wykorzystujesz tę moc w postaci głębokich duchowych więzi z bliskimi przyjaciółmi. Czerpiesz z tego nadprzyrodzonego źródła, aby wzmocnić swoich sojuszników i przywrócić im zdrowie, gdy są ranni. Utrzymując i pielęgnując swoje więzi, korzystasz z zapasów energii życiowej, którą możesz wykorzystać do wzmocnienia swojej magii uzdrawiania. Twoje moce przybierają unikalny kształt w zależności od wybranego połączenia.</em></p><p><em>@UUID[Compendium.starfinder-field-test-for-pf2e.sf2e-journals.JournalEntry.JQAMedkXzpu3xv8N.JournalEntryPage.8CF2x5wMiBjJFfgp]{Mistyk}</em></p>"
+        },
+        "Operative": {
+            "name": "Operator",
+            "description": "<p><em>Jesteś skupionym i bystrym profesjonalistą, który rozwija się w walce o wysoką stawkę. Twój zabójczy cel i trening taktyczny dają ci przewagę nad konkurencją - dla ciebie nawet najpotężniejszy wróg to tylko kolejny cel do zlikwidowania. Masz imponujące umiejętności w wybranej dziedzinie specjalizacji.</em></p><p><em>@UUID[Compendium.starfinder-field-test-for-pf2e.sf2e-journals.JournalEntry.JQAMedkXzpu3xv8N.JournalEntryPage.fW64iLBJVrUFSdPe]{Operator}</em></p>"
+        },
+        "Solarian": {
+            "name": "Solarianin",
+            "description": "<p><em>Jesteś przewodnikiem gwiezdnych sił kosmosu: słonecznym rycerzem. Moce grawitacji i światła reprezentują skrajności tych sił, a ty możesz dostroić się między nimi. Jako agent tego cyklu manifestujesz szereg urządzeń solarnych i wykorzystujesz swoje własne połączenie z siłami gwiezdnymi, aby je wzmocnić. Niezależnie od tego, którą skrajność gwiezdnego spektrum preferujesz, możesz zmienić swoje dostrojenie między nimi, aby skorzystać z mocy na miarę, zdobytych dzięki ciężkiej medytacji i praktyce.</em></p><p><em>@UUID[Compendium.starfinder-field-test-for-pf2e.sf2e-journals.JournalEntry.JQAMedkXzpu3xv8N.JournalEntryPage.lP7NyqiY0dBXK3zY]</em></p>"
+        },
+        "Soldier": {
+            "name": "Żołnierz",
+            "description": "<p><em>Jesteś mistrzem broni obszarowej, ciężkiego pancerza i przyjmowania ciosów. Stoisz w samym środku bitwy i oddajesz niszczycielskie salwy w kierunku wrogów, jednocześnie przyjmując na siebie ich ostrzał. Prowadząc ostrzał tłumiący za pomocą potężnej broni, pozwalasz sojusznikom wypełniać ich zadania, jednocześnie zachęcając wrogów do skupienia się na tobie.</em></p><p><em>@UUID[Compendium.starfinder-field-test-for-pf2e.sf2e-journals.JournalEntry.JQAMedkXzpu3xv8N.JournalEntryPage.qzqG51UFKlrsJGZS]{Żołnierz}</em></p>"
+        },
+        "Witchwarper": {
+            "name": "Wiedźma Osnowy",
+            "description": "<p><em>Dziwne paradoksalne wydarzenie na zawsze zmieniło twoją egzystencję i teraz możesz manipulować rzeczywistością. Badasz nieskończone możliwości multiwersum, prawdopodobnie wizualizując różne linie czasowe. Tworzysz pola, które podważają przestrzeń i czas, pozwalając ci rzucać potężną magię. Nauczyłeś się skupiać na zakotwiczonym wspomnieniu, koncepcji lub obiekcie, aby pomóc sobie w identyfikacji rzeczywistości.</em></p><p><em>@UUID[Compendium.starfinder-field-test-for-pf2e.sf2e-journals.JournalEntry.JQAMedkXzpu3xv8N.JournalEntryPage.cqoBvyuWuy7Mm0bW]{Wiedźma Osnowy}</em></p>"
+        }
+    }
+}
