@@ -289,7 +289,7 @@
         "IWR": {
             "Custom": {
                 "Radiation": "Promieniowanie",
-                "Suppressed": "przeciw Przytłoczeniu"
+                "Suppressed": "przeciw tłumieniu"
             }
         },
         "Language": {
@@ -608,8 +608,8 @@
             "Barathu": "Barathu",
             "Biotech": "Biotechnologia",
             "Borai": "Borai",
-            "Boost1": "Wzmocnienie 1",
-            "Boost1d4": "Wzmocnienie 1k4",
+            "Boost1": "Przyrost 1",
+            "Boost1d4": "Przyrost 1k4",
             "Breakdown": "Awaryjny",
             "Caster": "Rzucający",
             "Ceramic": "Ceramiczny",
