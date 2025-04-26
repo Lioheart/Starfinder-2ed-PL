@@ -289,7 +289,7 @@
         "IWR": {
             "Custom": {
                 "Radiation": "Promieniowanie",
-                "Suppressed": "przeciw Przytłoczeniu"
+                "Suppressed": "przeciw tłumieniu"
             }
         },
         "Language": {
@@ -545,59 +545,16 @@
                 }
             },
             "Technomancer": {
-                "BoomingBootloader": {
-                    "Alteration": "Wszystkie istoty znajdujące się w obszarze @Template[type:emanation|distance:10] wokół przywołanej istoty otrzymują 1k4 obrażenia dźwiękowe na stopień zaklęcia (@Damage[((@item.level)d4)[sonic]]).",
-                    "Jailbreak": "Jedna wybrana przez ciebie istota w promieniu 10 stóp od przywołanej istoty musi wykonać rzut obronny przeciwko ST zaklęcia lub zostanie @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Przestraszona 1} (lub @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Przestraszona 2} w przypadku krytycznej porażki)."
-                },
-                "DebugSpell": {
-                    "Alteration": "Każda kość rzucona w celu zadania obrażeń, która ma wynik niższy niż 2, otrzymuje zamiast tego wynik 2.",
-                    "Jailbreak": "Każda kość rzucona w celu zadania obrażeń, której wynik jest niższy niż 3, otrzymuje zamiast tego wynik 3."
-                },
-                "DeleteRootAccess": {
-                    "Alteration": "Zamień cel *delete* na \"jeden konstrukt lub stworzenie technologiczne\". Zamiast normalnych efektów delete, cel staje się @UUID[Compendium.pf2e.conditionitems.Item.9qGBRpbX9NEwtAAr] przez ciebie, jeśli jego poziom jest równy lub niższy niż twój poziom - 3. Cel może wykonać rzut obronny Woli, aby oprzeć się kontroli. Jeśli cel jest już pod czyjąś kontrolą, kontrolująca go istota również rzuca rzut obronny, a konstrukt wykorzystuje lepszy wynik.",
-                    "DegreeOfSuccess": {
-                        "CriticalFailure": "**Krytyczna Porażka** Jak porażka, ale czas trwania wynosi 1 godzinę.</p>",
-                        "CriticalSuccess": "**Krytyczny Sukces** Cel pozostaje niewrażliwy na obrażenia i jest tymczasowo odporny przez 24 godziny.",
-                        "Failure": "**Porażka** Konstrukt lub stworzenie technologiczne staje się sługusem pod twoją kontrolą. Zaklęcie trwa 1 minutę, ale zostaje anulowane, jeśli ty lub sojusznik zaatakujecie konstrukta lub technologicznego sługusa.",
-                        "Success": "**Sukces** Nie ma to wpływu na cel."
-
-                    },
-                    "AlterationThree": "",
-                    "Jailbreak": "Jeśli rzut obronny konstruktu lub istoty technicznej powiedzie się, ale nie osiągnie sukcesu krytycznego, staje się ona twoim sługusem na 1 rundę. Jeśli rzut obronny na konstrukt zakończy się porażką, staje się on twoim sługusem na 10 minut. Jeśli odniesie porażkę krytyczną, będzie twoim sługusem przez 24 godziny.</p>"
-                },
-                "GrenadeSpell": {
-                    "Alteration": "Jeśli następną akcją gracza jest rzucenie zaklęcia z efektem wybuchu wymagającym rzutu obronnego na Refleks, zaklęcie to nie zaczyna działać natychmiast, lecz zostaje umieszczone w trzymanym granacie. Do końca twojej następnej tury, wszystkie istoty znajdujące się w obszarze rażenia granatu są również pod wpływem nałożonego zaklęcia; istoty nie wykonują osobnego rzutu obronnego na Refleks przeciwko zaklęciu i zamiast tego używają tego samego wyniku, który wyrzuciły przeciwko granatowi.",
-                    "Jailbreak": "W granacie można umieścić dowolne zaklęcie. W takim przypadku stworzenia wykonują osobny rzut obronny przeciwko ST zaklęcia, jeśli nie jest to rzut obronny na Refleks. Jeśli zastosujesz efekty tego zaklęcia do zaklęcia z podstawowym rzutem obronnym na Refleks, możesz użyć swojego ST zaklęcia zamiast klasowego ST dla granatu."
-                },
-                "HardlightIllusion": {
-                    "Alteration": "Stworzenia nie mogą próbować nie uwierzyć w iluzję poprzez samo jej dotknięcie lub zadanie obrażeń, ale nadal mogą użyć akcji @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Szukania}, aby ją zbadać i spróbować nie uwierzyć w iluzję. Kiedy istocie uda się (ale nie krytycznie) rzut na Percepcję lub rzut obronny Woli, aby nie uwierzyć w iluzję, możesz przeprogramować ją jako reakcję, próbując wykonać test Komputerów przeciwko ST Percepcji celu. Jeśli ci się powiedzie, cel nie uwierzy w iluzję.",
-                    "Jailbreak": "Jeśli użyjesz zaklęcia Odblokowanie Systemu, aby użyć tego kształtowania zaklęć i zmodyfikować zaklęcie iluzji, które zadaje obrażenia psychiczne, zaklęcie to zadaje inny odpowiedni rodzaj obrażeń w zależności od rodzaju iluzji. Obrażenia te nie muszą być śmiertelne, mogą dezaktywować regenerację i poza tym działają jak normalne obrażenia."
-                },
                 "IncognitoSpell": {
                     "Jailbreak": "Możesz spróbować @UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]{Demoralizować} jedną istotę, używając Arkanów zamiast Zastraszenia, sprawiając, że efekty zaklęcia wydają się nie wymagać wysiłku z twojej strony."
                 },
                 "Jailbreak": "Odblokowanie Systemu",
-                "OvervoltResistor": {
-                    "Alteration": "Zaklęcie ignoruje odporność celu na obrażenia od kwasu, zimna, elektryczności, ognia lub dźwięku równą twojemu poziomowi. Dotyczy to wszystkich obrażeń zadawanych przez zaklęcie, w tym obrażeń trwałych i obrażeń spowodowanych przez trwający efekt zaklęcia, taki jak ściana stworzona przez ścianę ognia. Nie ma to wpływu na niewrażliwość danej istoty.",
-                    "Jailbreak": "Zadajesz obrażenia równe swojemu poziomowi, nawet jeśli cel jest niewrażliwy na obrażenia od kwasu, zimna, elektryczności, ognia lub dźwięku. W ten sposób ignorowana jest tylko pierwsza z wymienionych niewrażliwości, nawet jeśli cel posiada odporność na kilka wymienionych rodzajów obrażeń."
-                },
                 "SafemodeSpell": {
                     "Jailbreak": "Możesz zdecydować, że zaklęcie to będzie iluzją, która nie zadaje śmiertelnych obrażeń psychicznych. Jeśli zaklęcie wymaga rzutu obronnego na Wytrwałość lub Refleks, staje się on rzutem obronnym na Wolę. Jeśli zaklęcie wymaga rzutu na atak przeciwko KP, zamiast tego wykonujesz rzut na atak przeciwko ST Woli celu. Zaklęcie zyskuje cechy iluzji i mentalny."
-                },
-                "ShatterSpell": {
-                    "Alteration": "Jeśli uda ci się przeciwdziałać celowi, jedna wybrana przez ciebie istota znajdująca się na tej samej przestrzeni co efekt zaklęcia lub magiczny przedmiot otrzyma obrażenia od mocy równe 1k4 × ranga przeciwdziałania celu z podstawowym rzutem obronnym na Refleks przeciwko ST zaklęcia; jeśli cel posiada cechę odpowiadającą rodzajowi obrażeń, np. ogień, efekt ten zadaje te obrażenia zamiast mocy.",
-                    "Jailbreak": "Możesz zadać obrażenia każdej istocie znajdującej się w obszarze działania zaklęcia lub sąsiadującej z wybranym magicznym przedmiotem lub możesz zadać 1k6 obrażeń × ranga przeciwdziałania celu zamiast 1k4 obrażeń."
                 },
                 "SignalBoost": {
                     "Alteration": "Zwiększa zasięg zaklęcia o 30 stóp. Zgodnie ze standardem zwiększania zasięgu zaklęć, jeśli zaklęcie ma normalnie zasięg dotyku, zwiększasz jego zasięg do 30 stóp.",
                     "Jailbreak": "Zwiększa zasięg tego zaklęcia o 60 stóp. Zgodnie ze standardem zwiększania zasięgu zaklęć, jeśli zaklęcie ma normalnie zasięg dotyku, zwiększasz jego zasięg do 60 stóp."
-                },
-                "SplitTunneling": {
-                    "Alteration": "Możesz wybrać drugi cel w zasięgu. Rzucasz jednym rzutem ataku i porównujesz wynik z KP obu celów. Liczy się to jako jeden atak dla kary za wielokrotny atak. Drugiemu celowi zaklęcie zadaje tylko połowę obrażeń, które normalnie by zadało, i nie ma żadnych efektów wykraczających poza początkowe obrażenia zaklęcia (takich jak nakładanie stanów lub kar).",
-                    "Jailbreak": "Jeśli nie uda ci się wpłynąć na cel główny (niezależnie od tego, czy twój atak się nie powiedzie, czy cel jest niewrażliwy na zaklęcie), cel drugorzędny staje się celem głównym, otrzymując pełne obrażenia i wszystkie efekty zaklęcia."
-                },
-                "SudoSpell": {
-                    "Alteration": "Energia zaklęcia odbija się echem. Możesz rzucić to zaklęcie po raz drugi przed końcem swojej następnej tury bez wydawania miejsca na zaklęcie."
                 }
             },
             "Witchwarper": {
@@ -651,8 +608,8 @@
             "Barathu": "Barathu",
             "Biotech": "Biotechnologia",
             "Borai": "Borai",
-            "Boost1": "Wzmocnienie 1",
-            "Boost1d4": "Wzmocnienie 1k4",
+            "Boost1": "Przyrost 1",
+            "Boost1d4": "Przyrost 1k4",
             "Breakdown": "Awaryjny",
             "Caster": "Rzucający",
             "Ceramic": "Ceramiczny",
