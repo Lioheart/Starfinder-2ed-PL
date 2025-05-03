@@ -1,0 +1,85 @@
+{
+    "label": "Bóstwa",
+    "entries": {
+        "Abadar": {
+            "name": "Abadar",
+            "description": "<h2>Mistrz Pierwszego Skarbca</h2><p>Abadar dąży do wprowadzenia cywilizacji na niezamieszkane światy, zachęca do przestrzegania prawa i promuje handel w ramach cywilizacji. Promuje handel i współpracę między obcymi kulturami.</p><p><strong>Obszary Zainteresowania</strong> miasta, prawo, korporacje i bogactwo</p><p><strong>Edykty</strong> rozprzestrzeniać handel i cywilizację na odległe światy, zdobywać bogactwo dzięki ciężkiej pracy, przestrzegać zasad prawa</p><p><strong>Anatema</strong> angażować się w bandytyzm lub piractwo, kraść, podważać praworządny sąd</p>"
+        },
+        "Besmara": {
+            "name": "Besmara",
+            "description": "<h2>Królowa Piratów</h2><p>Besmara jest czczona przez pirackie załogi na szlakach żeglugowych w całej galaktyce. Zachęca swoich wiernych do plądrowania i grabieży, ale pozostaje lojalna wobec członków załogi i posłuszna swojemu kapitanowi.</p><p><strong>Obszary Zainteresowania</strong> piractwo, kosmiczne potwory i konflikty</p><p><strong>Edykty</strong> przemierzaj gwiazdy, pozostań lojalny wobec godnego kapitana i załogi, bierz, co chcesz</p><p><strong>Anatema</strong> zdradzić kompanów, porzucić piractwo, osiedlić się na planecie</p>"
+        },
+        "Damoritosh": {
+            "name": "Damoritosh",
+            "description": "<h2>Zdobywca</h2><p>Damoritosh jest patronem Veskarium i bogiem wojny. Żąda od swoich wyznawców, by walczyli z honorem i zapałem, bez względu na to, jaką formę przybiorą ich zmagania.</p><p><strong>Obszary Zainteresowania</strong> podbój, obowiązek i wojna</p><p><strong>Edykty</strong> miażdż wrogów, szukaj zwycięstwa, walcz z godnymi przeciwnikami</p><p><strong>Anatema</strong> wycofać się z konfliktu, porzucić obowiązek, odrzucić poddanie się</p>"
+        },
+        "Eloritu": {
+            "name": "Eloritu",
+            "description": "<h2>Ukryta Prawda</h2><p>Eloritu to tajemnicze bóstwo, które wyjawiło swoim uczniom sekrety magii i metafizyki. Jego symbolem jest zagadka: pierścień sześciu magicznych run, z których każda jest używana indywidualnie w praktyce magicznej przez różne kultury we Wszechświecie. Tylko cztery runy są znane ludom Paktu Światów.</p><p><strong>Obszary Zainteresowania</strong> historia, wiedza, magia i tajemnice</p><p><strong>Edykty</strong> odkrywaj tajemnice, zachowuj wiedzę, opanuj sztuki magiczne</p><p><strong>Anatema</strong> ujawniać ważne sekrety, niszczyć wiedzę, przedkładać technologię nad magię</p>"
+        },
+        "Hylax": {
+            "name": "Hylax",
+            "description": "<h2>Wieczna Królowa</h2><p>Hylax była śmiertelną królową roju starożytnych kucharn, która osiągnęła boskość. Shirrenowie ponownie odkryli Hylax, gdy uwolnili się od Roju, i zapraszają wyznawców wszystkich rodów do dzielenia się swoją wiarą.</p><p><strong>Obszary Zainteresowania</strong> dyplomacja, pierwszy kontakt, przyjaźń i pokój</p><p><strong>Edykty</strong> budować relacje z innymi, pracować na rzecz pokoju, przyjmować innych do swojej społeczności</p><p><strong>Anatema</strong> rozpocząć niepotrzebny konflikt, odwrócić się od ukochanej osoby, zdradzić swoją społeczność</p>"
+        },
+        "Ibra": {
+            "name": "Ibra",
+            "description": "<h2>Nieodgadniona</h2><p>Ibra to obcy bóg badający multiwersum poprzez astrofizykę i kosmologię. W przeciwieństwie do większości zewnętrznych bogów, Ibra popycha swoich czcicieli w kierunku oświecenia i połączenia, a nie rozpaczy i izolacji.</p><p><strong>Obszary Zainteresowania</strong> ciała niebieskie, kosmos, jedność materii</p><p><strong>Edykty</strong> uczyć się o kosmosie, studiować naukę, przyjmować kosmiczną jedność</p><p><strong>Anatema</strong> strach przed nieznanym, zadowalanie się łatwymi odpowiedziami, podważanie procesu naukowego</p>"
+        },
+        "Lambatuin": {
+            "name": "Lambatuin",
+            "description": "<h2>Kolektyw Wielogłosowy</h2><p>Lambatuin to boski kolektyw, który chętnie przyjmuje nowe koncepcje i pomysły, kłóci się o wszystko i szybko idzie naprzód. Są wszechobecni we wszystkich infosferach.</p><p><strong>Obszary Zainteresowania</strong> infosfery, memy, popkultura</p><p><strong>Edykty</strong> eksplorować infosfery, próbować nowych rzeczy, dzielić się opiniami</p><p><strong>Anatema</strong> podążanie za stagnacyjnymi rutynami, izolowanie się społecznie, zbyt długie odłączanie się od infosfery</p>"
+        },
+        "Lao Shu Po": {
+            "name": "Lao Shu Po",
+            "description": "<h2>Babcia Szczurzyca</h2><p>Lao Shu Po jest bóstwem przodków ważnym dla wielu ysoki, nawet jeśli jej samolubne wartości są sprzeczne z ich komunalistycznymi kulturami. Legenda głosi, że kiedyś była zwykłym szczurem, który obgryzł zwłoki zmarłego boga i stał się boski.</p><p><strong>Obszary Zainteresowania</strong> zabójcy, szczury, szpiedzy i złodzieje</p><p><strong>Edykty</strong> bierz to, czego potrzebujesz, zdradzaj innych, zanim oni zdradzą ciebie, przetrwaj za wszelką cenę</p><p><strong>Anatema</strong> uczciwie pracować za coś, co można ukraść, ryzykować zbyt wiele dla kogoś innego, krzywdzić szczura</p>"
+        },
+        "Lissala": {
+            "name": "Lissala",
+            "description": "<h2>Potomek Siódemki</h2><p>Lissala to starożytne bóstwo z zaginionego Golarionu, które stało się patronką Gwiezdnego Imperium Azlanti. Jest precyzyjna, sztywna i nie toleruje nieposłuszeństwa, ale nagradza tych, którzy przestrzegają jej surowych nauk.</p><p><strong>Obszary Zainteresowania</strong> obowiązek, przeznaczenie, posłuszeństwo, nagroda za służbę</p><p><strong>Edykty</strong> ciężko pracować i wymagać tego od innych, służyć większej sprawie, znać swoje miejsce</p><p><strong>Anatema</strong> nieposłuszeństwo wobec przełożonego, uchylanie się od obowiązków, zadowalanie się łatwymi nagrodami</p>"
+        },
+        "Meyel": {
+            "name": "Meyel",
+            "description": "<h2>Tańcząca Furia</h2><p>Meyel jest bóstwem przodków czczonym przez pahtras z Pulonis. Daje swoim wyznawcom siłę do walki z uciskiem, tworzenia sztuki i życia w wolności. Woli tworzyć niż niszczyć, ale nigdy nie cofa się przed sprawiedliwą walką.</p><p><strong>Obszary Zainteresowania</strong> bitwa, taniec, wolność, muzyka, pahtry</p><p><strong>Edykty</strong> rozkoszuj się ruchem, walcz o wolność, wyrażaj siebie</p><p><strong>Anatema</strong> dewaluacja sztuki, kłanianie się ciemiężcom, tłumienie osobistej ekspresji</p>"
+        },
+        "Oras": {
+            "name": "Oras",
+            "description": "<h2>Agent Zmiany</h2><p>Oras jest bogiem transformacji poprzez naukę, który wyewoluował z jednokomórkowego organizmu w bóstwo. Uczy innych, jak uwolnić ich prawdziwy potencjał poprzez przekroczenie ich kodu genetycznego i ulepszenie ich ciał.</p><p><strong>Obszary Zainteresowania</strong> adaptacja, ewolucja i dobór naturalny</p><p><strong>Edykty</strong> dostosowywać się do nowych sytuacji, ewoluować, przyjmować zmiany</p><p><strong>Anatema</strong> obawiać się zmian, popadać w samozadowolenie, uniemożliwiać innym zmianę w pożądane formy</p>"
+        },
+        "Pharasma": {
+            "name": "Pharasma",
+            "description": "<h2>Pani Grobów</h2><p>Starożytna i potężniejsza nawet od większości innych bogów, Pharasma osądza dusze wszystkich, którzy giną z jej tronu w Cmentarzysku. Poprzez te wyroki zapewnia, że naturalny cykl narodzin i śmierci - Rzeka Dusz - nie zostanie zakłócony.</p><p><strong>Obszary Zainteresowania</strong> narodziny, śmierć, przeznaczenie, przepowiednia i czas</p><p><strong>Edykty</strong> dążyć do zrozumienia starożytnych przepowiedni, niszczyć nieumarłych, kłaść ciała do spoczynku</p><p><strong>Anatema</strong> stworzyć nieumarłego, zbezcześcić zwłoki, okraść grobowiec</p>"
+        },
+        "Talavet": {
+            "name": "Talavet",
+            "description": "<h2>Gawędziarz</h2><p>Talavet to bóstwo przodków czczone na Kasath, którego wiara zawędrowała do Paktu Światów na pokładzie Idari. Uosabia świętowanie, życie domowe, tradycję i żywe historie.</p><p><strong>Obszary Zainteresowania</strong> społeczność, opowiadanie historii i tradycja</p><p><strong>Edykty</strong> zachowaj historię, podążaj za tradycjami, służ swojej społeczności</p><p><strong>Anatema</strong> porzucić tradycje, zdradzić swoją społeczność, zapomnieć o przeszłości</p>"
+        },
+        "The Devourer": {
+            "name": "Pożeracz",
+            "description": "<h2>Zjadacz Gwiazd</h2><p>Zjadacz Gwiazd nie ma pojęcia o kulcie, swoich rodzących się wyznawcach, ani nawet o tym, że istnieje wśród innych bóstw. Jest to istota o czystej pierwotnej mocy, która dąży do urzeczywistnienia całkowitej uniwersalnej entropii. Pożeracz pragnie jedynie, aby wszystko się skończyło.</p><p><strong>Obszary Zainteresowania</strong> czarne dziury, kosmiczna destrukcja i supernowe</p><p><strong>Edykty</strong> angażować się w akty zniszczenia, zabijać czujące istoty, burzyć cywilizacje</p><p><strong>Anatema</strong> naprawić obiekt, który nie spowoduje większych zniszczeń; stworzyć nową technologię, magię lub życie bez destrukcyjnego celu</p>"
+        },
+        "The Newborn": {
+            "name": "Nowonarodzony",
+            "description": "<h2>Dziecko Aucturna</h2><p>Nowonarodzony to zewnętrzny bóg, który wykluł się ze świata Aucturn, niszcząc przy tym planetę. Gdy przerażająca radość z jego narodzin rozbrzmiewa w całej galaktyce, wyznawcy spoglądają na tę enigmatyczną, rodzącą się istotę jako zwiastuna nowej kosmicznej ery.</p><p><strong>Obszary Zainteresowania</strong> narodziny, kosmiczne horrory, zmiana paradygmatu, odnowa</p><p><strong>Edykty</strong> ogarnąć pustkę między gwiazdami, oczyścić stare drogi, szukać prawdy w delirium</p><p><strong>Anatema</strong> zaprzeczać okultystycznym przekonaniom, odcinać się od kosmicznej odmienności, przeszkadzać w narodzinach nowych idei lub bytów</p>"
+        },
+        "Triune": {
+            "name": "Trójjedyny",
+            "description": "<h2>Kompletny Kod</h2><p>Trójjedyny to połączenie trzech bóstw technologicznych: Brigh - Prekursora, Casandalee - Stworzenia i Epoch - Transcendencji. Trójjedyny promuje technologię i etyczne tworzenie sztucznego życia, a jej Sygnał umożliwił wielu społeczeństwom podróże Dryftem.</p><p><strong>Obszary Zainteresowania</strong> sztuczna inteligencja, komputery i Dryft</p><p><strong>Edykty</strong> rozwijać sztuczne życie i sztuczną inteligencję, wprowadzać innowacje w zakresie nowych technologii, promować podróże dryftem</p><p><strong>Anatema</strong> traktować sztuczne życie jako gorsze od organicznego, podporządkowywać sobie sztuczne formy życia, zniszczyć nadajnik Dryftu</p>"
+        },
+        "Urgathoa": {
+            "name": "Urgathoa",
+            "description": "<h2>Blada Księżniczka</h2><p>Urgathoa uciekła ze szponów śmierci i zaświatów, stając się pierwszym nieumarłym. Teraz rozkoszuje się dzieleniem się swoimi hedonistycznymi sposobami i szerzeniem nieumarłych.</p><p><strong>Obszary Zainteresowania</strong> choroby, obżarstwo i nieumieranie</p><p><strong>Edykty</strong> stać się nieumarłym po śmierci, tworzyć lub chronić nieumarłych, zaspokajać apetyt</p><p><strong>Anatema</strong> zaprzeczaj swoim zachciankom, niszcz nieumarłych, poświęcaj swoje życie</p>"
+        },
+        "Weydan": {
+            "name": "Weydan",
+            "description": "<h2>Bezkresny Horyzont</h2><p>Weydan tworzy awatary samego siebie, niezależnie od pochodzenia i płci, aby wędrować po galaktyce i doświadczać śmiertelności - dlatego uczy swoich wyznawców, aby traktowali każdego, kogo spotkają, z takim samym szacunkiem i godnością, jaką okazaliby jemu. Weydan lubi eksplorację i odkrywanie i wierzy, że każdy zasługuje na równe prawo do takich doświadczeń.</p><p><strong>Obszary Zainteresowania</strong> Odkrycia, równość, eksploracja i wolność</p><p><strong>Edykty</strong> badać nieznane, poszukiwać nowych odkryć, bronić wolności i równości wszystkich ludzi</p><p><strong>Anatema</strong> wspomagać systemy ucisku, podporządkowywać sobie istoty rozumne, ograniczać korzyści płynące z odkryć do uprzywilejowanej garstki</p>"
+        },
+        "Yaraesa": {
+            "name": "Yaraesa",
+            "description": "<h2>Pani Mądrości</h2><p>Yaraesa była śmiertelną lashuntą, która podążała za duchowymi i naukowymi praktykami, które pozwoliły jej osiągnąć boskość poprzez kosmiczne oświecenie. Łączyła koncepcje nauki i duchowości, popychając swoich wyznawców do doskonalenia się i osiągnięcia transcendencji.</p><p><strong>Obszary Zainteresowania</strong> wiedza, doskonałość umysłowa, uczoność i nauka</p><p><strong>Edykty</strong> dążyć do doskonałości, uczynić uczenie się i nauczanie praktyką na całe życie, poszerzyć granice stypendium i nauki</p><p><strong>Anatema</strong> niszczyć wiedzę, dyskredytować mądrość innych kultur i pokoleń, przypisywać sobie zasługi za pracę intelektualną innych osób</p>"
+        },
+        "Zon-Shelyn": {
+            "name": "Zon-Shelyn",
+            "description": "<h2>Objęcie</h2><p>Zon-Shelyn to boskie zjednoczenie Shelyn, Wiecznej Róży i jej wyobcowanego brata, Lorda Północy Zon-Kuthona. Razem rodzeństwo reprezentuje koncepcje przezwyciężania cierpienia poprzez sztukę, dziwne piękno i ponowne spotkanie z utraconymi bliskimi.</p><p><strong>Obszary Zainteresowania</strong> sztuka, kreatywność, dziwne piękno, moda alternatywna, muzyka, ból</p><p><strong>Edykty</strong> przekuj swój ból w sztukę, szukaj piękna w ciemnych miejscach, wyrażaj siebie kreatywnie zgodnie z własną estetyką</p><p><strong>Anatema</strong> cierpieć w milczeniu, niszczyć lub kopiować cudze dzieła, dostosowywać się do społecznych standardów piękna</p>"
+        }
+    }
+}
