@@ -1,0 +1,113 @@
+{
+    "label": "Przeszłości",
+    "entries": {
+        "Athlete": {
+            "name": "Sportowiec",
+            "description": "<p>Wzmocniłeś swoje ciało poprzez treningi i ćwiczenia, dbając o to, aby żadna kropla potu nie poszła na marne w dążeniu do osiągnięcia zamierzonych celów. Być może jesteś mistrzem walk na arenie, zapalonym bywalcem siłowni lub silnym zawodnikiem w drużynie sportowej — dla Ciebie liczy się adrenalina, którą czujesz, gdy bijesz swój rekord życiowy.</p><p>Wybierz dwa wzmocnienia atrybutów. Jedno z nich musi być <strong>Siłą</strong> lub <strong>Zręcznością</strong>, a jedno jest darmowym wzmocnieniem atrybutów.</p><p>Jesteś wytrenowany w umiejętności Atletyka i Wiedza o Sportach. Zyskujesz atut umiejętności @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.kbHmYh8UfUePwDD3]{Martwy Ciąg}.</p>"
+        },
+        "Brutaris Player": {
+            "name": "Brutalny Zawodnik",
+            "description": "<p>Dźwięk ryczącego tłumu wciąż przyspiesza bicie serca, gdy wspominasz dni chwały jako brutalny zawodnik. Niezależnie od tego, czy zakończyłeś karierę w blasku zwycięstwa, czy też musiałeś zrezygnować w szczytowym momencie, utrzymałeś formę i zawsze jesteś gotowy na kolejny wielki mecz.</p><p>Wybierz dwa wzmocnienia atrybutów. Jedno z nich musi być <strong>Siłą</strong> lub <strong>Kondycją</strong>, a jedno jest darmowym wzmocnieniem atrybutów.</p><p>Jesteś wytrenowany w umiejętności Atletyka i Wiedza o Sportach. Zyskujesz atut @UUID[Compendium.pf2e.feats-srd.Item.ZBhvJ9O8MvBFAlhq] lub @UUID[Compendium.pf2e.feats-srd.Item.KxaYlC50zzHysJj8].</p>"
+        },
+        "City Slicker": {
+            "name": "Mieszczuch",
+            "description": "<p>Mieszkasz w dużym mieście wystarczająco długo, aby wiedzieć, jak nie rzucać się w oczy, unikać bezpośredniego kontaktu wzrokowego i poruszać się po mieście, nie zwracając na siebie uwagi. Niezależnie od tego, czy byłeś detektywem śledzącym podejrzanego, czy po prostu mieszkałeś w dzielnicy dotkniętej przestępczością, zawsze potrafiłeś wtopić się w tłum, aby uniknąć kłopotów.</p><p>Wybierz dwa wzmocnienia atrybutów. Jedno z nich musi być <strong>Zręcznością</strong> lub <strong>Charyzmą</strong>, a jedno jest darmowym wzmocnieniem atrybutów.</p><p>Jesteś wytrenowany w umiejętności Oszustwo oraz w Wiedzy o konkretnej osadzie. Zyskujesz atut umiejętności @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.TxJlYcaBRsk5hgur]{Twarz w Tłumie}.</p>"
+        },
+        "Cleaner": {
+            "name": "Czyściciel",
+            "description": "<p>Wiesz, jak usunąć wszelkie ślady przestępstwa, zanim przypadkowi świadkowie zdążą coś zauważyć. Niezależnie od tego, czy pracowałeś na czarno dla legalnych klientów, takich jak korporacja Abadar, czy też nauczyłeś się swojego rzemiosła jako członek organizacji przestępczej, takiej jak Złota Liga, wiesz, jak pozostawić miejsce zbrodni w idealnym stanie.</p><p>Wybierz dwa wzmocnienia atrybutów. Jedno z nich musi być <strong>Zręcznością</strong> lub <strong>Charyzmą</strong>, a jedno jest darmowym wzmocnieniem atrybutów.</p><p>Jesteś wytrenowany w umiejętności Oszustwo i Wiedza o półświatku. Zyskujesz atut umiejętności @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.zqs75ZLZO2QqZT6N]{Bez śladu}.</p>"
+        },
+        "Comedian": {
+            "name": "Komik",
+            "description": "<p>Niezależnie od tego, czy jesteś biurowym dowcipnisiem, profesjonalnym komikiem, czy po prostu trolem w internecie, zawsze masz w zanadrzu dobrze wyczuty żart, nawet jeśli czasami wpędzasz się w kłopoty, przekraczając granicę.</p><p>Wybierz dwa wzmocnienia atrybutów. Jedno z nich musi być <strong>Mądrością</strong> lub <strong>Charyzmą</strong>, a jedno jest darmowym wzmocnieniem atrybutów.</p><p>Jesteś wytrenowany w umiejętności Występy i Wiedza o Mediach. Zyskujesz atut umiejętności @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.mI8oSsXNOBwOtvYg]{To tylko żart}.</p>"
+        },
+        "Corporate Agent": {
+            "name": "Agent Korporacji",
+            "description": "<p>Jesteś jednym z wielu profesjonalistów pracujących w korporacji, ale nie jesteś zwykłym pracownikiem. Jesteś negocjatorem, pośrednikiem, a może nawet szpiegiem pracującym nad realizacją planów konkretnej firmy. Możesz być trybikiem w ogromnej machinie korporacyjnej lub pomocnikiem nieznanego nikomu nowicjusza... na razie.</p><p>Wybierz dwa wzmocnienia atrybutów. Jedno z nich musi być <strong>Charyzmą</strong> lub <strong>Inteligencją</strong>, a jedno jest darmowym wzmocnieniem atrybutów.</p><p>Jesteś wytrenowany w umiejętnościach Społeczeństwo i Wiedza o korporacjach. Zyskujesz atut umiejętności @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.WObLA9tDdom6jTTH]{Materiały do Zarządzania}.</p>"
+        },
+        "Cyberborn": {
+            "name": "Cyberurodzony",
+            "description": "<p>Twoje ciało jest świątynią zmian i technologii. Od najmłodszych lat ulepszasz swoją anatomię za pomocą implantów, być może po strasznym wypadku, w ramach eksperymentu lub z powodu pragnienia przekształcenia swojego ciała w coś więcej.</p><p>Wybierz dwa wzmocnienia atrybutów. Jedno z nich musi być <strong>Kondycją</strong> lub <strong>Siłą</strong>, a jedno jest darmowym wzmocnieniem atrybutów.</p><p>Jesteś wytrenowany w umiejętności Rzemiosło i Wiedza o Modyfikacjach. Zyskujesz atut @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.FceVOOFha1gbd95w]{Modyfikacje Ciała}.</p>"
+        },
+        "Diplomat": {
+            "name": "Dyplomata",
+            "description": "<p>Poświęciłeś swoją karierę na ułatwianie współpracy i tworzenie pokojowych sojuszy między różnymi frakcjami i narodami. Możesz pracować w międzygalaktycznej ambasadzie lub podróżować statkiem kosmicznym z misją w odległej przestrzeni kosmicznej. Twoją specjalnością są sytuacje pierwszego kontaktu.</p><p>Wybierz dwa wzmocnienia atrybutów. Jedno z nich musi być <strong>Charyzmą</strong> lub <strong>Inteligencją</strong>, a jedno jest darmowym wzmocnieniem atrybutów.</p><p>Jesteś wytrenowany w umiejętności Dyplomacja oraz jednej umiejętności Wiedza dotyczącej wybranej przez ciebie planety. Zyskujesz atut umiejętności @UUID[Compendium.pf2e.feats-srd.Item.KpFetnUqTiweypZk].</p>"
+        },
+        "Disciple": {
+            "name": "Apostoł",
+            "description": "<p>Jesteś lojalnym wyznawcą konkretnego bóstwa. Być może wychowałeś się w religijnej kulturze lub dopiero w późniejszym okresie życia poczułeś powołanie do służby bogu, ale doskonaliłeś swoje umiejętności i poświęciłeś życie, aby żyć jako wyznawca tego bóstwa.</p><p>Wybierz dwa wzmocnienia atrybutów. Jedno musi być atrybutem specyficznym dla boskiej cechy twojego bóstwa, a drugie jest dowolnym wzmocnieniem atrybutu.</p><p>Jesteś wytrenowany w boskiej umiejętności wymienionej dla bóstwa oraz w umiejętności wiedzy związanej z twoim bóstwem (na przykład Wiedza o Abadarze). Otrzymujesz atut umiejętności @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.fSZhVEzez8VKO9Zf]{Święty talizman} bez konieczności spełnienia warunków wstępnych atutu.</p>"
+        },
+        "Doctor": {
+            "name": "Lekarz",
+            "description": "<p>Jesteś doświadczonym uzdrowicielem, który umiejętnie wykorzystuje najnowsze technologie i leki do leczenia pacjentów. Możesz pracować w klinice, nadzorować ambulatorium na statku kosmicznym, służyć jako medyk wojskowy lub wykonywać swój zawód w podejrzanych zaułkach.</p><p>Wybierz dwa wzmocnienia atrybutów. Jedno z nich musi być <strong>Zręcznością</strong> lub <strong>Inteligencją</strong>, a jedno jest darmowym wzmocnieniem atrybutów.</p><p>Jesteś wytrenowany w umiejętności Medycyna i Wiedzy o Naukach Biologicznych. Zyskujesz atut umiejętności @UUID[Compendium.pf2e.feats-srd.Item.wYerMk6F1RZb0Fwt].</p>"
+        },
+        "Dream Prophet": {
+            "name": "Wróżbita",
+            "description": "<p>Tajemnicza istota nawiedza twoje sny, dając ci przelotne spojrzenie na transcendencję. Te nadprzyrodzone doświadczenia zainspirowały cię do poszukiwania głębszej więzi z tą mocą. Być może znajdziesz sens w pieśniach Śniących z Liavaran, dostrzeżesz potencjał uniwersalnej zmiany w narodzinach Noworodka lub zaakceptujesz jakąś inną kosmiczną tajemnicę.</p><p>Wybierz dwa wzmocnienia atrybutów. Jedno z nich musi być <strong>Charyzmą</strong> lub <strong>Mądrością</strong>, a jedno jest darmowym wzmocnieniem atrybutów.</p><p>Jesteś wytrenowany w umiejętności Okultyzm oraz w umiejętności Wiedza związaną z wybranymi przez ciebie zagadnieniami metafizycznymi. Zyskujesz atut umiejętności @UUID[Compendium.pf2e.feats-srd.Item.lEgYzFHransLkSvI].</p>"
+        },
+        "Electrician": {
+            "name": "Elektryk",
+            "description": "<p>Wiesz lepiej niż większość ludzi, jak potężna jest energia elektryczna, a ponieważ sam przeżyłeś kilka niebezpiecznych sytuacji, wiesz z własnego doświadczenia, jak szokujące mogą być skutki awarii. Niezależnie od tego, czy nauczyłeś się tego podczas instalowania elektrowni, czy naprawiania uszkodzonych baterii, znasz wszystkie tajniki elektryczności.</p><p>Wybierz dwa wzmocnienia atrybutów. Jedno z nich musi być <strong>Kondycją</strong> lub <strong>Inteligencją</strong>, a jedno jest darmowym wzmocnieniem atrybutów.</p><p>Jesteś wytrenowany w umiejętności Rzemiosło i Wiedza o Naukach Fizycznych. Zyskujesz atut umiejętności @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.hgwbd8r5QvecnDNn]{Inżynier Elektryk}.</p>"
+        },
+        "Gene Splicer": {
+            "name": "Sekwencjoner Genów",
+            "description": "<p>Jesteś ekspertem w dziedzinie biotechnologii, genetyki i żywienia. Często przeprowadzasz eksperymenty na własnym ciele. Być może pracowałeś z pacjentami wymagającymi terapii genowej, w laboratoriach poszukujących przełomowych rozwiązań w dziedzinie biotechnologii, a nawet tworzyłeś własne serum do użytku osobistego.</p><p>Wybierz dwa wzmocnienia atrybutów. Jedno z nich musi być <strong>Siłą</strong> lub <strong>Inteligencją</strong>, a jedno jest darmowym wzmocnieniem atrybutów.</p><p>Jesteś wytrenowany w umiejętności Medycyna lub Wiedza o Naukach Biologicznych. Zyskujesz atut umiejętności @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.BpLsWwXhgU59jk5d]{Zastrzyk Serum}.</p>"
+        },
+        "Grifter": {
+            "name": "Oszust",
+            "description": "<p>Jesteś oszustem i naciągaczem, który wyłudza pieniądze od niczego niepodejrzewających ofiar i szantażuje prostaków, ale nie ma w tym nic osobistego – robisz to tylko dla pieniędzy. Być może prowadzisz dodatkową działalność lub spędzasz życie, przenosząc się z osady do osady, aż w końcu zostaniesz złapany na gorącym uczynku.</p><p>Wybierz dwa wzmocnienia atrybutów. Jedno z nich musi być <strong>Charyzmą</strong> lub <strong>Inteligencją</strong>, a jedno jest darmowym wzmocnieniem atrybutów.</p><p>Jesteś wytrenowany w umiejętności Oszustwo oraz w umiejętności Wiedza związaną z profesją lub dziedziną, w której udajesz eksperta. Zyskujesz atut umiejętności @UUID[Compendium.pf2e.feats-srd.Item.B6HbYsLBWb1RR6Fx].</p>"
+        },
+        "Hacker": {
+            "name": "Haker",
+            "description": "<p>Zawsze miałeś talent do komputerów i przestrzeni wirtualnych oraz dążyłeś do poznania tajników technicznych. Otwarte sieci znane jako infosfery są Twoim domem i miejscem, w którym możesz wykazać się swoimi umiejętnościami. Masz duże kompetencje w zakresie łamania kodów i uzyskiwania dostępu do zabezpieczonych danych.</p><p>Wybierz dwa wzmocnienia atrybutów. Jedno z nich musi być <strong>Zręcznością</strong> lub <strong>Inteligencją</strong>, a jedno jest darmowym wzmocnieniem atrybutów.</p><p>Jesteś wytrenowany w umiejętności Komputery i Wiedza o Infosferze. Zyskujesz atut umiejętności @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.90JAhMkgRdEoul4W]{Haker Telefoniczny}.</p>"
+        },
+        "Icon": {
+            "name": "Ikona",
+            "description": "<p>Każdy pragnie swoich 15 minut sławy, ale dla Ciebie stało się to w pewnym sensie stylem życia. Dzięki szczęściu lub poświęceniu jesteś gwiazdą, celebrytą lub popularnym influencerem. Twoja twarz, głos i styl są towarem w znanej przestrzeni, ale na każdego wielbiciela przypada hejter rozpowszechniający plotki lub paparazzi próbujący uchwycić Twoje wady.</p>\n<p>Wybierz dwa wzmocnienia atrybutów. Jedno z nich musi być <strong>Charyzmą</strong> lub <strong>Kondycją</strong>, a jedno jest darmowym wzmocnieniem atrybutów.</p>\n<p>Jesteś wytrenowany w umiejętności Występy i Wiedza o mediach. Zyskujesz atut Błyskotliwy występ.</p>"
+        },
+        "Outlaw": {
+            "name": "Wyrzutek",
+            "description": "<p>Jesteś zawodowym przestępcą o złej reputacji. Być może niesprawiedliwe okoliczności zmusiły cię do życia w przestępstwie, a może po prostu lubisz dreszczyk emocji, jaki daje ci napad lub strzelanina. Tak czy inaczej, to jedyne życie, jakie znasz, a dzięki nagrodzie za twoją głowę będziesz w nim tkwić aż do śmierci lub zdobycia wystarczającej ilości kredytów, by kupić sobie nowe.</p><p>Wybierz dwa wzmocnienia atrybutów. Jedno z nich musi być <strong>Charyzmą</strong> lub <strong>Siłą</strong>, a jedno jest darmowym wzmocnieniem atrybutów.</p><p>Jesteś wytrenowany w umiejętności Zastraszanie i Wiedza o półświatku. Zyskujesz atut umiejętności @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.xkJShzzntL0mBkN0]{Strzał Ostrzegawczy}.</p>"
+        },
+        "Recluse": {
+            "name": "Pustelnik",
+            "description": "<p>Kiedyś byłeś kimś, ale to było w innym życiu. Obecnie trzymasz się na uboczu, wiodąc życie pustelnika na odludziu lub samotnika w zaniedbanej dzielnicy. Myślałeś, że przeszłość pozostała za tobą, ale nowy uczeń lub stary wróg ponownie wciągnęli cię w życie pełne przygód.</p><p>Wybierz dwa wzmocnienia atrybutów. Jedno z nich musi być <strong>Kondycją</strong> lub <strong>Mądrością</strong>, a jedno jest darmowym wzmocnieniem atrybutów.</p><p>Jesteś wytrenowany w umiejętności Przetrwanie oraz w umiejętności Wiedza związana z twoją poprzednią karierą. Zyskujesz atut umiejętności @UUID[Compendium.pf2e.feats-srd.Item.1Bt7uCW2WI4sM84P].</p>"
+        },
+        "Scientist": {
+            "name": "Naukowiec",
+            "description": "<p>Pracujesz w laboratorium i prowadzisz badania naukowe. Być może jesteś biotechnikiem, chemikiem, programistą komputerowym, fizykiem teoretycznym lub doświadczonym badaczem w innej dziedzinie. Niezależnie od konkretnego wykształcenia, możesz wykorzystać swoją wiedzę naukową dla osobistych korzyści lub dla dobra galaktycznego społeczeństwa.</p><p>Wybierz dwa wzmocnienia atrybutów. Jedno z nich musi być <strong>Inteligencją</strong> lub <strong>Mądrością</strong>, a jedno jest darmowym wzmocnieniem atrybutów.</p><p>Jesteś wytrenowany w Rzemiośle. Masz również wytrenowaną umiejętność Wiedzy związaną z twoją dziedziną badań i zyskujesz atut @UUID[Compendium.pf2e.feats-srd.Item.W6Gl9ePmItfDHji0] w tej umiejętności.</p>"
+        },
+        "Smuggler": {
+            "name": "Przemytnik",
+            "description": "<p>Zarabiasz na życie przemytem ładunków, czy to na planecie, czy w głębi kosmosu. Nie zadajesz klientom zbyt wielu pytań, a ładunek może być dowolny – podrobione produkty, nielegalne towary, skradziona broń... Im większe ryzyko, tym większa zapłata.</p><p>Wybierz dwa wzmocnienia atrybutów. Jedno z nich musi być <strong>Zręcznością</strong> lub <strong>Mądrością</strong>, a jedno jest darmowym wzmocnieniem atrybutów.</p><p>Jesteś wytrenowany w umiejętności Ukrycie i Wiedzy o Piractwie. Zyskujesz atut umiejętności @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.Nu4njoR6AI4lI3cH]{Doświadczony przemytnik}.</p>"
+        },
+        "Socialite": {
+            "name": "Bywalec salonów",
+            "description": "<p>Dzięki bogactwu pokoleniowemu lub szczęśliwym okolicznościom prowadzisz czarujące życie, przemieszczając się między galami i imprezami, ubrana w najnowsze kreacje znanych projektantów. Każdy błyskotliwy moment utrwalasz w mediach społecznościowych, a jeśli nikt nie zwraca na to uwagi, to tylko dlatego, że są zazdrośni.</p><p>Wybierz dwa wzmocnienia atrybutów. Jedno z nich musi być <strong>Charyzmą</strong> lub <strong>Inteligencją</strong>, a jedno jest darmowym wzmocnieniem atrybutów.</p><p>Jesteś wytrenowany w umiejętności Społeczność oraz w umiejętności wiedzy związanej z planetą, na której żyjesz. Zyskujesz atut umiejętności @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.AF5Fpl27eVdpzDLq]{Zasiać plotkę}.</p>"
+        },
+        "Space Pirate": {
+            "name": "Kosmiczny Pirat",
+            "description": "<p>Jesteś członkiem załogi statku pirackiego, którego ambicją jest plądrowanie międzygwiezdnych szlaków handlowych lub przejęcie części znaczącego ciała planetarnego. Być może dorastałeś na takim statku, zostałeś pojmany przez załogę i przystosowałeś się do ich stylu życia, albo przejąłeś statek od kapitana piratów.</p><p>Wybierz dwa wzmocnienia atrybutów. Jedno z nich musi być <strong>Zręcznością</strong> lub <strong>Siłą</strong>, a jedno jest darmowym wzmocnieniem atrybutów.</p><p>Jesteś wytrenowany w umiejętności Zastraszanie i Wiedzy o Piractwie. Zyskujesz atut umiejętności @UUID[Compendium.pf2e.feats-srd.Item.gUqvezs2zzoTXFAI].</p>"
+        },
+        "Spacefarer": {
+            "name": "Kosmiczny Podróżnik",
+            "description": "<p>Niektórzy mogą powiedzieć, że zbyt długo przebywasz w Drifcie, ale prawda jest taka, że nie czujesz się dobrze z dala od swojego stanowiska na pokładzie statku kosmicznego. Możesz być członkiem załogi frachtowca dalekiego zasięgu, wojskowego statku bojowego lub promu turystycznego. Prawda jest taka, że prawdopodobnie zgłosiłbyś się do każdej pracy, która pozwoliłaby ci opuścić Ziemię.</p><p>Wybierz dwa wzmocnienia atrybutów. Jedno z nich musi być <strong>Zręcznością</strong> lub <strong>Kondycją</strong>, a jedno jest darmowym wzmocnieniem atrybutów.</p><p>Jesteś wytrenowany w umiejętności Pilotaż i Wiedza o Dryftcie. Zyskujesz atut umiejętności @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.lvCiVD4lVlv3chXf]{Szybki kierowca}.</p>"
+        },
+        "Street Rat": {
+            "name": "Szumowina",
+            "description": "<p>Znasz ulice, ponieważ wychowały cię one. Dorastałeś, ledwo wiążąc koniec z końcem w ogromnej miejskiej dżungli, takiej jak Verces czy Castrovel, lub na zatłoczonej stacji kosmicznej, takiej jak Stacja Absalom. Być może udało ci się nawet zarobić na życie w klaustrofobicznych kanałach wentylacyjnych megapleksu Aballon. Surfowanie po tłumach lub zbieranie przydatnych śmieci nie jest dla ciebie niczym nowym.</p><p>Wybierz dwa wzmocnienia atrybutów. Jedno z nich musi być <strong>Zręcznością</strong> lub <strong>Mądrością</strong>, a jedno jest darmowym wzmocnieniem atrybutów.</p><p>Jesteś wytrenowany w umiejętności Przetrwanie oraz wiedzy o konkretnej osadzie. Zyskujesz atut umiejętności @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.tEIsWBhVpv1L6OjX]{Miejski Surwiwalista}.</p>"
+        },
+        "Tech Support": {
+            "name": "Wsparcie Techniczne",
+            "description": "<p>Niezależnie od tego, czy pracujesz w placówce wojskowej, statku kosmicznym, czy lokalnym biurze, masz doświadczenie w pomaganiu swoim kolegom w kwestiach technicznych. Bez wątpienia przetrwałeś wiele nieprzespanych nocy, chroniąc systemy przed hakerami i przywracając utracone pliki, ale nauczyłeś się również, jak szybko instalować aktualizacje na żądanie, minimalizując przestoje.</p><p>Wybierz dwa wzmocnienia atrybutów. Jedno z nich musi być <strong>Kondycją</strong> lub <strong>Inteligencją</strong>, a jedno jest darmowym wzmocnieniem atrybutów.</p><p>Jesteś wytrenowany w umiejętnościach Komputery i Wiedza o biznesie. Zyskujesz atut umiejętności @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.JfefsRorSE1zVdAx]{Szybka instalacja}.</p>"
+        },
+        "Trooper": {
+            "name": "Szeregowy",
+            "description": "<p>Wstąpiłeś do wojska lub zostałeś zwerbowany przez grupę paramilitarną jako zawodowy żołnierz. Jeśli masz wystarczającą ilość broni i odpowiednią drużynę do wsparcia, możesz poradzić sobie z niemal wszystkim.</p><p>Wybierz dwa wzmocnienia atrybutów. Jedno z nich musi być <strong>Kondycją</strong> lub <strong>Siłą</strong>, a jedno jest darmowym wzmocnieniem atrybutów.</p><p>Jesteś wytrenowany w umiejętności Atletyka i Wiedza O wojskowości. Zyskujesz atut @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.jSzuRceUiH3yspYD]{Barykada}.</p>"
+        },
+        "Vidgamer": {
+            "name": "Gracz gier wideo",
+            "description": "<p>Gry to dla Ciebie coś więcej niż tylko hobby. Niezależnie od tego, czy jesteś profesjonalnym graczem, projektantem gier, influencerem w sferze informacyjnej, czy po prostu entuzjastą, który opanował wszystkie gry warte zainstalowania, jesteś koneserem gier wideo, który potrafi dostrzec wirtualne dzieła bez zastanowienia.</p><p>Wybierz dwa wzmocnienia atrybutów. Jedno z nich musi być <strong>Zręcznością</strong> lub <strong>Inteligencją</strong>, a jedno jest darmowym wzmocnieniem atrybutów.</p><p>Jesteś wytrenowany w umiejętnościach Komputery i Wiedza o grach wideo. Zyskujesz atut umiejętności @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.OU8zUA79XByyhoO3]{Sceptyk Hologramów}.</p>"
+        }
+    }
+}
