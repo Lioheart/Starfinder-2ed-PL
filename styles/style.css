@@ -1,0 +1,36 @@
+@font-face {
+    font-family: "Tektur_SemiCondensed-Regular";
+    src: url('../font/Tektur_SemiCondensed-Regular.ttf');
+}
+
+:root {
+    --serif-condensed: "Tektur_SemiCondensed-Regular", "Modesto Condensed", serif;
+    --sans-serif: "Signika", Roboto, sans-serif;
+}
+
+/* Obrazek pauzy */
+#pause img.fa-spin {
+    animation-duration: unset;    
+    opacity: 0.9;    
+    content: url('../static/sf2e.webp');
+}
+
+/* Czcionka pauzy */
+#pause figcaption {
+    font-family: "Bruno-Ace-SC" !important;
+}
+
+/* Kolor migotania Pauzy */
+@keyframes pulsate {
+    0% {
+        filter: drop-shadow(0 0 0 rgba(0, 42, 23, 0));
+    }
+
+    50% {
+        filter: drop-shadow(0 0 15px rgba(6, 24, 87, 0.8));
+    }
+
+    100% {
+        filter: drop-shadow(0 0 0 rgba(0, 42, 23, 0));
+    }
+}
