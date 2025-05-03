@@ -1,0 +1,292 @@
+{
+    "label": "Stany",
+    "entries": {
+        "Effect: Adaptive Locomotion": {
+            "name": "Efekt: Adaptacyjny Ruch",
+            "description": "<p>Jeśli wybierzesz płetwy, zyskujesz szybkość pływania wynoszącą 20 stóp. Jeśli wybierzesz haczykowate nibynóżki, zyskujesz szybkość wspinaczki wynoszącą 20 stóp.</p>"
+        },
+        "Effect: Aim": {
+            "name": "Efekt: Celowanie",
+            "description": "<p>Zadajesz dodatkowe obrażenia precyzyjne równe 1k4 i zmniejszasz premię do KP, jaką twój cel otrzymuje dzięki osłonie, o 1. Korzyści te mają zastosowanie tylko wtedy, gdy twój cel znajduje się w zasięgu pierwszego przyrostu broni. W danym momencie możesz mieć tylko jeden cel.</p><p>Wraz ze wzrostem poziomu operacyjnego wzrasta zdolność Celowania. Zwiększa liczbę kości do precyzyjnego obrażenia o jeden na 5, 11 i 17 poziomie. Na 11. poziomie zmniejszasz premię okolicznościową do KP, którą twój cel zyskuje dzięki osłonie, o 2 zamiast o 1. Na 17. poziomie zmniejszasz premię okolicznościową do KP, którą twój cel zyskuje dzięki osłonie, o 4 zamiast o 2.</p>"
+        },
+        "Effect: Apocalypse Smite": {
+            "name": "Efekt: Apokaliptyczne Ugodzenie",
+            "description": "<p>Kieł zadaje dodatkowe obrażenia pustki równe 2k8 oznaczonemu celowi.</p>"
+        },
+        "Effect: Arcane Intuition": {
+            "name": "Efekt: Tajemnicza Intuicja",
+            "description": "<p>Otrzymujesz premię okolicznościową +1 do rzutów obronnych przeciwko zaklęciom i trwałym efektom magicznym. Jeśli jesteś legendarny w Arkanach, otrzymujesz zamiast tego premię okolicznościową +2.</p>"
+        },
+        "Effect: Bolstered by Battle": {
+            "name": "Efekt: Wzmocniony Walką",
+            "description": "<p>Zyskujesz tymczasową liczbę Punktów Wytrzymałości równą twojemu poziomowi.</p>"
+        },
+        "Effect: Bolstering Biopod": {
+            "name": "Efekt: Wzmocnienie Biopodu",
+            "description": "<p>Próbka 62 zyskuje 5 tymczasowych Punktów Wytrzymałości.</p>"
+        },
+        "Effect: Brace For Impact": {
+            "name": "Efekt: Przygotuj się na wstrząs",
+            "description": "<p>Przyznany przez @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.hXcgSVdVJcA5cqnh]{Zbrojcie się!}</p><p>Zyskujesz tymczasowe Punkty Wytrzymałości równe modyfikatorowi Charyzmy istoty źródłowej + połowa jej poziomu.</p><p><strong>Dawanie Przykładu</strong> Jeśli przed końcem swojej tury wydasz akcję na Przygotowanie się na wstrząs, ty i wszyscy sojusznicy, którzy przygotowali się na wstrząs przed rozpoczęciem twojej następnej tury, otrzymujecie również premię statusową +1 do rzutów obronnych przeciwko efektom zadającym obrażenia.</p>"
+        },
+        "Effect: Bring It On!": {
+            "name": "Efekt: Dawajcie!",
+            "description": "<p>Otrzymujesz karę -2 do KP i zyskujesz odporność na wszystkie obrażenia równą połowie twojego poziomu. Jeśli posiadasz styl walki zbrojna burza, zyskujesz odporność równą twojemu poziomowi na ataki wykonywane przez Przytłoczonych wrogów.</p>"
+        },
+        "Effect: Broken Cycle": {
+            "name": "Efekt: Zerwany Cykl",
+            "description": "<p>Zyskujesz odporność 5 na zimno lub ogień.</p>"
+        },
+        "Effect: Bullet Fever": {
+            "name": "Efekt: Gorączka Kul",
+            "description": "<ul><li>Otrzymujesz tymczasową liczbę Punktów Wytrzymałości równą twojemu poziomowi plus modyfikator twojej kluczowej cechy.</li><li>YAutomatycznie zadajesz obrażenia precyzyjne wszystkim celom, tak jakbyś Celował.</li><li>Otrzymujesz karę okoliczności -2 do KP.</li><li>Otrzymujesz karę okoliczności -2 do rzutów obronnych na Wolę.</li></ul>"
+        },
+        "Effect: Celebrity Serum": {
+            "name": "Efekt: Serum dla celebrytów",
+            "description": "<p>Przyznany przez @UUID[Compendium.starfinder-field-test-for-pf2e.equipment.Item.YEuvWZhtsvTqJJo1]{Serum dla celebrytów}</p><p>Otrzymujesz premię przedmiotu +1 do testów Występów.</p>"
+        },
+        "Effect: Cloud Storage": {
+            "name": "Efekt: Przechowywanie w Chmurze",
+            "description": "<p>Śledzi aktualnie dostępną pamięć</p>"
+        },
+        "Effect: Confounding Disquisition": {
+            "name": "Efekt: Zaskakująca Rozprawa",
+            "description": "<p>Przyznany przez @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.CCe7Y7aiUgixFyiV]{Zaskakująca Rozprawa}</p><p>Otrzymujesz karę statusu -1 do testów Percepcji i rzutów obronnych na Wolę.</p>"
+        },
+        "Effect: Constellation Vortex": {
+            "name": "Efekt: Wir Konstelacji"
+        },
+        "Effect: Deadlift": {
+            "name": "Efekt: Martwy Ciąg",
+            "description": "<p>Możesz przenosić o 4 Masy przedmiotów więcej niż normalnie, zanim staniesz się obciążony. Ilość, którą możesz przenosić, wzrasta do 6 na poziomie eksperta, 8 na poziomie mistrza i 10 na poziomie legendarnym.</p>"
+        },
+        "Effect: Dual Aim": {
+            "name": "Efekt: Podwójny Cel",
+            "description": "<p>Mierzysz w drugi cel.</p>"
+        },
+        "Effect: Effortless Influencer": {
+            "name": "Efekt: Influencer bez Wysiłku",
+            "description": "<p>Otrzymujesz premię statusu +1 do następnej próby wybranej umiejętności (lub premię +2, jeśli próba zakończyła się krytycznym sukcesem).</p>"
+        },
+        "Effect: Elemental Harmony": {
+            "name": "Efekt: Harmonia Żywiołów",
+            "description": "<p>Zadajesz dodatkowo 1k4 trwałych obrażeń.</p>"
+        },
+        "Effect: Elemental Perfect Harmony": {
+            "name": "Efekt: Doskonała Harmonia Żywiołów",
+            "description": "<p>Zyskujesz odporność na dwa żywioły wybrane podczas codziennych przygotowań mistyka.</p>"
+        },
+        "Effect: Enraging Presence": {
+            "name": "Efekt: Prowokująca Obecność",
+            "description": "<p>Otrzymujesz premię statusu +2 do rzutów na obrażenia.</p>"
+        },
+        "Effect: Force Field": {
+            "name": "Efekt: Pole Siłowe",
+            "description": "<p>Efekt śledzenia dla PW twojego pola mocy.</p>"
+        },
+        "Effect: Get 'Em!": {
+            "name": "Efekt: Łapać Ich!",
+            "description": "<p>Ta istota otrzymuje karę okoliczności -1 do KP i rzutów obronnych na Refleks.</p><p><strong>Dawanie Przykładu</strong> Jeśli zaatakujesz wybrany cel przed końcem swojej tury, ujawnisz słaby punkt w obronie przeciwnika. Otrzymujesz premię okolicznościową do rzutów na obrażenia zadane celowi równą 1 + połowa twojego modyfikatora Charyzmy, a twoi sojusznicy otrzymują premię okolicznościową +1 do rzutów na obrażenia zadane celowi. Wraz ze wzrostem poziomu twojego wysłannika rosną również obrażenia. Zwiększ obrażenia o 1 na 5., 10., 15. i 20. poziomie.</p>"
+        },
+        "Effect: Get 'Em! (Lead by Example)": {
+            "name": "Efekt: Łapać Ich! (Dawanie Przykładu)",
+            "description": "<p>Efekt ulotny.</p><p>Jeśli zaatakujesz wybrany cel przed końcem swojej tury, ujawnisz słaby punkt w obronie przeciwnika. Otrzymujesz premię okolicznościową do rzutów na obrażenia zadane celowi równą 1 + połowa twojego modyfikatora Charyzmy, a twoi sojusznicy otrzymują premię okolicznościową +1 do rzutów na obrażenia zadane celowi. Wraz ze wzrostem poziomu twojego wysłannika rosną również obrażenia. Zwiększ obrażenia o 1 na 5., 10., 15. i 20. poziomie.</p>"
+        },
+        "Effect: Get in There!": {
+            "name": "Efekt: Do Dzieła!",
+            "description": "<p>Zyskujesz premię do szybkości wynoszącą +5 stóp. Zwiększ tę odległość o dodatkowe 5 stóp na 7., 12. i 17. poziomie.</p>"
+        },
+        "Effect: Got 'Em!": {
+            "name": "Efekt: Mam Ich!",
+            "description": "<p>Otrzymujesz tymczasową liczbę Punktów Wytrzymałości równą połowie poziomu źródłowego lub równą poziomowi źródłowemu, jeśli atak był trafieniem krytycznym.</p>"
+        },
+        "Effect: Hang In There!": {
+            "name": "Efekt: Trzymaj się!",
+            "description": "<p>Zyskujesz tymczasowe punkty wytrzymałości.</p>"
+        },
+        "Effect: Harmonic Convergence": {
+            "name": "Efekt: Harmoniczna Konwergencja",
+            "description": "<p>Otrzymujesz tymczasową liczbę Punktów Wytrzymałości równą połowie twojego poziomu.</p>"
+        },
+        "Effect: Improvised Mastery": {
+            "name": "Efekt: Mistrzostwo w Improwizacji",
+            "description": "<p><strong>Częstotliwość</strong> raz dziennie</p><p><strong>Wyzwalacz</strong> Zamierzasz wykonać test umiejętności, w której nie masz mistrzowskiej biegłości, ale nie wykonałeś jeszcze rzutu.</p><hr /><p>Ufasz swoim instynktom, które pomogą Ci przetrwać. Osiągasz mistrzowską biegłość w umiejętności wyzwalającej dla testu umiejętności.</p>"
+        },
+        "Effect: Magnetic Field": {
+            "name": "Efekt: Pole Magnetyczne",
+            "description": "<p>Przedmioty z cechą techniczną używane w aurze otrzymują karę okolicznościową -1 do wszystkich testów wykonywanych przy ich użyciu.</p>"
+        },
+        "Effect: Mark": {
+            "name": "Efekt: Znak",
+            "description": "<p>Efekt ulotny dla zaznaczonego celu.</p>"
+        },
+        "Effect: Meandering Mind": {
+            "name": "Efekt: Błądzący Umysł",
+            "description": "<p>Otrzymujesz premię okolicznościową +2 do rzutów obronnych. Jeśli rzut obronny przeciwko efektowi psychicznemu zakończy się sukcesem, zamiast tego uzyskujesz krytyczny sukces.</p>"
+        },
+        "Effect: Meditative Recovery": {
+            "name": "Efekt: Medytacja Regeneracyjna",
+            "description": "<p>Otrzymujesz premię okolicznościową +1 do rzutów obronnych przeciwko efektom umysłowym.</p>"
+        },
+        "Effect: Medpatch": {
+            "name": "Efekt: Plaster Medyczny",
+            "description": "<p>Przyznany przez @UUID[Compendium.starfinder-field-test-for-pf2e.equipment.Item.epPPWPTc4W7EfUf2], @UUID[Compendium.starfinder-field-test-for-pf2e.equipment.Item.acDATgrAmxjhfEFB], @UUID[Compendium.starfinder-field-test-for-pf2e.equipment.Item.ROnqVxG1z9wm6CBA], @UUID[Compendium.starfinder-field-test-for-pf2e.equipment.Item.DcTKWLfdYTL43Ks5], @UUID[Compendium.starfinder-field-test-for-pf2e.equipment.Item.PkvcfbTHVMLlz2UO], @UUID[Compendium.starfinder-field-test-for-pf2e.equipment.Item.KCH0gSUZwQtMLu9G]</p><p>Zyskujesz premię przedmiotu przeciwko chorobom i truciznom.</p>"
+        },
+        "Effect: Mobile Aim": {
+            "name": "Efekt: Mobilne Celowanie",
+            "description": "<p>Ataki dowódcy Eirana wykonane wybraną bronią zadają dodatkowe obrażenia precyzyjne równe 2k6 i zmniejszają premię do KP celu o 1.</p>"
+        },
+        "Effect: Mobile Aim (Ephemeral)": {
+            "name": "Efekt: Mobilne Celowanie (Ulotny)",
+            "description": "<p>Twoja premia do KP jest zmniejszona o 1.</p>"
+        },
+        "Effect: Nanite Form": {
+            "name": "Efekt: Postać Nanitów",
+            "description": "<p>Rozpadasz się na rój nanitów na maksymalnie 1 minutę lub do momentu, gdy wydasz pojedynczą akcję, aby powrócić do normalnej postaci. Stajesz się Wielki, zyskujesz cechę roju i szybkość lotu wynoszącą 40 stóp. Jako rój masz następujące cechy.</p>\n<ul>\n<li>Jesteś niewrażliwy na @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Pochwycenie}, @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Przewrócenie} i @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Obezwładnienie}.</li>\n<li>Masz podatność 5 na obrażenia obszarowe i od rozprysku.</li>\n<li>Możesz zajmować tę samą przestrzeń co inne stworzenia i musisz to zrobić, aby użyć swojej zdolności zadającej obrażenia.</li>\n<li>Jako @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.PXqI4M6j0WoAL0nJ]{2-akcyjna aktywność}, możesz zadać @Damage[10d6[acid]] obrażeń wszystkim stworzeniom znajdującym się w tej samej przestrzeni co ty (rzut obronny na Refleks z ST równym ST twojej klasy lub ST zaklęcia, w zależności od tego, która wartość jest wyższa).</li>\n<li>Nie możesz mówić, rzucać zaklęć, wykonywać czynności wymagających użycia rąk, aktywować magicznych przedmiotów ani wykonywać ataków swoim normalnym ciałem.</li>\n<li>Nie zyskujesz zdolności umysłu roju, więc nadal podlegasz normalnym efektom mentalnym.</li>\n</ul>"
+        },
+        "Effect: Not in the Face!": {
+            "name": "Efekt: Nie w Twarz!",
+            "description": "<p>Stworzenie otrzymuje karę okoliczności do rzutów ataku i obrażeń przeciwko tobie.</p>"
+        },
+        "Effect: Phase Shift": {
+            "name": "Efekt: Przesunięcie Fazowe",
+            "description": "<p>Rój staje się niematerialny do początku swojej następnej tury. Zyskuje również odporność 10 na wszystkie obrażenia (z wyjątkiem mocy, dotyku duchów lub istot duchowych; podwójna odporność na obrażenia niemagiczne). Podczas niematerialności rój zadaje dodatkowe obrażenia precyzyjne 1k10 stworzeniom, które nie obronią się przed Rzutem Obronnym przed Rojowymi Ugryzieniami.</p>"
+        },
+        "Effect: Rebellious Defiance": {
+            "name": "Efekt: Buntowniczy Opór",
+            "description": "<p>Otrzymujesz premię okolicznościową +1 do rzutów ataku przeciwko oznaczonym stworzeniom. Otrzymujesz również tę premię do rzutów obronnych przeciwko atakom, zaklęciom i efektom tego stworzenia.</p>"
+        },
+        "Effect: Redirect Energy": {
+            "name": "Efekt: Przekierowanie Energii",
+            "description": "<p>Wybrana broń zadaje dodatkowe obrażenia równe 1k4 obrażeń typu wywołującego efekt. W tym czasie tracisz wszelką odporność na obrażenia typu wywołującego efekt, którą zapewnia ci zdolność Idealnie Wyważony.</p>"
+        },
+        "Effect: Relentless Endurance": {
+            "name": "Efekt: Nieustępliwa Wytrzymałość",
+            "description": "<p>Otrzymujesz 1k8+4 tymczasowych punktów wytrzymałości oraz dodatkowe 1k8+4 za każde 4 poziomy powyżej 2. poziomu.</p>"
+        },
+        "Effect: Search High and Low": {
+            "name": "Efekt: Szukaj Wszędzie",
+            "description": "<p>Otrzymujesz premię okolicznościową +2 do testów Percepcji na @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Szukanie}. Premia wzrasta do +3 na 7. poziomie, +4 na 12. poziomie i +5 na 17. poziomie.</p>"
+        },
+        "Effect: Shift Energy": {
+            "name": "Efekt: Zmiana Energii",
+            "description": "<p>Twoje następne zaklęcie zadaje inny rodzaj obrażeń, określony przez rzut kostką k6, zgodnie z poniższą tabelą. Dotyczy to wszystkich obrażeń zadanych przez zaklęcie.</p><table class=\"pf2-table\"><thead><tr><th>K6</th><th>Typ obrażeń</th></tr></thead><tbody><tr><td>1</td><td>kwas</td></tr><tr><td>2</td><td>zimno</td></tr><tr><td>3</td><td>ogień</td></tr><tr><td>4</td><td>elektryczność</td></tr><tr><td>5</td><td>pustka</td></tr><tr><td>6</td><td>dźwiękowe</td></tr></tbody></table>"
+        },
+        "Effect: Show 'Em What You Got!": {
+            "name": "Efekt: Pokaż im, co potrafisz!",
+            "description": "<p>Twoi sojusznicy zyskują tymczasowe Punkty Wytrzymałości równe twojemu poziomowi.</p>"
+        },
+        "Effect: Size Up": {
+            "name": "Efekt: Ocena",
+            "description": "<p>Otrzymujesz premię okolicznościową +1 do testów Oszustwa, Dyplomacji, Zastraszania i Percepcji wykonywanych przeciwko twojemu atutowi lub w związku z nim, jeśli cel zna twój atut, oraz premię okolicznościową +1 do prób @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{Przywołania Wiedzy} dotyczących twojego atutu.</p>"
+        },
+        "Effect: Solar Shield": {
+            "name": "Efekt: Tarcza Słoneczna",
+            "description": "<p>Przyznany przez @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.ZPj5TjISL153EGpW]{Tarcza Słoneczna}</p><p>Możesz Podnieść Tarczę, co daje ci premię okolicznościową +1 do KP. Gdy tarcza jest podniesiona, możesz użyć reakcji Blok Tarczą przy użyciu swojej tarczy.</p>"
+        },
+        "Effect: Solar Weapon": {
+            "name": "Efekt: Broń Solarna",
+            "description": "<p>Wykuwasz swoją broń słoneczną.</p>"
+        },
+        "Effect: Solar Weapon (Twin)": {
+            "name": "Efekt: Broń Solarna (Bliźniacza)",
+            "description": "<p>Wykuwasz swoją bliźniaczą broń słoneczną.</p>"
+        },
+        "Effect: Soothing Anchor": {
+            "name": "Efekt: Kojąca Kotwica",
+            "description": "<p>Otrzymujesz tymczasowe Punkty Wytrzymałości równe twojemu poziomowi.</p>"
+        },
+        "Effect: Sparkling Performance": {
+            "name": "Efekt: Błyskotliwy Występ",
+            "description": "<p>Rzucasz słabe światło w promieniu 20 stóp. Jeśli jesteś legendarny w Występach, możesz rzucać jasne światło w promieniu 20 stóp.</p>"
+        },
+        "Effect: Tactical Tutelage": {
+            "name": "Efekt: Strategiczne Doradztwo",
+            "description": "<p>Zadaj dodatkowe obrażenia precyzyjne 2k4 i zmniejsz premię do KP celu o 1.</p>"
+        },
+        "Effect: Unbound Mind": {
+            "name": "Efekt: Nieskrępowany Umysł",
+            "description": "<p>Otrzymujesz premię okolicznościową +1 do rzutów obronnych przeciwko efektom umysłowym.</p>"
+        },
+        "Effect: Unfurl Wings": {
+            "name": "Efekt: Rozwinięcie Skrzydeł",
+            "description": "<p>Zyskujesz szybkość lotu równą szybkości poruszania się po lądzie plus 10 stóp.</p>"
+        },
+        "Effect: Vent Gas": {
+            "name": "Efekt: Gaz Spalinowy",
+            "description": "<p>Otrzymujesz premię okolicznościową +10 stóp do wszystkich szybkości.</p>"
+        },
+        "Effect: Vitality Network": {
+            "name": "Efekt: Sieć Witalności",
+            "description": "<p>Śledzi aktualnie dostępną sieć witalności.</p><p>Twoja sieć witalności ma maksymalną pojemność równą @Damage[(6+(4*(@actor.level)))] Punktów Wytrzymałości.</p>"
+        },
+        "Effect: Watch Out!": {
+            "name": "Efekt: Uwaga!",
+            "description": "<p>Ostrzegasz sojusznika, przyznając mu premię okolicznościową +2 do KP przeciwko atakowi wywołującemu efekt.</p>"
+        },
+        "Effect: You'll Have to Go Through Me!": {
+            "name": "Efekt: Po moim trupie!",
+            "description": "<p>Zyskujesz reakcję @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.yBkdtiLtKv0yYU8L]{Żywa Osłona}.</p>"
+        },
+        "Glitching": {
+            "name": "Zakłócenia",
+            "description": "<p>Zakłócenie to stan, który wpływa na przedmioty lub stworzenia posiadające cechę technologiczną i zawsze zawiera wartość. Zakłócenie obiektu lub stworzenia powoduje kombinację efektów osłabiających i chwilowego unieruchomienia. Jeśli posiadasz zakłócone wyposażenie i wykonujesz jakąkolwiek akcję z jego użyciem, musisz wykonać test @Check[type:flat|dc:10], aby sprawdzić, co się stanie. Jeśli sam jesteś w stanie zakłócenia, musisz wykonać ten test na początku każdej rundy.</p>\n<hr />\n<p><strong>Krytyczny Sukces</strong> Zmniejsz wartość zakłócenia o 1.</p>\n<p><strong>Sukces</strong> Zachowujesz się normalnie lub korzystasz ze sprzętu w normalny sposób.</p>\n<p><strong>Porażka</strong> Otrzymujesz karę przedmiotu do wszystkich testów i wartości ST równą wartości zakłócenia lub wartości zakłócenia przedmiotu, którego używasz.</p>\n<p><strong>Krytyczna Porażka</strong> W tej rundzie liczysz się jako @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Ogłuszony 1}. Alternatywnie, przedmiot, którego próbowałeś użyć, nie działa i tracisz akcje podjęte w celu użycia go.</p>"
+        },
+        "Spell Effect: Anthem": {
+            "name": "Efekt Zaklęcia: Hymn",
+            "description": "<p>Przyznany przez @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.BKVIofy6uT5s6S9L]{Hymn}</p><p>Otrzymujesz premię statusu +1 do rzutów ataku, obrażeń i rzutów obronnych przeciwko efektom powodującym fascynację lub dezorientację.</p>"
+        },
+        "Spell Effect: Detect Thoughts": {
+            "name": "Efekt Zaklęcia: Wykrywanie Myśli",
+            "description": "<p>Przyznany przez @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.tFsq726ZjUDAzML0]{Wykrywanie Myśli}</p><p>Otrzymujesz premię statusu +1 do Percepcji, aby Wyczuć Motywy celu, podczas gdy zaklęcie jest utrzymywane. Cel, który wykona rzut obronny na Wolę, zapobiega temu efektowi.</p>"
+        },
+        "Spell Effect: Elemental Barrier": {
+            "name": "Efekt Zaklęcia: Bariera Żywiołów",
+            "description": "<p>Przyznany przez @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.ufwuEqjIg3yALnLL]{Bariera Żywiołów}</p><p>Otrzymujesz +1 premię okolicznościową do KP. Podczas działania zaklęcia cel może użyć reakcji Bloku Tarczą tak, jakby bariera żywiołów była podniesioną tarczą. W przeciwieństwie do zwykłego Bloku Tarczą, możesz użyć reakcji zaklęcia przeciwko zaklęciom o wybranej właściwości żywiołu rzuconym na stworzenie.</p>"
+        },
+        "Spell Effect: Genetic Regeneration": {
+            "name": "Efekt Zaklęcia: Regeneracja Genetyczna",
+            "description": "<p>Przyznany przez @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.6koMxltOVtV6BT6U]{Regeneracja Genetyczna}</p><p>Zyskujesz regenerację równą dwukrotności rangi zaklęcia.</p>"
+        },
+        "Spell Effect: Motivating Ringtone": {
+            "name": "Efekt Zaklęcia: Motywujący Dzwonek",
+            "description": "<p>Przyznany przez @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.jCr8Airvs1u5D1yR]{Motywujący Dzwonek}</p><p>Otrzymujesz premię statusu +5 stóp do wszystkich szybkości oraz premię statusu +1 do rzutów obronnych przeciwko efektom strachu.</p>"
+        },
+        "Spell Effect: Reorient": {
+            "name": "Efekt Zaklęcia: Zmiana Orientacji",
+            "description": "<p>Cel traci stan @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Odsłonięty}, jeśli go posiada. Cel staje się niewrażliwy na stan Odsłonięty do początku swojej następnej tury, nawet jeśli zostałby on zastosowany okolicznościowo, np. w wyniku flankowania lub @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Przewrócenia}.</p>"
+        },
+        "Spell Effect: Skyfire Wings": {
+            "name": "Efekt Zaklęcia: Niebiańskie Skrzydła",
+            "description": "<p>Przyznany przez @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.rgIXThpMnowIYvol]{Niebiańskie Skrzydła}</p><p>Zyskujesz szybkość lotu równą twojej szybkości lub 20 stóp. Twoje skrzydła są nieuzbrojonymi atakami, które zadają 1k8 obrażeń od ognia i mają cechy wymachu, zasięgu i walki bez broni; przy trafieniu krytycznym cel twojego ataku skrzydłem otrzymuje 2 trwałe obrażenia od elektryczności.</p><hr /><p><strong>Wzmocnienie (5. Ranga)</strong> Twoje skrzydła zadają 2k8 obrażeń od ognia i 4 trwałe obrażenia od elektryczności przy trafieniu krytycznym. Czas trwania wydłuża się do 5 minut.</p><p><strong>Wzmocnienie (7. Ranga)</strong> Twoje skrzydła zadają 3k8 obrażeń od ognia i 6 trwałych obrażeń od elektryczności przy trafieniu krytycznym. Czas trwania wydłuża się do 1 godziny.</p><p><strong>Wzmocnienie (9. Ranga)</strong> Twoje skrzydła zadają 4k8 obrażeń od ognia i 8 trwałych obrażeń od elektryczności przy trafieniu krytycznym. Czas trwania wzrasta do 8 godzin.</p>"
+        },
+        "Spell Effect: Skyfire Wings (1 Hour)": {
+            "name": "Efekt Zaklęcia: Niebiańskie Skrzydła (1 godzina)",
+            "description": "<p>Przyznany przez @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.rgIXThpMnowIYvol]{Niebiańskie Skrzydła}</p><p>Zyskujesz szybkość lotu równą swojej szybkości lub 20 stóp. Twoje skrzydła są nieuzbrojonymi atakami, które zadają 3k8 obrażeń od ognia i mają cechy wymachu, zasięgu i walki bez broni; przy trafieniu krytycznym cel twojego ataku skrzydłem otrzymuje 6 trwałych obrażeń od elektryczności.</p>"
+        },
+        "Spell Effect: Skyfire Wings (5 Minutes)": {
+            "name": "Efekt Zaklęcia: Niebiańskie Skrzydła (5 minut)",
+            "description": "<p>Przyznany przez @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.rgIXThpMnowIYvol]{Niebiańskie Skrzydła}</p><p>Zyskujesz szybkość lotu równą swojej szybkości lub 20 stóp. Twoje skrzydła są nieuzbrojonymi atakami, które zadają 2k8 obrażeń od ognia i mają cechy wymachu, zasięgu i walki bez broni; przy trafieniu krytycznym cel twojego ataku skrzydłem otrzymuje 4 trwałych obrażeń od elektryczności.</p>"
+        },
+        "Spell Effect: Skyfire Wings (8 Hours)": {
+            "name": "Efekt Zaklęcia: Niebiańskie Skrzydła (8 godzin)",
+            "description": "<p>Przyznany przez @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.rgIXThpMnowIYvol]{Niebiańskie Skrzydła}</p><p>Zyskujesz szybkość lotu równą swojej szybkości lub 20 stóp. Twoje skrzydła są nieuzbrojonymi atakami, które zadają 4k8 obrażeń od ognia i mają cechy wymachu, zasięgu i walki bez broni; przy trafieniu krytycznym cel twojego ataku skrzydłem otrzymuje 8 trwałych obrażeń od elektryczności.</p>"
+        },
+        "Spell Effect: Song of the Spheres": {
+            "name": "Efekt Zaklęcia: Pieśń Sfer",
+            "description": "<p>Przyznany przez <em>@UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.L5xqxo9onL2zcMCe]{Pieśń Sfer}</em></p>\n<hr />\n<p><strong>Krytyczny Sukces</strong> Jak sukces, z wyjątkiem tego, że efekt trwa 3 rundy.</p>\n<p><strong>Sukces</strong> Ty i wszyscy związani sojusznicy otrzymujecie premię statusu +1 do rzutów ataku i obrażeń przez 1 rundę.</p>\n<p><strong>Porażka</strong> Jak sukces, z tą różnicą, że dotyczy to tylko ciebie i jednego wybranego sojusznika w zasięgu.</p>\n<p><strong>Krytyczna Porażka</strong> Zaklęcie nie ma żadnego efektu.</p>"
+        },
+        "Spell Effect: Wild Bond": {
+            "name": "Efekt Zaklęcia: Dzika Więź",
+            "description": "<p>Przyznany przez @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.3r9Xrt8qqTQbcw26]{Dzika Więź}</p><hr /><p>Wykorzystując uniwersalny kod życia, nasycasz cel pierwotną esencją innego żywego stworzenia i nadajesz mu jedną z następujących zdolności.</p><ul><li>Szybkość rycia 15 stóp</li><li>Szybkość wspinaczki 20 stóp</li><li>Szybkość lotu 20 stóp</li><li>Szybkość pływania 25 stóp</li><li>Szybkość 40 stóp</li><li>Atak bez broni szczęką, który zadaje obrażenia @Damage[1d8[piercing]]</li><li>Atak bez broni pazurami, który zadaje obrażenia @Damage[1d6[slashing]] i ma cechy zwinny i finezyjny.</li><li>Widzenie w ciemności</li></ul><hr /><p><strong>Wzmocnienie</strong> Obrażenia zadawane przez ataki wzrastają do dwóch kości.</p><p><strong>Wzmocnienie (6. Ranga)</strong> Obrażenia zadawane przez ataki wzrastają do trzech kości.</p><p><strong>Wzmocnienie (9. Ranga)</strong> Obrażenia zadawane przez ataki wzrastają do czterech kości.</p>"
+        },
+        "Suppressed": {
+            "name": "Przytłoczony",
+            "description": "<p>Zostałeś trafiony przez dużą ilość pocisków lub szczególnie niebezpieczny atak, który zmusza cię do mniej skutecznego działania dla własnego bezpieczeństwa. Otrzymujesz karę okoliczności -1 do rzutów ataku oraz karę statusu -10 stóp do szybkości.</p>"
+        },
+        "Untethered": {
+            "name": "Dryfujący",
+            "description": "<p>Znajdujesz się w środowisku o zerowej grawitacji (lub podobnym) bez możliwości poruszania się i unosisz się bezwładnie w powietrzu. Nie możesz wykonywać akcji ruchu, chyba że są one wyraźnie określone jako możliwe w Twoim aktualnym środowisku. Na koniec swojej tury poruszasz się o 5 stóp w ostatnim kierunku, w którym się poruszałeś. Możesz wykonać akcję @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.FF5KgZHj345s2moq]{Odepchnięcie}, aby zmienić kierunek i odległość ruchu. Gdy zdobędziesz możliwość poruszania się w swoim otoczeniu, tracisz ten stan. Zazwyczaj istota w stanie zerowej grawitacji i stanie \"Dryfujący\" otrzymuje również stany @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Niezdarny} i @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Odsłonięty}, dopóki pozostaje Dryfujący.</p>"
+        }
+    }
+}
