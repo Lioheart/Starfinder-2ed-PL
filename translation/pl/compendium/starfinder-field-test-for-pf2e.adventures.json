@@ -1,0 +1,141 @@
+{
+    "label": "Przygody",
+    "entries": {
+        "Field Test #5": {
+            "name": "Test polowy #5",
+            "folders": {
+                "Starfinder Field Test #5": "Starfinder Test polowy #5"
+            },
+            "scenes": {
+                "Data Center": {
+                    "name": "Centrum danych"
+                },
+                "Shopping Mall": {
+                    "name": "Centrum handlowe"
+                }
+            },
+            "actors": {
+                "Aeon Guard Soldier": {
+                    "name": "Żołnierz Gwardii Eonów",
+                    "tokenName": "Żołnierz Gwardii Eonów",
+                    "items": {
+                        "Warfare Lore": {
+                            "name": "Wiedza o Wojskowości"
+                        },
+                        "Evasive Maneuver": {
+                            "name": "Manewr Unikowy",
+                            "description": "<p><strong>Wyzwalacz</strong> Żołnierz otrzymuje obrażenia od ataku dystansowego lub zaklęcia</p>\n<hr />\n<p><strong>Efekt</strong> Żołnierz robi Krok lub Znajduje Osłonę.</p>"
+                        },
+                        "Pulse Gauntlet": {
+                            "name": "Rękawica Pulsacyjna"
+                        },
+                        "Aeon Rifle": {
+                            "name": "Karabin Eonu"
+                        },
+                        "Coordinated Fire": {
+                            "name": "Skoordynowany Ostrzał",
+                            "description": "<p>Po tym, jak żołnierz wykona atak na cel (niezależnie od porażki lub sukcesu), następny atak wykonany przez sojusznika żołnierza na ten sam cel zyskuje premię +2 do rzutu ataku. Jeśli atak z premią od skoordynowanego ostrzału zostanie trafiony, cel staje się @UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.enA7BxAjBb7ns1iF]{Przytłoczony} do końca następnej tury atakującego sojusznika.</p>"
+                        },
+                        "Sharpshooter": {
+                            "name": "Strzelec Wyborowy",
+                            "description": "<p>Kiedy żołnierz wykonuje atak dystansowy przeciwko celowi z bonusem do KP z mniejszej lub standardowej osłony, zmniejsza bonus do KP o 1 dla tego ataku.</p>"
+                        },
+                        "Show No Mercy": {
+                            "name": "Nie Okazuj Litości",
+                            "description": "<p>Żołnierz zyskuje premię +2 do rzutów na obrażenia przeciwko @UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.enA7BxAjBb7ns1iF]{Przytłoczonym} celom.</p>"
+                        },
+                        "Aeon Guard Armor (Commercial)": {
+                            "name": "Pancerz Strażnika Eonów (Komercyjny)"
+                        },
+                        "Aeon Rifle (Commercial)": {
+                            "name": "Karabin Eonów (Komercyjny)"
+                        },
+                        "Pulse Gauntlet  (Commercial)": {
+                            "name": "Rękawica Pulsacyjna (Komercyjna)"
+                        }
+                    }
+                },
+                "Corpse Fleet Infantry": {
+                    "name": "Piechota Trupiej Floty",
+                    "tokenName": "Piechota Trupiej Floty",
+                    "items": {
+                        "Corpse Fleet Lore": {
+                            "name": "Wiedza o Trupiej Flocie"
+                        },
+                        "Phase Cutlass (Commercial)": {
+                            "name": "Fazowy Kordelas (Komercyjny)"
+                        },
+                        "Coordinated Shuffle": {
+                            "name": "Skoordynowane Przetasowanie",
+                            "description": "<p><strong>Wyzwalacz</strong> Sąsiadujący sojusznik oddala się od piechoty Trupiej Floty.</p>\n<hr />\n<p><strong>Efekt</strong> Piechota Trupiej Floty podąża za sojusznikiem i natychmiast wykonuje Bieg do połowy swojej szybkości. Muszą poruszać się w tym samym kierunku, co aktywujący sojusznik.</p>"
+                        },
+                        "Battleglove": {
+                            "name": "Rękawicza Bojowa"
+                        },
+                        "Autotarget Rifle": {
+                            "name": "Strzelba Autonamierzania"
+                        },
+                        "Arc Pistol": {
+                            "name": "Pistolet Łukowy"
+                        },
+                        "Fusillade": {
+                            "name": "Kanonada",
+                            "description": "<p>Ataki dystansowe piechoty Trupiej Floty zadają 1k4 dodatkowych obrażeń precyzyjnych, gdy piechota Trupiej Floty znajduje się w zasięgu co najmniej jednej innej piechoty Trupiej Floty władającej bronią dystansową.</p>"
+                        }
+                    }
+                },
+                "Cybernetic Zombie": {
+                    "name": "Cybernetyczne Zombie",
+                    "tokenName": "Cybernetyczne Zombie",
+                    "items": {
+                        "Cybernetics": {
+                            "name": "Cybernetyka",
+                            "description": "<p>Cybernetyka zombie może zostać wyłączona na 1 godzinę dzięki udanemu testowi ST 15 na [[/act disable-device dc=15]]{Unieszkodliwienia Urządzenia}. Cybernetyka zombie zostaje wyłączona na 1 godzinę, jeśli zombie otrzyma obrażenia od elektryczności. Cybernetyczny zombie z wyłączoną cybernetyką jest @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Spowolniony 1} i nie może używać reakcji (w tym Autodestrukcji).</p>"
+                        },
+                        "Self Destruct": {
+                            "name": "Autodestrukcja",
+                            "description": "<p><strong>Wymagania</strong> Cybernetyczny zombie musi użyć tej reakcji, gdy wyzwalacz zostanie spełniony, chyba że jego cybernetyka jest wyłączona.</p>\n<p><strong>Wyzwalacz</strong> Poziom Punktów Wytrzymałości cybernetycznego zombie spada do 0</p>\n<hr />\n<p><strong>Efekt</strong> Uszkodzona cybernetyka zombie eksploduje, zadając @Damage[1d8[electricity]] obrażeń w promieniu @Template[type:emanation|distance:10]{10 stóp} (rzut obronny @Check[type:reflex|dc:15|basic:true]). Umiejętność ta niszczy wszelkie przedmioty technologiczne znajdujące się na zombie.</p>"
+                        },
+                        "Fist": {
+                            "name": "Pięść"
+                        },
+                        "Integrated Commercial Laser Pistol": {
+                            "name": "Zintegrowany Komercyjny Pistolet Laserowy"
+                        }
+                    }
+                },
+                "Glass Serpent": {
+                    "name": "Szklany Wąż",
+                    "tokenName": "Szklany Wąż",
+                    "items": {
+                        "Ravenous Invisibility": {
+                            "name": "Żarłoczna Niewidzialność",
+                            "description": "<p>Szklany wąż jest naturalnie @UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{Niewidzialny}. Kiedy szklany wąż podejmuje jakąkolwiek wrogą akcję, jest @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Ukryty} zamiast niewykryty do początku swojej następnej tury, ponieważ części jego ciała stają się chwilowo namacalne. Szklany wąż, który połknął stworzenie, staje się widoczny przez następny dzień, gdy jego posiłek jest trawiony. Jeśli połknięta istota ucieknie lub zostanie usunięta w inny sposób, szklany wąż natychmiast staje się niewidzialny.</p>"
+                        },
+                        "Ambush": {
+                            "name": "Zasadzka",
+                            "description": "<p><strong>Wyzwalacz</strong> Istota przechodzi w promieniu 20 stóp od szklanego węża i nie wykryła go.</p>\n<hr />\n<p><strong>Efekt</strong> Szklany wąż wyskakuje z ukrycia. Biegnie bezpośrednio w kierunku aktywującej się istoty i wykonuje w nią atak szczękami. Cel jest @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Odsłonięty} na ten atak.</p>"
+                        },
+                        "Jaws": {
+                            "name": "Szczęki"
+                        },
+                        "Tail Whip": {
+                            "name": "Uderzenie Ogonem"
+                        },
+                        "Concealing Coil": {
+                            "name": "Maskujący Splot",
+                            "description": "<p><strong>Wymagania</strong> Ostatnią akcją szklanego węża był udany atak uderzenia ogonem</p>\n<hr />\n<p><strong>Efekt</strong> Istota trafiona przez szklanego węża jest @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Przysłonięta} przed wszystkimi istotami z wyjątkiem szklanego węża, dopóki ta istota nie znajdzie się poza zasięgiem szklanego węża lub do początku następnej tury szklanego węża.</p>"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "mapping": {
+        "actors": {
+            "publicNotes": "system.details.publicNotes",
+            "privateNotes": "system.details.privateNotes",
+            "languagesDetails": "system.details.languages.details"
+        }
+    }
+}
