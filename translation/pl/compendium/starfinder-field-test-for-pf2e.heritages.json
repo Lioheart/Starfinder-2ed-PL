@@ -1,0 +1,214 @@
+{
+    "label": "Dziedzictwa",
+    "folders": {
+        "Lashunta": "Lashunta",
+        "Ysoki": "Ysoki",
+        "Barathu": "Barathu",
+        "Vesk": "Vesk",
+        "Skittermander": "Skittermander",
+        "Android": "Android",
+        "Pahtra": "Pahtra",
+        "Human": "Człowiek",
+        "Versatile Heritages": "Różnorodne Dziedzictwa",
+        "Shirren": "Shirren",
+        "Kasatha": "Kasatha"
+    },
+    "entries": {
+        "Akitonian": {
+            "name": "Akitonijczyk",
+            "description": "<p>Ty (lub jeden z twoich przodków) przybyłeś do Światów Paktu na pokładzie Idari i osiedliłeś się na Akiton. Znacznie niższa grawitacja Akitonu daje ci łatwiejsze opanowanie sztuki skakania, zarówno dla zabawy, jak i w praktyce, i prawdopodobnie rozkoszujesz się wieloma rytuałami związanymi z popularnymi sportami tego pustynnego świata. Zyskujesz atut @UUID[Compendium.pf2e.feats-srd.Item.ZBhvJ9O8MvBFAlhq]{Szybki Skok} i nie traktujesz piasku jako nierównego podłoża.</p>"
+        },
+        "Akitonian Ysoki": {
+            "name": "Akitonijski Ysoki",
+            "description": "<p>Ty lub twoi przodkowie urodziliście się na Akiton, gdzie dorastaliście, rozbierając rozbite statki kosmiczne lub przeszukując sterty śmieci w poszukiwaniu skarbów. Możesz uzyskać rangę wytrenowania w Rzemiośle i używać Rzemiosła zamiast Złodziejstwa, aby @UUID[Compendium.pf2e.actionspf2e.Item.cYdz2grcOcRt4jk6]{Wyłączyć Urządzenie}. Jeśli masz już wytrenowane Rzemiosło, zamiast tego zyskujesz atut @UUID[Compendium.pf2e.feats-srd.Item.ASy9AKEIRxPYUi5o]{Szybka Naprawa}.</p>"
+        },
+        "Ancient Android": {
+            "name": "Starożytny Android",
+            "description": "<p>Twoje ciało zostało stworzone przez starożytną cywilizację, a jego anatomia została ukształtowana przy użyciu przestarzałej technologii, która nadal funkcjonuje dzięki połączeniu wytrzymałych nanitów i Twojej własnej siły woli. Wybierz jedno z poniższych dziedzictw starożytnych androidów.</p>\n<p>@UUID[Compendium.pf2e.heritages.Item.VgL18yU7pysdoZZG]</p>\n<p>@UUID[Compendium.pf2e.heritages.Item.MQx7miBXUmOHycqJ]</p>\n<p>@UUID[Compendium.pf2e.heritages.Item.BjuZKA7lzFSjKbif]</p>\n<p>@UUID[Compendium.pf2e.heritages.Item.RuQSx0QsirIKxwKY]</p>"
+        },
+        "Artificial Scion": {
+            "name": "Sztuczny Potomek",
+            "description": "<p>Twoje ciało nie zostało stworzone na podobieństwo biologicznej istoty; potężna sztuczna inteligencja stworzyła cię, abyś mógł komunikować się z innymi maszynami. Twoja fizjologia jest niemal identyczna jak u innych androidów, ale niepokojące szczegóły zdradzają twoje niestandardowe pochodzenie (na przykład możesz mieć niemożliwie symetryczne rysy twarzy, dodatkowe palce lub podwójne źrenice). Zostałeś wytrenowany w Komputerach i zyskujesz atut umiejętności @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.90JAhMkgRdEoul4W]{Haker Telefoniczny}.</p>"
+        },
+        "Azlanti": {
+            "name": "Azlanti",
+            "description": "<p>Ty lub twoi przodkowie urodziliście się w świecie kontrolowanym przez Imperium Gwiezdnego Azlanti. Możesz mieć wydatne brwi, fioletowe oczy lub łysinę w kształcie litery V. Wybierz jedną sztuczkę z listy zaklęć tajemnych. Możesz rzucać to zaklęcie jako wrodzone zaklęcie tajemne według własnego uznania. Sztuczka zostaje podniesiona do rangi zaklęcia równej połowie twojego poziomu zaokrąglonej w górę. Raz dziennie możesz zmienić tę sztuczkę na inną z tej samej listy, medytując, aby czerpać moc z runicznej krwi; jest to czynność trwająca 10 minut, która wymaga cechy koncentracji.</p>"
+        },
+        "Borai": {
+            "name": "Borai",
+            "description": "<p><em>Borai jest jednocześnie żywy i martwy – to zwłoki ożywione przez własną duszę, które ledwo funkcjonują. Pomimo tego, że jest nieumarłym stworzeniem, ciało borai jest żywe i pełni funkcję żywej powłoki, która chroni jego zniszczoną, nieumarłą duszę, czyniąc go czymś zupełnie wyjątkowym.</em></p><p>Powróciłeś z krawędzi śmierci jako boarai – jednocześnie żywy i nieumarły. Otrzymujesz cechę borai i nieumarłego, oprócz cech wynikających z twojego pochodzenia. W przeciwieństwie do innych nieumarłych nie zyskujesz zdolności leczenia pustką. Jesteś leczony przez efekty witalności i otrzymujesz obrażenia pustką, tak jakbyś był żywą istotą. Podobnie możesz zostać ustabilizowany, uleczony i przywrócony do życia tak, jakbyś był żywą istotą, z tym wyjątkiem, że zawsze powracasz do życia w swoim normalnym stanie nieumarłego (jako borai). Zyskujesz widzenie w słabym świetle lub widzenie w ciemności, jeśli twoje pochodzenie już posiada widzenie w słabym świetle. Możesz wybierać spośród atutów borai i atutów swojego pochodzenia za każdym razem, gdy zyskujesz atut pochodzenia.</p><p>@UUID[Compendium.starfinder-field-test-for-pf2e.sf2e-journals.JournalEntry.q5yEIEjKvnVkwxod.JournalEntryPage.mqFism3SvjhcyHHR]{Różnorodne Dziedzictwo - Boarai}</p>"
+        },
+        "Briskwander Vesk": {
+            "name": "Szybkonogi Vesk",
+            "description": "<p>Pochodzisz z rodu vesków, którzy nieustannie przemieszczali się z miejsca na miejsce. Twoja szybkość wzrasta o 5 stóp.</p>"
+        },
+        "Courtier Shirren": {
+            "name": "Dworzanin Shirren",
+            "description": "<p>Twoja telepatia jest silniejsza niż u większości shirrenów, co pozwala ci łączyć komunikację fizyczną, werbalną i telepatyczną, aby lepiej wyrażać swoje myśli. Kiedy używasz ograniczonej telepatii, możesz przekazywać emocje wraz z komunikatami. Dodatkowo, kiedy istota komunikuje się z tobą za pomocą ograniczonej telepatii lub telepatii, otrzymujesz premię okolicznościową +2 do testów Percepcji przeciwko tej istocie w zakresie @UUID[Compendium.pf2e.actionspf2e.Item.1xRFPTFtWtGJ9ELw]{Wyczucia Motywu}.</p>"
+        },
+        "Damaya Lashunta": {
+            "name": "Damaya Lashunta",
+            "description": "<p>Wybrałeś genetykę adaptacyjną, która prowadzi do stania się damayą. Możesz być wyższy od innych lashuntów i prawdopodobnie będziesz zachęcany do podjęcia pracy jako uczony lub polityk. Otrzymujesz wzmocnienie atrybutu Inteligencji i osłabienie atrybutu Kondycji, ale darmowe wzmocnienie pochodzenia nie może również dotyczyć Inteligencji. Zyskujesz wytrenowanie w Dyplomacji. Jeśli automatycznie uzyskałbyś wytrenowanie w Dyplomacji (na przykład dzięki swojej przeszłości lub klasie), otrzymujesz wytrenowanie w innej wybranej przez siebie umiejętności. Zyskujesz atut @UUID[Compendium.pf2e.feats-srd.Item.BocFD2KV0qgUC76x]{Dodatkowa wiedza}.</p>"
+        },
+        "Deep Ysoki": {
+            "name": "Mroczny Ysoki",
+            "description": "<p>Jesteś przyzwyczajony do życia w ciemnych miejscach, takich jak korytarze konserwacyjne, podziemne labirynty, asteroidy oraz odległe księżyce i planetoidy daleko od słońca. Zyskujesz zdolność widzenia w ciemności.</p>"
+        },
+        "Defiant Shirren": {
+            "name": "Zuchwały Shirren",
+            "description": "<p>Pomimo upływu czasu pozostajesz nieugięty w swoim sprzeciwie wobec Roju i innych owadzimich tyranów. Jeśli rzut obronny na Woli przeciwko efektowi wywołanemu przez stworzenie z cechą kucharn lub stworzenie, o którym wiesz, że jest sprzymierzeńcem Roju, zakończy się sukcesem, zamiast tego uzyskujesz krytyczny sukces. Dodatkowo zyskujesz akcję @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.5uAyx0uvTE1LmoGl]{Buntowniczy Opór}.</p>"
+        },
+        "Dreamer": {
+            "name": "Marzyciel",
+            "description": "<p>Obcowałeś z kosmiczną melodią Liavary i zmieniło cię to. Z trudem wyrażasz fragmenty wspomnień i wrażeń, które przywołujesz z tego doświadczenia, poza śpiewem i innymi podobnymi emanacjami psychicznymi. Wybierz jedną sztuczkę z listy zaklęć okultystycznych. Wplatając magię w swoją pieśń, możesz rzucać to zaklęcie jako wrodzone zaklęcie okultystyczne według własnego uznania. Sztuczka zostaje podniesiona do rangi zaklęcia równej połowie twojej klasy, zaokrąglonej w górę.</p>\n<p>Twoja magia jest elastyczna i możesz wykorzystać swoją muzykę, aby ją wzmocnić. Raz dziennie możesz medytować nad swoją kosmiczną pieśnią, aby zmienić wybraną sztuczkę na inną z listy zaklęć okultystycznych. Jest to czynność trwająca 10 minut, która wymaga cechy koncentracji.</p>"
+        },
+        "Early Stage": {
+            "name": "Wczesny Etap",
+            "description": "<p>W porównaniu z innymi barathusami jesteś młody i niedoświadczony, a twoje indywidualistyczne spojrzenie na świat ukształtowały prawdopodobnie kontakty z innymi kulturami. Nie poznałeś jeszcze pełnego bogactwa kosmosu i nie nauczyłeś się pokonywać jego licznych zagrożeń ani rozumieć różnych form życia. Twoja postać jest bardzo zmienna, ponieważ nie zdecydowałeś się jeszcze na specjalizację ani połączenie z innymi barathusami. Jesteś mały, a nie średni. Otrzymujesz @UUID[Compendium.pf2e.feats-srd.Item.3G8xUlgCjRmRJNfP]{Szybkie Przeciskanie} jako dodatkowy atut. Dodatkowo zyskujesz odporność na obrażenia precyzyjne równą połowie twojego poziomu (minimum 1).</p>"
+        },
+        "Everwhelp Skittermander": {
+            "name": "Everwhelp Skittermander",
+            "description": "<p>Pomimo tego, że jesteś dorosłą osobą, zachowałeś swój żołądkowy otwór gębowy – czy to dzięki kaprysowi ewolucji, celowej manipulacji genetycznej, czy też dzięki biotechnologicznej modyfikacji. Zyskujesz atak bez broni szczękami, który zadaje 1k6 obrażeń kłutych, należy do grupy ataków wręcz i ma cechy finezji, skittermandera i walki wręcz.</p>"
+        },
+        "Gadraveech Skittermander": {
+            "name": "Gadraveech Skittermander",
+            "description": "<p>Dorastałeś w podziemnym królestwie Gadraveech lub w podobnym niebezpiecznym środowisku pod ziemią. Masz rzadką, jasną sierść, smukłą budowę ciała i zbyt duże oczy. Zyskujesz widzenie w ciemności.</p>"
+        },
+        "Golarion Survivor": {
+            "name": "Golarion Survivor",
+            "description": "<p>Twoi przodkowie żyli na zaginionym Golarionie i choć okoliczności przetrwania twojej rodziny zaginęły w Szczelinie, od najmłodszych lat nauczyli cię starożytnych tradycji. Osiągnąłeś wytrenowanie w posługiwaniu się archaiczną bronią i Wiedzę o Golarionie, a także nauczyłeś się dodatkowego języka, którym posługiwano się w regionie pochodzenia twojej rodziny. Zyskujesz atut @UUID[Compendium.pf2e.feats-srd.Item.I0BhPWqYf1bbzEYg]{Nieugięty}.</p>"
+        },
+        "Hunter-Stalker Pahtra": {
+            "name": "Łowca-Prześladowca Pahtra",
+            "description": "<p>Pochodzisz z długiej linii łowców, a twoje futro wyjątkowo dobrze wtapia się w różne środowiska. Dopóki znajdujesz się w naturalnym i niezagospodarowanym środowisku, otrzymujesz premię okolicznościową +2 do testów Ukrycia, aby @UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]{Ukryć się} i @UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{Skradać się}, do testów na Przetrwanie do @UUID[Compendium.pf2e.actionspf2e.Item.49y9Ec4bDii8pcD3]{Przeżycie} oraz do twojego ST na Przetrwanie do @UUID[Compendium.pf2e.actionspf2e.Item.SB7cMECVtE06kByk]{Zacierania Śladów}.</p>"
+        },
+        "Infiltrator Shirren": {
+            "name": "Infiltrator Shirren",
+            "description": "<p>Jesteś potomkiem shirrenów, którzy pierwotnie zostali zaprogramowani jako infiltratorzy dla Roju. Twoja chityna mieni się kolorami i tworzy wzory, które fascynują i rozpraszają większość innych istot innego pochodzenia. Możesz wykonać @UUID[Compendium.pf2e.actionspf2e.Item.QNAVeNKtHA0EUw4X]{Fintę} w zasięgu 10 stóp, a nie tylko w zasięgu walki wręcz wybranego celu. Zyskujesz akcję @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.Ovf4qgCQRzc9f7BS]{Mieniący się Blask}.</p>"
+        },
+        "Kasath Survivalist": {
+            "name": "Kasath Surwiwalista",
+            "description": "<p>Ty i twoi przodkowie należeliście do tych, którzy postanowili nie opuszczać umierającej ojczyzny. Twój lud wędruje po spustoszonych krainach pod ponurym niebem, szukając schronienia i zasobów, które powoli się wyczerpują. Być może w końcu zdecydowałeś się poszukać lepszego życia, a może masz nadzieję przekonać innych, aby powrócili z tobą do Kasath. Możesz @UUID[Compendium.pf2e.actionspf2e.Item.JuqmIAnkL9hVGai8]{Sprintować} dwa razy dłużej podczas eksploracji, zanim będziesz musiał się zatrzymać. Jeśli jesteś w grupie, która korzysta ze Sprintu, zwiększasz całkowitą liczbę minut, przez które grupa może korzystać ze Sprintu o 10 minut lub o 20 minut, jeśli masz 13. poziom lub wyższy. Zyskujesz atut @UUID[Compendium.pf2e.feats-srd.Item.c9fHUSI5lRdXu1Ic]{Piórkowy Krok}.</p>"
+        },
+        "Korasha Lashunta": {
+            "name": "Korasha Lashunta",
+            "description": "<p>Wybrałeś genetykę adaptacyjną, która prowadzi do stania się korashą. Możesz być niższy od innych lashuntów i prawdopodobnie będziesz się wyróżniać jako wojownik lub odkrywca. Otrzymujesz wzmocnienie atrybutu Siły i osłabienie atrybutu Mądrości, ale darmowe wzmocnienie pochodzenia nie może być również Siłą. Zyskujesz 8 punktów wytrzymałości zamiast 6, a także +1 premię okolicznościową do testów Atletyki, aby @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{Pchnąć} lub @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{Powalić} przeciwników.</p>"
+        },
+        "Krreyvash Pahtra": {
+            "name": "Krreyvash Pahtra",
+            "description": "<p>Ty lub twoi przodkowie zdecydowaliście się poddać eksperymentalnej bioinżynierii, aby pomóc w walce z Veskarium. Wybierz ulepszenie biotechnologiczne 1. poziomu. Wybrane ulepszenie staje się stałą częścią twojego ciała i nie wlicza się do maksymalnej liczby ulepszeń, które możesz wszczepić. Nie ponosisz kosztów tego ulepszenia. W dowolnym momencie możesz zamienić to ulepszenie, płacąc odpowiednią cenę za nowe ulepszenie.</p>"
+        },
+        "Longsnout Ysoki": {
+            "name": "Długonosy Ysoki",
+            "description": "<p>Długie pyski, które są cechą charakterystyczną twojej rodziny, zapewniają ci wyostrzony zmysł węchu w porównaniu z większością ysoki. Zyskujesz nieprecyzyjny węch o zasięgu 30 stóp. Oznacza to, że możesz używać zmysłu węchu do określania położenia stworzeń. MG zazwyczaj podwoi zasięg, jeśli znajdujesz się pod wiatrem względem stworzenia, lub zmniejszy go o połowę, jeśli jesteś pod wiatr.</p>\n<p>Dodatkowo otrzymujesz premię okolicznościową +2 do testów Percepcji, aby @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Wykryć} stworzenie lub przedmiot znajdujący się w zasięgu twojego węchu.</p>"
+        },
+        "Manufacturer": {
+            "name": "Wytwórca",
+            "description": "<p>Twoje ciało jest żywym laboratorium, które pozwala ci przyjmować surowce i przetwarzać je w użyteczne lekarstwa i inne produkty. Zyskujesz wytrenowanie w Rzemiośle (lub innej wybranej umiejętności, jeśli masz już wytrenowanie w Rzemiośle i zyskujesz atut @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.vv4y3sOs3Z5ql1hh]{Produkcja Farmaceutyczna}.</p>"
+        },
+        "Merged": {
+            "name": "Złączony",
+            "description": "<p>Jesteś wyjątkową istotą powstałą z połączenia dwóch lub więcej barathusów, którzy tak bardzo polubili to połączenie, że postanowili nie wracać do izolacji, w której żyli wcześniej. Jesteś Duży zamiast Średni. Zyskujesz 10 Punktów Wytrzymałości zamiast 8, a także +1 premię okolicznościową do rzutów obronnych przeciwko efektom emocji i strachu.</p>"
+        },
+        "Meyel's Chosen Pahtra": {
+            "name": "Wybrany przez Meyela Pahtra",
+            "description": "<p>Masz niezaprzeczalną passę szczęścia, którą uważasz za błogosławieństwo od swojego przodka, boga Meyela. Być może pochodzisz z długiej linii mistyków, urodziłeś się w świętym miejscu na Pulonis lub po prostu w chwili kryzysu zwróciłeś się z żarliwą modlitwą. Większość wybranych przez Meyela może wskazać co najmniej jedno wydarzenie z przeszłości, kiedy ich bogini interweniowała, aby uratować ich przed śmiercią lub innym strasznym losem. Czy to w sensie metaforycznym, czy dosłownym, zawsze wydajesz się lądować na własnych nogach. Pierwszy raz każdego dnia, gdy krytycznie nie uda ci się rzut obronny, natychmiast rzucasz go ponownie jako akcję darmową; jest to efekt szczęścia.</p>"
+        },
+        "Mod Fanatic": {
+            "name": "Fanatyk Modowania",
+            "description": "<p>Ty lub twoje poprzednie iteracje zmodyfikowały twoje ciało, aby było kompatybilne z ulepszeniami pancerza, umożliwiając ci osobiste dostosowanie swojego ciała i jego możliwości. Twoje ciało posiada jedno miejsce na ulepszenie pancerza, które możesz wykorzystać do modyfikacji swojego ciała. Możesz zainstalować i odinstalować ulepszenia pancerza w miejscu na ulepszenia, korzystając z akcji „Instalacja Ulepszenia”. Wybierz jedno popularne ulepszenie pancerza o poziomie przedmiotu 1 lub niższym. Zaczynasz z tym ulepszeniem pancerza już zainstalowanym w miejscu na ulepszenia (nie musisz płacić kredytów, aby kupić to początkowe ulepszenie).</p>"
+        },
+        "Networked": {
+            "name": "Połączony w Sieci",
+            "description": "<p>Twoje ciało zostało zmodyfikowane, aby płynnie współpracować z anacytami, robotami i innymi istotami technologicznymi z Aballonu. Zyskujesz zdolność komunikacji krótkofalowej, która pozwala ci komunikować się bezprzewodowo z dowolnymi stworzeniami w promieniu 30 stóp, o ile posiadają one zdolność komunikacji krótkofalowej lub są konstruktami z cechą technologiczną. Nie daje to żadnego specjalnego dostępu do ich myśli ani oprogramowania i nie przekazuje więcej informacji niż normalna mowa. Możesz wykonać testy Komputerów, aby @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.RF8xNJ8QsMwogerB]{Hakować systemy} oraz testy na Złodziejstwo, aby @UUID[Compendium.pf2e.actionspf2e.Item.cYdz2grcOcRt4jk6]{Wyłączyć Urządzenie} lub @UUID[Compendium.pf2e.actionspf2e.Item.2EE4aF4SZpYf0R6H]{Otworzyć Zamek} na urządzeniach technologicznych w zasięgu 30 stóp.</p>"
+        },
+        "Nightstalker Vesk": {
+            "name": "Nocny Łowca Vesk",
+            "description": "<p>Dostosowałeś się do życia w ciemności, być może z powodu życia pod ziemią, w słabo oświetlonych korytarzach statku kosmicznego, pod zasnutym dymem niebem lub na planecie oddalonej od słońca. Zyskujesz widzenie w ciemności.</p>"
+        },
+        "Plated Vesk": {
+            "name": "Pokryty metalem Vesk",
+            "description": "<p>Twoi przodkowie byli najwytrzymalszymi przedstawicielami rasy vesk, którzy przemierzali dalekie krainy, znosząc nieprzyjazne warunki. Twoje łuski liczą się jako średnia zbroja w grupie zbroi płytowych, która zapewnia premię +4 do KP, limit zręczności +1, karę do testów -2 i próg Siły +3, a także cechę komfortu. Możesz nosić kombinezon lotniczy, ale nie możesz nosić innej zbroi. Możesz wyryć runy pancerza na swoich łuskach, ale nie możesz instalować ulepszeń zbroi.</p>"
+        },
+        "Pouncer Pahtra": {
+            "name": "Skoczek Pahtra",
+            "description": "<p>W młodości wyróżniałeś się w grach wojennych i ciężko trenowałeś, aby zachować sprawność fizyczną nawet w światach, gdzie wyższa grawitacja sprawia, że takie atuty są bardziej męczące. Masz smukłe i długie nogi, które pozwalają ci biegać wyjątkowo szybko, oraz duży ogon, który działa jak ster, pomagając ci utrzymać równowagę podczas ostrych zakrętów. Twoja szybkość wzrasta o 5 stóp. Ponadto nie ponosisz automatycznej porażki w testach na @UUID[Compendium.pf2e.actionspf2e.Item.2HJ4yuEFY1Cast4h]{Skok wzwyż} lub @UUID[Compendium.pf2e.actionspf2e.Item.JUvAvruz7yRQXfz2]{Skok w dal}, jeśli nie wykonasz najpierw Biegu na co najmniej 10 stóp.</p>"
+        },
+        "Prismeni": {
+            "name": "Prismeni",
+            "description": "<p><em>Prismeni są przepełnieni energią Dryfu, niedawno odkrytej płaszczyzny hiperprzestrzeni, i są duchowymi krewnymi widm, które nazywają tę płaszczyznę swoim domem. Gdziekolwiek się udają i cokolwiek robią, noszą w sobie fragment Dryfu i dzięki tej wewnętrznej więzi mają dostęp do tej płaszczyzny i jej mocy.</em></p><p>Masz wrodzoną więź z Dryfem. Oprócz cech wynikających z pochodzenia zyskujesz cechę prismeni. Podczas przebywania w Dryfie możesz automatycznie zlokalizować sygnały nawigacyjne Dryfu, napędy Dryfu, silniki Dryfu i inne technologie związane z Dryfem w promieniu 100 mil. Jeśli pilotujesz statek kosmiczny, który nie posiada silnika Dryfu, możesz pełnić rolę łącznika między Dryfem a statkiem. Jest to czynność trwająca 1 minutę, która wymaga cechy koncentracji i pozwala pilotowanemu statkowi wejść do Dryfu lub opuścić go. Po wejściu do Dryfu statek kosmiczny porusza się normalnie za pomocą konwencjonalnych silników odrzutowych. Jeśli poniesiesz krytyczną porażkę w teście Pilotażu na @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.hsUKPqTdAvWwsqH2]{Nawigowanie} lub @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.LXqcXRayK58inaKo]{Wyznaczanie Kursu} podczas przelotu przez Dryf, otrzymujesz porażkę. Możesz wybrać atuty prismeni i atuty pochodzenia, gdy tylko zdobędziesz atut pochodzenia.</p><p>@UUID[Compendium.starfinder-field-test-for-pf2e.sf2e-journals.JournalEntry.q5yEIEjKvnVkwxod.JournalEntryPage.Z3igGEhxnonwENAg]{Różnorodne Dziedzictwo - Prismeni}</p>"
+        },
+        "Renewed Android": {
+            "name": "Odnowiony Android",
+            "description": "<p>Wiele dusz zamieszkiwało twoje syntetyczne ciało przed tobą i możesz włączyć jedną z nich do swojego imienia, aby je uhonorować. Być może znasz historię swojego ciała i dążysz do celu, który pozostawiła ci dusza, która odeszła, lub próbujesz rozwikłać tajemnicę zapomnianego dziedzictwa. Pamięć mięśniowa wskazuje na przeszłość twojego ciała, a ludzie, których nigdy nie spotkałeś, dziwnie rozpoznają twoją twarz. Pierwszy raz w ciągu dnia, kiedy tracisz stan @UUID[Compendium.pf2e.conditionitems.Item.yZRUzMqrMmfLu0V1]{Umierający}, nie zyskujesz odpowiadającego mu stanu @UUID[Compendium.pf2e.conditionitems.Item.Yl48xTdMh3aeQYL2]{Ranny}. Zyskujesz wytrenowanie w wybranej przez siebie umiejętności, która posiada akcję @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{Przywołanie Wiedzy}, oraz atut umiejętności @UUID[Compendium.pf2e.feats-srd.Item.1Bt7uCW2WI4sM84P]{Wątpliwa Wiedza}.</p>"
+        },
+        "Rime Walker Pahtra": {
+            "name": "Mroźny Wędrowiec Pahtra",
+            "description": "<p>Dostosowałeś się do zimnego środowiska dzięki wielowarstwowemu, puszystemu futrze i dodatkowej warstwie tłuszczu. Być może jesteś potomkiem starożytnych pahtrów, którzy zamieszkiwali Pulonis na długo przed tym, jak eksploatacja Veskarium zmieniła klimat, lub też odkryłeś ten potencjał genetyczny dzięki bioinżynierii. Zyskujesz odporność na zimno równą połowie twojego poziomu (minimum 1). Efekty zimna otoczenia traktujesz tak, jakby były o jeden stopień mniej ekstremalne (niewiarygodny zimno staje się ekstremalne, ekstremalne zimno staje się surowe i tak dalej).</p>"
+        },
+        "Sand Roamer Pahtra": {
+            "name": "Piaskowy Wędrowiec Pahtra",
+            "description": "<p>Twoi przodkowie wędrowali po spustoszonej ziemi, pozbawionej niezbędnych składników odżywczych przez Veskarium. Jesteś niższy i krępy niż większość pahtrów, masz szerokie, kędzierzawe uszy i pokryte futrem opuszki łap. Twoja wielkość to mała zamiast średnia. Nie zwracasz uwagi na trudny teren i nierówności spowodowane piaskiem. Dodatkowo, efekty ciepła otoczenia są dla ciebie o jeden stopień mniej ekstremalne (niewiarygodne upały stają się ekstremalne, ekstremalne upały stają się ciężkie i tak dalej), a zanim odczujesz głód lub pragnienie, możesz wytrzymać 10 razy dłużej niż normalnie.</p>"
+        },
+        "Scavenger": {
+            "name": "Padlinożerca",
+            "description": "<p>Twoi przodkowie przez pokolenia ledwo wiązały koniec z końcem w świecie, który nie był w stanie ich utrzymać, takim jak umierająca planeta Akiton, korytarze dostępowe stacji Absalom Downlow lub Sale Żywych na Eox, więc jesteś przyzwyczajony do życia z niewielkimi środkami. Liczba dni, przez które możesz wytrzymać bez jedzenia i wody, zanim odniesiesz obrażenia od pragnienia lub głodu, wzrasta o 2 (do liczby dni równej 3 + twój modyfikator Kondycji). Otrzymujesz premię okolicznościową +1 do testów Społeczeństwa i Przetrwania na Przeżycie oraz premię okolicznościową +1 do rzutów obronnych przeciwko uzyskaniu stanu Mdłości i usunięciu stanu Mdłości.</p>"
+        },
+        "Scrabbler Skittermander": {
+            "name": "Scrabbler Skittermander",
+            "description": "<p>Nigdy nie opanowałeś koordynacji wszystkich sześciu ramion do ręcznej manipulacji, zamiast tego używasz dwóch najniższych kończyn do dodatkowej mobilności. Masz cztery ramiona (zamiast sześciu) i cztery nogi (zamiast dwóch). Zyskujesz szybkość wspinaczki równą twojej podstawowej szybkości poruszania się po lądzie.</p>"
+        },
+        "Shipborn": {
+            "name": "Urodzony na statku",
+            "description": "<p>Jesteś jednym z kasathów urodzonych i wychowanych na statku pokoleniowym Idari, który obecnie orbituje wokół słońca Światów Paktu. Twoja rodzina podtrzymywała nadzieję i tradycję, znosząc trudy długiej podróży kosmicznej. Idari jest dla ciebie jedynym domem, jaki znasz. Kiedy rzucasz na rzut obronny przeciwko efektowi emocji lub strachu i uzyskasz sukces, otrzymujesz krytyczny sukces.</p>"
+        },
+        "Shipborn Ysoki": {
+            "name": "Urodzony na statku Ysoki",
+            "description": "<p>Urodziłeś się na pokładzie statku kosmicznego, w korytarzu stacji kosmicznej lub w innym podobnym miejscu. Otrzymujesz rangę wytrenowania w Pilotażu. Jeśli automatycznie uzyskałbyś wytrenowanie w Pilotażu (na przykład dzięki swojej przeszłości lub klasie), otrzymujesz wytrenowanie w innej wybranej przez siebie umiejętności. Jeśli rzut na Pilotaż zakończy się sukcesem w @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.hsUKPqTdAvWwsqH2]{Nawigowaniu} lub @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.LXqcXRayK58inaKo]{Wyznaczaniu kursu}, otrzymujesz krytyczny sukces zamiast tego.</p><p>Dostosowałeś się do manewrowania w ciasnych przestrzeniach. Otrzymujesz premię okolicznościową +1 do testów Akrobatyki, aby @UUID[Compendium.pf2e.actionspf2e.Item.21WIfSu7Xd7uKqV8]{Przedzierać się} przez przeciwników Średnich lub większych, a obecność przeciwnika nie sprawia, że pola stają się trudnym terenem.</p>"
+        },
+        "Skitter Raised": {
+            "name": "Pobudzony Skitter",
+            "description": "<p>Większość życia spędziłeś w zwartej społeczności, gdzie oczekuje się pracy zespołowej, a tłumy są niczym wielkie grupowe uściski. Zyskujesz atut umiejętności @UUID[Compendium.pf2e.feats-srd.Item.KpFetnUqTiweypZk]{Grupowe Wrażenie}. Dodatkowo zyskujesz premię okolicznościową +2 do testów @UUID[Compendium.pf2e.actionspf2e.Item.HCl3pzVefiv9ZKQW]{Wsparcia} sojusznika podczas testu umiejętności, który nie ma cechy ataku.</p>"
+        },
+        "Stellar Nomad": {
+            "name": "Gwiezdny Nomad",
+            "description": "<p>Decydujesz się wyjechać za granicę, opuszczając miejsce urodzenia, aby wyruszyć w podróż po kosmosie. Podczas codziennych przygotowań możesz studiować konkretną frakcję, filozofię, pochodzenie lub religię, aby poznać jeden z ich edyktów lub anatem i uzyskać szersze zrozumienie zwyczajów i tradycji tej kultury. Przestrzegając tego edyktu lub anatemy, zdobędziesz wytrenowanie w powiązanej wiedzy (np. wiedza o Veskach lub Damoritosh). Ta umiejętność trwa do momentu ponownego przygotowania się. Ponieważ trening ten jest tymczasowy, nie można go wykorzystać jako warunku wstępnego dla stałej opcji postaci, takiej jak atut lub zwiększenie umiejętności.</p>"
+        },
+        "Swarm Exile Shirren": {
+            "name": "Wyrzutek Roju Shirren",
+            "description": "<p>Podczas gdy większość shirrenów już dawno odłączyła się od Roju, ty przeszedłeś na ich stronę niedawno. Pochodzisz z grupy wyrzutków, którzy mają więcej wspólnego z Rojem niż większość innych shirrenów. Zyskujesz atak bez broni na odległość – bio-armatę o zasięgu 20 stóp, która zadaje 1k6 obrażeń kwasowych. Twoja bio-armata należy do grupy broni korozyjnej. Wybierając to dziedzictwo, zdecyduj, czy atak ten pochodzi z podwieszanej wyrzutni na jednym z twoich ramion, wyrzutni zamontowanej nad jednym z twoich ramion, czy z twoich ust. Nie możesz zmienić tego wyboru.</p>"
+        },
+        "Tempering": {
+            "name": "Hartowany",
+            "description": "<p>Przechodzisz proces hartowania, rytuał dojrzałości, podczas którego kasatha odrzuca formalne tradycje swojej rodziny i poznaje inne zwyczaje i tradycje. Możesz być jednym z Niehartowanych, kasathów, którzy decydują się kontynuować hartowanie poza tradycyjnym rocznym okresem. Zyskujesz wytrenowanie w Społeczeństwie i atut @UUID[Compendium.pf2e.feats-srd.Item.X2jGFfLU5qI5XVot]{Obrotny}.</p>"
+        },
+        "Tunnel Ysoki": {
+            "name": "Tunelowy Ysoki",
+            "description": "<p>Twoje niezwykle małe kości pozwalają ci łatwo ściskać ciało i przeciskać się przez szczeliny, niezależnie od tego, czy jest to przestrzeń między ścianami, aby dotrzeć do przeciętego kabla danych, czy kanały wentylacyjne stacji kosmicznej. Zyskujesz atut @UUID[Compendium.pf2e.feats-srd.Item.3G8xUlgCjRmRJNfP], nawet jeśli nie masz wytrenowania w Akrobatyce. Ciasne przestrzenie, które nie są na tyle ciasne, aby wymagały użycia akcji @UUID[Compendium.pf2e.actionspf2e.Item.kMcV8e5EZUxa6evt]{Przeciskania}, nie stanowią dla ciebie trudnego terenu.</p>"
+        },
+        "Unbound Lashunta": {
+            "name": "Swobodna Lashunta",
+            "description": "<p>Zdecydowałeś się nie aktywować genetycznej zdolności adaptacyjnej swojego pochodzenia i możesz wyrosnąć na połączenie cech damaya i korasha; możesz być wysoki i umięśniony, mały i zwinny lub mieć niezwykłe cechy, takie jak guzki i zawirowania pokrywające całe ciało lub długie, puszyste czułki. Zyskujesz reakcję @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.v0TObfRQNkP7uMK5]{Nieskrępowany Umysł}.</p>"
+        },
+        "Urbanite": {
+            "name": "Mieszkaniec miasta",
+            "description": "<p>Dorastałeś w dużym mieście i jesteś przyzwyczajony do tłoku, elektryzującej atmosfery i gąszczu ulic oraz gęstej zabudowy stacji lub mezatropolii. Nie przeszkadza ci trudny teren ani słaba osłona przed tłumem. Jesteś wytrenowany w wiedzy o jednym wybranym mieście.</p>"
+        },
+        "Venomthought Vesk": {
+            "name": "Vesk Jadowitej Myśli",
+            "description": "<p>Jesteś jednym z nielicznych Vesków obdarzonych zdolnościami parapsychicznymi. Według legendy twoja linia wywodzi się od starożytnego społeczeństwa jaskiniowców z Vesk Prime, którzy zmodyfikowali siebie za pomocą okultystycznych rytuałów, zyskując „jadowite myśli”, które mogą przejawiać się u wszystkich przyszłych potomków. Możesz rzucać @UUID[Compendium.pf2e.spells-srd.Item.4gBIw4IDrSfFHik4]{Oszołomienie} jako wrodzoną sztuczkę okultystyczną według własnego uznania. Sztuczka zostaje podniesiona do rangi zaklęcia równej połowie twojego poziomu zaokrąglonej w górę. Otrzymujesz premię okolicznościową +1 do testów Okultyzmu, aby @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{Przywołać Wiedzę} o tradycjach i filozofiach psychicznych.</p>"
+        },
+        "Warblood Vesk": {
+            "name": "Vesk Krwi Wojny",
+            "description": "<p>Pochodzisz z rodu znanych wojowników, którzy przez wieki doskonalili swoje ciała, aby stać się śmiercionośną bronią. Dwukrotnie zyskujesz atut pochodzenia @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.64hqNZ7cAdUMKEJK]{Brutalna Anatomia}.</p>"
+        },
+        "Wavecrested Vesk": {
+            "name": "Vesk z Falistą Grzywą",
+            "description": "<p>Pochodzisz ze świata ciepłych mórz i pierwotnej magii, która spowodowała, że twoje ciało pokryło się miękkimi łuskami, masz szeroką głowę i kołnierz z płetwami. Zyskujesz szybkość pływania wynoszącą 20 stóp oraz cechę amfibii, która pozwala ci oddychać pod wodą i na powietrzu przez nieograniczony czas. Nie nadajesz się jednak do podróży lądowych. Zmniejsz swoją szybkość poruszania się po lądzie o 5 stóp (do 15 stóp dla większości vesków z falistą grzywą).</p>"
+        },
+        "Winged Shirren": {
+            "name": "Skrzydlaty Shirren",
+            "description": "<p>Twoi przodkowie byli członkami Roju, którzy wykształcili skrzydła. Chociaż nie posiadasz w pełni funkcjonalnej pary skrzydeł, możesz je rozwinąć z czasem. Podczas skoku w poziomie przemieszczasz się o dodatkowe 5 stóp. Nie ponosisz automatycznej porażki w testach na @UUID[Compendium.pf2e.actionspf2e.Item.2HJ4yuEFY1Cast4h]{Skok wzwyż} lub @UUID[Compendium.pf2e.actionspf2e.Item.JUvAvruz7yRQXfz2]{Skok w dal}, jeśli nie wykonasz najpierw Biegu na co najmniej 10 stóp. Dodatkowo, kiedy wykonujesz Skok w dal, możesz skoczyć o 10 stóp dalej niż wynik twojego testu Atletyki (w ramach normalnego maksimum dla twojej szybkości). Dopóki możesz działać, nie otrzymujesz obrażeń od upadku, niezależnie od wysokości, z której spadłeś.</p>"
+        }
+    }
+}
