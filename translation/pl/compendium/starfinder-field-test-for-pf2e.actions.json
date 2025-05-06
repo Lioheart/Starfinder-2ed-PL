@@ -1,0 +1,273 @@
+{
+    "label": "Akcje",
+    "entries": {
+        "Access Infosphere": {
+            "name": "Dostęp do Infosfery",
+            "description": "<p><strong>Wymagania</strong> Używasz komputera z dostępem do infosfery.</p><hr /><p>Próbujesz uzyskać dostęp do sieci lokalnej, znanej jako infosfera, aby uzyskać informacje na dany temat. Znalezienie informacji zajmuje zazwyczaj 10 minut, a rezultatem jest Przywołanie Wiedzy na dany temat. Większe badania lub tematy mogą wymagać kilku godzin, podczas gdy jednowyrazowe odpowiedzi na informacje wspólne dla infosfery danej osady mogą zająć tylko minutę, w zależności od uznania MG. Znaczące i dłuższe badania powinny korzystać z podsystemu badań. MG określa ST na podstawie badanego tematu. Może to dodatkowo zależeć od jakości lokalnej infosfery, posiadanych przez nią informacji na dany temat i tego, jak dobrze jest zorganizowana.</p><hr /><p><strong>Krytyczny Sukces</strong> Znajdujesz informacje, których szukałeś. Jeśli zostało to użyte w temacie, w którym można było użyć Przywołania Wiedzy, zamiast tego można znaleźć te informacje w ciągu 1 minuty.</p><p><strong>Sukces</strong> Znajdujesz informacje, których szukasz.</p><p><strong>Krytyczna Porażka</strong> Znajdujesz mylące informacje z powodu nieprawidłowych danych lub internetowych żartownisiów. MG udziela ci fałszywych informacji na temat twojego śledztwa (lub decyduje się nie udzielać ci żadnych informacji, jak w przypadku porażki).</p>"
+        },
+        "Adaptive Locomotion": {
+            "name": "Adaptacyjny Ruch",
+            "description": "<p><strong>Częstotliwość</strong> raz na godzinę</p><hr /><p><strong>Efekt</strong> Przekształcasz swoje kończyny w płetwy lub haczykowate nibynóżki, aby lepiej poruszać się po otaczającym cię środowisku. Jeśli wybierzesz płetwy, zyskasz szybkość pływania wynoszącą 20 stóp. Jeśli wybierzesz haczykowate nibynóżki, zyskasz szybkość wspinaczki wynoszącą 20 stóp. Ta transformacja trwa 10 minut.</p>"
+        },
+        "Aim": {
+            "name": "Celowanie",
+            "description": "<p><strong>Wymagania</strong> Używasz broni dystansowej, która nie ma cechy obszaru.</p><hr /><p>Ostrożnie celujesz w jedną istotę, którą widzisz, wyznaczając ją jako swój cel. Do końca twojej tury, twoje ataki dystansowe wymierzone w twój cel przy użyciu wymaganej broni dystansowej, zadają dodatkowe 1k4 precyzyjnych obrażeń i zmniejszają premię okolicznościową do KP otrzymywaną przez twój cel z osłony o 1. Korzyści te mają zastosowanie tylko wtedy, gdy twój cel znajduje się w pierwszym przyroście zasięgu twojej broni. W danym momencie możesz mieć tylko jeden cel.</p><p>Wraz ze wzrostem poziomu operacyjnego wzrasta zdolność Celowania. Zwiększa liczbę kości do precyzyjnego obrażenia o jeden na 5, 11 i 17 poziomie. Na 11. poziomie zmniejszasz premię okolicznościową do KP, którą twój cel zyskuje dzięki osłonie, o 2 zamiast o 1. Na 17. poziomie zmniejszasz premię okolicznościową do KP, którą twój cel zyskuje dzięki osłonie, o 4 zamiast o 2.</p>"
+        },
+        "Area Fire": {
+            "name": "Ogień Obszarowy",
+            "description": "<p>Uderzasz każdą istotę w wyznaczonym obszarze o zasięgu równym przyrostowi zasięgu broni (w przypadku stożka lub linii) lub wyznaczonemu promieniu wybuchu (w przypadku wybuchu). W przypadku wybuchu możesz umieścić punkt centralny w dowolnym miejscu w obrębie pierwszego przyrostu zasięgu. Wszystkie stworzenia w obszarze muszą wykonać rzut obronny @Check[reflex|against:class|basic] przeciwko ST twojej klasy plus wartość śledzenia broni (nie wykonujesz rzutu ataku). Obrażenia te są obrażeniami obszarowymi. Stworzenia, które nie powiodą się w tym rzucie obronnym, podlegają efektom, które występują przy trafieniu krytycznym tą bronią, w tym efektowi specjalnemu broni krytycznej. Ogień obszarowy ma koszt równy wartości podanej na broni.</p>"
+        },
+        "Ascended Stability": {
+            "name": "Wzrost Stabilności",
+            "description": "<p><strong>Wyzwalacz</strong> Zdolność lub efekt spowoduje, że staniesz się niedostrojony.</p><hr /><p>Poświęć chwilę, aby ponownie się wyciszyć i przypomnieć sobie równowagę, która uspokaja gwałtowne wahania cyklu. Nie rozstrajasz się i pozostajesz w obecnym stanie dostrojenia.</p>"
+        },
+        "Astrologic Sense": {
+            "name": "Zmysł Astrologiczny",
+            "description": "<p><strong>Częstotliwość</strong> raz na 10 minut</p><hr /><p>Krótko medytujesz nad swoim połączeniem z kosmosem i tym, jak wzajemne oddziaływanie sił gwiezdnych może wpływać na twoich wrogów. Przez resztę swojej tury, jeśli wykonana przez ciebie akcja skutkuje efektem zmiennym opartym na twoim dostrojeniu, określ wynik obu efektów. Jeśli wymaga to rzutu na obrażenia, wykonaj rzut. Jeśli wymaga to rzutu obronnego celu, poproś cel o wykonanie rzutu. Dotyczy to tylko obrażeń lub efektów określonych w opcjach dostrojenia zdolności, więc takie rzeczy jak rzut na obrażenia bronią słoneczną nie są określane z góry.</p><p>Po ustaleniu możliwych efektów dla obu stanów dostrojenia możesz wybrać, który z nich chcesz uzyskać, niezależnie od aktualnego stanu dostrojenia. Jeśli zdolność zmieniłaby twój stan, uznaje się, że jesteś dostrojony do stanu, który wybrałeś jako aktywny.</p>"
+        },
+        "Attune": {
+            "name": "Dostrajanie",
+            "description": "<p><strong>Częstotliwość</strong> raz na rundę</p><hr /><p>Uspokajasz ciało i umysł oraz dostrajasz się do swojej gwiezdnej koncentracji. Jeśli nie jesteś dostrojony lub nie znajdujesz się w swoim ulubionym stanie, dostrajasz się do preferowanego dostrojenia swojego układu gwiezdnego. Możesz również zamanifestować dowolną ze swoich słonecznych manifestacji, jeśli są one obecnie uśpione i masz wolne ręce, aby z nich skorzystać.</p><p>@UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.lUZuBzMe0UAllDxX]{Efekt: Broń Solarna}</p><hr /><p><strong>Specjalne</strong> Oprócz powyższego zastosowania, możesz również wykonać Dostrajanie jako akcję darmową, gdy rzucasz inicjatywę.</p>"
+        },
+        "Attunement Control": {
+            "name": "Kontrola Dostrojenia",
+            "description": "<p>Podczas eksploracji masz wybrany stan dostrojenia. Jeśli dostroisz się jako akcję wolną podczas rzutu inicjatywy, możesz wybrać dostrojenie niezależnie od preferowanego dostrojenia twojego układu gwiezdnego.</p>"
+        },
+        "Auto-Fire": {
+            "name": "Ogień Automatyczny",
+            "description": "<p>Trafiasz każdą istotę w stożku o zasięgu równym połowie przyrostu zasięgu broni bez wykonywania rzutu ataku. Wszystkie istoty w obszarze otrzymują obrażenia równe obrażeniom broni (@Check[reflex|against:class|basic] rzut obronny przeciwko ST twojej klasy plus wartość śledzenia broni). Obrażenia te są obrażeniami obszarowymi. Stworzenia, które nie powiodą się w rzucie obronnym, podlegają efektom, które występują przy trafieniu krytycznym tą bronią, w tym efektowi specjalnemu broni. Ogień Automatyczny ma koszt równy liczbie celów w obszarze × 2.</p>"
+        },
+        "Beginner's Luck": {
+            "name": "Szczęście Nowicjusza",
+            "description": "<p><strong>Częstotliwość</strong> raz dziennie</p><p><strong>Wyzwalacz</strong> Nie udaje ci się test umiejętności, w której nie masz biegłości wytrenowania.</p><hr /><p><strong>Efekt</strong> Powtórz test umiejętności wyzwalającej i użyj lepszego wyniku.</p>"
+        },
+        "Big Bang": {
+            "name": "Wielki Wybuch",
+            "description": "<p><strong>Częstotliwość</strong> raz na godzinę</p><p><strong>Wymagania</strong> Jesteś dostrojony do fotonów.</p><hr /><p>Wzywacie kosmiczną moc, która stworzyła wszechświat, wyzwalając wybuch oczyszczającego kosmicznego ognia, który przywraca wszystkie rzeczy do ich podstawowych składników i pokonuje nawet magiczne zabezpieczenia. Wypełnia to @Template[type:emanation|distance:30] i zadaje @Damage[(max(10,@actor.level - 5)d6)[fire]] obrażeń z rzutem obronnym @Check[type:reflex|dc:resolve(@actor.system.attributes.classDC.value)] przeciwko ST twojej klasy. Ty i dowolna liczba wybranych sąsiadujących sojuszników nie jesteście objęci tym wybuchem.</p><hr /><p><strong>Krytyczny Sukces</strong> Nie ma to wpływu na stworzenie.</p><p><strong>Sukces</strong> Stworzenie otrzymuje połowę obrażeń.</p><p><strong>Porażka</strong> Stworzenie otrzymuje pełne obrażenia oraz @Damage[2d6[persistent,fire]] obrażeń.</p><p><strong>Krytyczna Porażka</strong> Stworzenie otrzymuje podwójne obrażenia, @Damage[4d6[persistent,fire]] obrażeń, a ty możesz spróbować przeciwdziałać zaklęciu rzuconemu na stworzenie, używając połowy swojej rangi, zaokrąglonej w górę, jako rangę przeciwdziałania.</p><hr /><p><strong>Poziom (+1)</strong> Zwiększa obrażenia o 1k6.</p>"
+        },
+        "Binaric Assault": {
+            "name": "Atak Binarny",
+            "description": "<p>Koordynujesz swoje ataki za pomocą rozbłysku słonecznego i broni słonecznej. Wykonaj atak bronią słoneczną i strzał słoneczny, używając aktualnej kary za wielokrotny atak i obydwa ataki skieruj na ten sam cel. Ataki te możesz wykonać w dowolnej kolejności. Jeśli atak trafi, rozpatrz obrażenia i efekty, a następnie zamień aktualną harmonię. Podczas obliczania kary za wielokrotny atak liczy się to jako dwa ataki. Jeśli oba ataki nie trafią, tracisz harmonię.</p>"
+        },
+        "Black Hole": {
+            "name": "Czarna Dziura",
+            "description": "<p><strong>Częstotliwość</strong> raz na 10 minut</p><p><strong>Wymagania</strong> Jesteś dostrojony do grawitonów.</p><hr /><p>Koncentrujesz się na siłach grawitacyjnych wokół siebie, przyciągając materię do siebie na wzór zjawiska kosmicznego. Wybierz dowolną liczbę stworzeń w promieniu @Template[type:emanation|distance:30]{30 stóp}. Każda dotknięta istota otrzymuje @Damage[(ceil(@actor.level/2)d8)[bludgeoning]] obrażeń i musi wykonać rzut obronny @Check[type:fortitude|dc:resolve(@actor.system.attributes.classDC.value)] przeciwko twojemu ST klasy.</p><hr /><p><strong>Krytyczny Sukces</strong> Nie ma to wpływu na stworzenie.</p><p><strong>Sukces</strong> Stworzenie otrzymuje połowę obrażeń i zostaje przyciągnięte o 5 stóp w twoim kierunku.</p><p><strong>Porażka</strong> Stworzenie otrzymuje pełne obrażenia, zostaje przyciągnięte 15 stóp w twoim kierunku i @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Przewrócone}.</p><p><strong>Krytyczna Porażka</strong> Stworzenie otrzymuje podwójne obrażenia, zostaje przyciągnięte 30 stóp w twoim kierunku i przewrócone.</p><hr /><p><strong>Poziom (+2)</strong> Zwiększa obrażenia o 1k8.</p>"
+        },
+        "Defy Gravity": {
+            "name": "Wbrew Grawitacji",
+            "description": "<p><strong>Wymagania</strong> Jesteś dostrojony do grawitonów.</p><hr /><p>Przełamujesz więzy grawitacji. Zyskujesz szybkość lotu równą swojej szybkości, gdy jesteś dostrojony do grawitonów.</p>"
+        },
+        "Deny Failure": {
+            "name": "Wbew Porażce",
+            "description": "<p><strong>Częstotliwość</strong> raz dziennie</p><p><strong>Wyzwalacz</strong> Ponosisz porażkę lub krytyczną porażkę w rzucie obronnym</p><hr /><p><strong>Efekt</strong> Nie akceptujesz swojej porażki! Ponownie wykonaj rzut obronny. Jeśli wynik jest krytyczną porażką, użycie Wbrew Porażce nie liczy się do częstotliwości użycia tej zdolności.</p>"
+        },
+        "Drive": {
+            "name": "Prowadzenie",
+            "description": "<p><strong>Wymagania</strong> Prowadzisz pojazd.</p><hr /><p>Sterujesz pojazdem, aby się poruszać. Przed rozpoczęciem Prowadzenia zdecyduj, ile akcji zamierzasz wykorzystać. Efekty zależą od liczby wykorzystanych akcji. Nie możesz przejeżdżać przez pola zajęte przez stworzenia, nawet jeśli są to sojusznicy.</p><p><span class=\"pf2-icon\">1</span> Wykonaj test Pilotażu. Jeśli test zakończy się sukcesem, pojazd porusza się z szybkością równą swojej Szybkości i może skręcać normalnie. W przypadku porażki pojazd porusza się w linii prostej z szybkością równą swojej Szybkości. W przypadku krytycznej porażki pojazd porusza się w linii prostej z szybkością równą swojej Szybkości i staje się niekontrolowany.</p><p><span class=\"pf2-icon\">2</span> (nieostrożność) Pojazd porusza się do dwukrotności swojej szybkości w linii prostej zgodnie z aktualnym kierunkiem jazdy.</p><p><span class=\"pf2-icon\">3</span> (nieostrożność) Otrzymujesz karę -5 do testu pilotażu, aby utrzymać kontrolę nad pojazdem. Pojazd porusza się do trzech razy swojej szybkości w linii prostej zgodnie z aktualnym kierunkiem jazdy.</p>"
+        },
+        "Get 'Em!": {
+            "name": "Łapać Ich!",
+            "description": "<p>Wybierasz wroga, na którym skupiają się ataki twoje i twoich sojuszników. Ten skoncentrowany atak osłabia obronę tego wroga. Wybierz widoczną istotę w promieniu 60 stóp. Istota ta otrzymuje karę -1 do KP i rzutów obronnych na Refleks do początku twojej następnej tury.</p><p>@UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.BTTaOMgJbcOMQ4IA]{Efekt: Łapać Ich!}</p><p><strong>Dawanie Przykładu</strong> Jeśli zaatakujesz wybrany cel przed końcem swojej tury, ujawnisz słaby punkt w obronie przeciwnika. Otrzymujesz premię okolicznościową do rzutów na obrażenia zadane celowi równą 1 + połowa twojego modyfikatora Charyzmy, a twoi sojusznicy otrzymują premię okolicznościową +1 do rzutów na obrażenia zadane celowi. Wraz ze wzrostem poziomu twojego wysłannika wzrasta również ta obrażenia. Zwiększ obrażenia o 1 na 5, 10, 15 i 20 poziomie.</p>"
+        },
+        "Ghost Tap": {
+            "name": "Uderzenie Widma",
+            "description": "<p>Wykonujesz ukryty strzał, a następnie znikasz w tle. Wykonaj atak z dystansu przeciwko stworzeniu, a następnie spróbuj wykonać test Ukrycia, aby @UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]{Ukryć się}. W środowisku miejskim, gdzie występuje wiele stworzeń, możesz zamiast tego wykonać test Oszustwa, aby się ukryć. Otrzymujesz premię okolicznościową +2 do tego testu, jeśli stworzenie nie było świadome twojej obecności lub jest wobec ciebie przyjazne.</p><hr /><p><strong>Sukces</strong> Jeśli stworzenie mogło cię zobaczyć, jesteś teraz @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Ukryty} przed nim zamiast obserwowany. Jeśli byłeś ukryty przed stworzeniem lub nie zdołało ciebie wykryć, zachowujesz ten stan.</p><p><strong>Porażka</strong> Stajesz się obserwowany.</p>"
+        },
+        "Hack": {
+            "name": "Hakowanie",
+            "description": "<p><strong>Wymagania</strong> Posiadasz zestaw narzędzi hakerskich.</p><hr /><p>Próbujesz uzyskać dostęp, kontrolować lub wprowadzać zmiany w aktywnym, zabezpieczonym systemie. W większości przypadków będzie to próba podjęta przeciwko lokalnemu systemowi komputerowemu, do którego masz dostęp bezpośrednio lub pośrednio za pomocą zestawu narzędzi hakerskich. Spróbuj wykonać test @Check[type:computers], aby sprawdzić, czy możesz uzyskać dostęp do docelowego systemu. Komputery z ulepszonymi systemami mogą wymagać wielu udanych prób, aby uzyskać dostęp.</p><hr /><p><strong>Krytyczny Sukces</strong> Uzyskujesz dostęp do systemu lub osiągasz dwa sukcesy w celu uzyskania dostępu do systemu wymagającego więcej niż jednego sukcesu. Nie pozostawiasz żadnych śladów swojej ingerencji.</p><p><strong>Sukces</strong> Uzyskujesz dostęp do systemu lub osiągasz jeden sukces w kierunku uzyskania dostępu do systemu, który wymaga więcej niż jednego sukcesu.</p><p><strong>Porażka</strong> Nie udało się uzyskać dostępu do systemu lub osiągnąć sukcesu w uzyskaniu dostępu do systemu, który wymaga więcej niż jednej próby. Niektóre systemy komputerowe mogą posiadać zabezpieczenia, które aktywują się w przypadku porażki.</p><p><strong>Krytyczna Porażka</strong> Aktywujesz specjalnie wbudowane protokoły bezpieczeństwa lub całkowicie blokujesz sobie dostęp do systemu. Zablokowanie dostępu do systemu uniemożliwia podjęcie kolejnej próby uzyskania dostępu przez następną godzinę.</p>"
+        },
+        "Improvised Mastery": {
+            "name": "Mistrzostwo w Improwizacji",
+            "description": "<p><strong>Częstotliwość</strong> raz dziennie</p><p><strong>Wyzwalacz</strong> Zamierzasz wykonać test umiejętności, w której nie masz biegłości mistrzowskiej, ale nie wykonałeś jeszcze rzutu.</p><hr /><p>Ufasz swoim instynktom, które pomogą Ci przetrwać. Osiągasz mistrzowską biegłość w umiejętności wyzwalającej test umiejętności.</p><p>@UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.5fy13kq1YkOoyjGg]{Efekt: Mistrzostwo w Improwizacji}</p>"
+        },
+        "Install Upgrade": {
+            "name": "Instalacja Ulepszenia",
+            "description": "<p><strong>Wymagania</strong> Należy użyć zestawu narzędzi naprawczych.</p><hr /><p>Instalacja ulepszenia do zbroi lub broni zajmuje 10 minut i polega na umieszczeniu go w pustym miejscu przeznaczonym na ulepszenia. Czynność tę można również wykonać w celu odinstalowania ulepszenia. Nie można zainstalować więcej ulepszeń niż jest miejsc na ulepszenia. Instalacja lub odinstalowanie ulepszenia wymaga użycia zestawu narzędzi naprawczych obiema rękami.</p>"
+        },
+        "Intense Focus": {
+            "name": "Intensywne Skupienie",
+            "description": "<p><strong>Częstotliwość</strong> raz na rundę</p><hr /><p>Twoja koncentracja staje się tak intensywna, że możesz łatwo ocenić swój stan i otoczenie. Zmniejsz wartość swojego stanu @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Niezdarny} o 1 lub zignoruj efekty stanu @UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.enA7BxAjBb7ns1iF]{Przytłoczony} do początku następnej tury.</p>"
+        },
+        "Living Shield": {
+            "name": "Żywa Osłona",
+            "description": "<p><strong>Wyzwalacz</strong> Wróg zadaje obrażenia twojemu sojusznikowi, który korzysta z twojej osłony.</p><hr /><p><strong>Efekt</strong> Zmniejsz obrażenia wywołujące efekt u wybranego sojusznika o wartość równą twojemu poziomowi plus modyfikator Kondycji. Otrzymujesz obrażenia równe wartości obrażeń zneutralizowanych.</p>"
+        },
+        "Nanite Form Strike": {
+            "name": "Atak w Postaci Nanitów",
+            "description": "<p>Zadajesz obrażenia @Damage[10d6[acid]] wszystkim stworzeniom znajdującym się w tej samej przestrzeni (@Check[type:reflex|basic:true|dc:resolve(@actor.attributes.classOrSpellDC.value)] rzut obronny z ST równym ST twojej klasy lub rzucającego zaklęcie, w zależności od tego, która wartość jest wyższa).</p>"
+        },
+        "Navigate": {
+            "name": "Nawigowanie",
+            "description": "<p>Planujesz krótką podróż. Jest to najczęściej wykorzystywane podczas podróży mechami, pojazdami lub statkami kosmicznymi, ale ta sama umiejętność może zostać wykorzystana do określenia optymalnej trasy podczas podróży pieszej. Pozwala to zaplanować ogólny kierunek na planetoidzie lub poprowadzić statek kosmiczny podczas podróży w układzie. Jeśli nawigujesz krótką podróż, zazwyczaj próbujesz wykonać test @Check[type:piloting] tylko raz dziennie, ale niektóre środowiska lub zmiany mogą wymagać częstszego rzucania. MG określa ST i czas trwania tej czynności (zwykle około minuty). Bardziej nietypowe miejsca lub te, których nie znasz, mogą wymagać od ciebie minimalnej rangi biegłości w Nawigacji.</p><hr /><p><strong>Krytyczny Sukces</strong> Doskonale wiesz, gdzie się znajdujesz. Jeśli znajdujesz się w środowisku z kierunkami kardynalnymi, znasz je dokładnie.</p><p><strong>Sukces</strong> Zyskujesz wystarczającą orientację, by uniknąć beznadziejnego zagubienia. Jeśli znajdujesz się w środowisku z kierunkami kardynalnymi, masz poczucie tych kierunków.</p>"
+        },
+        "Network Spell": {
+            "name": "Zaklęcie Sieci",
+            "description": "<p><strong>Koszt transferu</strong> ranga zaklęcia, które rzucisz swoją następną akcją</p><hr /><p>Kierujesz swoje zaklęcie, aby zamanifestowało się na jednym z twoich sojuszników zamiast na tobie. Jeśli następną akcją, którą wykonasz, jest rzucenie zaklęcia o obszarze działania, zasięgu lub celu, zaklęcie manifestuje się na jednym z twoich sojuszników objętych więzią zamiast na tobie. Użyj pola sojusznika, aby określić źródło, zasięg i obszar działania zaklęcia, ale linia wzroku i linia działania muszą być spełnione zarówno przez ciebie, jak i twojego sojusznika w momencie rzucenia zaklęcia. Chociaż może to oszukać kogoś, kto widzi tylko twojego sojusznika, to jeśli nie jesteś @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Ukryty} lub zaklęcie nie ma cechy subtelności, każda istota widząca zarówno ciebie, jak i twojego sojusznika, może łatwo ustalić, że to ty jesteś źródłem zaklęcia. Jeśli zaklęcie ma cechę subtelności, ty i twój sojusznik możecie rzucić zaklęcie w taki sposób, aby sojusznik wyglądał, jakby to on je rzucił, bez tej cechy.</p>"
+        },
+        "New Plan!": {
+            "name": "Nowy Plan!",
+            "description": "<p><strong>Wyzwalacz</strong> Sojusznik, z którym omówiłeś strategię, zamierza wykonać rzut na atak lub test umiejętności.</p>\n<hr />\n<p><strong>Efekt</strong> Sojusznik wykonuje test wyzwalający dwukrotnie i wybiera lepszy wynik. Sojusznik staje się tymczasowo niewrażliwy na twój plan główny do momentu twoich następnych codziennych przygotowań.</p>"
+        },
+        "Nimbus Surge": {
+            "name": "Otulina",
+            "description": "<p><strong>Wyzwalacz</strong> Otrzymujesz obrażenia od ataku wręcz.</p><hr /><p>Twoja otulina reaguje na uraz.</p><p><strong>Dostrojony do grawitonów</strong> Wyzwalająca istota musi wykonać rzut obronny @Check[type:fortitude|dc:resolve(@actor.system.attributes.classDC.value)] przeciwko twojej klasie ST lub zostanie odepchnięta na odległość 5 stóp od ciebie.</p><p><strong>Dostrojony do fotonów</strong> Wyzwalająca istota otrzymuje obrażenia równe połowie twojego poziomu (w zaokrągleniu w górę) @Damage[(ceil(@actor.level/2))[fire]]{obrażenia od ognia}.</p>"
+        },
+        "Oppressive Presence": {
+            "name": "Opresyjna Obecność",
+            "description": "<p><strong>Częstotliwość</strong> raz na rundę</p><hr /><p>Wystarczy jedno spojrzenie, aby zaniepokoić przeciwników, lub podobnie przyciągnąć ich uwagę subtelnymi ruchami lub słowami. Wybierz wroga, którego widzisz w promieniu 60 stóp. Cel staje się @UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.enA7BxAjBb7ns1iF]{Przytłoczony} do początku twojej następnej tury. Jeśli wybrany wróg zaatakuje cię atakiem lub inną akcją ofensywną, traci stan przytłoczenia spowodowany tym efektem.</p>"
+        },
+        "Overwhelming Strike": {
+            "name": "Przytłaczający Atak",
+            "description": "<p><strong>Wyzwalacz</strong> Twój atak trafia wybraną przez ciebie istotę i zadaje jej obrażenia.</p><hr /><p>Zastosuj jedno z poniższych przytłoczeń, które trwa do końca twojej następnej tury.</p><ul><li><strong>Przytłoczenie</strong> Cel staje się @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Odsłonięty}.</li><li><strong>Przytłoczenie</strong> Cel staje się @UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.enA7BxAjBb7ns1iF]{Przytłoczony}.</li><li><strong>Przytłoczenie</strong> Cel nie może wykonać akcji @UUID[Compendium.pf2e.actionspf2e.Item.ust1jJSCZQUhBZIz]{Znalezienia Osłony} ani skorzystać z osłony.</li></ul>"
+        },
+        "Piercing Spikes": {
+            "name": "Ostre Kolce",
+            "description": "<p><strong>Wyzwalacz</strong> Zostałeś @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Pochwycony} przez stworzenie.</p><hr /><p><strong>Efekt</strong> Wykręcasz i rzucasz swoim ciałem, zadając 1k4 plus modyfikator Siły obrażeń kłujących stworzeniu, które cię zaatakowało (@Damage[(ceil(@actor.level/4)+@actor.system.abilties.str.mod)[piercing]]). Obrażenia te wzrastają o 1k4 na 5. poziomie i co cztery kolejne poziomy.</p>"
+        },
+        "Plate Deflection": {
+            "name": "Odchylenie Płyty",
+            "description": "<p><strong>Częstotliwość</strong> raz dziennie</p><p><strong>Wyzwalacz</strong> Wróg zadaje ci krytyczne trafienie.</p><hr /><p><strong>Efekt</strong> Odbijasz atak na silnie opancerzoną część ciała. Nie otrzymujesz podwójnych obrażeń od trafienia krytycznego, ale nadal odczuwasz inne efekty.</p>"
+        },
+        "Plot Course": {
+            "name": "Wyznaczanie Kursu",
+            "description": "<p>Przygotowujesz się do dłuższej podróży do gwiazd, prawdopodobnie wykorzystując silnik Dryftu swojego statku kosmicznego (lub podobne urządzenie z Prędkością Nadświetlną). Wykonaj test @Check[type:piloting], aby określić, czy jesteś w stanie wytyczyć odpowiednią ścieżkę do ostatecznego celu. MG określa czas trwania tej czynności i ST.</p><hr /><p><strong>Krytyczny Sukces</strong> Udaje ci się dotrzeć do celu w czasie o połowę krótszym od oczekiwanego (minimum 1 dzień).</p><p><strong>Sukces</strong> Tworzysz użyteczny plan nawigacyjny, dzięki któremu dotrzesz do celu na czas.</p><p><strong>Porażka</strong> Twój plan ma kilka problemów i ostatecznie docierasz do celu z opóźnieniem.</p><p><strong>Krytyczna Porażka</strong> Pojawienie się w nieznanym układzie gwiezdnym wymaga wyznaczenia nowego kursu do celu (prawdopodobnie ze zwiększonym ST ze względu na nieznany punkt początkowy).</p>"
+        },
+        "Practiced Influencer": {
+            "name": "Doświadczony Influencer",
+            "description": "<p><strong>Częstotliwość</strong> raz na dzień</p>\n<p><strong>Wyzwalacz</strong> Zaraz rzucisz test na Oszustwo, Dyplomację lub Zastraszenie, ale jeszcze nie rzuciłeś kości.</p>\n<hr />\n<p>Rzucasz dwukrotnie test na Oszustwo, Dyplomację lub Zastraszanie i wybierasz wyższy wynik.</p>"
+        },
+        "Program": {
+            "name": "Programowanie",
+            "description": "<p>Spędzasz czas na tworzeniu linii kodu komputerowego, które można zintegrować z różnymi systemami komputerowymi. Do pisania kodu komputerowego potrzebny jest atut @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.pubj4WTHFcyoOieC]{Programista}, który pozwala programować przedmioty posiadające cechę wirtualny. Musisz posiadać odpowiednie formuły, aby tworzyć takie przedmioty, ale często można je znaleźć sprzedawane przez innych programistów na infosferze. Możesz kupić linie kodu od innych programistów, aby pomóc w ukończeniu wirtualnego przedmiotu. Jeśli posiadasz atut „Wynalazca”, możesz użyć akcji „Programowanie”, aby tworzyć formuły dla przedmiotów technicznych. Jeśli posiadasz atut Fabrykator, możesz użyć akcji Programowanie, aby tworzyć przedmioty technologiczne bez cech wirtualnych za pomocą kapsuły kreatora.</p><hr /><p><strong>Krytyczny Sukces</strong> Próba zakończyła się sukcesem. Każdy dodatkowy dzień spędzony na Programowaniu zmniejsza kod potrzebny do ukończenia przedmiotu o ilość zależną od twojego poziomu + 1 i rangi biegłości w Komputerach.</p><p><strong>Sukces</strong> Próba zakończyła się sukcesem. Każdy dodatkowy dzień spędzony na Programowaniu zmniejsza ilość materiałów potrzebnych do ukończenia przedmiotu o kwotę zależną od twojego poziomu i rangi biegłości.</p><p><strong>Porażka</strong> Nie udało ci się ukończyć przedmiotu. Możesz odzyskać część napisanego kodu za jego pełną wartość. Jeśli chcesz spróbować ponownie, musisz zacząć od początku.</p><p><strong>Krytyczna Porażka</strong> Nie udało ci się ukończyć przedmiotu. 10% napisanego lub zakupionego kodu jest bezużyteczne, ale resztę można odzyskać. Jeśli chcesz spróbować ponownie, musisz zacząć od początku.</p>"
+        },
+        "Punitive Strike": {
+            "name": "Atak Karny",
+            "description": "<p><strong>Wyzwalacz</strong> Istota w zasięgu twojej ręki wykonuje akcję manipulacji, atak z dystansu, akcję ruchu lub opuszcza pole podczas akcji ruchu, którą wykonuje.</p><hr /><p>Chwilowa nieuwaga przeciwnika w obronie daje ci szansę. Podczas wykonywania tej akcji zignoruj cechę „nieporęczna” swojej broni. Wykonaj atak wręcz przeciwko stworzeniu, które wywołało tę akcję. Jeśli twój atak trafi, cel zostanie @UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.enA7BxAjBb7ns1iF]{Przytłoczony}, a jeśli wyzwalaczem była akcja ruchu, zakłócisz tę akcję. Ten atak nie liczy się do twojej kary za wielokrotny atak, a twoja kara za wielokrotny atak nie ma zastosowania do tego ataku.</p>"
+        },
+        "Push Off": {
+            "name": "Odepchnięcie",
+            "description": "<p><strong>Wymagania</strong> Masz co najmniej jedną wolną rękę lub nogę (lub odpowiednią kończynę) i jesteś @UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.z1ucw4CLwLqHoAp3]{Dryfujący}.</p><hr /><p>Używasz przedmiotu lub stworzenia o rozmiarach równych lub większych od twoich jako dźwigni, aby zmienić kierunek, w którym się unosisz. Unosząc się w wybranym kierunku, możesz przemieścić się o połowę swojej szybkości. Odległość, o jaką przemieścisz się na koniec swojej tury, gdy jesteś dryfujący, zmienia się na odległość, o jaką przemieściłeś się podczas tej akcji.</p><p>Możesz wykonać Odepchnięcie jako akcję darmową natychmiast po udanym ataku wręcz lub @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{Pchnięciu}.</p>"
+        },
+        "Re-Forge Solar Weapon": {
+            "name": "Przekucie Solarnej Broni",
+            "description": "<p>Poświęcasz 10 minut na skupienie się nad kompozycją swojej broni słonecznej. Możesz zmienić rodzaj obrażeń zadawanych przez broń (zazwyczaj wybierasz między obrażeniami obuchowymi, kłutymi lub ciętymi), aktualnie wybrane cechy broni oraz grupę, do której należy broń. Broń zachowuje wybrane cechy do momentu ponownego użycia umiejętności Przekucie Solarnej Broni..</p><p>@UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.lUZuBzMe0UAllDxX]{Efekt: Broń Solarna}</p>"
+        },
+        "Reactive Step": {
+            "name": "Krok Reaktywny",
+            "description": "<p><strong>Wyzwalacz</strong> Stworzenie znajdujące się w zasięgu twojej ręki opuszcza pole podczas akcji ruchu, którą wykonuje.</p><hr /><p>Potrafisz zręcznie poruszać się wokół przeciwników, wychodząc z trudnych sytuacji lub ustawiając się w miejscu, w którym masz przewagę. Wykonujesz dwa Kroki, kończąc jak najbliżej stworzenia, które wywołało efekt.</p>"
+        },
+        "Rebellious Defiance": {
+            "name": "Buntowniczy Opór",
+            "description": "<p>Wybierasz jednego widocznego w promieniu 100 stóp wroga, którego uznajesz za tyrana lub łotra, i przygotowujesz się do stawienia mu czoła, nawet za cenę życia. Otrzymujesz premię okolicznościową +1 do rzutów ataku przeciwko temu wrogowi oraz premię okolicznościową +1 do rzutów obronnych przeciwko atakom, zaklęciom i efektom tego wroga. Korzyści te trwają 1 minutę.</p>"
+        },
+        "Redirect Current": {
+            "name": "Przekierowanie Prądu",
+            "description": "<p><strong>Częstotliwość</strong> raz na godzinę</p><p><strong>Wyzwalacz</strong> Otrzymujesz obrażenia od elektryczności, a twoja odporność na elektryczność nie zmniejsza tych obrażeń do 0.</p><hr /><p><strong>Efekt</strong> Po porażeniu elektrycznością przechwytujesz prąd przepływający przez twoje ciało i kierujesz go na inną istotę w promieniu 30 stóp. Istota ta nie może już wcześniej otrzymać obrażeń od efektu, który zranił ciebie. Kreatura ta otrzymuje obrażenia od elektryczności równe ilości Punktów Wytrzymałości, które straciłeś w wyniku obrażeń od elektryczności (@Check[type:reflex|dc:resolve(@actor.system.attributes.classOrSpellDC.value)|basic:true] rzut obronny przy użyciu ST twojej klasy lub ST zaklęcia, w zależności od tego, która wartość jest wyższa).</p>"
+        },
+        "Redirect Energy": {
+            "name": "Przekierowanie Energii",
+            "description": "<p><strong>Wyzwalacz</strong> Otrzymujesz obrażenia od zimna lub ognia.</p><hr /><p><strong>Efekt</strong> Wykorzystujesz skierowaną przeciwko tobie szkodliwą energię i przekierowujesz jej esencję do broni białej, którą trzymasz w ręku. Do końca twojej następnej tury wybrana broń zadaje dodatkowe obrażenia równe 1k4 obrażeń typu wywołującego efekt. W tym czasie tracisz wszelką odporność na obrażenia typu wywołującego efekt, którą zapewnia ci zdolność Idealnie Wyważony.</p>"
+        },
+        "Restorative Recollection": {
+            "name": "Odzyskiwanie Pamięci",
+            "description": "<p><strong>Częstotliwość</strong> raz na rundę</p><hr /><p>Część twojego umysłu w innej rzeczywistości nieustannie analizuje twoją sytuację. Możesz @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{Przywołać Wiedzę} za pomocą dowolnej wytrenowanej umiejętności. Zmniejsz wartość @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Ogłuszony} o 2 lub wartość @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Spowolniony} o 1. Jeśli straciłeś akcję w tej turze z powodu stanu ogłuszenia lub spowolnienia, możesz użyć Odzyskiwania Pamięci jako akcji darmowej.</p>"
+        },
+        "Run Over": {
+            "name": "Przejeżdżanie",
+            "description": "<p><strong>Wymagania</strong> Prowadzisz pojazd.</p><hr /><p>Próbujesz przejechać stwory lub staranować inny pojazd swoim pojazdem. Jeśli zachowujesz kontrolę nad pojazdem, porusza się on w linii prostej z maksymalną prędkością równą dwukrotnej szybkości pojazdu. Próbujesz przejechać wszystkie stworzenia na swojej drodze o dwa rozmiary mniejsze od pojazdu lub mniejsze i możesz spróbować staranować jedną docelową istotę lub obiekt na swojej drodze o jeden rozmiar mniejszy od pojazdu lub większy.</p><p>Każda istota na twojej drodze, w tym taranowany cel, otrzymuje obrażenia kolizyjne pojazdu (podstawowy rzut obronny na Refleks przy ST kolizji pojazdu). Jeśli taranowany cel jest pojazdem, jego pilot może wykonać Test Pilotażu zamiast tego rzutu obronnego na Refleks, z takimi samymi wynikami. Jeśli cel taranowania otrzyma obrażenia, ty i pojazd otrzymacie obrażenia od kolizji (bez rzutu obronnego), a wasz ruch dobiegnie końca.</p>"
+        },
+        "Sabotage": {
+            "name": "Sabotaż",
+            "description": "<p>Zakłócasz działanie technologii wroga, aby zatrzeć ślady lub uzyskać przewagę taktyczną. Wybierz jedną widoczną istotę technologiczną lub przedmiot technologiczny w promieniu 15 stóp. Jeśli celem jest istota technologiczna, wykonaj test Komputerów lub Rzemiosła przeciwko Wytrwałości ST istoty. Jeśli celem jest przedmiot, wykonaj test Złodziejstwa przeciwko ST przedmiotu lub ST Refleksu istoty posiadającej przedmiot, jeśli jest on noszony, trzymane lub zakładane, a ST byłoby wyższe.</p><p>Jeśli jesteś ekspertem w Komputerach, Rzemiośle lub Złodziejstwie, możesz użyć Sabotażu na stworzeniu technologicznym lub przedmiocie technologicznym w promieniu 30 stóp. Jeśli jesteś mistrzem, możesz użyć tej umiejętności w promieniu 45 stóp. Jeśli jesteś legendarny, możesz użyć tej umiejętności w promieniu 60 stóp.</p><hr /><p><strong>Krytyczny Sukces</strong> Stworzenie lub przedmiot staje się @UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.6A2QDy8wRGCVQsSd]{Zakłócony 1} na 1 minutę.</p><p><strong>Sukces</strong> Stworzenie lub przedmiot zostaje zakłócone na 1 rundę przez 2 rundy.</p><p><strong>Porażka</strong> Twoja próba nie powiodła się i wymaga bardziej wnikliwej analizy. Cel jest niewrażliwy na twój Sabotaż do końca twojej następnej tury.</p><p><strong>Krytyczna Porażka</strong> Twoja próba kończy się niepowodzeniem. Cel jest odporny na twój Sabotaż przez 10 minut.</p>"
+        },
+        "Saw It Coming": {
+            "name": "Przewidziałem To",
+            "description": "<p><strong>Wyzwalacz</strong>Za chwilę rzucisz inicjatywę w starciu, w którym jednym z twoich zasobów jest jeden z przeciwników.</p>\n<hr />\n<p>Odczytujesz zachowanie, mowę ciała i instynktowne tiki swojego celu tak łatwo, jak odczytujesz komunikat z urządzenia łączności, co pozwala ci zareagować chwilę przed innymi i uzyskać przewagę w nadchodzącej walce. Otrzymujesz premię okolicznościową +1 do rzutu na inicjatywę i możesz natychmiast wykonać jedną z następujących czynności: Interakcja w celu wyciągnięcia broni, Krok lub Bieg.</p>"
+        },
+        "Shimmering Dazzle": {
+            "name": "Mieniący się Blask",
+            "description": "<p>Sprawiasz, że twoja chityna rozbłyska i mieni się hipnotyzującym pokazem zmieniających się kolorów i kojących ruchów. Wybierz stworzenie w promieniu 30 stóp, które musi wykonać rzut obronny @Check[type:fortitude|dc:resolve(@actor.system.attributes.classDC.value)] przeciwko twojej klasowej wartości ST lub zostanie @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Zamroczone} na 1 rundę.</p>"
+        },
+        "Show 'Em What You Got!": {
+            "name": "Pokaż im, co potrafisz!",
+            "description": "<p><strong>Częstotliwość</strong> raz na 10 minut</p><hr /><p>Inspirujesz swoich sojuszników do wykorzystania swoich talentów i dawania z siebie wszystkiego w stresującej sytuacji. Ty i twoi sojusznicy w promieniu 100 stóp otrzymujecie korzyść zależną od roli, którą wybraliście podczas codziennych przygotowań. Wszystkie korzyści trwają do początku twojej następnej tury.</p><ul><li>Atakujący mogą rzucić dwukrotnie i użyć lepszego wyniku przy następnej próbie ataku na przeciwnika.</li><li>Obrońcy mogą zmusić atakującego do rzutu dwukrotnego i wykorzystać gorszy wynik przy następnym ataku lub mogą rzucić dwukrotnie i wykorzystać lepszy wynik przy następnej próbie rzutu obronnego.</li><li>Eksperci mogą wykonać dwa rzuty i wykorzystać lepszy wynik przy następnej próbie testu umiejętności.</li><li>Rzucający czary mogą rzucić dwukrotnie i użyć lepszego wyniku przy następnym rzucie ataku lub sprawdzeniu w ramach rzucania czaru lub mogą zmusić jeden cel tego czaru do rzutu dwukrotnego i użycia gorszego wyniku podczas rzutu obronnego przeciwko czarowi.</li></ul><p><strong>Dawanie Przykładu</strong> Jeśli przed końcem swojej tury wykorzystasz korzyść wynikającą z wybranej roli, każdy z twoich sojuszników w promieniu 100 stóp, który wybrał rolę podczas codziennych przygotowań, zyskuje tymczasowe Punkty Wytrzymałości równe twojemu poziomowi. Te tymczasowe Punkty Wytrzymałości utrzymują się przez 1 minutę.</p><p>@UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.QGhlqHLkAVrwFa0q]{Efekt: Pokaż im, co potrafisz!}</p>"
+        },
+        "Singularity": {
+            "name": "Osobliwość",
+            "description": "<p><strong>Częstotliwość</strong> raz na godzinę</p><p><strong>Wymagania</strong> Jesteś dostrojony do grawitonów.</p><hr /><p>Koncentrujesz się i manifestujesz punktowy środek czarnej dziury w promieniu 60 stóp. Zajmuje on pojedynczą przestrzeń o wymiarach 5 stóp. Stworzenia znajdujące się w przestrzeni osobliwości otrzymują obrażenia @Damage[((10 + 2*max(0,floor((@actor.level -15)/2)))d8)[void]] z rzutem obronnym @Check[type:reflex|dc:resolve(@actor.system.attributes.classDC.value)|basic:true] przeciwko twojej klasowej wartości ST. Wszelkie stworzenia, których Punkty Wytrzymałości spadną do 0 w wyniku tego efektu, zostają rozerwane na strzępy i wciągnięte do osobliwości, nie pozostawiając po sobie żadnych śladów. Do końca twojej następnej tury przestrzeń osobliwości i wszystkie sąsiednie pola liczą się jako obszar nadprzyrodzonej ciemności, przez który żadne stworzenia (nawet te o większym zasięgu widzenia w ciemności) nie mogą widzieć. Stworzenia rozpoczynające swoją rundę w obszarze ciemności muszą wykonać rzut obronny @Check[type:fortitude|dc:resolve(@actor.system.attributes.classDC.value)|basic:true] przeciwko twojemu ST klasy lub zostaną @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Spowolnione 1} na tę rundę.</p><hr /><p><strong>Poziom (+2)</strong> zwiększa obrażenia o 2k8.</p>"
+        },
+        "Size Up": {
+            "name": "Ocena",
+            "description": "<p><strong>Częstotliwość</strong> raz na godzinę</p><hr /><p>Poświęcasz 1 minutę na obserwację konkretnej osoby, 10 minut na zbieranie informacji o niej w infosferze lub 1 godzinę na nawiązywanie kontaktów i zbieranie informacji o niej w osadzie lub innym miejscu, które często odwiedza, ucząc się, jak najlepiej zyskać jej sympatię, przestraszyć ją lub w inny sposób nią manipulować. Osoba ta jest twoim zasobem. Jeśli oceniasz swój zasób poprzez obserwację, nie musisz znać tożsamości tej osoby, ale jeśli oceniasz swój zasób poprzez badania lub nawiązywanie kontaktów, musisz znać jej tożsamość, co wymaga co najmniej dwóch istotnych informacji na jej temat. Przykładowe istotne informacje mogą obejmować imię i nazwisko, miejsce pochodzenia, aktualne miejsce zamieszkania, imię i nazwisko rodzica lub partnera, pracodawcę lub przynależność organizacyjną. MG określa, jakie informacje są istotne dla tego celu, na podstawie wybranego przez ciebie aktora.</p><p>Otrzymujesz premię okolicznościową +1 do testów Oszustwa, Dyplomacji, Zastraszania i Percepcji wykonywanych przeciwko twojemu atutowi lub w związku z nim, jeśli cel zna twój atut, oraz premię okolicznościową +1 do prób Przywołania Wiedzy o twoim zasobie.</p><p>Możesz utrzymać liczbę zasobów równą modyfikatorowi Charyzmy. Jeśli po tym zwiększysz inne zasoby, nowy zasób zastąpi poprzedni.</p><p>@UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.taCGQhvyOYmjE1eO]{Efekt: Ocena}</p>"
+        },
+        "Solar Shot": {
+            "name": "Strzał Solarny",
+            "description": "<p>Używasz flary, aby wyzwolić skierowany wybuch energii w kierunku celu. Wykonaj atak dystansowy przeciwko KP stworzenia znajdującego się w zasięgu. Dodaj swój modyfikator Siły do rzutu na obrażenia. Twój stopień dostrojenia określa rodzaj obrażeń i maksymalny zasięg ataku.</p><p><strong>Dostrojony do grawitonów</strong> 1k8 obrażeń obuchowych, 15 stóp. Przy krytycznym trafieniu możesz wykonać @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{Przewracania} używając swojej Atletyki, nawet jeśli nie masz wolnej ręki lub nie stoisz obok celu.</p><p><strong>Dostrojony do fotonów</strong> 1k6 ognia, 30 stóp. Przy krytycznym trafieniu cel otrzymuje również 1k6 trwałych obrażeń od ognia.</p><hr /><p><strong>Poziom (+4)</strong> Obrażenia zwiększają się o jedną kostkę.</p>"
+        },
+        "Solar Wind": {
+            "name": "Wiatr Słoneczny",
+            "description": "<p><strong>Wymagania</strong> Jesteś dostrojony do fotonów.</p><hr /><p>Możesz częściowo oddzielić swoje ciało od ciała fizycznego, zamieniając się w rozmyty strumień materii gwiezdnej, który przemieszcza się pod wpływem niewidzialnych wiatrów słonecznych. Podczas dostrojenia do fotonów zyskujesz premię okolicznościową +10 stóp do szybkości i możesz przemieszczać się przez przestrzeń zajmowaną przez jedną niechętną istotę za każdym razem, gdy wykonasz Bieg.</p>"
+        },
+        "Soul Shield": {
+            "name": "Tarcza Duszy",
+            "description": "<p><strong>Wyzwalacz</strong> Otrzymasz obrażenia pustki</p>\n<hr />\n<p><strong>Efekt</strong> Wypychasz swoją duszę z ciała i używasz jej jako tarczy, aby chronić swoją żywą postać przed niszczącym działaniem pustki. Przeciwko obrażeniom wywołującym efekt i do początku swojej następnej tury zyskujesz leczenie pustką, co oznacza, że jesteś leczony obrażeniami pustki i otrzymujesz obrażenia od witalności.</p>"
+        },
+        "Steel Yourselves!": {
+            "name": "Zbrojcie się!",
+            "description": "<p><strong>Częstotliwość</strong> raz na godzinę</p><hr /><p>Zachęcasz sojuszników, aby przygotowali się na uderzenie lub w inny sposób przygotowali się na nadchodzące obrażenia. Do początku swojej następnej tury ty i każdy sojusznik w promieniu 60 stóp, który może cię wyczuć, możecie wydać 1 akcję, aby przygotować się na wstrząs. Akcja ta ma cechę koncentracji. Każdy, kto przygotowuje się na wstrząs, otrzymuje tymczasowe punkty wytrzymałości równe 2 + połowa twojego poziomu na 1 minutę.</p><p>@UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.JaysqWTGfMgvx93E]{Efekt: Przygotuj się na wstrząs}</p><p><strong>Dawanie Przykładu</strong> Jeśli przed końcem swojej tury poświęcisz akcję na przygotowanie się na wstrząs, ty i każdy sojusznik, który przygotuje się na wstrząs przed rozpoczęciem twojej następnej tury, otrzymacie również premię statusową +1 do rzutów obronnych przeciwko efektom zadającym obrażenia przez 1 minutę.</p>"
+        },
+        "Stop": {
+            "name": "Zatrzymanie",
+            "description": "<p><strong>Wymagania</strong> Prowadzisz pojazd w ruchu.</p><hr /><p>Zatrzymujesz pojazd.</p>"
+        },
+        "Stunt": {
+            "name": "Wyczyn Kaskaderski",
+            "description": "<p>Wykonujesz akrobacje podczas prowadzenia pojazdu, tymczasowo zwiększając jego efektywne możliwości, ryzykując utratę kontroli. Prowadzisz pojazd i wybierasz wyczyn kaskaderski. Wszystkie Testy Pilotażu wykonywane w ramach wyczynu kaskaderskiego otrzymują wymienioną karę, w tym Testy Pilotażu wykonywane w celu podjęcia nieostrożnej akcji. Jeśli zarówno akcja jazdy, jak i wyczyn kaskaderski są nieostrożne, musisz dwukrotnie wykonać Test Pilotażu, aby zachować kontrolę nad pojazdem.</p><table class=\"pf2e\"><thead><tr><th>Wyczyn kaskaderski</th><th>Kara</th><th>Korzyść</th></tr></thead><tbody><tr><td>Wycofanie</td><td>-1</td><td>Przesuń o połowę szybkości w tył.</td></tr><tr><td>Unik</td><td>-1</td><td>Porusza się z połową szybkości, aby zyskać premię +1 do KP.</td></tr><tr><td>Odwróć i Spal</td><td>-1</td><td>Przesuń o połowę szybkości, a następnie skręć i ustaw kierunek.</td></tr><tr><td>Beczka</td><td>-2</td><td>Porusza się z połową szybkości, aby zyskać premię +2 do KP.</td></tr><tr><td>Przelot</td><td>-2</td><td>Poruszanie się z połową szybkości przez pole wroga.</td></tr><tr><td>Drift</td><td>-2</td><td>Przesuń o połowę szybkości w bok bez skręcania.</td></tr><tr><td>Obrót w miejscu</td><td>-2</td><td>Obróć, a następnie poruszaj się z pełną szybkością.</td></tr></tbody></table>"
+        },
+        "Supernova": {
+            "name": "Supernowa",
+            "description": "<p><strong>Częstotliwość</strong> raz na 10 minut</p><p><strong>Wymagania</strong> Jesteś dostrojony do fotonów.</p><hr /><p>Uwalniasz swoją stłumioną agresję, powodując jej wybuch niczym zjawisko kosmiczne kończące życie gwiazd. Możesz wybrać, czy chcesz wpłynąć na stworzenia w obszarze @Template[type:emanation|distance:15]{15 stóp} lub @Template[type:emanation|distance:30]. Każda dotknięta istota otrzymuje obrażenia @Damage[(@actor.level)d8[fire]] i musi wykonać rzut obronny @Check[type:fortitude|dc:resolve(@actor.system.attributes.classDC.value)] przeciwko twojej klasowej wartości ST. Jeśli wybierzesz opcję 30 stóp, zamiast tego zadajesz obrażenia @Damage[(@actor.level)d6[fire]].</p><hr /><p><strong>Krytyczny Sukces</strong> Nie ma to wpływu na stworzenie.</p><p><strong>Sukces</strong> Stworzenie otrzymuje połowę obrażeń i jest @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Zamroczone} przez 1 rundę.</p><p><strong>Porażka</strong> Stworzenie otrzymuje pełne obrażenia i jest @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Oślepione} przez 1 rundę.</p><p><strong>Krytyczna Porażka</strong> Stworzenie otrzymuje podwójne obrażenia i zostaje oślepione na 1 minutę.</p><hr /><p><strong>Poziom (+1)</strong> Zwiększ obrażenia o 1k8 (lub 1k6 dla wersji 30-stopowej).</p>"
+        },
+        "Switch Active Hands": {
+            "name": "Zmiana Aktywnych Rąk",
+            "description": "<p>Wyznaczasz parę kończyn jako swoje aktywne ręce. W danym momencie możesz wyznaczyć tylko jedną parę rąk jako aktywne ręce.</p>"
+        },
+        "Tactical Advance": {
+            "name": "Postęp Taktyczny",
+            "description": "<p><strong>Wymagania</strong> Nie jesteś obciążony.</p><hr /><p>Unikasz, przetaczasz się i wymykasz z niebezpieczeństwa, nie pozostawiając żadnych luk podczas przemieszczania się po polu bitwy. Biegniesz z szybkością równą połowie swojej szybkości. Ten ruch nie wywołuje reakcji.</p>"
+        },
+        "Take Control": {
+            "name": "Przejęcie Kontroli",
+            "description": "<p><strong>Wymagania</strong> Jesteś w pojeździe i znajdujesz się w pobliżu jego elementów sterujących.</p><hr /><p>Przejmujesz kontrolę nad pojazdem. Wykonaj test @Check[type:piloting]; jeśli ci się powiedzie, zostaniesz kierowcą pojazdu lub odzyskasz nad nim kontrolę, jeśli nie był kontrolowany. Niektóre pojazdy mają skomplikowane elementy sterujące, które powodują, że ta akcja staje się czynnością wielozadaniową, a większość pojazdów wymaga co najmniej 3 akcji, jeśli nie są aktywowane.</p>"
+        },
+        "Targeted Immunization": {
+            "name": "Ukierunkowane Uodpornienie",
+            "description": "<p><strong>Wyzwalacz</strong> Wracasz do zdrowia po chorobie lub zatruciu.</p>\n<hr />\n<p><strong>Efekt</strong> Instynktownie syntetyzujesz antygeny, które uodporniają cię na chorobę lub truciznę. Ta niewrażliwość utrzymuje się przez następny dzień lub do momentu ponownego użycia Ukierunkowanego Uodpornienia.</p>"
+        },
+        "Touch Something Real": {
+            "name": "Dotknij Czegoś Prawdziwego",
+            "description": "<p><strong>Częstotliwość</strong> raz na rundę</p><p><strong>Wymagania</strong> Masz wolną rękę.</p><hr /><p>Krótkie dotknięcie lub poruszenie kotwicą pomaga ci jasno ocenić sytuację. Zmniejsz wartość swojego stanu @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Przestraszony} lub @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Ogłupiony} o 1. Jeśli nie masz żadnego z tych stanów, zamiast tego zyskujesz premię okoliczności +1 do rzutu obronnego na Wolę przeciwko efektom strachu do początku swojej następnej tury.</p>"
+        },
+        "Transfer Vitality": {
+            "name": "Transfer Witalności",
+            "description": "<p>Możesz przenieść jeden lub więcej Punktów Wytrzymałości ze swojej sieci witalności do siebie lub do stworzenia, z którym jesteś związany i które widzisz w promieniu 60 stóp. Ta zdolność działa na stworzenia posiadające zdolność leczenia pustką tak, jakby ta akcja miała cechę pustki.</p>"
+        },
+        "Umbral Stride": {
+            "name": "Krok Cienia",
+            "description": "<p><strong>Częstotliwość</strong> raz na rundę</p><p><strong>Wymagania</strong> Jesteś w słabym świetle lub ciemności.</p><hr /><p>Jesteś w stanie kontrolować swoje ciało w taki sposób, że możesz poruszać się w cieniu tak, jakbyś wykonywał normalny krok. Teleportujesz się na odległość do 30 stóp. Miejsce docelowe musi znajdować się w słabym świetle lub ciemności i musi znajdować się w zasięgu twojego wzroku i linii działania.</p>"
+        },
+        "Unbound Mind": {
+            "name": "Nieskrępowany Umysł",
+            "description": "<p><strong>Wyzwalacz</strong> Próbujesz wykonać rzut obronny przeciwko efektowi psychicznemu, ale nie wykonałeś jeszcze rzutu.</p>\n<hr />\n<p><strong>Efekt</strong> Odmawiasz podporządkowania się woli innych, z determinacją odpierając ich próby kontrolowania ciebie. Otrzymujesz premię okoliczności +1 do rzutów obronnych na rzut obronny wyzwalający i inne rzuty obronne przeciwko efektom umysłowym do początku twojej następnej tury.</p>\n<p>@UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.XNhqqGQWvfYEiUnq]{Efekt: Nieskrępowany Umysł}</p>"
+        },
+        "Unfurl Wings": {
+            "name": "Rozwinięcie Skrzydeł",
+            "description": "<p><strong>Częstotliwość</strong> raz dziennie</p><hr /><p><strong>Efekt</strong> Rozwijasz skrzydła, zyskując szybkość lotu równą szybkości poruszania się po ziemi plus 10 stóp. Skrzydła pozostają rozwinięte przez 10 minut. Możesz zakończyć ten efekt przed upływem czasu jako pojedynczą akcję.</p>"
+        },
+        "Warp Reality": {
+            "name": "Zniekształcenie Rzeczywistości",
+            "description": "<p><strong>Wymagania</strong> Jest twoja tura, a twoje pole kwantowe nie jest aktywne.</p><hr /><p>Twoje pole kwantowe aktywuje się i działa tak długo, jak długo je podtrzymujesz (maksymalnie 10 minut) lub do końca twojej następnej tury. Twoje pole kwantowe jest @Template[type:burst|distance:15]{wybuch o promieniu 15 stóp} skupionym w wybranym przez ciebie punkcie w promieniu 100 stóp. Podczas gdy twoje pole kwantowe jest aktywne, możesz wykonywać działania, które mają cechę zakotwiczenia. Inne specyficzne efekty twojego pola kwantowego są określane przez twój paradoks. Możesz wybrać, czy stworzenia w obszarze działania twojego pola kwantowego są nim objęte.</p><p>Twoje pole kwantowe automatycznie dezaktywuje się, jeśli zostaniesz znokautowany, odrzucisz je lub oddalisz się od niego na odległość większą niż 100 stóp.</p>"
+        }
+    }
+}
