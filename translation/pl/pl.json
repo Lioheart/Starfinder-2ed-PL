@@ -92,14 +92,14 @@
                 "Title": "Nawigowanie"
             },
             "PlotCourse": {
-                "Description": "<p>Przygotowujesz się do dłuższej podróży do gwiazd, prawdopodobnie wykorzystując silnik dryfujący swojego statku kosmicznego (lub podobne urządzenie z Prędkością Nadświetlną). Wykonaj Test Pilotażu, aby określić, czy jesteś w stanie wytyczyć odpowiednią ścieżkę do ostatecznego celu. MG określa czas trwania tej czynności i ST.</p><p><strong>Krytyczny Sukces</strong> Udaje ci się dotrzeć do celu w czasie o połowę krótszym od oczekiwanego (minimum 1 dzień).<br><strong>Sukces</strong> Tworzysz użyteczny plan nawigacyjny, dzięki któremu dotrzesz do celu na czas.<br><strong>Porażka</strong> Twój plan ma kilka problemów i ostatecznie docierasz do celu z opóźnieniem.<br><strong>Krytyczna Porażka</strong> Pojawienie się w nieznanym układzie gwiezdnym wymaga wyznaczenia nowego kursu do celu (prawdopodobnie ze zwiększonym ST ze względu na nieznany punkt początkowy).</p>",
+                "Description": "<p>Przygotowujesz się do dłuższej podróży do gwiazd, prawdopodobnie wykorzystując silnik Dryftu swojego statku kosmicznego (lub podobne urządzenie z Prędkością Nadświetlną). Wykonaj Test Pilotażu, aby określić, czy jesteś w stanie wytyczyć odpowiednią ścieżkę do ostatecznego celu. MG określa czas trwania tej czynności i ST.</p><p><strong>Krytyczny Sukces</strong> Udaje ci się dotrzeć do celu w czasie o połowę krótszym od oczekiwanego (minimum 1 dzień).<br><strong>Sukces</strong> Tworzysz użyteczny plan nawigacyjny, dzięki któremu dotrzesz do celu na czas.<br><strong>Porażka</strong> Twój plan ma kilka problemów i ostatecznie docierasz do celu z opóźnieniem.<br><strong>Krytyczna Porażka</strong> Pojawienie się w nieznanym układzie gwiezdnym wymaga wyznaczenia nowego kursu do celu (prawdopodobnie ze zwiększonym ST ze względu na nieznany punkt początkowy).</p>",
                 "Notes": {
                     "criticalFailure": "<strong>Krytyczna Porażka</strong> Pojawienie się w nieznanym układzie gwiezdnym wymaga wyznaczenia nowego kursu do celu (prawdopodobnie ze zwiększonym ST ze względu na nieznany punkt początkowy).",
                     "criticalSuccess": "<strong>Krytyczny Sukces</strong> Udaje ci się dotrzeć do celu w czasie o połowę krótszym od oczekiwanego (minimum 1 dzień).",
                     "failure": "<strong>Porażka</strong> Twój plan ma kilka problemów i ostatecznie docierasz do celu z opóźnieniem.",
                     "success": "<strong>Sukces</strong> Tworzysz użyteczny plan nawigacyjny, który doprowadzi cię do zamierzonego celu na czas."
                 },
-                "Title": "Wykreślanie Kursu"
+                "Title": "Wyznaczanie Kursu"
             },
             "Program": {
                 "Description": "<p>Spędzasz czas na tworzeniu linii kodu komputerowego, które można zintegrować z różnymi systemami komputerowymi. Do pisania kodu komputerowego potrzebny jest atut Programista, który pozwala programować przedmioty posiadające cechę wirtualny. Musisz posiadać odpowiednie formuły, aby tworzyć takie przedmioty, ale często można je znaleźć sprzedawane przez innych programistów na infosferze. Możesz kupić linie kodu od innych programistów, aby pomóc w ukończeniu wirtualnego przedmiotu. Jeśli posiadasz atut „Wynalazca”, możesz użyć akcji „Programowanie”, aby tworzyć formuły dla przedmiotów technicznych. Jeśli posiadasz atut Fabrykator, możesz użyć akcji Programowanie, aby tworzyć przedmioty technologiczne bez cech wirtualnych za pomocą kapsuły kreatora.</p><p><strong>Krytyczny Sukces</strong> Próba zakończyła się sukcesem. Każdy dodatkowy dzień spędzony na Programowaniu zmniejsza kod potrzebny do ukończenia przedmiotu o ilość zależną od twojego poziomu + 1 i rangi biegłości w Komputerach.<br><strong>Sukces</strong> Próba zakończyła się sukcesem. Każdy dodatkowy dzień spędzony na Programowaniu zmniejsza ilość materiałów potrzebnych do ukończenia przedmiotu o kwotę zależną od twojego poziomu i rangi biegłości.<br><strong>Porażka</strong> Nie udało ci się ukończyć przedmiotu. Możesz odzyskać część napisanego kodu za jego pełną wartość. Jeśli chcesz spróbować ponownie, musisz zacząć od początku.<br><strong>Krytyczna Porażka</strong> Nie udało ci się ukończyć przedmiotu. 10% napisanego lub zakupionego kodu jest bezużyteczne, ale resztę można odzyskać. Jeśli chcesz spróbować ponownie, musisz zacząć od początku.</p>",
@@ -140,7 +140,7 @@
                     "Notes": {
                         "success": "<strong>Sukces</strong> Przesuń o połowę szybkości w bok bez skręcania."
                     },
-                    "Title": "Drift"
+                    "Title": "Dryft"
                 },
                 "Evade": {
                     "Notes": {
@@ -289,7 +289,7 @@
         "IWR": {
             "Custom": {
                 "Radiation": "Promieniowanie",
-                "Suppressed": "przeciw tłumieniu"
+                "Suppressed": "przeciw Przytłoczeniu"
             }
         },
         "Language": {
@@ -346,6 +346,11 @@
                 },
                 "ManifoldEvolution": {
                     "Prompt": "Wybierz atut pochodzenia na 17. lub niższym poziomie."
+                }
+            },
+            "Contemplative": {
+                "Telepredict": {
+                    "Toggle": "Teleprzewidywanie: Zadane obrażenia psychiczne"
                 }
             },
             "Envoy": {
@@ -410,6 +415,20 @@
                         },
                         "Title": "Fotonowy Kryształ Solariański"
                     }
+                }
+            },
+            "Hellknight": {
+                "Order": {
+                    "Chain": "Łańcuch",
+                    "Crucible": "Tygiel",
+                    "Eclipse": "Zaćmienie",
+                    "Pyre": "Stos"
+                },
+                "Prompt": "Wybierz zakon piekielnych rycerzy"
+            },
+            "Kalo": {
+                "ElectricKalo": {
+                    "Alteration": "Jeśli rzucisz to zaklęcie na tylko 1 cel, zyskujesz odporność na elektryczność równą połowie twojego poziomu (minimum 1) do końca twojej następnej tury."
                 }
             },
             "Kasatha": {
@@ -545,16 +564,59 @@
                 }
             },
             "Technomancer": {
+                "BoomingBootloader": {
+                    "Alteration": "Wszystkie istoty znajdujące się w obszarze @Template[type:emanation|distance:10] wokół przywołanej istoty otrzymują 1k4 obrażenia dźwiękowe na stopień zaklęcia (@Damage[((@item.level)d4)[sonic]]).",
+                    "Jailbreak": "Jedna wybrana przez ciebie istota w promieniu 10 stóp od przywołanej istoty musi wykonać rzut obronny przeciwko ST zaklęcia lub zostanie @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Przestraszona 1} (lub @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Przestraszona 2} w przypadku krytycznej porażki)."
+                },
+                "DebugSpell": {
+                    "Alteration": "Każda kość rzucona w celu zadania obrażeń, która ma wynik niższy niż 2, otrzymuje zamiast tego wynik 2.",
+                    "Jailbreak": "Każda kość rzucona w celu zadania obrażeń, której wynik jest niższy niż 3, otrzymuje zamiast tego wynik 3."
+                },
+                "DeleteRootAccess": {
+                    "Alteration": "Zamień cel *delete* na \"jeden konstrukt lub stworzenie technologiczne\". Zamiast normalnych efektów delete, cel staje się @UUID[Compendium.pf2e.conditionitems.Item.9qGBRpbX9NEwtAAr] przez ciebie, jeśli jego poziom jest równy lub niższy niż twój poziom - 3. Cel może wykonać rzut obronny Woli, aby oprzeć się kontroli. Jeśli cel jest już pod czyjąś kontrolą, kontrolująca go istota również rzuca rzut obronny, a konstrukt wykorzystuje lepszy wynik.",
+                    "DegreeOfSuccess": {
+                        "CriticalFailure": "**Krytyczna Porażka** Jak porażka, ale czas trwania wynosi 1 godzinę.</p>",
+                        "CriticalSuccess": "**Krytyczny Sukces** Cel pozostaje niewrażliwy na obrażenia i jest tymczasowo odporny przez 24 godziny.",
+                        "Failure": "**Porażka** Konstrukt lub stworzenie technologiczne staje się sługusem pod twoją kontrolą. Zaklęcie trwa 1 minutę, ale zostaje anulowane, jeśli ty lub sojusznik zaatakujecie konstrukta lub technologicznego sługusa.",
+                        "Success": "**Sukces** Nie ma to wpływu na cel."
+
+                    },
+                    "AlterationThree": "",
+                    "Jailbreak": "Jeśli rzut obronny konstruktu lub istoty technicznej powiedzie się, ale nie osiągnie sukcesu krytycznego, staje się ona twoim sługusem na 1 rundę. Jeśli rzut obronny na konstrukt zakończy się porażką, staje się on twoim sługusem na 10 minut. Jeśli odniesie porażkę krytyczną, będzie twoim sługusem przez 24 godziny.</p>"
+                },
+                "GrenadeSpell": {
+                    "Alteration": "Jeśli następną akcją gracza jest rzucenie zaklęcia z efektem wybuchu wymagającym rzutu obronnego na Refleks, zaklęcie to nie zaczyna działać natychmiast, lecz zostaje umieszczone w trzymanym granacie. Do końca twojej następnej tury, wszystkie istoty znajdujące się w obszarze rażenia granatu są również pod wpływem nałożonego zaklęcia; istoty nie wykonują osobnego rzutu obronnego na Refleks przeciwko zaklęciu i zamiast tego używają tego samego wyniku, który wyrzuciły przeciwko granatowi.",
+                    "Jailbreak": "W granacie można umieścić dowolne zaklęcie. W takim przypadku stworzenia wykonują osobny rzut obronny przeciwko ST zaklęcia, jeśli nie jest to rzut obronny na Refleks. Jeśli zastosujesz efekty tego zaklęcia do zaklęcia z podstawowym rzutem obronnym na Refleks, możesz użyć swojego ST zaklęcia zamiast klasowego ST dla granatu."
+                },
+                "HardlightIllusion": {
+                    "Alteration": "Stworzenia nie mogą próbować nie uwierzyć w iluzję poprzez samo jej dotknięcie lub zadanie obrażeń, ale nadal mogą użyć akcji @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Szukania}, aby ją zbadać i spróbować nie uwierzyć w iluzję. Kiedy istocie uda się (ale nie krytycznie) rzut na Percepcję lub rzut obronny Woli, aby nie uwierzyć w iluzję, możesz przeprogramować ją jako reakcję, próbując wykonać test Komputerów przeciwko ST Percepcji celu. Jeśli ci się powiedzie, cel nie uwierzy w iluzję.",
+                    "Jailbreak": "Jeśli użyjesz zaklęcia Odblokowanie Systemu, aby użyć tego kształtowania zaklęć i zmodyfikować zaklęcie iluzji, które zadaje obrażenia psychiczne, zaklęcie to zadaje inny odpowiedni rodzaj obrażeń w zależności od rodzaju iluzji. Obrażenia te nie muszą być śmiertelne, mogą dezaktywować regenerację i poza tym działają jak normalne obrażenia."
+                },
                 "IncognitoSpell": {
                     "Jailbreak": "Możesz spróbować @UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]{Demoralizować} jedną istotę, używając Arkanów zamiast Zastraszenia, sprawiając, że efekty zaklęcia wydają się nie wymagać wysiłku z twojej strony."
                 },
                 "Jailbreak": "Odblokowanie Systemu",
+                "OvervoltResistor": {
+                    "Alteration": "Zaklęcie ignoruje odporność celu na obrażenia od kwasu, zimna, elektryczności, ognia lub dźwięku równą twojemu poziomowi. Dotyczy to wszystkich obrażeń zadawanych przez zaklęcie, w tym obrażeń trwałych i obrażeń spowodowanych przez trwający efekt zaklęcia, taki jak ściana stworzona przez ścianę ognia. Nie ma to wpływu na niewrażliwość danej istoty.",
+                    "Jailbreak": "Zadajesz obrażenia równe swojemu poziomowi, nawet jeśli cel jest niewrażliwy na obrażenia od kwasu, zimna, elektryczności, ognia lub dźwięku. W ten sposób ignorowana jest tylko pierwsza z wymienionych niewrażliwości, nawet jeśli cel posiada odporność na kilka wymienionych rodzajów obrażeń."
+                },
                 "SafemodeSpell": {
                     "Jailbreak": "Możesz zdecydować, że zaklęcie to będzie iluzją, która nie zadaje śmiertelnych obrażeń psychicznych. Jeśli zaklęcie wymaga rzutu obronnego na Wytrwałość lub Refleks, staje się on rzutem obronnym na Wolę. Jeśli zaklęcie wymaga rzutu na atak przeciwko KP, zamiast tego wykonujesz rzut na atak przeciwko ST Woli celu. Zaklęcie zyskuje cechy iluzji i mentalny."
+                },
+                "ShatterSpell": {
+                    "Alteration": "Jeśli uda ci się przeciwdziałać celowi, jedna wybrana przez ciebie istota znajdująca się na tej samej przestrzeni co efekt zaklęcia lub magiczny przedmiot otrzyma obrażenia od mocy równe 1k4 × ranga przeciwdziałania celu z podstawowym rzutem obronnym na Refleks przeciwko ST zaklęcia; jeśli cel posiada cechę odpowiadającą rodzajowi obrażeń, np. ogień, efekt ten zadaje te obrażenia zamiast mocy.",
+                    "Jailbreak": "Możesz zadać obrażenia każdej istocie znajdującej się w obszarze działania zaklęcia lub sąsiadującej z wybranym magicznym przedmiotem lub możesz zadać 1k6 obrażeń × ranga przeciwdziałania celu zamiast 1k4 obrażeń."
                 },
                 "SignalBoost": {
                     "Alteration": "Zwiększa zasięg zaklęcia o 30 stóp. Zgodnie ze standardem zwiększania zasięgu zaklęć, jeśli zaklęcie ma normalnie zasięg dotyku, zwiększasz jego zasięg do 30 stóp.",
                     "Jailbreak": "Zwiększa zasięg tego zaklęcia o 60 stóp. Zgodnie ze standardem zwiększania zasięgu zaklęć, jeśli zaklęcie ma normalnie zasięg dotyku, zwiększasz jego zasięg do 60 stóp."
+                },
+                "SplitTunneling": {
+                    "Alteration": "Możesz wybrać drugi cel w zasięgu. Rzucasz jednym rzutem ataku i porównujesz wynik z KP obu celów. Liczy się to jako jeden atak dla kary za wielokrotny atak. Drugiemu celowi zaklęcie zadaje tylko połowę obrażeń, które normalnie by zadało, i nie ma żadnych efektów wykraczających poza początkowe obrażenia zaklęcia (takich jak nakładanie stanów lub kar).",
+                    "Jailbreak": "Jeśli nie uda ci się wpłynąć na cel główny (niezależnie od tego, czy twój atak się nie powiedzie, czy cel jest niewrażliwy na zaklęcie), cel drugorzędny staje się celem głównym, otrzymując pełne obrażenia i wszystkie efekty zaklęcia."
+                },
+                "SudoSpell": {
+                    "Alteration": "Energia zaklęcia odbija się echem. Możesz rzucić to zaklęcie po raz drugi przed końcem swojej następnej tury bez wydawania miejsca na zaklęcie."
                 }
             },
             "Witchwarper": {
@@ -603,17 +665,20 @@
             "AreaBurst15Ft": "Obszar (Wybuch 15 stóp)",
             "AreaCone": "Obszar (Stożek)",
             "AreaLine": "Obszar (Linia)",
-            "Attuned": "Dostrajanie",
+            "Astrazoan": "Astrazoan",
+            "Attuned": "Dostrojony",
             "Automatic": "Automatyczny",
             "Barathu": "Barathu",
             "Biotech": "Biotechnologia",
             "Borai": "Borai",
-            "Boost1": "Przyrost 1",
-            "Boost1d4": "Przyrost 1k4",
+            "Boost1": "Wzmocnienie 1",
+            "Boost1d4": "Wzmocnienie 1k4",
+            "Boost1d10": "Wzmocnienie 1k10",
             "Breakdown": "Awaryjny",
             "Caster": "Rzucający",
             "Ceramic": "Ceramiczny",
             "Compact": "Kompaktowy",
+            "Contemplative": "Kontemplacyjny",
             "Cosmic": "Kosmiczny",
             "CriticalBrawling": "Krytyczny (Bijatyka)",
             "CriticalCorrosive": "Krytyczny (Korozja)",
@@ -627,7 +692,8 @@
             "Cycle": "Cykl",
             "Directive": "Dyrektywa",
             "Disharmony": "Dysharmonia",
-            "Drift": "Drift",
+            "Dragonkin": "Smokowaty",
+            "Drift": "Dryft",
             "Envoy": "Wysłannik",
             "Expend1": "Wydatek 1",
             "Expend10": "Wydatek 10",
@@ -638,6 +704,7 @@
             "Grenade": "Granat",
             "Installed": "Zainstalowany",
             "Jinsul": "Jinsul",
+            "Kalo": "Kalo",
             "Kasatha": "Kasatha",
             "Kothama": "Kothama",
             "Kucharn": "Kucharn",
@@ -657,7 +724,7 @@
             "Pahtra": "Pahtra",
             "Polymer": "Polimer",
             "Powered": "Zasilanie",
-            "Prismeni": "Pryzmat",
+            "Prismeni": "Prismeni",
             "ProfessionalCrafting": "Profesjonalny (Rzemiosło)",
             "ProfessionalComputers": "Profesjonalny (Komputery)",
             "ProfessionalDeception": "Profesjonalny (Oszustwo)",
@@ -665,6 +732,7 @@
             "RangedShove": "Pchnięcie Dystansowe",
             "Retractable": "Wysuwany",
             "Robot": "Robot",
+            "Sarcesian": "Sarcesjanin",
             "Serum": "Serum",
             "Shirren": "Shirren",
             "Skittermander": "Skittermander",
@@ -682,6 +750,7 @@
             "Unwieldy": "Nieporęczny",
             "Upgrade": "Aktualizacja",
             "Vesk": "Vesk",
+            "Vlaka": "Vlaka",
             "Virtual": "Wirtualny",
             "Witchwarper": "Wiedźma Osnowy",
             "Zone": "Strefa"
@@ -695,7 +764,7 @@
             "Area": "Broń z tą cechą może strzelać tylko przy użyciu akcji ostrzału obszarowego.",
             "Attuned": "Nie możesz używać zdolności z cechą zestrojenia, gdy nie jesteś zestrojony. Wiele dostrojonych zdolności wymaga specjalnego dostrojenia grawitonowego lub fotonowego, podczas gdy inne mogą zapewniać dodatkowe korzyści w zależności od aktualnego dostrojenia gwiezdnego.",
             "Automatic": "Oprócz normalnego Ataku, możesz wystrzelić z tej broni używając akcji Autostrzału.",
-            "Biotech": "Ulepszenia biotechnologiczne obejmują modyfikacje DNA w połączeniu z implantami pochodzenia biologicznego, które integrują się z twoją fizjologią. Biotechniczne ulepszenia nie są magiczne, choć wiele z nich pochodzi od (lub naśladuje) stworzenia, które są magiczne z natury.",
+            "Biotech": "Modyfikacje biotechnologiczne obejmują modyfikacje DNA w połączeniu z implantami pochodzenia biologicznego, które integrują się z twoją fizjologią. Biotechniczne ulepszenia nie są magiczne, choć wiele z nich pochodzi od (lub naśladuje) stworzenia, które są magiczne z natury.",
             "Boost": "Możesz naładować broń z tą cechą specjalną za pomocą akcji Interakcji, wydając 1 punkt z magazynka broni. Jeśli cecha wzmocnienia wymienia jedną lub więcej cech, zastosuj wymienione cechy do następnego ataku wykonanego tą bronią. Jeśli cecha wzmocnienia zawiera wartość, zwiększ obrażenia zadawane przez broń o podaną wartość dla każdej kości broni podczas następnego ataku wykonanego tą bronią. Zwiększa to obrażenia zadawane przez broń i jest mnożone przy trafieniu krytycznym. Wzmocnienie tej broni więcej niż jeden raz przed jej odpaleniem nie daje żadnych dodatkowych efektów, a dodatkowy ładunek znika, jeśli broń nie zostanie odpalona do końca następnej tury.",
             "Breakdown": "Ta broń może zostać rozłożona na wiele małych części. Podczas rozkładania broń jest traktowana jak mały przedmiot o niewielkiej masie. Rozłożenie lub ponowne złożenie rozbitej broni to czynność wymagająca 3 akcji, która ma cechę manipulacji i wymaga użycia dwóch rąk.",
             "Caster": "Broń ta może zostać zasilona poprzez rzucenie zaklęcia (w tym sztuczki) o co najmniej dwóch akcjach. Jeśli to zrobisz, rozstrzygnij zaklęcie normalnie. Po rzuceniu zaklęcia, jeśli miało ono cechę kwasu, zimna, ognia, elektryczności, ducha, dźwięku, witalności lub pustki, broń zadaje obrażenia tego typu zamiast zwykłych obrażeń do końca następnej tury lub do momentu rzucenia innego zaklęcia. Jeśli zaklęcie zadaje więcej niż jeden rodzaj obrażeń, wybierz jeden z nich podczas odpalania broni. Jeśli broń ma cechę Eonu i zainstalowany klejnot zaklęć, możesz użyć jednej z wcześniej wymienionych cech, jeśli zaklęcie klejnotu zaklęć umieszczonego w broni ma tę cechę, a to nie wymaga rzucenia zaklęcia i jest efektem stałym.",
@@ -708,7 +777,7 @@
             "Exposed": "Ta zbroja nie posiada ochrony środowiskowej. Wszystkie pancerze z Pathfindera mają cechę odkryty.",
             "Grenade": "Broń z tą cechą może zostać rzucona w ramach pojedynczej akcji przy użyciu akcji Ostrzału Obszarowego, tak jakby posiadała cechę obszaru (wybuch).",
             "Installed": "Niektóre tarcze nie są trzymane, ale są instalowane jako ulepszenia pancerza lub broni. Tarczę zainstalowaną jako ulepszenie pancerza można normalnie podnieść. Tarcze mogą być instalowane tylko w broniach z cechą parowania. Kiedy używasz broni do parowania z ulepszeniem tarczy, aby uzyskać premię do KP, ulepszenie tarczy emituje bezwładnościową barierę tłumiącą i automatycznie podnosisz tarczę. Jeśli użyjesz tej broni w jakimkolwiek innym celu, tarcza nie zostanie podniesiona, a ty nie otrzymasz premii do KP. Nie można podnieść tarczy zainstalowanej jako ulepszenie w żaden inny sposób.",
-            "Magitech": "Wzmocnienia Magotechiczne to połączenie cybernetycznych i magicznych komponentów, zawierające takie elementy jak mistycznie naładowane kryształy, stopy gwiazdometalu i mikrochipy grawerowane runami. Magiczne ulepszenia są magiczne, ale nie można ich rozproszyć, chyba że efekt lub atak określa, że wpływa na ulepszenia.",
+            "Magitech": "Modyfikacje Magotechiczne to połączenie cybernetycznych i magicznych komponentów, zawierające takie elementy jak mistycznie naładowane kryształy, stopy gwiazdometalu i mikrochipy grawerowane runami. Magiczne ulepszenia są magiczne, ale nie można ich rozproszyć, chyba że efekt lub atak określa, że wpływa na ulepszenia.",
             "Manifestation": "Atuty z tą cechą wzmacniają lub zmieniają twoje manifestacje solarne (rozbłysk, mgławica i broń) lub pozwalają ci stworzyć nowy typ manifestacji solarnej.",
             "Missile": "Pociski to amunicja, którą można załadować i wystrzelić z wyrzutni rakiet. Pociski mają jeden cel i używają rzutu ataku, aby zadać obrażenia, zadając wymienione obrażenia rozpryskowe każdemu w promieniu zamierzonego celu (nawet jeśli nie wykonasz rzutu ataku). Pociski to przedmioty zużywalne, które są zawsze zużywane po użyciu. Jeśli wyrzucisz trafienie krytyczne przeciwko celowi pocisku i zastosujesz efekt specjalizacji krytycznej pocisków, zastosuj ten efekt tylko do celu ataku.",
             "Ponderous": "Zbroja posiada ruchome części lub inne komplikacje, które wydłużają początkowy czas reakcji użytkownika. Podczas noszenia zbroi otrzymujesz karę -1 do rzutów inicjatywy. Jeśli nie spełniasz wymaganego przez zbroję poziomu Siły, kara ta wzrasta do wartości równej karze pancerza, jeśli jest on gorszy.",
