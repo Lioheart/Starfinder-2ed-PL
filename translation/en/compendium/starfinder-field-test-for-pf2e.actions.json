@@ -1,9 +1,21 @@
 {
     "label": "Actions",
+    "folders": {
+        "Technomancer": "Technomancer",
+        "Mechanic": "Mechanic"
+    },
     "entries": {
         "Access Infosphere": {
             "name": "Access Infosphere",
             "description": "<p><strong>Requirements</strong> You are using a computer with infosphere access.</p><hr /><p>You attempt to access a local network, known as an infosphere, to come up with information on a topic. This typically takes 10 minutes of research to find information, with results like Recalling Knowledge on a topic. Larger investigations or topics could require several hours, while single-word answers of information common to that settlement's infosphere may only take a minute, based on the GM's discretion. Significant and longer investigations should use the research subsystem. The GM determines the DC based on the topic you're researching. This can be further influenced by the quality of the local infosphere, what information it might possess on the topic, and how well organized it is.</p><hr /><p><strong>Critical Success</strong> You find the information you were searching for. If this was used on a topic you could have used Recall Knowledge on, you instead find this information in 1 minute.</p><p><strong>Success</strong> You find the information you were looking for.</p><p><strong>Critical Failure</strong> You find misleading information thanks to incorrect data or online pranksters. The GM provides you false information on your topic of investigation (or decides to give you no information, as on a failure).</p>"
+        },
+        "Access Remote Gear": {
+            "name": "Access Remote Gear",
+            "description": "<p>You teleport the gear you locked with Gear Authentication to you. It arrives in your hand if you have a free hand or at your feet if you don't; if the gear is armor, you can choose for it to arrive worn on your body if you are not wearing any other armor.</p>"
+        },
+        "Activate Thrusters": {
+            "name": "Activate Thrusters",
+            "description": "<p>Your drone Strides twice, moving through the spaces of any creatures in the way, dealing them @Damage[5d6[bludgeoning]] damage with a @Check[reflex|against:class|basic] save against your class DC. A creature that critically fails its saving throw is additionally knocked @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}. Your drone's movement doesn't trigger reactions.</p><hr /><p><strong>Level (+2)</strong> The damage increases by [[/r 1d6]].</p>"
         },
         "Adaptive Locomotion": {
             "name": "Adaptive Locomotion",
@@ -53,6 +65,10 @@
             "name": "Black Hole",
             "description": "<p><strong>Frequency</strong> once per 10 minutes.</p><p><strong>Requirements</strong> You are graviton-attuned.</p><hr /><p>You concentrate on the gravitational forces around you, pulling matter towards you in emulation of a cosmic event. Select any number of creatures within a @Template[type:emanation|distance:30]{30-foot radius}. Each affected creature takes @Damage[(ceil(@actor.level/2)d8)[bludgeoning]] damage and must attempt a @Check[type:fortitude|dc:resolve(@actor.system.attributes.classDC.value)] save against your class DC.</p><hr /><p><strong>Critical Success</strong> The creature is unaffected.</p><p><strong>Success</strong> The creature takes half damage and is pulled 5 feet towards you.</p><p><strong>Failure</strong> The creature takes full damage, is pulled 15 feet towards you, and is knocked @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}.</p><p><strong>Critical Failure</strong> The creature takes double damage, is pulled 30 feet towards you, and is knocked prone.</p><hr /><p><strong>Level (+2)</strong> Increase the damage by 1d8.</p>"
         },
+        "Covering Posture": {
+            "name": "Covering Posture",
+            "description": "<p>Your drone enters a defensive stance that shields nearby allies from harm, and it remains ready to adjust its positioning to maintain this protection. All allies that remain adjacent to your drone gain lesser cover until the start of your next turn.</p>"
+        },
         "Defy Gravity": {
             "name": "Defy Gravity",
             "description": "<p><strong>Requirements</strong> You are graviton-attuned.</p><hr /><p>You break the bonds of gravity. You gain a fly Speed equal to your Speed while you are graviton-attuned.</p>"
@@ -61,9 +77,41 @@
             "name": "Deny Failure",
             "description": "<p><strong>Frequency</strong> once per day</p><p><strong>Trigger</strong> You fail or critically fail a saving throw</p><hr /><p><strong>Effect</strong> You refuse to accept your failure! Reroll the triggering saving throw. If your result is a critical failure, this use of Deny Failure doesn't count toward its frequency.</p>"
         },
+        "Deploy Mine": {
+            "name": "Deploy Mine",
+            "description": "<p><strong>Cost</strong> 1 mine</p><hr /><p>You deploy a mine, planting it in an adjacent square and priming it for detonation. You can increase the number of actions you spend Deploying a Mine to 2, to instead plant the mine in an occupied square within 30 feet. When you Deploy a Mine, you select whether it will deal fire damage or piercing damage when detonated. You can Modify one of your deployed mines at a range of 30 feet, modding the mine as if it were a grenade or with the following new mods.</p><ul><li><strong>Smart Mine (mine exocortex)</strong>: You program your mines with rudimentary virtual intelligence, allowing them to avoid damaging specific targets. Select one target within 60 feet. That target is excluded from the area of all mines you detonate. At 5th level, you can instead select two targets.</li><li><strong>Targeting Mine (mine exocortex)</strong>: Your mines' proximity sensors enable you to pinpoint creatures in range. Increase the mine's damage by an amount equal to your Intelligence modifier.</li></ul>"
+        },
+        "Deploy Turret": {
+            "name": "Deploy Turret",
+            "description": "<p>You deploy your turret into an unoccupied square within 30 feet and prime it to fire, or you collect your turret from an adjacent square and collapse it, returning it to your custom rig for storage. If your turret is reduced to 0 HP, you can collect and redeploy your turret as a 2-action activity to return it to full HP. You can Modify your turret when you are within reach of it, modding the turret as a weapon or using the following two new mods.</p><ul><li><strong>Pinpoint Shot (turret exocortex)</strong>: You upgrade your turret's targeting system. Increase the turret's damage by an amount equal to your Intelligence modifier.</li><li><strong>Shift Array (turret exocortex)</strong>: You tweak your turret's customizations. Change your turret's selected array.</li></ul>"
+        },
+        "Detonate Mine": {
+            "name": "Detonate Mine",
+            "description": "<p><strong>Requirements</strong> A mine you deployed is within 100 feet. With a moment's thought, you trigger the detonation of a mine you deployed within 100 feet, causing it to explode in a @Template[type:burst|distance:10]. This mine deals 2d6 fire or piercing damage, based on the damage type you selected when that mine was deployed. Creatures in the area can attempt a @Check[reflex|against:class|basic] save against your class DC. </p><hr /><p>You can Detonate Mine as a reaction, with the following trigger.</p><p><strong>Trigger</strong> A creature enters or leaves a square within the burst area of a mine you have deployed.</p><hr /><p>At 3rd level and every 2 levels thereafter, the damage increases by [[/r 1d6]].</p>"
+        },
+        "Disturbing Display": {
+            "name": "Disturbing Display",
+            "description": "<p>The robot companion morphs its features to throw its opponent off balance. The robot companion attempts a to @UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]{Demoralize} the creature using Deception instead of Intimidation; this display gains the visual trait and loses the linguistic trait. While frightened by this ability, the target is @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} to your companion.</p>"
+        },
+        "Download Spell": {
+            "name": "Download Spell",
+            "description": "<p>You overwrite one of your prepared spells with one of the spells in your spell cache of the same rank or lower. Select one of your prepared non-cantrip spells that has not been expended. This spell slot is emptied and one of your cached spells is instantly prepared in its place, heightened to the slot it fills.</p>"
+        },
         "Drive": {
             "name": "Drive",
             "description": "<p><strong>Requirements</strong> You are piloting a vehicle.</p><hr /><p>You pilot your vehicle to move. Decide how many actions you intend to spend before you begin Driving. The effects depend on the number of actions you spend. You can't Drive through spaces occupied by creatures, even if they are allies.</p><p><span class=\"pf2-icon\">1</span> Attempt a Piloting check. On a success, the vehicle moves up to its Speed and can turn normally. On a failure, the vehicle moves its Speed in a straight line. On a critical failure, the vehicle moves its Speed in a straight line and becomes uncontrolled.</p><p><span class=\"pf2-icon\">2</span> (reckless) The vehicle moves up to twice its Speed in a straight line at the vehicle's current heading.</p><p><span class=\"pf2-icon\">3</span> (reckless) You take a –5 penalty on your piloting check to maintain control of the vehicle. The vehicle moves up to three times its Speed in a straight line at the vehicle's current heading.</p>"
+        },
+        "Eccentric Orbit": {
+            "name": "Eccentric Orbit",
+            "description": "<p><strong>Frequency</strong> once per day</p><hr /><p><strong>Effect</strong> Your telekinetic hands swiftly maneuver, allowing you either to Switch Hands or to increase the reach of your telekinetic hands by 5 feet until the beginning of your next turn.</p>"
+        },
+        "Electrical Discharge": {
+            "name": "Electrical Discharge",
+            "description": "<p>Your drone discharges electricity around it in a volatile attack, dealing @Damage[1d6[electricity]] damage in your choice of a @Template[type:cone|distance:15] or a @Template[type:line|distance:30]. Creatures in the area can attempt a @Check[reflex|against:class|basic] save against your class DC. Your drone can't use this ability again for [[/gmr 1d4 #Recharge this ability]]{1d4 rounds}. For every additional two levels you have, the damage increases by [[/r 1d6]].</p>"
+        },
+        "Focus Senses": {
+            "name": "Focus Senses",
+            "description": "<p>You gain echolocation (precise) 30 feet until the end of your next turn.</p>"
         },
         "Get 'Em!": {
             "name": "Get 'Em!",
@@ -77,6 +125,14 @@
             "name": "Hack",
             "description": "<p><strong>Requirements</strong> You have a hacking toolkit.</p><hr /><p>You try to access, control, or make changes to an active, secured system. In most cases, this is going to be an attempt made against a local computer system that you access directly or indirectly through the use of a hacking toolkit. Attempt a @Check[type:computers] check to determine if you can access the targeted system. Computers with improved systems might require multiple successes to access.</p><hr /><p><strong>Critical Success</strong> You access the system, or you achieve two successes toward accessing a system requiring more than one success. You leave no trace of your tampering.</p><p><strong>Success</strong> You access the system, or you achieve one success toward accessing a system that requires more than one success.</p><p><strong>Failure</strong> You fail to access the system or achieve any success toward accessing a system that requires more than one success. Some computerized systems might have security measures that activate on a failure.</p><p><strong>Critical Failure</strong> You activate specially ingrained security protocols or completely lock yourself out of the system. Being locked out of a system prevents you from attempting another check to access it for the next hour.</p>"
         },
+        "Holo-Roger": {
+            "name": "Holo-Roger",
+            "description": "<p><strong>Trigger</strong> You roll initiative</p><hr /><p><strong>Effect</strong> Your ship's fearsome holo-flag projects above you, lasting 1 minute. Attempt an Intimidation check to @UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]{Demoralize} all enemies within 60 feet that can see the flag. While the flag is displayed, you gain a +1 circumstance bonus to Intimidation checks to @UUID[Compendium.pf2e.actionspf2e.Item.tHCqgwjtQtzNqVvd]{Coerce}.</p>"
+        },
+        "Hydraulic Flipper": {
+            "name": "Hydraulic Flipper",
+            "description": "<p>The robot companion makes a melee Strike. On a successful hit, it automatically knocks the target @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}.</p>"
+        },
         "Improvised Mastery": {
             "name": "Improvised Mastery",
             "description": "<p><strong>Frequency</strong> once per day</p><p><strong>Trigger</strong> You are about to attempt a skill check using a skill that you don't have master proficiency in, but you haven't rolled yet.</p><hr /><p>You trust your instincts to see you through. You gain master proficiency with the triggering skill for the skill check.</p><p>@UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.5fy13kq1YkOoyjGg]{Effect: Improvised Mastery}</p>"
@@ -89,9 +145,33 @@
             "name": "Intense Focus",
             "description": "<p><strong>Frequency</strong> once per round</p><hr /><p>Your focus becomes so intense that you can easily reassess your condition and surroundings. Reduce the value of your @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy} condition by 1, or ignore the effects of the @UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.enA7BxAjBb7ns1iF]{Suppressed} condition until the start of your next turn.</p>"
         },
+        "Jailbreak Spell": {
+            "name": "Jailbreak Spell",
+            "description": "<p><strong>Requirements</strong> Your gear is overclocked.</p><hr /><p>You draw the magical energy out of your overclocked gear to power a spellshape. You can apply a technomancer spellshape to the effects of the next spell you cast this turn without spending an extra action, and can choose to apply the jailbroken benefits of that spellshape to the spell. Each programming language has an additional jailbreak bonus applied to a specific spellshape feat. After you cast the jailbroken spell, your gear is no longer overclocked. You must still spend a Focus Point if you use Jailbreak Spell to cast a magic hack with the spellshape trait.</p><p></p>"
+        },
+        "Light Speed": {
+            "name": "Light Speed",
+            "description": "<p><strong>Frequency</strong> once per 10 minutes</p><p><strong>Requirements</strong> You are not @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Fatigued}</p><hr /><p><strong>Effect</strong> You dash across the battlefield at the speed of light, far too fast for others to perceive. You teleport yourself (and any items you're wearing and holding) to an unoccupied space you can see within 240 feet.</p>"
+        },
+        "Line Up the Shot": {
+            "name": "Line Up the Shot",
+            "description": "<p><strong>Requirements</strong> You are wielding a ranged weapon</p><hr /><p><strong>Effect</strong> You take your time to line up the perfect shot with a required weapon, unharried by your surroundings. Until the end of your turn or your next attack (whichever comes first), double the range of the required weapon you're wielding.</p>"
+        },
         "Living Shield": {
             "name": "Living Shield",
             "description": "<p><strong>Trigger</strong> An enemy damages your ally who is benefiting from cover provided by you</p><hr /><p><strong>Effect</strong> Reduce the triggering damage your targeted ally takes by an amount equal to your level plus your Constitution modifier. You take an amount of damage equal to the damage negated.</p>"
+        },
+        "Manifest Energy Wings": {
+            "name": "Manifest Energy Wings",
+            "description": "<p><strong>Requirements</strong> you are in a vacuum</p><hr /><p><strong>Effect</strong> You manifest your energy wings, gaining a fly Speed equal to your land Speed plus 10 feet. These wings allow you to fly through a vacuum. Your energy wings remain manifested for as long as you are in a vacuum, or until you choose to disperse them as a single action.</p>"
+        },
+        "Mobile Reconfiguration": {
+            "name": "Mobile Reconfiguration",
+            "description": "<p>Your drone reconfigures into its alternate chassis. It remains in the new configuration until you command it to perform this action again.</p>"
+        },
+        "Modify": {
+            "name": "Modify",
+            "description": "<p><strong>Requirements</strong> You are holding or wearing your custom rig.</p><hr /><p>Using your trusty custom rig, you quickly customize a piece of gear. Interact to draw, retrieve, or swap an item, then add one of the mods listed below to the item. The item remains modded until the start of your next turn, but the effect ends early if you use Modify again or if the item is destroyed or leaves your possession. When you Modify an item you can apply one of the following effects of your choice, called a mod, or any other mod you know. Some mods can only be applied to items of specific types or items with certain traits; these requirements are listed in parentheses. The selected mod lasts as long as the item is your modded item.</p><ul><li><strong>Big Boom (grenade or area weapon)</strong>: You know how to cram a lot of explosives and accelerant into a small package. Increase the item's radius by 5 feet (if it's a burst), its area by 5 feet (if it's a cone), or its area by 10 feet (if it's a line).</li><li><strong>Bunker Buster (grenade or weapon)</strong>: You amp the destructive capabilities of an item. The item bypasses 5 Hardness, or if it has razing, Hardness equal to 5 + its razing value.</li><li><strong>Incapacitant (grenade or weapon)</strong>: You swap live ammunition for dummy rounds. The item gains the nonlethal trait.</li><li><strong>Magnetic Levitators (armor)</strong>: You activate powerful magnets in your armor that propel you off the ground. Your base land Speed gains hover.</li><li><strong>Long-Range Propulsors (grenade or ranged weapon)</strong>: You increase the distance you can reliably shoot or throw the item. Increase the item's range by 10 feet (if it's a grenade) or its range increment by 30 feet (if it's a ranged weapon).</li><li><strong>Troubleshoot (item, drone exocortex, turret exocortex)</strong>: You quickly recalibrate a malfunctioning item. Reduce the value of the item's glitching condition by 1.</li></ul>"
         },
         "Nanite Form Strike": {
             "name": "Nanite Form Strike",
@@ -103,7 +183,7 @@
         },
         "Network Spell": {
             "name": "Network Spell",
-            "description": "<p><strong>Transfer Cost</strong> the rank of the spell you cast with your next action</p><hr /><p>You channel your spell to manifest from one of your allies instead of yourself. If the next action you use is to Cast a Spell with an area, range, or target, the spell manifests from one of your bonded allies instead of yourself. Use the ally’s space to determine the spell’s source, range, and area of effect, but line of sight and line of effect must be met from both you and your ally when the spell is cast. While this might fool someone who only sees your ally, unless you are @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Hidden} or the spell has the subtle trait, any creature able to see both you and your ally can easily determine you are the source of the spell. If the spell has the subtle trait, you and your ally may Cast the Spell in a way that makes the ally appear to have cast it without that trait.</p>"
+            "description": "<p><strong>Transfer Cost</strong> the rank of the spell you cast with your next action</p><hr /><p>You channel your spell to manifest from one of your allies instead of yourself. If the next action you use is to Cast a Spell with an area, range, or target, the spell manifests from one of your bonded allies instead of yourself. Use the ally's space to determine the spell's source, range, and area of effect, but line of sight and line of effect must be met from both you and your ally when the spell is cast. While this might fool someone who only sees your ally, unless you are @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Hidden} or the spell has the subtle trait, any creature able to see both you and your ally can easily determine you are the source of the spell. If the spell has the subtle trait, you and your ally may Cast the Spell in a way that makes the ally appear to have cast it without that trait.</p>"
         },
         "New Plan!": {
             "name": "New Plan!",
@@ -116,6 +196,10 @@
         "Oppressive Presence": {
             "name": "Oppressive Presence",
             "description": "<p><strong>Frequency</strong> once per round</p><hr /><p>You unnerve foes with a look, or similarly attract their attention through your subtle movements or words. Target an enemy creature you can see within 60 feet. The target becomes @UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.enA7BxAjBb7ns1iF]{Suppressed} until the start of your next turn. If the targeted enemy targets you with a Strike or other offensive action, it loses the suppressed condition from this effect.</p>"
+        },
+        "Overclock Gear": {
+            "name": "Overclock Gear",
+            "description": "<p><strong>Requirements</strong> Your most recent action this turn was to cast a non-cantrip spell. </p><hr /><p>You siphon residual magic energy to unlock the full potential of your equipment. After Casting a Spell, one item you hold, wield, or wear, or a tech minion you are commanding (depending on your programming language), becomes overclocked for 1 minute. You can only have one overclocked gear at a time; if you attempt to overclock a different piece of gear, any other gear you have overclocked is no longer overclocked. As long as your gear is overclocked, you gain the benefits of your programming language's overclock boost.</p>"
         },
         "Overwhelming Strike": {
             "name": "Overwhelming Strike",
@@ -149,6 +233,10 @@
             "name": "Push Off",
             "description": "<p><strong>Requirements</strong> You have at least one hand or leg (or suitable appendage) free, and you're @UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.z1ucw4CLwLqHoAp3]{Untethered}.</p><hr /><p>You use an object or creature of the same size or larger as you as leverage to change the direction you're floating in. Float up to half your Speed in your chosen direction. The distance you move at the end of your turn while untethered changes to the amount you moved during this action.</p><p>You can Push Off as a free action immediately after you make a successful melee Strike or @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{Shove}.</p>"
         },
+        "Ram Slam": {
+            "name": "Ram Slam",
+            "description": "<p>Your robot companion Strides in a straight line and makes a battering ram Strike. As long as it moved at least 20 feet and successfully hit, the target is pushed back 10 feet.</p>"
+        },
         "Re-Forge Solar Weapon": {
             "name": "Re-Forge Solar Weapon",
             "description": "<p>You spend 10 minutes focusing on the composition of your solar weapon. You can change the damage type of your weapon (typically between bludgeoning, piercing, or slashing), the currently selected traits for your weapon, and the weapon group your weapon belongs to. Your weapon maintains your selections until the next time you Re-Forge Solar Weapon.</p><p>@UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.lUZuBzMe0UAllDxX]{Effect: Solar Weapon}</p>"
@@ -169,6 +257,10 @@
             "name": "Redirect Energy",
             "description": "<p><strong>Trigger</strong> You are dealt cold damage or fire damage</p><hr /><p><strong>Effect</strong> You tap into the harmful energy directed at you and redirect its essence into a melee weapon you're holding. Until the end of your next turn, the selected weapon deals an additional 1d4 damage of the triggering damage type. During this time, you lose any resistance to the triggering damage type granted to you by Perfectly Balanced.</p>"
         },
+        "Reposition Exocortex": {
+            "name": "Reposition Exocortex",
+            "description": "<p><strong>Requirements</strong> A mine or turret you deployed is within 100 feet.</p><hr /><p> You direct your exocortex to deploy technological legs and move across the battlefield, redeploying to a more tactically sound location. One of your deployed mines or turrets Strides up to 30 feet as you direct, remaining Deployed in its new location.</p><hr /><p><strong>Level (+5)</strong> The distance it Strides increases by 10 feet.</p>"
+        },
         "Restorative Recollection": {
             "name": "Restorative Recollection",
             "description": "<p><strong>Frequency</strong> once per round</p><hr /><p>There is a part of your mind in another reality always processing your situation. You can @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{Recall Knowledge} with any skill you are trained in. Decrease your @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned} value by 2 or @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed} value by 1. If you lost an action this turn due to the stunned or slowed condition, you can use Restorative Recollection as a free action.</p>"
@@ -184,6 +276,10 @@
         "Saw It Coming": {
             "name": "Saw It Coming",
             "description": "<p><strong>Trigger</strong> You are about to roll initiative in an encounter in which your asset is one of your opponents.</p>\n<hr />\n<p>You read the demeanor, body language, and instinctive tics of your asset as easily as you read a comm unit, allowing you to react a moment before those around you and gain an edge in the coming battle. You gain a +1 circumstance bonus to your initiative roll, and you can immediately do one of the following: Interact to draw a weapon, Step, or Stride.</p>"
+        },
+        "Shielding Arrogance": {
+            "name": "Shielding Arrogance",
+            "description": "<p><strong>Frequency</strong> once per hour</p><p><strong>Trigger</strong> A creature other than you within range of your thoughtsense becomes @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{Confused}, @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{frightened}, or @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{stupefied}, or takes @UUID[Compendium.pf2e.conditionitems.Item.lDVqvLKA6eF3Df60]{persistent mental damage}</p><hr /><p><strong>Effect</strong> You can attempt an extra flat check immediately to end any persistent mental damage effect you have, and you reduce the flat check DC to 10. You then gain temporary Hit Points equal to your level. These temporary Hit Points last 1 minute.</p>"
         },
         "Shimmering Dazzle": {
             "name": "Shimmering Dazzle",
@@ -213,6 +309,10 @@
             "name": "Soul Shield",
             "description": "<p><strong>Trigger</strong> You would be dealt void damage</p>\n<hr />\n<p><strong>Effect</strong> You push your soul out of your body and use it as a shield to protect your living form from the ravages of the void. Against the triggering damage and until the beginning of your next turn, you gain void healing, meaning you are healed by void damage and harmed by vitality damage.</p>"
         },
+        "Spin to Win": {
+            "name": "Spin to Win",
+            "description": "<p>Your drone reconfigures itself into a gyroscope and spins around, colliding with anything in range. Your drone deals its melee Strike damage to all creatures within a @Template[type:emanation|distance:20] (@Check[reflex|against:class|basic] save against your class DC). Your drone can't use this ability again for [[/gmr 1d4 #Recharge this ability]]{1d4 rounds}.</p><hr /><p><strong>Level (+2)</strong> The damage increases by 1d6.</p>"
+        },
         "Steel Yourselves!": {
             "name": "Steel Yourselves!",
             "description": "<p><strong>Frequency</strong> once per hour</p><hr /><p>You encourage your allies to brace for impact or otherwise prepare for incoming damage. Until the beginning of your next turn, you and any ally within 60 feet who can sense you can spend 1 action to Brace For Impact. This action has the concentrate trait. Whoever Braces for Impact gains temporary Hit Points equal to 2 + half your level for 1 minute.</p><p>@UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.JaysqWTGfMgvx93E]{Effect: Brace For Impact}</p><p><strong>Lead by Example</strong> If you spend an action to Brace For Impact before the end of your turn, you and any ally who Braces for Impact before the start of your next turn also gains a +1 status bonus to saving throws against effects that deal damage for 1 minute.</p>"
@@ -229,9 +329,17 @@
             "name": "Supernova",
             "description": "<p><strong>Frequency</strong> once per 10 minutes</p><p><strong>Requirements</strong> You are photon-attuned.</p><hr /><p>You unleash your pent-up aggression, causing it to erupt like the stellar events that end stars. You can choose to affect creatures in a @Template[type:emanation|distance:15]{15-foot} or @Template[type:emanation|distance:30]. Each affected creature takes @Damage[(@actor.level)d8[fire]] damage and must attempt a @Check[type:fortitude|dc:resolve(@actor.system.attributes.classDC.value)] save against your class DC. If you choose the 30-foot option, you instead deal @Damage[(@actor.level)d6[fire]] damage.</p><hr /><p><strong>Critical Success</strong> The creature is unaffected.</p><p><strong>Success</strong> The creature takes half damage and is @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled} for 1 round.</p><p><strong>Failure</strong> The creature takes full damage and is @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded} for 1 round.</p><p><strong>Critical Failure</strong> The creature takes double damage and is blinded for 1 minute.</p><hr /><p><strong>Level (+1)</strong> Increase the damage by 1d8 (or 1d6 for the 30-foot version).</p>"
         },
+        "Surgical Strike": {
+            "name": "Surgical Strike",
+            "description": "<p>The robot companion Strides and then makes an integrated blade Strike. If it hits, and the robot companion was undetected, the target takes an additional 1d6 precision damage. If your robot companion is tactical or advanced, increase this damage to 2d6 precision damage. If it was undetected at the start of its Surgical Strike, it remains undetected until after the Strike.</p>"
+        },
         "Switch Active Hands": {
             "name": "Switch Active Hands",
             "description": "<p>You designate a pair of limbs as your active hands. You can only have one pair of hands designated as your active hands at a time.</p>"
+        },
+        "Synchronized Step": {
+            "name": "Synchronized Step",
+            "description": "<p>You and your drone move in tandem, synchronizing your movements for efficiency. You and your drone each Stride once.</p>"
         },
         "Tactical Advance": {
             "name": "Tactical Advance",
@@ -244,6 +352,14 @@
         "Targeted Immunization": {
             "name": "Targeted Immunization",
             "description": "<p><strong>Trigger</strong> You recover from a disease or poison</p>\n<hr />\n<p><strong>Effect</strong> You instinctively synthesize antigens that make you immune to the triggering disease or poison. This immunity lasts for the next day or until you next use Targeted Immunization.</p>"
+        },
+        "Telekinetic Lift": {
+            "name": "Telekinetic Lift",
+            "description": "<p><strong>Frequency</strong> once per round</p><p><strong>Requirements</strong> You have at least one telekinetic hand free</p><hr /><p><strong>Effect</strong> Your telekinetic hand lifts an object of up to 8 Bulk as though it were weightless. If the object is locked or otherwise held in place, you can attempt to @UUID[Compendium.pf2e.actionspf2e.Item.SjmKHgI7a5Z9JzBx]{Force it Open} using Arcana, Athletics, Occultism, or Physical Science Lore as part of this action. The object still has its full weight and Bulk for all other purposes—you just ignore that weight. This effect lasts until the end of your turn.</p>"
+        },
+        "Telekinetic Sprint": {
+            "name": "Telekinetic Sprint",
+            "description": "<p><strong>Frequency</strong> once per minute</p><hr /><p><strong>Effect</strong> You gain a +5-foot status bonus to your Speeds until the end of your turn. You then Stride or Fly up to your Speed.</p>"
         },
         "Touch Something Real": {
             "name": "Touch Something Real",

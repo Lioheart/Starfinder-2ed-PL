@@ -134,7 +134,7 @@
         },
         "Arc Rifle": {
             "name": "Arc Rifle",
-            "description": "<p><strong>Upgrades:</strong> 1</p><hr /><p>This rifle’s oversized body contains a larger version of an arc pistol capacitor, with a short barrel and polycarbon stock designed to insulate the wielder from high voltage. The arc rifle’s larger capacitor allows it to produce a charge with enough power to subdue a rampaging renkroda.</p>"
+            "description": "<p><strong>Upgrades:</strong> 1</p><hr /><p>This rifle's oversized body contains a larger version of an arc pistol capacitor, with a short barrel and polycarbon stock designed to insulate the wielder from high voltage. The arc rifle's larger capacitor allows it to produce a charge with enough power to subdue a rampaging renkroda.</p>"
         },
         "Archaic Text": {
             "name": "Archaic Text",
@@ -241,7 +241,7 @@
         },
         "Battleglove": {
             "name": "Battleglove",
-            "description": "<p><strong>Upgrades:</strong> 1</p><hr /><p>These durable gloves fit over a wielder’s hands (or other appendage) and conceal weighted plates or spikes over the knuckles (or equivalent area). While battlegloves are classified as weapons, fashionable versions easily blend in at most venues, blurring the line between accessory and armament.</p>"
+            "description": "<p><strong>Upgrades:</strong> 1</p><hr /><p>These durable gloves fit over a wielder's hands (or other appendage) and conceal weighted plates or spikes over the knuckles (or equivalent area). While battlegloves are classified as weapons, fashionable versions easily blend in at most venues, blurring the line between accessory and armament.</p>"
         },
         "Bipod": {
             "name": "Bipod",
@@ -249,7 +249,7 @@
         },
         "Bone Scepter": {
             "name": "Bone Scepter",
-            "description": "<p><strong>Upgrades:</strong> 1</p><hr /><p>This engraved club of solid bone is said to be tempered in specialized facilities using material from the void, allowing it to ceaselessly drain a target’s life energy with each strike.</p>"
+            "description": "<p><strong>Upgrades:</strong> 1</p><hr /><p>This engraved club of solid bone is said to be tempered in specialized facilities using material from the void, allowing it to ceaselessly drain a target's life energy with each strike.</p>"
         },
         "Bone Serum": {
             "name": "Bone Serum",
@@ -325,7 +325,7 @@
         },
         "Climbing Suckers (Tactical)": {
             "name": "Climbing Suckers (Tactical)",
-            "description": "<p>The soles of your feet, palms of your hands, or the surfaces of other appropriate appendages are covered in fleshy slats that can open and close to improve your climbing grip. You gain a climb Speed based on the version of climbing suckers you have installed. You don't benefit from climbing suckers unless you leave your appendages uncovered or are wearing custom clothing.</p><p>You gain a 15-foot climb Speed as long as you're wearing light armor or no armor.</p>"
+            "description": "<p>The soles of your feet, palms of your hands, or the surfaces of other appropriate appendages are covered in fleshy slats that can open and close to improve your climbing grip. You gain a climb Speed based on the version of climbing suckers you have installed. You don't benefit from climbing suckers unless you leave your appendages uncovered or are wearing custom clothing.</p><p>You gain a 25-foot climb Speed while wearing light armor or no armor, or a 15-foot climb Speed while wearing medium armor.</p>"
         },
         "Cloaking Device (Commercial)": {
             "name": "Cloaking Device (Commercial)",
@@ -334,6 +334,18 @@
         "Cloaking Device (Tactical)": {
             "name": "Cloaking Device (Tactical)",
             "description": "<p>Incorporated flexible sheets of panels and light receptors create advanced plasma camouflage to bend light around your body and make you @UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{Invisible}.</p><p><strong>Activate—Adapt</strong> <span class=\"pf2-icon\">1</span> (manipulate)</p><p><strong>Frequency</strong> three times per day</p><hr /><p><strong>Effect</strong> You become invisible for 1 minute, gaining the effects of a 2nd-rank @UUID[Compendium.pf2e.spells-srd.Item.XXqE1eY3w3z6xJCB] spell.</p>"
+        },
+        "Cloaking Skin (Advanced)": {
+            "name": "Cloaking Skin (Advanced)",
+            "description": "<p>Many of your pores are replaced with magically regulated and directed holographic projectors that synchronize when activated to automatically match your surroundings, rendering you @UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{Invisible}.</p><p><strong>Activate—Cloak</strong> <span class=\"pf2-icon\">1</span> (concentrate)</p><p><strong>Frequency</strong> three times per day</p><hr /><p><strong>Effect</strong> You gain the effects of 4th-rank @UUID[Compendium.pf2e.spells-srd.Item.XXqE1eY3w3z6xJCB]{Invisibility} for 1 minute or until you spend an action, which has the concentrate trait, to deactivate it.</p>"
+        },
+        "Cloaking Skin (Commercial)": {
+            "name": "Cloaking Skin (Commercial)",
+            "description": "<p>Many of your pores are replaced with magically regulated and directed holographic projectors that synchronize when activated to automatically match your surroundings, rendering you @UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{Invisible}.</p><p><strong>Activate—Cloak</strong> <span class=\"pf2-icon\">1</span> (concentrate)</p><p><strong>Frequency</strong> once per day</p><hr /><p><strong>Effect</strong> You gain the effects of 2nd-rank @UUID[Compendium.pf2e.spells-srd.Item.XXqE1eY3w3z6xJCB]{Invisibility} for 1 minute or until you spend an action, which has the concentrate trait, to deactivate it.</p>"
+        },
+        "Cloaking Skin (Tactical)": {
+            "name": "Cloaking Skin (Tactical)",
+            "description": "<p>Many of your pores are replaced with magically regulated and directed holographic projectors that synchronize when activated to automatically match your surroundings, rendering you @UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{Invisible}.</p><p><strong>Activate—Cloak</strong> <span class=\"pf2-icon\">1</span> (concentrate)</p><p><strong>Frequency</strong> three times per day</p><hr /><p><strong>Effect</strong> You gain the effects of 2nd-rank @UUID[Compendium.pf2e.spells-srd.Item.XXqE1eY3w3z6xJCB]{Invisibility} for 1 minute or until you spend an action, which has the concentrate trait, to deactivate it.</p>"
         },
         "Cognition Accelerator": {
             "name": "Cognition Accelerator",
@@ -397,7 +409,7 @@
         },
         "Cryopike": {
             "name": "Cryopike",
-            "description": "<p><strong>Upgrades:</strong> 1</p><hr /><p>This polearm’s shaft houses rapidly circulating supercooled gas that condenses and channels endothermic energy into a cryogenic blade.</p>"
+            "description": "<p><strong>Upgrades:</strong> 1</p><hr /><p>This polearm's shaft houses rapidly circulating supercooled gas that condenses and channels endothermic energy into a cryogenic blade.</p>"
         },
         "Crystal Lens (Advanced)": {
             "name": "Crystal Lens (Advanced)",
@@ -421,7 +433,7 @@
         },
         "Crystal Lens (Ultimate)": {
             "name": "Crystal Lens (Ultimate)",
-            "description": "<p>A psychically active crystal replaces the lens of one of your eyes. You gain 9th-rank @UUID[Compendium.pf2e.spells-srd.Item.gpzpAAAJ1Lza2JVl]{Detect Magic} as a constant ability. You see the location of all auras within 30 feet, not just the strongest. Your ability to sense psychic energies grants you a +3 item bonus to Perception checks.</p><p>If you use a Seek action to study a creature you can see, you can perceive an aura that conveys knowledge of that creature’s health, including all conditions and afflictions it has and an approximate percentage of its remaining Hit Points.</p><p><strong>Activate—Psychic X-Rays</strong> <span class=\"pf2-icon\">2</span> (concentrate)</p><p><strong>Frequency</strong> three times per day</p><hr /><p><strong>Effect</strong> You gain the effects of an x-ray vision spell. The detect magic of your crystal lens works through any material you can see through with this @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.MWguJ6RWEmmPBntb]{X-Ray Vision} spell, even if you wouldn't normally have line of effect.</p>"
+            "description": "<p>A psychically active crystal replaces the lens of one of your eyes. You gain 9th-rank @UUID[Compendium.pf2e.spells-srd.Item.gpzpAAAJ1Lza2JVl]{Detect Magic} as a constant ability. You see the location of all auras within 30 feet, not just the strongest. Your ability to sense psychic energies grants you a +3 item bonus to Perception checks.</p><p>If you use a Seek action to study a creature you can see, you can perceive an aura that conveys knowledge of that creature's health, including all conditions and afflictions it has and an approximate percentage of its remaining Hit Points.</p><p><strong>Activate—Psychic X-Rays</strong> <span class=\"pf2-icon\">2</span> (concentrate)</p><p><strong>Frequency</strong> three times per day</p><hr /><p><strong>Effect</strong> You gain the effects of an x-ray vision spell. The detect magic of your crystal lens works through any material you can see through with this @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.MWguJ6RWEmmPBntb]{X-Ray Vision} spell, even if you wouldn't normally have line of effect.</p>"
         },
         "Darkvision Capacitors (Commercial)": {
             "name": "Darkvision Capacitors (Commercial)",
@@ -539,6 +551,34 @@
             "name": "Dueling Sword",
             "description": "<p><strong>Upgrades:</strong> 1</p><hr /><p>Coming in a variety of styles, these traditional and time-tested weapons have been honed with advanced smithing techniques, often employing nanocarbon steel to ensure they never dull or lose their luster.</p>"
         },
+        "Electromag Grenade (Advanced)": {
+            "name": "Electromag Grenade (Advanced)",
+            "description": "<p>These grenades discharge a shocking field that deals electricity damage with a basic Reflex save. If you have access to the critical specialization effect of grenades, tech creatures and unattended tech items that critically fail their saving throw against electromag grenades become glitching.</p><p>@Template[type:burst|distance:10]</p><p><strong>Critical</strong> @UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.6A2QDy8wRGCVQsSd]{Glitching 1}</p><p></p>"
+        },
+        "Electromag Grenade (Commercial)": {
+            "name": "Electromag Grenade (Commercial)",
+            "description": "<p>These grenades discharge a shocking field that deals electricity damage with a basic Reflex save. If you have access to the critical specialization effect of grenades, tech creatures and unattended tech items that critically fail their saving throw against electromag grenades become glitching.</p><p>@Template[type:burst|distance:5]</p><p><strong>Critical</strong> @UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.6A2QDy8wRGCVQsSd]{Glitching 1} </p><p></p>"
+        },
+        "Electromag Grenade (Elite)": {
+            "name": "Electromag Grenade (Elite)",
+            "description": "<p>These grenades discharge a shocking field that deals electricity damage with a basic Reflex save. If you have access to the critical specialization effect of grenades, tech creatures and unattended tech items that critically fail their saving throw against electromag grenades become glitching.</p><p>@Template[type:burst|distance:15]</p><p><strong>Critical</strong> @UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.6A2QDy8wRGCVQsSd]{Glitching 2}</p><p></p>"
+        },
+        "Electromag Grenade (Paragon)": {
+            "name": "Electromag Grenade (Paragon)",
+            "description": "<p>These grenades discharge a shocking field that deals electricity damage with a basic Reflex save. If you have access to the critical specialization effect of grenades, tech creatures and unattended tech items that critically fail their saving throw against electromag grenades become glitching.</p><p>@Template[type:burst|distance:20]</p><p><strong>Critical</strong> @UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.6A2QDy8wRGCVQsSd]{Glitching 3}</p><p></p>"
+        },
+        "Electromag Grenade (Superior)": {
+            "name": "Electromag Grenade (Superior)",
+            "description": "<p>These grenades discharge a shocking field that deals electricity damage with a basic Reflex save. If you have access to the critical specialization effect of grenades, tech creatures and unattended tech items that critically fail their saving throw against electromag grenades become glitching.</p><p>@Template[type:burst|distance:10]</p><p><strong>Critical</strong> @UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.6A2QDy8wRGCVQsSd]{Glitching 1}</p><p></p>"
+        },
+        "Electromag Grenade (Tactical)": {
+            "name": "Electromag Grenade (Tactical)",
+            "description": "<p>These grenades discharge a shocking field that deals electricity damage with a basic Reflex save. If you have access to the critical specialization effect of grenades, tech creatures and unattended tech items that critically fail their saving throw against electromag grenades become glitching.</p><p>@Template[type:burst|distance:10]</p><p><strong>Critical</strong> @UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.6A2QDy8wRGCVQsSd]{Glitching 1}</p><p></p>"
+        },
+        "Electromag Grenade (Ultimate)": {
+            "name": "Electromag Grenade (Ultimate)",
+            "description": "<p>These grenades discharge a shocking field that deals electricity damage with a basic Reflex save. If you have access to the critical specialization effect of grenades, tech creatures and unattended tech items that critically fail their saving throw against electromag grenades become glitching.</p><p>@Template[type:burst|distance:20]</p><p><strong>Critical</strong> @UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.6A2QDy8wRGCVQsSd]{Glitching 2}</p><p></p>"
+        },
         "Emergency beacon": {
             "name": "Emergency beacon",
             "description": "<p>This item requires a battery to be installed on it for it to operate. When activated, this small, pod-shaped device transmits its location and emits a flash of bright red light once per round, consuming 1 charge per day. Any device capable of receiving signals can pick up a signal from an emergency beacon, which can then be traced with a successful @Check[type:computers|dc:15] or @Check[type:survival|dc:15] check. An emergency beacon's transmissions have a range of 100 miles over flat terrain, 50 miles in forests or hills, and 25 miles in mountainous terrain or underwater. Alternatively, an emergency beacon can be installed in a starship or vehicle's communications system. In this case, its range is equal to that of the communications array, and it consumes 1 charge per hour.</p>"
@@ -561,7 +601,7 @@
         },
         "Entropic Destabilizer (Tactical)": {
             "name": "Entropic Destabilizer (Tactical)",
-            "description": "<p>Tendrils of dark energy soar from the unit affixed to this weapon, coating it and its ammunition in a disturbing purple hue. When you hit with the weapon, add @Damage[1d4[void]] damage to the damage dealt. The void damage dealt by this weapon ignores the target’s void resistance or immunity. In addition, on a critical hit, the target takes @Damage[4d4[persistent,void]] damage; if the target has a shield raised, the shield takes the same amount of persistent damage (its wielder rolls the flat check to see if the persistent damage ends, or the GM rolls if the shield is no longer in someone's possession). Unlike normal void damage, the void damage from an entropic destabilizer damages objects, constructs, and the like by eroding them away.</p>"
+            "description": "<p>Tendrils of dark energy soar from the unit affixed to this weapon, coating it and its ammunition in a disturbing purple hue. When you hit with the weapon, add @Damage[1d4[void]] damage to the damage dealt. The void damage dealt by this weapon ignores the target's void resistance or immunity. In addition, on a critical hit, the target takes @Damage[4d4[persistent,void]] damage; if the target has a shield raised, the shield takes the same amount of persistent damage (its wielder rolls the flat check to see if the persistent damage ends, or the GM rolls if the shield is no longer in someone's possession). Unlike normal void damage, the void damage from an entropic destabilizer damages objects, constructs, and the like by eroding them away.</p>"
         },
         "Estex Suit": {
             "name": "Estex Suit",
@@ -633,7 +673,7 @@
         },
         "Flaming Module (Tactical)": {
             "name": "Flaming Module (Tactical)",
-            "description": "<p>This module overheats the weapon's striking edge and ammunition. The weapon deals an additional @Damage[1d6[fire]] damage on a successful Strike, plus @Damage[2d10[persistent,fire]] damage on a critical hit. </p><p>Fire damage dealt by this weapon (including the persistent fire damage) ignores the target’s fire resistance.</p>"
+            "description": "<p>This module overheats the weapon's striking edge and ammunition. The weapon deals an additional @Damage[1d6[fire]] damage on a successful Strike, plus @Damage[2d10[persistent,fire]] damage on a critical hit. </p><p>Fire damage dealt by this weapon (including the persistent fire damage) ignores the target's fire resistance.</p>"
         },
         "Flash Grenade (Advanced)": {
             "name": "Flash Grenade (Advanced)",
@@ -749,7 +789,7 @@
         },
         "Frost Module (Tactical)": {
             "name": "Frost Module (Tactical)",
-            "description": "<p>This module siphons the heat from the weapon's striking edge and ammunition, powering itself with the excess energy as it chills the air around it. It deals an additional @Damage[1d6[cold]] damage on a successful Strike. On a critical hit, the target is also @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} until the end of your next turn unless it succeeds at a @Check[type:fortitude|dc:34] save. </p><p>Cold damage dealt by this weapon ignores the target’s cold resistance.</p>"
+            "description": "<p>This module siphons the heat from the weapon's striking edge and ammunition, powering itself with the excess energy as it chills the air around it. It deals an additional @Damage[1d6[cold]] damage on a successful Strike. On a critical hit, the target is also @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} until the end of your next turn unless it succeeds at a @Check[type:fortitude|dc:34] save. </p><p>Cold damage dealt by this weapon ignores the target's cold resistance.</p>"
         },
         "Ghost Killer": {
             "name": "Ghost Killer",
@@ -817,7 +857,7 @@
         },
         "Hammer": {
             "name": "Hammer",
-            "description": "<p><strong>Upgrades:</strong> 1</p><hr /><p>Valued as both a crafting tool and an effective weapon, this hammer uses specially weighted heads and handles balanced for its wielders’ height and physiology to deliver maximum force with each strike.</p>"
+            "description": "<p><strong>Upgrades:</strong> 1</p><hr /><p>Valued as both a crafting tool and an effective weapon, this hammer uses specially weighted heads and handles balanced for its wielders' height and physiology to deliver maximum force with each strike.</p>"
         },
         "Hardlight Handwraps (Advanced)": {
             "name": "Hardlight Handwraps (Advanced)",
@@ -965,7 +1005,7 @@
         },
         "Injection Rifle": {
             "name": "Injection Rifle",
-            "description": "<p><strong>Upgrades:</strong> 1</p><hr /><p>The injection rifle includes a cannister of poison that fills any empty darts loaded in the chamber. This rifle’s precursors were designed to tranquilize dangerous animals for conservation purposes, and some modern wielders use sedative or corrosive darts instead.</p>"
+            "description": "<p><strong>Upgrades:</strong> 1</p><hr /><p>The injection rifle includes a cannister of poison that fills any empty darts loaded in the chamber. This rifle's precursors were designed to tranquilize dangerous animals for conservation purposes, and some modern wielders use sedative or corrosive darts instead.</p>"
         },
         "Invisibility Spell Amp": {
             "name": "Invisibility Spell Amp",
@@ -1045,7 +1085,7 @@
         },
         "Loudener (Tactical)": {
             "name": "Loudener (Tactical)",
-            "description": "<p>This specialized cone is installed over the muzzle or hilt of a weapon to use pneumonic pulses and passive acoustics to increase the volume of its attacks, dealing an extra @Damage[1d6[sonic]] damage on a successful Strike. On a critical hit, the target has to succeed at a @Check[type:fortitude|dc:32] save or be @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{Deafened} for 1 minute (or 1 hour on a critical failure). </p><p>Sonic damage dealt by this weapon ignores the target’s sonic resistance.</p>"
+            "description": "<p>This specialized cone is installed over the muzzle or hilt of a weapon to use pneumonic pulses and passive acoustics to increase the volume of its attacks, dealing an extra @Damage[1d6[sonic]] damage on a successful Strike. On a critical hit, the target has to succeed at a @Check[type:fortitude|dc:32] save or be @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{Deafened} for 1 minute (or 1 hour on a critical failure). </p><p>Sonic damage dealt by this weapon ignores the target's sonic resistance.</p>"
         },
         "Machine Gun": {
             "name": "Machine Gun",
@@ -1208,7 +1248,7 @@
         },
         "Morphic Skin (Advanced)": {
             "name": "Morphic Skin (Advanced)",
-            "description": "<p>Magical glands embedded in your skin release mutagenic enzymes and transformative energies. You can activate the glands to change your physical appearance.</p><p><strong>Activate—Change Shape</strong> <span class=\"pf2-icon\">3</span> (concentrate, magical)</p><p><strong>Frequency</strong> once per day</p><hr /><p><strong>Effect</strong> Your skin ripples as you change your outward appearance to match a desired set of features. You gain a status bonus to Deception checks to Impersonate another creature depending on your morphic skin's version.</p><p>You change your appearance—including apparent age, sex, height, weight, skin tone, visible musculature, hair color, scales, or similar minor features.</p><p>You can change your appearance to gain features of another ancestry, including extra appendages, fur, scales, or similar minor and major features (although you don’t gain or lose abilities as a result).</p><p>You can change your appearance to match a specific individual, including fingerprints, retinal patterns, and other features used to bypass biometric security keyed to that individual. The status bonus is +3.</p>"
+            "description": "<p>Magical glands embedded in your skin release mutagenic enzymes and transformative energies. You can activate the glands to change your physical appearance.</p><p><strong>Activate—Change Shape</strong> <span class=\"pf2-icon\">3</span> (concentrate, magical)</p><p><strong>Frequency</strong> once per day</p><hr /><p><strong>Effect</strong> Your skin ripples as you change your outward appearance to match a desired set of features. You gain a status bonus to Deception checks to Impersonate another creature depending on your morphic skin's version.</p><p>You change your appearance—including apparent age, sex, height, weight, skin tone, visible musculature, hair color, scales, or similar minor features.</p><p>You can change your appearance to gain features of another ancestry, including extra appendages, fur, scales, or similar minor and major features (although you don't gain or lose abilities as a result).</p><p>You can change your appearance to match a specific individual, including fingerprints, retinal patterns, and other features used to bypass biometric security keyed to that individual. The status bonus is +3.</p>"
         },
         "Morphic Skin (Commercial)": {
             "name": "Morphic Skin (Commercial)",
@@ -1216,7 +1256,7 @@
         },
         "Morphic Skin (Tactical)": {
             "name": "Morphic Skin (Tactical)",
-            "description": "<p>Magical glands embedded in your skin release mutagenic enzymes and transformative energies. You can activate the glands to change your physical appearance.</p><p><strong>Activate—Change Shape</strong> <span class=\"pf2-icon\">3</span> (concentrate, magical)</p><p><strong>Frequency</strong> once per day</p><hr /><p><strong>Effect</strong> Your skin ripples as you change your outward appearance to match a desired set of features. You gain a status bonus to Deception checks to Impersonate another creature depending on your morphic skin's version.</p><p>You change your appearance—including apparent age, sex, height, weight, skin tone, visible musculature, hair color, scales, or similar minor features.</p><p>You can change your appearance to gain features of another ancestry, including extra appendages, fur, scales, or similar minor and major features (although you don’t gain or lose abilities as a result). The status bonus is +2.</p>"
+            "description": "<p>Magical glands embedded in your skin release mutagenic enzymes and transformative energies. You can activate the glands to change your physical appearance.</p><p><strong>Activate—Change Shape</strong> <span class=\"pf2-icon\">3</span> (concentrate, magical)</p><p><strong>Frequency</strong> once per day</p><hr /><p><strong>Effect</strong> Your skin ripples as you change your outward appearance to match a desired set of features. You gain a status bonus to Deception checks to Impersonate another creature depending on your morphic skin's version.</p><p>You change your appearance—including apparent age, sex, height, weight, skin tone, visible musculature, hair color, scales, or similar minor features.</p><p>You can change your appearance to gain features of another ancestry, including extra appendages, fur, scales, or similar minor and major features (although you don't gain or lose abilities as a result). The status bonus is +2.</p>"
         },
         "Muscle Invigorator": {
             "name": "Muscle Invigorator",
@@ -1248,7 +1288,7 @@
         },
         "Needler Pistol": {
             "name": "Needler Pistol",
-            "description": "<p><strong>Upgrades:</strong> 1</p><hr /><p>This snub-nosed pistol shoots syringes instead of bullets, allowing the wielder to deliver a dose of medicine or poison from a safe distance. Early needler pistols were red and white peashooters marked with a deity’s holy symbol. Antiques and replicas remain on the market, but are curiosities compared to subtler modern designs.</p>"
+            "description": "<p><strong>Upgrades:</strong> 1</p><hr /><p>This snub-nosed pistol shoots syringes instead of bullets, allowing the wielder to deliver a dose of medicine or poison from a safe distance. Early needler pistols were red and white peashooters marked with a deity's holy symbol. Antiques and replicas remain on the market, but are curiosities compared to subtler modern designs.</p>"
         },
         "Neural Lash": {
             "name": "Neural Lash",
@@ -1311,7 +1351,7 @@
         },
         "Photon Solarian Crystal (Tactical)": {
             "name": "Photon Solarian Crystal (Tactical)",
-            "description": "<p>A photon crystal increases the flow of photons from your solar mote into your solar weapon, burning and blinding your foes. When you hit a creature with your solar weapon while photon attuned, you deal an extra 1d6 fire damage. Damage dealt by your solar weapon while photon attuned ignores the target’s resistance to fire. On a critical hit while you're photon attuned, the target must succeed at a @Check[type:fortitude|dc:31] save or be @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded} for 2 rounds.</p>"
+            "description": "<p>A photon crystal increases the flow of photons from your solar mote into your solar weapon, burning and blinding your foes. When you hit a creature with your solar weapon while photon attuned, you deal an extra 1d6 fire damage. Damage dealt by your solar weapon while photon attuned ignores the target's resistance to fire. On a critical hit while you're photon attuned, the target must succeed at a @Check[type:fortitude|dc:31] save or be @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded} for 2 rounds.</p>"
         },
         "Photosynthetic Skin": {
             "name": "Photosynthetic Skin",
@@ -1331,11 +1371,11 @@
         },
         "Plasma Sword": {
             "name": "Plasma Sword",
-            "description": "<p><strong>Upgrades:</strong> 1</p><hr /><p>This sword generates a focused beam of plasma around a localized force field powered by a generator in the sword’s hilt. The beam only blazes to life when the sword is powered.</p>"
+            "description": "<p><strong>Upgrades:</strong> 1</p><hr /><p>This sword generates a focused beam of plasma around a localized force field powered by a generator in the sword's hilt. The beam only blazes to life when the sword is powered.</p>"
         },
         "Polyglove": {
             "name": "Polyglove",
-            "description": "<p><strong>Upgrades:</strong> 1</p><hr /><p>This glove features dozens of delicate tools for building or repairing computers and other technological items, making it impossible to manipulate other items in the same hand. Overclocking the polyglove’s components generates voltage between a wielder’s fingertips.</p>"
+            "description": "<p><strong>Upgrades:</strong> 1</p><hr /><p>This glove features dozens of delicate tools for building or repairing computers and other technological items, making it impossible to manipulate other items in the same hand. Overclocking the polyglove's components generates voltage between a wielder's fingertips.</p>"
         },
         "Portable Amp": {
             "name": "Portable Amp",
@@ -1562,7 +1602,7 @@
         },
         "Shock Module (Tactical)": {
             "name": "Shock Module (Tactical)",
-            "description": "<p>This deceptively simple upgrade safely courses electricity through your weapon, dealing an extra @Damage[1d6[electricity]] damage on a hit. On a critical hit, electricity arcs out to deal an equal amount of electricity damage to up to two other creatures of your choice within 10 feet of the target. </p><p>Electricity damage dealt by this weapon ignores the target’s electricity resistance (and the other creatures’ on a critical hit).</p>"
+            "description": "<p>This deceptively simple upgrade safely courses electricity through your weapon, dealing an extra @Damage[1d6[electricity]] damage on a hit. On a critical hit, electricity arcs out to deal an equal amount of electricity damage to up to two other creatures of your choice within 10 feet of the target. </p><p>Electricity damage dealt by this weapon ignores the target's electricity resistance (and the other creatures' on a critical hit).</p>"
         },
         "Shock Pad": {
             "name": "Shock Pad",
@@ -1570,7 +1610,7 @@
         },
         "Shock Truncheon": {
             "name": "Shock Truncheon",
-            "description": "<p><strong>Upgrades:</strong> 1</p><hr /><p>Popular among security forces, this retractable baton discharges electricity when it strikes a target. A whirring device inside the grip generates voltage, creating a sound like a swarm of buzzing insects when it’s fully charged.</p>"
+            "description": "<p><strong>Upgrades:</strong> 1</p><hr /><p>Popular among security forces, this retractable baton discharges electricity when it strikes a target. A whirring device inside the grip generates voltage, creating a sound like a swarm of buzzing insects when it's fully charged.</p>"
         },
         "Shooting Starknife": {
             "name": "Shooting Starknife",
@@ -1918,11 +1958,11 @@
         },
         "Zero Cannon": {
             "name": "Zero Cannon",
-            "description": "<p><strong>Upgrades:</strong> 1</p><hr /><p>This triple-barreled cannon’s generator churns rapidly, circulating coolant into a blast of endothermic energy. While powered, frost rimes the barrel and stock of this weapon, causing experienced wielders to keep thermal gloves on hand.</p>"
+            "description": "<p><strong>Upgrades:</strong> 1</p><hr /><p>This triple-barreled cannon's generator churns rapidly, circulating coolant into a blast of endothermic energy. While powered, frost rimes the barrel and stock of this weapon, causing experienced wielders to keep thermal gloves on hand.</p>"
         },
         "Zero Knife": {
             "name": "Zero Knife",
-            "description": "<p><strong>Upgrades:</strong> 1</p><hr /><p>Unfolding like a switchblade, a supercooled chamber within this weapon’s grip instantly forms a blade of ice with an aura of intense cold.</p>"
+            "description": "<p><strong>Upgrades:</strong> 1</p><hr /><p>Unfolding like a switchblade, a supercooled chamber within this weapon's grip instantly forms a blade of ice with an aura of intense cold.</p>"
         },
         "Zero Pistol": {
             "name": "Zero Pistol",

@@ -348,6 +348,11 @@
                     "Prompt": "Select a 17th-level or lower ancestry feat."
                 }
             },
+            "Contemplative": {
+                "Telepredict": {
+                    "Toggle": "Telepredict: Dealt mental damage"
+                }
+            },
             "Envoy": {
                 "EffortlessInfluencer": {
                     "Note": "<p>When you succeed at a check with Deception, Diplomacy, or Intimidation, allies within 60 feet who witnessed your success gain a +1 status bonus to the next check they attempt with that skill within 1 minute (or a +2 bonus if your check was a critical success).</p><p>@UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.ZQM4vfHEKgxvNJik]{Effect: Effortless Influencer}</p>"
@@ -410,6 +415,20 @@
                         },
                         "Title": "Photon Solarian Crystal"
                     }
+                }
+            },
+            "Hellknight": {
+                "Order": {
+                    "Chain": "Chain",
+                    "Crucible": "Crucible",
+                    "Eclipse": "Eclipse",
+                    "Pyre": "Pyre"
+                },
+                "Prompt": "Select a hellknight order"
+            },
+            "Kalo": {
+                "ElectricKalo": {
+                    "Alteration": "If you cast this spell with only 1 target, you gain electricity resistance equal to half your level (minimum 1) until the end of your next turn."
                 }
             },
             "Kasatha": {
@@ -646,6 +665,7 @@
             "AreaBurst15Ft": "Area (Burst 15 ft.)",
             "AreaCone": "Area (Cone)",
             "AreaLine": "Area (Line)",
+            "Astrazoan": "Astrazoan",
             "Attuned": "Attuned",
             "Automatic": "Automatic",
             "Barathu": "Barathu",
@@ -653,10 +673,12 @@
             "Borai": "Borai",
             "Boost1": "Boost 1",
             "Boost1d4": "Boost 1d4",
+            "Boost1d10": "Boost 1d10",
             "Breakdown": "Breakdown",
             "Caster": "Caster",
             "Ceramic": "Ceramic",
             "Compact": "Compact",
+            "Contemplative": "Contemplative",
             "Cosmic": "Cosmic",
             "CriticalBrawling": "Critical (Brawling)",
             "CriticalCorrosive": "Critical (Corrosive)",
@@ -670,6 +692,7 @@
             "Cycle": "Cycle",
             "Directive": "Directive",
             "Disharmony": "Disharmony",
+            "Dragonkin": "Dragonkin",
             "Drift": "Drift",
             "Envoy": "Envoy",
             "Expend1": "Expend 1",
@@ -681,6 +704,7 @@
             "Grenade": "Grenade",
             "Installed": "Installed",
             "Jinsul": "Jinsul",
+            "Kalo": "Kalo",
             "Kasatha": "Kasatha",
             "Kothama": "Kothama",
             "Kucharn": "Kucharn",
@@ -708,6 +732,7 @@
             "RangedShove": "Ranged Shove",
             "Retractable": "Retractable",
             "Robot": "Robot",
+            "Sarcesian": "Sarcesian",
             "Serum": "Serum",
             "Shirren": "Shirren",
             "Skittermander": "Skittermander",
@@ -725,6 +750,7 @@
             "Unwieldy": "Unwieldy",
             "Upgrade": "Upgrade",
             "Vesk": "Vesk",
+            "Vlaka": "Vlaka",
             "Virtual": "Virtual",
             "Witchwarper": "Witchwarper",
             "Zone": "Zone"

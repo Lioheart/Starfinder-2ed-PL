@@ -1,5 +1,10 @@
 {
     "label": "Class-Features",
+    "folders": {
+        "Ancestry Features": "Ancestry Features",
+        "Mechanic": "Mechanic",
+        "Technomancer": "Technomancer"
+    },
     "entries": {
         "Action Hero": {
             "name": "Action Hero",
@@ -8,6 +13,10 @@
         "Adaptive Talent": {
             "name": "Adaptive Talent",
             "description": "<p>You're quick thinking and adaptable, capable of picking up new skills and talents with little practice or training. During your daily preparations, select one skill feat that you meet the prerequisites for. You gain this skill feat until you prepare again. Since you have this feat temporarily, you can't use it as a prerequisite for a permanent character option. You can use this for effects that temporarily give you access to other abilities, such as taking Multilingual to temporarily learn a new language.</p>\n<p>As your envoy level increases, so does your ability to adapt to new situations. At 9th level and 15th level, increase the number of skill feats you gain this way by 1. You can use feats that you temporarily gain through adaptive talent as a prerequisite for other feats that you temporarily gain through adaptive talent, but you still can't use them as prerequisites for permanent character options.</p>"
+        },
+        "Administrator Privileges": {
+            "name": "Administrator Privileges",
+            "description": "<p>You command the most potent arcane magic and can cast a spell of truly incredible power. You gain a single 10th-rank spell slot and can prepare a spell in that slot using technomancer spellcasting. Unlike with other spell slots, you can't use 10th-rank slots with abilities that give you more spell slots or that let you cast spells without expending spell slots. You don't gain more 10th-rank spells as you level up, but you can take the Root Access feat to gain a second slot.</p>"
         },
         "Advanced Epiphany": {
             "name": "Advanced Epiphany",
@@ -49,6 +58,10 @@
             "name": "Armor Storm",
             "description": "<p>Your armor is like an extension of your skin (or other appropriate surface layer), and you're able to leverage it alongside the heavy weapons you employ. Foes you suppress quickly stumble while attempting to overcome your durability, granting you an edge in absorbing their incoming firepower. You likely move to the forefront and try to focus your enemy's attention on yourself.</p><p>You never count as being in the area of a ranged weapon you've made an attack with. You gain resistance equal to half your level (minimum 1) against attacks made by @UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.enA7BxAjBb7ns1iF]{Suppressed} targets.</p><p>You can @UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{Disarm}, @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Grapple}, @UUID[Compendium.pf2e.actionspf2e.Item.lOE4yjUnETTdaf2T]{Reposition}, @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{Shove}, or @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{Trip} even if you don't have a free hand. You gain a +1 status bonus to Athletics checks to Disarm, Grapple, Reposition, Shove, and Trip suppressed foes. When you successfully Disarm, Grapple, Reposition, Shove, or Trip a creature, it becomes suppressed until the start of your next turn.</p>"
         },
+        "Atrophied": {
+            "name": "Atrophied",
+            "description": "<p>Your limbs are atrophied. Decrease your maximum and encumbered Bulk limits by 1. While using your hands to wield any weapon or device whose Bulk is 2 or higher, you are @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1}.</p>"
+        },
         "Balanced": {
             "name": "Balanced",
             "description": "<p>You find yourself existing between the gravitic and photonic extremes of stellar forces, believing that a balance between the two is where one finds perfection. This means that you often swap between attunements in your daily life and enjoy using graviton and photon abilities in an interweaved tapestry.</p><p><strong>Favored Attunement:</strong> Graviton and Photon. Choose which attunement you have outside of combat, and when using the Attune action you can select which attunement you wish to be.</p><p><strong>Revelations</strong>: initial: @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.cQMj2w63yyN1A9W3]{Binaric Assault}; advanced: @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.QWJQQDh6OcKAiG1r]{Ascended Stability}; greater: @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.EvcD5wCRJPM9hAHK]{Astrological Sense}</p><p><strong>Arrangement Skill</strong>: Medicine or Society</p>"
@@ -56,6 +69,10 @@
         "Bombard": {
             "name": "Bombard",
             "description": "<p>There's nothing like a reliable heavy gun (or maybe several) to get you through tough times. You've come to terms with the fact that your weapons might sometimes hit your allies but work to minimize such instances of \"friendly fire.\" In fact, you've honed your skill with heavy weapons so much that all but the most indirect of strikes cause your allies to duck down or force them to adapt to the havoc you unleash.</p><p>When you attack with an area weapon, you adjust the shot to allow allies to better avoid it. You can select a number of allies within the area of your weapon's fire equal to half your Constitution modifier. Selected allies are unaffected by your attacks. In addition, enemies who succeed (but not critically succeed) their save against an area attack you make are still @UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.enA7BxAjBb7ns1iF]{Suppressed} until the start of your next turn.</p>"
+        },
+        "Change Shape": {
+            "name": "Change Shape",
+            "description": "<p>You can transform into a Small, Medium, or Large ancestry you know with any features you choose; for example, you choose your body type, gender, and other details within the normal range for that ancestry. This shape might resemble a specific individual or be completely unique to you. Using Change Shape counts as creating a disguise for the Impersonate use of Deception. You can remain in this shape indefinitely, and you can shift back to your true astrazoan form or another shape by using this action again. If you die while using an alternate shape, your body slowly shifts back to its natural form.</p>"
         },
         "Close Quarters": {
             "name": "Close Quarters",
@@ -77,13 +94,37 @@
             "name": "Critical Aim",
             "description": "<p>The first time in a round when you @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.LRbwV8LMLi6FFKjW]{Aim} and successfully make a ranged Strike against your mark, add your weapon's critical specialization effect to the attack even if you did not score a critical hit.</p>"
         },
+        "Critical Eye": {
+            "name": "Critical Eye",
+            "description": "<p>You've got a critical eye for detail and notice the almost imperceptible. Your proficiency rank for Perception increases to legendary.</p>"
+        },
+        "Custom Rig": {
+            "name": "Custom Rig",
+            "description": "<p>You begin with a specialized toolkit called a custom rig. Your custom rig weighs 1 Bulk and counts as both a commercial repair toolkit plus any one of the following toolkits of your choice: a commercial hacking toolkit, a commercial infiltrator's toolkit, or a commercial maker's toolkit. You can use your custom rig with one hand if you're wearing it or two hands if you're holding it.</p><p>Whenever you purchase one of the listed toolkits, or a higher-grade version of one of the listed toolkits, you can spend 10 minutes integrating that toolkit into your custom rig. If you do, your custom rig gains the properties of the toolkit. This does not increase the Bulk of your custom rig. Your custom rig and any integrated toolkits can't be sold or used by another creature.</p>"
+        },
+        "DPS++": {
+            "name": "DPS++",
+            "description": "<p>DPS++ is the premier programming language for weapons, incorporating tactical commands, shortcuts, and innovations from programming languages found across the galaxy to cause maximum destruction. This incredible feat of computer science is responsible for the universal compatibility of weapon upgrades.</p><p><strong>Spell Cache</strong></p><ul><li><strong>1st</strong> @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.naP8amjLGSEARe9V]</li><li><strong>2nd</strong> @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.ygjHoKJSmAViJHJq]</li><li><strong>3rd</strong> electrotether</li><li><strong>4th</strong> @UUID[Compendium.pf2e.spells-srd.Item.Y3G6Y6EDgCY0s3fq]</li><li><strong>5th</strong> @UUID[Compendium.pf2e.spells-srd.Item.oXeEbcUdgJGWHGEJ]</li><li><strong>6th</strong> @UUID[Compendium.pf2e.spells-srd.Item.r7ihOgKv19eJQnik]</li><li><strong>7th</strong> @UUID[Compendium.pf2e.spells-srd.Item.AlbpWWN87yGegoAF]</li><li><strong>8th</strong> @UUID[Compendium.pf2e.spells-srd.Item.C2GYCH3TtUFqPfdX]</li><li><strong>9th</strong> @UUID[Compendium.pf2e.spells-srd.Item.4WS7HrFjwNvTn8T2]</li></ul><p><strong>Magic Hacks</strong></p><ul><li><strong>initial:</strong> @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.JJtBe3xM4r7kyohg]</li><li><strong>advanced:</strong> @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.iA5xYqLRCIOosF6h]</li><li><strong>greater:</strong> @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.BKe64JRvtCjGvcrB]</li></ul><p><strong>Spellshape</strong> @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.GsrKsGF06M5LDZWH]</p><p><strong>Overclock Boost</strong> (weapon) You reduce the circumstance bonus to AC your targets have from cover by an amount equal to half the rank of the spell you cast to overclock your gear (minimum 1). Reduce any penalties due to range by 1. You gain a circumstance bonus to weapon damage equal to the rank of the spell you cast to overclock your gear. If the spell dealt damage, this bonus damage is of the same type of damage the spell dealt, rather than the weapon's normal damage (if the spell dealt multiple types of damage, select one damage type from among those options).</p><p><strong>Jailbreak Spellshape</strong> When you Jailbreak Spell to apply the Signal Boost spellshape to a spell that deals damage, you gain an item bonus to damage equal to the base weapon die of your weapon to one target of the spell. Do not apply any other modifiers to the damage, including feats, attribute modifiers, weapon traits, and weapon upgrades.</p>"
+        },
+        "Damage Customizations": {
+            "name": "Damage Customizations",
+            "description": "<p>You've developed the tools to temporarily transmute energy from one type to another, and you've solved complex calculations required to add versatility to your physical attacks. Add the following mods to the list of options you can select with Modify.</p><ul><li><strong>Energy Versatility (grenade or weapon that deals energy damage):</strong> You add a custom energy converter to the item. The item deals one of the following damage types, rather than its typical damage type: acid, cold, electricity, fire, sonic.</li><li><strong>Physical Versatility (grenade or weapon that deals physical damage):</strong> You modify the item's structure, changing its destructive potential. The item deals one of the following damage types, rather than its typical damage type: bludgeoning, piercing, slashing.</li></ul>"
+        },
         "Defensive Aura": {
             "name": "Defensive Aura",
             "description": "<p>The flow of magic through your spellcasting and your defensive training combine to help you avoid attacks. Your proficiency ranks in light armor and unarmored defense increase to expert.</p>"
         },
+        "Defensive Measures": {
+            "name": "Defensive Measures",
+            "description": "<p>The residual magic in your body and your training helps you avoid attacks. Your proficiency rank in unarmored defense increases to expert.</p>"
+        },
         "Degradant": {
             "name": "Degradant",
             "description": "<p>You embody the slow degradation of all things. There is a beauty in the dance of stars, and you watch it as eagerly as you watch the interplay between those who come into your orbit.</p><p><strong>Favored Attunement</strong>: Graviton</p><p><strong>Revelations</strong>: initial: @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.YdOtskSkZXO9ERzF]{Black Hole}; advanced: @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.Gy4zPZjcQ5r3hVSo]{Defy Gravity}; greater: @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.fvOIXr6DBinSFC0f]{Singularity}</p><p><strong>Arrangement Skill</strong>: Deception or Intimidation</p>"
+        },
+        "Drone": {
+            "name": "Drone",
+            "description": "<p>Your exocortex connects to a basic robot companion called a drone, which accompanies you on your adventures and follows your neural commands to the best of its abilities. See Robot Companions for more information. Drone types are detailed on page 16. In addition to the customization all robot companions receive, your drone begins with one integrated weapon mount. You control your drone with your thoughts at a range of up to 150 feet; only you can operate, control, and repair your drone. If your drone is ever beyond your range of control, it can't perform any actions. During your daily preparations, you automatically repair your drone, restoring it to maximum Hit Points, even if it's been destroyed. You can further customize and advance your drone by taking feats.</p><p>You can spend additional time directing your drone for a more complex plan of action. You can spend 2 actions to Command instead of 1 when commanding your drone; your drone can then use an additional action (normally 3 actions, rather than 2).</p><p>You can Modify your drone and any weapons it wields when you are within reach. The drone counts as armor for the purposes of Modify. You gain the following new mods.</p><ul><li><strong>Desperate Repair (drone exocortex):</strong> Your drone gains temporary Hit Points equal to your level plus your Intelligence modifier.</li><li><p><strong>Killbot (drone exocortex):</strong> Your drone gains a +2 status bonus to damage rolls. If your drone's Strikes deal more than one weapon damage die, the status bonus increases to 2 per weapon damage die, to a maximum of +8 with four weapon damage dice.</p></li></ul>"
         },
         "Effortless Influencer": {
             "name": "Effortless Influencer",
@@ -92,6 +133,14 @@
         "Elemental": {
             "name": "Elemental",
             "description": "<p>You channel the raw power of the primordial elements that converge to create the Universe and everything in it. You might have a strong affinity with the elemental planes of existence, or just a natural understanding of the basic elements of creation.</p><p><strong>Spellcasting Tradition</strong> primal</p><p><strong>Connection Skill</strong> Nature</p><p><strong>Granted Spells</strong></p><ul><li><em>cantrip</em> @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.RH9ZY9BSIa38M1Hk]</li><li><em>1st</em> @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.FXIhLIMgi0QDTr3w]</li><li><em>2nd</em> @UUID[Compendium.pf2e.spells-srd.Item.WPu3UE3kTXSLqO40]</li><li><em>3rd</em> @UUID[Compendium.pf2e.spells-srd.Item.fI20AVwOzJMHXRdo]</li><li><em>4th</em> @UUID[Compendium.pf2e.spells-srd.Item.YrzBLPLd3r9m6t1p]</li><li><em>5th</em> @UUID[Compendium.pf2e.spells-srd.Item.jQdm301h6e8hIY4U]</li><li><em>6th</em> @UUID[Compendium.pf2e.spells-srd.Item.jj5d830iUi2ZlQfs]</li><li><em>7th</em> @UUID[Compendium.pf2e.spells-srd.Item.XS7Wyh5YC0NWeWyB]</li><li><em>8th</em> @UUID[Compendium.pf2e.spells-srd.Item.wfleiawxsfhpRRwf]</li><li><em>9th</em> @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.FDm63NThHyPBWmNz]</li></ul><p>For <em>spiritual armament</em>, <em>fire shield</em>, <em>spiritual guardian</em>, <em>blessed boundary</em>, <em>fiery body</em>, and <em>telekinetic tantrum</em> replace the elemental trait and damage type with the trait and damage type of your active <em>elemental weapon</em> or <em>elemental barrier</em> epiphany spells.</p><p><strong>Harmony</strong> When you heal a bonded creature with your vitality network, choose an elemental trait: air, earth, fire, metal, water, or wood. If one or more of your elemental epiphanies are active, you must select the elemental trait you chose as part of casting those spells. Until the end of their next turn, the target's next Strike deals 1d4 persistent damage based on the chosen trait: electricity or sonic for air, bludgeoning or piercing for earth, acid or slashing for metal, fire for fire, cold for water, or poison for wood. This increases to 1d6 when you learn your advanced epiphany and 1d8 when you learn your greater epiphany.</p><p><strong>Initial Epiphany</strong> You learn the @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.bS8Au4zlZG3RR78G] epiphany spell.</p><p><strong>Advanced Epiphany</strong> You learn the @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.ufwuEqjIg3yALnLL] epiphany spell.</p><p><strong>Greater Epiphany</strong> You learn the @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.5zWyADC0jPsAlvcd] epiphany spell.</p><p><strong>Perfect Harmony</strong> Chosen during your daily preparations, you gain resistance equal to half your mystic level to two damage types based on two elements you select (as listed in Harmony). When you heal a bonded ally with Transfer Vitality, your ally gains these resistances until the beginning of your next turn. These effects last until your next preparations.</p>"
+        },
+        "Enduring Mods": {
+            "name": "Enduring Mods",
+            "description": "<p>Your customizations are built to last. Each day, pick one mod you know to apply to an item during your daily preparations. This mod doesn't count against your limit. The selected mod lasts for 24 hours or until dismissed.</p>"
+        },
+        "Energy Wings": {
+            "name": "Energy Wings",
+            "description": "<p>When in a vacuum, you can manifest butterfly-like wings of pure energy that function as solar sails and enable you to fly through the void of space. You gain the @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.NEYVJWYtgl0rRSwg]{Manifest Energy Wings} action.</p>"
         },
         "Envoy Directive": {
             "name": "Envoy Directive",
@@ -109,9 +158,21 @@
             "name": "Erudite Warrior",
             "description": "<p>Not every situation should be solved with a gun and sometimes it's better to just talk things through. You've come to appreciate specific facets of a galactic culture and can hold your own in a conversation to avoid unnecessary conflict. However, should a conflict arise, you're the first to display your aptitude with your weapons, cowing foes with your skill.</p><p>You're trained in Diplomacy or Society and a Lore skill of your choice. When you gain armor expertise, you gain expert proficiency in Diplomacy or Society (whichever you selected). This increases to master proficiency in the selected skill when you gain armor mastery and again to legendary when you gain legendary armor. You also gain the @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.MhHbQJyCQHFqBFcb]{Oppressive Presence} action.</p>"
         },
+        "Exocortex": {
+            "name": "Exocortex",
+            "description": "<p>You've constructed a sophisticated program of self-motivated code synchronized with your brain, which you can use to remotely control a complex device of your own design. This program and its linked device are collectively called an exocortex.</p><p>At 1st level, you choose your exocortex. The exocortexes presented in this book include the following: a drone, a network of mines, or a deployable turret. You can Modify your exocortex in unique ways.</p>"
+        },
         "Expert Spellcaster": {
             "name": "Expert Spellcaster",
-            "description": "<p><strong>Mystic</strong> You have formed a more powerful bond with your connection. Your proficiency ranks for spell attack modifier and spell DC statistics increase to expert.</p>"
+            "description": "<p><strong>Mystic</strong> You have formed a more powerful bond with your connection. Your proficiency ranks for spell attack modifier and spell DC statistics increase to expert.</p><p><strong>Technomancer</strong> Extended practice of the arcane has improved your capabilities. Your proficiency ranks for spell attack modifier and spell DC increase to expert.</p>"
+        },
+        "Expert Spellcaster (Witchwarper)": {
+            "name": "Expert Spellcaster (Witchwarper)",
+            "description": "<p>Extended practice of magic has improved your capabilities. Your proficiency ranks for class DC, spell attack modifier, and spell DC increase to expert.</p>"
+        },
+        "FORTRUN": {
+            "name": "FORTRUN",
+            "description": "<p>This programming language began as the AbadarCorp standard for heat sinks, especially in hostile environments, and was quickly adopted as the universal language of armor, environmental protection, and satellite defense software. The simple but elegant code is designed to minimize the possibility of potentially life-threatening errors that could cause a system to malfunction and has endless applications for personal defense.</p><p><strong>Spell Cache</strong></p><ul><li><strong>1st</strong> @UUID[Compendium.pf2e.spells-srd.Item.gMODOGamz88rgHuf]</li><li><strong>2nd</strong> @UUID[Compendium.pf2e.spells-srd.Item.Fr58LDSrbndgld9n]</li><li><strong>3rd</strong> @UUID[Compendium.pf2e.spells-srd.Item.o6YCGx4lycsYpww4]</li><li><strong>4th</strong> @UUID[Compendium.pf2e.spells-srd.Item.aqRYNoSvxsVfqglH]</li><li><strong>5th</strong> @UUID[Compendium.pf2e.spells-srd.Item.Ek5XI0aEdZhBgm21]</li><li><strong>6th</strong> @UUID[Compendium.pf2e.spells-srd.Item.yrZA4k2VAqEP8xx7]</li><li><strong>7th</strong> @UUID[Compendium.pf2e.spells-srd.Item.m2xFMNyQiUKQDRaj]</li><li><strong>8th</strong> @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.bQ08S60JJPe8Q0iK]</li><li><strong>9th</strong> @UUID[Compendium.pf2e.spells-srd.Item.qsNeG9KZpODSACMq]</li></ul><p><strong>Magic Hack</strong></p><ul><li><strong>initial:</strong> @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.75E9LlqNjHseSerF]</li><li><strong>advanced:</strong> @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.sxnYY0EChhDP1Fa6]</li><li><strong>greater:</strong> @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.YatlrDaULkzo3nSA]</li></ul><p><strong>Spellshape</strong> @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.2jgnYZoAlcbZXRPL]</p><p><strong>Overclock Boost</strong> (armor) You gain a +1 circumstance bonus to your AC until the beginning of your next turn. Each time a hostile creature touches you or damages you with an unarmed melee attack or non-reach melee weapon, it takes force damage equal to the rank of the spell you cast to overclock your gear. If the spell dealt damage, this damage is of the same type of damage the spell dealt. If the spell dealt multiple types of damage, select one damage type from among those options.</p><p><strong>Jailbreak Spellshape</strong> When you Jailbreak Spell to apply the Denial of Safety spellshape to a spell that deals damage, you can use the spell's surplus energy to move yourself in any direction, up to one square per rank of the spell. This is forced movement and does not trigger reactions. The origin of the spell and its area are selected before you move if this ability moves you out of the spell's area, you are not affected by the spell.</p>"
         },
         "Fearsome Bulwark": {
             "name": "Fearsome Bulwark",
@@ -193,6 +254,14 @@
             "name": "Hotshot",
             "description": "<p>From the driver's seat of a vehicle or the cockpit of a starship, you're always at home piloting a vehicle and can provide orders to allies without a second thought. In stressful situations you pilot your allies just as effectively as the vehicle you're driving.</p><p><strong>Leadership Skill (1st)</strong> Piloting</p><p><strong>Leadership Perk (1st)</strong> You gain @UUID[Compendium.pf2e.feats-srd.Item.K2R1xGTgBnSCDMUl]{Express Driver} as a bonus feat.</p><p><strong>Acts of Leadership (6th)</strong> @UUID[Compendium.pf2e.actionspf2e.Item.uS3qDAgOkZ7b8ERL]{Drive}, @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.9Msf0P33UR5mNRuz]{Take Control}, @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.ailFBRjKuGCOAsCR]{Stunt}</p>"
         },
+        "Hydration": {
+            "name": "Hydration",
+            "description": "<p>Your body requires you to return to aquatic environments or to don armor with environmental protections at least once in a 24-hour period. You must submerge in water in order to rehydrate your water-acclimated skin.</p><p>If you fail to do this, your skin begins to crack and your gills become painful. After the first 24 hours outside of water, you take a -1 status penalty to Fortitude saves. After 48 hours, you struggle to breathe air and begin to suffocate until returned to water.</p><p>@UUID[Compendium.pf2e.feat-effects.Item.Q5FUu7yhWPJlcXei]{Effect: Dehydrated}</p>"
+        },
+        "Impressive Endurance": {
+            "name": "Impressive Endurance",
+            "description": "<p>You're accustomed to working long hours in cramped or extreme conditions. Your proficiency rank for Fortitude saves increases to master. When you roll a success on a Fortitude save, you get a critical success instead.</p>"
+        },
         "Improvised Mastery": {
             "name": "Improvised Mastery",
             "description": "<p>Whether by luck or instinct, you display impressive talent on the fly. You gain the @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.W0mMwOY1UKFHUHok]{Improvised Mastery} action.</p>"
@@ -225,6 +294,14 @@
             "name": "Initial Epiphany",
             "description": "<p>You discover the most basic truth of your connection. You learn your connection's initial epiphany spell. Epiphany spells are a type of focus spell. It costs 1 Focus Point to cast a focus spell, and you start with a focus pool of 1 Focus Point. You refill your focus pool during your daily preparations, and you can regain 1 Focus Point by spending 10 minutes using the Refocus activity to perform, spend time with your bonded allies, or otherwise ponder the nature of your connection. Focus spells are automatically heightened to half your level rounded up, much like cantrips. Focus spells don't require spell slots, and you can't cast them using spell slots. Taking feats can give you more focus spells and increase the size of your focus pool, though your focus pool can never hold more than 3 Focus Points.</p>"
         },
+        "Instant Mods": {
+            "name": "Instant Mods",
+            "description": "<p>You can customize objects on the fly with barely a thought. You can Modify as a free action, rather than a single action.</p>"
+        },
+        "Jailbreak Spell": {
+            "name": "Jailbreak Spell",
+            "description": "<p>You gain the @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.EE07CnQmn8Xg4gkd]{Jailbreak Spell} action.</p>"
+        },
         "Leader's Confidence": {
             "name": "Leader's Confidence",
             "description": "<p>Whether you're cool and collected or voicing confidence through gritted teeth, you prepare your team for incoming danger. You gain the @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.hXcgSVdVJcA5cqnh]{Steel Yourselves!} envoy directive.</p>"
@@ -247,7 +324,7 @@
         },
         "Legendary Spellcaster": {
             "name": "Legendary Spellcaster",
-            "description": "<p><strong>Mystic</strong> Magic flows through your every pore. Your proficiency ranks for spell attack modifier and spell DC increase to legendary.</p>"
+            "description": "<p><strong>Mystic</strong> Magic flows through your every pore. Your proficiency ranks for spell attack modifier and spell DC increase to legendary.</p><hr /><p><strong>Technomancer</strong> You are a consummate spellcaster, blending both arcane theory and practical spellcraft. Your proficiency ranks for spell attack modifier and spell DC increase to legendary.</p>"
         },
         "Light Armor Expertise": {
             "name": "Light Armor Expertise",
@@ -259,7 +336,15 @@
         },
         "Limited Telepathy": {
             "name": "Limited Telepathy",
-            "description": "<p>You can communicate mentally with creatures within 30 feet. You can communicate only with creatures that share a language with you. This doesn't give you any access to their thoughts, and it communicates no more information than normal speech would</p>"
+            "description": "<p>You can communicate mentally with creatures within 30 feet. You can communicate only with creatures that share a language with you. This doesn't give you any access to their thoughts, and it communicates no more information than normal speech would.</p>"
+        },
+        "Magical Fortitude": {
+            "name": "Magical Fortitude",
+            "description": "<p>Magical power has improved your body's resiliency. Your proficiency rank for Fortitude saves increases to expert.</p>"
+        },
+        "Manifold Mods": {
+            "name": "Manifold Mods",
+            "description": "<p>You've learned to work smarter, not harder, and you can install multiple mods at once. Whenever you Modify an item, you can select two mods you know instead of one.</p>"
         },
         "Master Gunner": {
             "name": "Master Gunner",
@@ -267,15 +352,59 @@
         },
         "Master Spellcaster": {
             "name": "Master Spellcaster",
-            "description": "<p><strong>Mystic</strong> You command powerful magic channeled through your connection. Your proficiency ranks for spell attack modifier and spell DC increase to master.</p>"
+            "description": "<p><strong>Mystic</strong> You command powerful magic channeled through your connection. Your proficiency ranks for spell attack modifier and spell DC increase to master.</p><hr /><p><strong>Technomancer</strong> You command superlative spellcasting. Your proficiency ranks for spell attack modifier and spell DC increase to master.</p>"
+        },
+        "Master Spellcaster (Witchwarper)": {
+            "name": "Master Spellcaster (Witchwarper)",
+            "description": "<p>Your spells are among the most potent across all possible worlds. Your proficiency ranks for class DC, spell attack modifier, and spell DC increase to master.</p>"
         },
         "Masterful Advance": {
             "name": "Masterful Advance",
             "description": "<p>When you use @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.SWHe1OEtGajrRWrZ]{Tactical Advance}, you can Stride up to your Speed, rather than up to half your Speed.</p>"
         },
+        "Mechanic Weapon Expertise": {
+            "name": "Mechanic Weapon Expertise",
+            "description": "<p>You know how to use constructed weapons to their best advantage. Your proficiency ranks for simple and martial weapons and unarmed attacks increase to expert. You gain access to the critical specialization effect of all weapons for which you have expert proficiency. If you have a drone exocortex, your drone additionally gains access to the critical specialization effects of all weapons for which it has expert proficiency.</p>"
+        },
+        "Mechanic Weapon Mastery": {
+            "name": "Mechanic Weapon Mastery",
+            "description": "<p>You fully understand the intricacies of weapons. Your proficiency rank for simple and martial weapons and unarmed attacks increases to master.</p>"
+        },
+        "Mechanic's Ingenuity": {
+            "name": "Mechanic's Ingenuity",
+            "description": "<p>At 3rd, 7th, and 15th level, you gain an additional skill increase you can apply only to Computers or Crafting. You also gain an additional skill feat at these levels. This feat must be for Computers or Crafting.</p>"
+        },
+        "Mechanic's Reflexes": {
+            "name": "Mechanic's Reflexes",
+            "description": "<p>More than a few mishaps in the garage have taught you the value of moving quickly. Your proficiency rank for Reflex saves increases to master. When you roll a success on a Reflex save, you get a critical success instead.</p>"
+        },
+        "Mechanical Expertise": {
+            "name": "Mechanical Expertise",
+            "description": "<p>Your skill as a mechanic has improved. Your proficiency rank for your mechanic class DC increases to expert.</p>"
+        },
+        "Mechanical Mastery": {
+            "name": "Mechanical Mastery",
+            "description": "<p>Your skill as a mechanic is well known throughout the galaxy. Your proficiency rank for your mechanic class DC increases to master.</p>"
+        },
+        "Medium Armor Expertise": {
+            "name": "Medium Armor Expertise",
+            "description": "<p>You've learned to defend yourself better against attacks. Your proficiency ranks for light armor, medium armor, and unarmored defense increase to expert.</p>"
+        },
+        "Mine": {
+            "name": "Mine",
+            "description": "<p>Your exocortex manages a network of mines. You can deploy these mines with the Deploy Mine action and activate them with the Detonate Mine action or reaction. Your mines are shielded and can't detonate from taking damage. The DC to Disable your mines is equal to your class DC. You can collect an adjacent, deployed, and undetonated mine as a single action, storing it alongside your other prepared mines in your custom rig.</p><p>During your daily preparations, you can create a number of mines up to 2 + your Intelligence modifier, which is also your maximum number of mines. If you're below your maximum number, you can craft new mines using your custom rig. For every 10 minutes you spend in exploration mode, you regain 2 mines; this doesn't prevent you from participating in other exploration activities. You can store all your mines in your custom rig, with no increase to its Bulk.</p><p>Though your mines are physical objects, they are destroyed if not used by the next time you make your daily preparations. They can't be duplicated or preserved in any way.</p>"
+        },
+        "Mobile Exocortex": {
+            "name": "Mobile Exocortex",
+            "description": "<p>You've upgraded your exocortex, making devices connected to it more mobile or nimble. This effect depends on the exocortex you selected. If you have a drone exocortex, you gain the Synchronized Step action. If you have a mine or turret exocortex, you gain the Reposition Exocortex action.</p>"
+        },
         "Mobile Reload": {
             "name": "Mobile Reload",
             "description": "<p>Your gun is a part of you, and you've learned to reload while performing other actions. Whenever you Interact to reload a ranged weapon, you can also Step or Stride.</p>"
+        },
+        "Modify": {
+            "name": "Modify",
+            "description": "<p>Your custom rig allows you to customize items in your possession on the fly, increasing their effectiveness or versatility for a limited time. You can make such adjustments using the @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.neyS5TJB8fTmQEKu]{Modify} action.</p>"
         },
         "Mystic Bond": {
             "name": "Mystic Bond",
@@ -313,6 +442,10 @@
             "name": "Operative's Specialization",
             "description": "<p>As an operative, you have a particular set of skills based on your ongoing training. Choose an operative's specialization. This specialization grants you training in one skill, a skill feat for that skill, and an exploit. At 9th level, you gain the enhanced exploit granted by your specialization.</p><p>@UUID[Compendium.starfinder-field-test-for-pf2e.class-features.Item.9YYpW8GzNL5E4GXO]{Ghost}</p><p>@UUID[Compendium.starfinder-field-test-for-pf2e.class-features.Item.Rqcl0KxiEljmhyDT]{Infiltrator}</p><p>@UUID[Compendium.starfinder-field-test-for-pf2e.class-features.Item.CNtcTOw0dLHdNna1]{Skirmisher}</p><p>@UUID[Compendium.starfinder-field-test-for-pf2e.class-features.Item.WCbFOSycmBVHQfnN]{Sniper}</p><p>@UUID[Compendium.starfinder-field-test-for-pf2e.class-features.Item.OBUIFNBSHc2EfDER]{Striker}</p>"
         },
+        "Overclock Gear": {
+            "name": "Overclock Gear",
+            "description": "<p>You can unleash the true potential of your tech gear by powering it with raw magic energy. You gain the @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.VMH34bRidGNubqYz]{Overclock Gear} action.</p>"
+        },
         "Overeager Enthusiasm": {
             "name": "Overeager Enthusiasm",
             "description": "<p>You are often oblivious in your enthusiasm to help others. You take a –1 circumstance penalty on Perception checks to @UUID[Compendium.pf2e.actionspf2e.Item.1xRFPTFtWtGJ9ELw]{Sense Motive} and a –1 circumstance penalty to Will saves against emotion effects, except the @UUID[Compendium.pf2e.spells-srd.Item.b515AZlB0sridKSq]{calm} spell.</p>"
@@ -321,13 +454,17 @@
             "name": "Paradox",
             "description": "<p>Your existence is somehow contrary to the status quo of the universe, causing quantum ripples that empower your spellcasting talent and open doorways to strange worlds. Perhaps you're from an alternate reality or a different timeline, or perhaps you experienced a phenomenon that altered your path, discovered a time-glitching alien device, or developed a thesis on quantum magical theory. Whatever your story, you've become a living paradox.</p><p>At 1st level, select your paradox, which determines the tradition of your spells, additional spells you learn, additional trained skills, and the effects of your quantum field. You also gain Focus Points and special focus spells called warp spells based on your paradox.</p><p>@UUID[Compendium.starfinder-field-test-for-pf2e.class-features.Item.RLToUc8CVskgLZWJ]{Analyst}</p><p>@UUID[Compendium.starfinder-field-test-for-pf2e.class-features.Item.ttsu0MLrAgQjdVbT]{Anomaly}</p><p>@UUID[Compendium.starfinder-field-test-for-pf2e.class-features.Item.fQRiPpFybICoKXsj]{Gap Influenced}</p><p>@UUID[Compendium.starfinder-field-test-for-pf2e.class-features.Item.N24ZQO1ZpMfTm23z]{Precog}</p>"
         },
+        "Partner Bond": {
+            "name": "Partner Bond",
+            "description": "<p>You can form a permanent empathic bond with one willing sapient creature—usually a non-dragonkin. Forming this bond is a one-hour activity that can only be attempted if both you and your partner share a deep emotional bond. You and your partner must remain within reach of each other for the duration of this activity for it to succeed. Once this bond is formed, you can't form another partner bond unless your current partner dies. You and your partner can communicate with each other mentally, as if you had limited telepathy with a range of 60 feet.</p>"
+        },
         "Pensive Assessor": {
             "name": "Pensive Assessor",
             "description": "<p>Your careful training and honed senses give you increased awareness of your surroundings. Your proficiency rank for Perception increases to master. In addition, you gain a +2 circumstance bonus to Perception checks for initiative, making you faster to react during combat. This bonus increases to +3 if you have the @UUID[Compendium.pf2e.feats-srd.Item.2kwXTUjYYhoAGySr]{Incredible Initiative} general feat.</p>"
         },
         "Perception Expertise": {
             "name": "Perception Expertise",
-            "description": "<p><strong>Envoy</strong> You've a keen eye for details and always manage to remain alert to threats around you. Your proficiency rank for Perception increases to expert.</p><p><strong>Soldier</strong> You remain alert to threats around you and can react a moment's notice. Your proficiency rank for Perception increases to expert.</p><p><strong>Mystic</strong> You remain alert to threats around you. Your proficiency rank for Perception increases to expert.</p>"
+            "description": "<p><strong>Envoy</strong> You've a keen eye for details and always manage to remain alert to threats around you. Your proficiency rank for Perception increases to expert.</p><p><strong>Soldier</strong> You remain alert to threats around you and can react a moment's notice. Your proficiency rank for Perception increases to expert.</p><p><strong>Mystic</strong> You remain alert to threats around you. Your proficiency rank for Perception increases to expert.</p><p><strong>Technomancer </strong>You remain alert to threats around you. Your proficiency rank for Perception increases to expert.</p>"
         },
         "Perception Legend": {
             "name": "Perception Legend",
@@ -335,7 +472,7 @@
         },
         "Perception Mastery": {
             "name": "Perception Mastery",
-            "description": "<p><strong>Envoy</strong> Through your adventures, you've developed keen awareness and attention to detail. Your proficiency rank in Perception increases to master.</p>"
+            "description": "<p><strong>Envoy</strong> Through your adventures, you've developed keen awareness and attention to detail. Your proficiency rank in Perception increases to master.</p><p><strong>Mechanic</strong> Your attention to detail enables you to remain alert to threats around you. Your proficiency rank for Perception increases to master.</p>"
         },
         "Perfect Harmony": {
             "name": "Perfect Harmony",
@@ -351,7 +488,15 @@
         },
         "Primary Target": {
             "name": "Primary Target",
-            "description": "<p>You can pick out a single target to bring down greater fire on when unleashing the full devastation of your powerful area weaponry.</p><p>When you make an attack with an area of effect weapon (such as from the @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.oc0ZKnk5zD0GXqZi]{Area Fire} or @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.6ctkxUnVwqooSvgg]{Auto-Fire} actions), you can choose a single creature either adjacent to the center point of the attack or the closest to you within a cone or line to be your primary target.</p><p>Before resolving the area of effect attack, make a ranged Strike using your weapon against the selected target. Ignore the unwieldy trait on your weapon when using this action. If two or more creatures are equidistant or closest, you can choose which one is your primary target. If you successfully hit your primary target with this Strike and the target rolls a success against your Area Fire or Auto-Fire action, they get a failure instead. This Strike doesn’t count toward your multiple attack penalty.</p>"
+            "description": "<p>You can pick out a single target to bring down greater fire on when unleashing the full devastation of your powerful area weaponry.</p><p>When you make an attack with an area of effect weapon (such as from the @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.oc0ZKnk5zD0GXqZi]{Area Fire} or @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.6ctkxUnVwqooSvgg]{Auto-Fire} actions), you can choose a single creature either adjacent to the center point of the attack or the closest to you within a cone or line to be your primary target.</p><p>Before resolving the area of effect attack, make a ranged Strike using your weapon against the selected target. Ignore the unwieldy trait on your weapon when using this action. If two or more creatures are equidistant or closest, you can choose which one is your primary target. If you successfully hit your primary target with this Strike and the target rolls a success against your Area Fire or Auto-Fire action, they get a failure instead. This Strike doesn't count toward your multiple attack penalty.</p>"
+        },
+        "Prodigious Will": {
+            "name": "Prodigious Will",
+            "description": "<p>Your mind is simply too complex and sophisticated to be tampered with. Your proficiency rank for Will saves increases to master. When you roll a success at a Will save, you get a critical success instead.</p>"
+        },
+        "Programming Languages": {
+            "name": "Programming Languages",
+            "description": "<p>At 1st level, you select a programming language, which you use to understand magic and to store, manipulate, and hack your spells.</p><p><strong>Spell Cache:</strong> Your programming language grants you additional spells known; these bonus spells are your spell cache. You automatically add the 1st-rank spell listed in your programming language's spell cache to your spell database and your spell cache. As soon as you gain the ability to cast technomancer spells of a new rank, add the associated spell from your programming language's spell cache to your spell database and spell cache. You can use the Download Spell action to replace a prepared spell with a spell in your spell cache. </p><p><strong>Magic Hacks:</strong> Your programming language grants you a type of focus spell called a magic hack. </p><p><strong>Spellshapes:</strong> Your programming language grants you innovative ways to manipulate magic. You gain the listed spellshape feat at 1st level. </p><p><strong>Overclock Boost:</strong> Each programming language is associated with a specific type of item, noted in parentheses in the overclock boost entry. You can only Overclock Gear on items that match your programming language's item type. When you are holding, wearing, or wielding an overclocked item, or have an overclocked minion, you gain the benefits of the overclock boost. </p><p><strong>Jailbreak Spellshape:</strong> At 3rd level, when you Jailbreak Spell and choose to apply your programming language's preferred spellshape, you gain the additional benefit listed in the jailbreak spellshape entry in addition to its normal jailbreak bonus.</p>"
         },
         "Quantum Field": {
             "name": "Quantum Field",
@@ -371,11 +516,15 @@
         },
         "Reflex Expertise": {
             "name": "Reflex Expertise",
-            "description": "<p><strong>Mystic</strong> You've honed your ability to dodge dangers and more easily move around the battlefield without taking damage from area attacks. Your proficiency rank for Reflex saves increases to expert.</p><hr /><p><strong>Soldier</strong> Your reactionary defenses grow stronger. Your proficiency rank for Reflex saves increases to expert.</p><hr /><p><strong>Witchwarper</strong> Your awareness of possible dangers, through incredible analysis or an understanding of the wider multiverse, increases your reflexes. Your proficiency rank for Reflex saves increases to expert.</p>"
+            "description": "<p><strong>Mystic</strong> You've honed your ability to dodge dangers and more easily move around the battlefield without taking damage from area attacks. Your proficiency rank for Reflex saves increases to expert.</p><hr /><p><strong>Soldier</strong> Your reactionary defenses grow stronger. Your proficiency rank for Reflex saves increases to expert.</p><hr /><p><strong>Witchwarper</strong> Your awareness of possible dangers, through incredible analysis or an understanding of the wider multiverse, increases your reflexes. Your proficiency rank for Reflex saves increases to expert.</p><hr /><p><strong>Technomancer</strong> You've developed a knack for dodging danger. Your proficiency rank for Reflex saves increases to expert.</p>"
         },
         "Reflex Mastery": {
             "name": "Reflex Mastery",
             "description": "<p>You've learned to move quickly to avoid explosions, dragon's breath, and worse. Your proficiency rank for Reflex saves increases to master. When you roll a success on a Reflex save, you get a critical success instead.</p>"
+        },
+        "Remote Mods": {
+            "name": "Remote Mods",
+            "description": "<p>A breakthrough in your exocortex's design enables you to add mods remotely. The range at which you can Modify your exocortex increases by 30 feet. If you must be within reach of your exocortex to Modify it, this increases the range to 30 feet.</p>"
         },
         "Resilient Soul": {
             "name": "Resilient Soul",
@@ -392,6 +541,14 @@
         "Savvy Influencer": {
             "name": "Savvy Influencer",
             "description": "<p>You can use @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.mtuJWYgaRQJYsEsZ]{Practiced Influencer} twice per day. Additionally, the first time per day when you roll a natural 1 on a Deception, Diplomacy, or Intimidation check, you don't automatically reduce your degree of success (you get a critical failure only if your result is 10 lower than the DC).</p>"
+        },
+        "Sensory Diversity": {
+            "name": "Sensory Diversity",
+            "description": "<p>All vlakas have a keen sense of smell, gaining imprecise scent with a range of 60 feet. This means you can use your sense of smell to determine a creature's location. The GM might double the range if you're downwind from the creature or halve the range if you're upwind.</p><p>In addition, each vlaka is born with one of the following sensory arrays: blind, deaf, deafblind, or hearing/sighted. Select one of these sensory arrays, and gain the associated senses or feats.</p><p><strong>Blind:</strong> You're blind. You gain hearing as a precise sense with a range of 90 feet.</p><p><strong>Deaf:</strong> You're deaf. You gain the Read Lips skill feat (even if you don't meet the feat's prerequisites).</p><p><strong>Deafblind:</strong> You're blind and deaf. Your scent becomes a precise sense with a range of 90 feet, rather than an imprecise sense with a range of 60 feet. Hearing/Sighted: You don't gain any additional senses.</p>"
+        },
+        "ServoShell": {
+            "name": "ServoShell",
+            "description": "<p>This programming language was originally developed by a thrifty university student building their own coffee-serving minibot. This code is primarily used with an operating system that maximizes compatibility by converting all system checks between different proprietary software while routing driver keys to simulated virtual drones, which makes sure parts from different manufacturers (and even other worlds) will work with the same minibot. The increase in sales for individual components and nonprofit status of the freeware have kept minibot companies from attempting to outlaw the software, and some companies have even adopted the controversial practice of anonymously leaking drivers on the infosphere.</p><p><strong>Spell Cache</strong></p><ul><li><strong>1st</strong> @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.R9Znyb9sgD9xZISH]</li><li><strong>2nd</strong> @UUID[Compendium.pf2e.spells-srd.Item.f8SBoXiXQjlCKqly]</li><li><strong>3rd</strong> @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.N4yo1ViE9yKLTHRE]</li><li><strong>4th</strong> @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.AuzNHVHvsQPFIOQT]</li><li><strong>5th</strong> @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.maSNDA5pJDbNLIcc]</li><li><strong>6th</strong> @UUID[Compendium.pf2e.spells-srd.Item.OsOhx3TGIZ7AhD0P]</li><li><strong>7th</strong> @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.U4nNXYDa21GCUiGZ]</li><li><strong>8th</strong> @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.fw22ONdlaQ93RK9I]</li><li><strong>9th</strong> @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.FDm63NThHyPBWmNz]</li></ul><p><strong>Magic Hack</strong></p><ul><li><strong>initial:</strong> @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.mvKioQokdAuI3QAX]</li><li><strong>advanced:</strong> @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.mZYPAoW9IP1OOqnE]</li><li><strong>greater:</strong> @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.HbMb3nF4rYn43iLh]</li></ul><p><strong>Spellshape</strong> @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.dTJhe4lXsld5rTo7]</p><p><strong>Overclock Boost</strong> (minion) Whenever you Command an overclocked minion, you can additionally Sustain a spell as a free action.</p><p><strong>Jailbreak Spellshape</strong> When you Jailbreak Spell using the Incognito Spell spellshape, the spell manifests from one of your minions instead of yourself. Use the minion's space to determine the spell's source, range, and area of effect, but line of sight and line of effect must be met from both you and your minion when the spell is cast. If the spell has a range of touch, you can have the minion deliver the spell to a creature within its reach. If you use Incognito Spell to @UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]{Demoralize}, choose a creature within range of the minion instead of yourself, but use your bonus and all modifiers to Intimidation.</p>"
         },
         "Shadow": {
             "name": "Shadow",
@@ -419,7 +576,7 @@
         },
         "Sniper": {
             "name": "Sniper",
-            "description": "<p>You specialize in targeting foes from far away and attacking while unseen. Whether you're peeking around a corner, perching on a distant rooftop, or aiming from the back line of a squad formation, you favor sniper rifles and prefer to line up the perfect shot rather than rush into combat. You're trained in Stealth. You gain a skill feat for Stealth.</p><p><strong>Exploit:</strong> You ignore the volley trait of guns you wield. You gain one of the following operative feats as a bonus feat: @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.XsMsPa52fuYSwj7N]{Keep Them in Your Sights} or @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.bichxi9CPayyh0xF]{Scope Sight}.</p><p><strong>Enhanced Exploit:</strong> If you fail your first ranged Strike against your mark using a sniper rifle, you can automatically reload your sniper rifle as a free action and you ignore your sniper rifle’s unwieldy trait until the end of your turn.</p>"
+            "description": "<p>You specialize in targeting foes from far away and attacking while unseen. Whether you're peeking around a corner, perching on a distant rooftop, or aiming from the back line of a squad formation, you favor sniper rifles and prefer to line up the perfect shot rather than rush into combat. You're trained in Stealth. You gain a skill feat for Stealth.</p><p><strong>Exploit:</strong> You ignore the volley trait of guns you wield. You gain one of the following operative feats as a bonus feat: @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.XsMsPa52fuYSwj7N]{Keep Them in Your Sights} or @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.bichxi9CPayyh0xF]{Scope Sight}.</p><p><strong>Enhanced Exploit:</strong> If you fail your first ranged Strike against your mark using a sniper rifle, you can automatically reload your sniper rifle as a free action and you ignore your sniper rifle's unwieldy trait until the end of your turn.</p>"
         },
         "Social Mastermind": {
             "name": "Social Mastermind",
@@ -481,6 +638,10 @@
             "name": "Specialized Skill Set",
             "description": "<p>At 3rd level, 7th level, and 15th level, you gain a skill feat. This feat must be for the trained skill from your operative's specialization.</p>"
         },
+        "Spell Cache": {
+            "name": "Spell Cache",
+            "description": "<p>You've created a magical shorthand for your favored spells that makes them easier to cast. You automatically add spells to your cache from your programming language as soon as you can cast spells of the appropriate rank. Cached spells in your spell database can be prepared normally during your daily preparations or you can Downloaded these Spells to overwrite and replace other spells you've already prepared so they can be cast using that spell slot. You gain the @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.oHVC3U1F4MvRkrKk]{Download Spell} action.</p>"
+        },
         "Stellar Attunement": {
             "name": "Stellar Attunement",
             "description": "<p>As a solarian, your existence cycles between the aspects of stars. You begin with two aspects: photon (the power of stars to emit heat, light, and plasma) or graviton (the power of stars to attract and imprison objects through gravity). At any time, you are considered graviton-attuned, photon-attuned, or unattuned. Many of your abilities have additional effects based on your current attunement, and some abilities swap your current state of attunement to another state.</p><p>Your default state of attunement is dictated by the favored attunement of your selected stellar arrangement. In encounter mode, you can use the @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.JLo2gJ2s0BXUKsLQ]{Attune} action to re-attune to your favored state. In exploration mode, you can take the @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.1EewWFSgMbYZKykO]{Attunement Control} activity to ensure that you are in constant control of what state of attunement you begin combat in, regardless of your favored attunement.</p>"
@@ -493,6 +654,10 @@
             "name": "Suppressing Fire",
             "description": "<p>You have a knack for using powerful weapons to hinder your foes and prevent them from operating at their peak. If you make an attack with a weapon that has the area trait (such as from the @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.oc0ZKnk5zD0GXqZi]{Area Fire} or @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.6ctkxUnVwqooSvgg]{Auto-Fire} actions), you use it in a manner that suppresses your targets. Enemies in the affected area who fail their save against your attack become @UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.enA7BxAjBb7ns1iF]{Suppressed} until the start of your next turn. A suppressed target takes a –1 circumstance penalty on attack rolls and takes a –10-foot status penalty to its Speeds. Some Soldier abilities and class feats interact further with the suppressed condition.</p>"
         },
+        "Suspended Respiration": {
+            "name": "Suspended Respiration",
+            "description": "<p>You're capable of surviving for a limited time in the void of space, suspending your respiration and shielding your body from its dangerous environmental effects. Whenever you enter a vacuum, you temporarily gain the cosmic trait. You have this trait for as long as you remain in a vacuum, up to a maximum of 1 hour. Creatures with the cosmic trait don't need to breathe while in space or a vacuum and are immune to the harmful environmental effects of being in space.</p>"
+        },
         "Tactical Barrage": {
             "name": "Tactical Barrage",
             "description": "<p>You unleash a devastating barrage of attacks upon your mark. Your multiple attack penalty for attacks against your mark is –3 (–2 with an agile weapon) on your second attack of the turn instead of –5, and –6 (–4 with an agile weapon) on your third or subsequent attack of the turn, instead of –10.</p>"
@@ -504,6 +669,14 @@
         "Tangible Object": {
             "name": "Tangible Object",
             "description": "<p>A small object, usually something you wear or can hold with one appendage, gives you comfort. It might be a trinket or article of clothing with sentimental value, a gadget to fidget with, or perhaps it just has a texture you find pleasing. The object is a physical thing, and not a digital or illusory product. Touching or thinking about the item helps you quiet the paradoxical ideas in your mind and focus on what's around you and what is tangible.</p><p><strong>Anchor Benefit</strong> The presence or weight of your chosen object helps ground you in this reality. You gain a +1 circumstance bonus to both Perception checks and Will saves against illusions and holograms. When you come within 10 feet of an illusion or hologram that can be disbelieved, the GM rolls a secret check for you to disbelieve it, even if you didn't spend an action to Interact with the illusion or hologram.</p><p><strong>Anchoring Action</strong> @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.nqO7txndCdyRKevE]{Touch Something Real}</p>"
+        },
+        "Technomancer Spellcasting": {
+            "name": "Technomancer Spellcasting",
+            "description": "<p>You are a spellcaster, and you can cast spells of the arcane tradition using the Cast a Spell activity. As a technomancer, when you cast spells, you use specific arcane gestures, rapid typing, or verbal passphrases to hack magic, often manifesting arcane runes around the tech gear you use to channel your magic power.</p><p>At 1st level, you can prepare up to two 1st-rank spells and five cantrips each morning from the spells in your spell database. Prepared spells remain available to you until you cast them or until you prepare your spells again. The number of spells you can prepare is called your spell slots.</p><p>As you increase in level as a technomancer, the number of spells you can prepare each day increases, as does the highest rank of spell you can cast, as shown in the Technomancer Spells per Day table.</p><p>Some of your spells require you to attempt a spell attack to see how effective they are, or have your enemies roll against your spell DC (typically by attempting a saving throw). Since your key attribute is Intelligence, your spell attack modifier and spell DC use your Intelligence modifier.</p><h2>Heightening Spells</h2><p>When you get spell slots of 2nd rank and higher, you can fill those slots with stronger versions of lower-rank spells. This increases the spell's rank, heightening it to match the spell slot. Many spells have specific improvements when they are heightened to certain ranks.</p><h2>Cantrips</h2><p>Some of your spells are cantrips. A cantrip is a special type of spell that doesn't use spell slots. You can cast a cantrip at will, any number of times per day. A cantrip is always automatically heightened to half your level rounded up—this is usually equal to the highest rank of technomancer spell slot you have. For example, as a 1st-level technomancer, your cantrips are 1st-rank spells, and as a 5th-level technomancer, your cantrips are 3rd-rank spells.</p><h2>Spell Database</h2><p>Your spell database is a technological object that contains a personalized digital database of every spell you know how to cast. You start with a spell database, which you receive for free and must study each day to prepare your spells. Your spell database's form and name are up to you. It might be a comm unit, datapad, a lens integrated into your prosthetic eye, and so on. If it's ever damaged, destroyed, or stolen, it loses its magic, and you can download your spell database onto another technological device as a 10-minute activity. The spell database contains your choice of 10 arcane cantrips and five 1st-rank arcane spells. You choose these from the common spells on the arcane spell list or from other arcane spells you gain access to. You also add one 1st-rank spell from your programming language.</p><p>Each time you gain a level, you add two arcane spells to your spell database, of any spell rank for which you have spell slots, chosen from common spells of your tradition or others you gain access and learn via Learn a Spell. When you gain spell slots of a new rank, you also add an additional spell from your programming language to your spell database.</p><h2>Magic Hacks</h2><p>Magic hacks are a type of focus spell. It costs 1 Focus Point to cast a focus spell, and you start with a focus pool of 1 Focus Point. You refill your focus pool during your daily preparations, and you can regain 1 Focus Point by spending 10 minutes using the Refocus activity to scroll through your spell database or conduct arcane research. Focus spells are automatically heightened to half your level rounded up, much like cantrips. Focus spells don't require spell slots, and you can't cast them using spell slots. Certain feats give you more focus spells. The maximum Focus Points your focus pool can hold is equal to the number of focus spells you have, but it can never be more than 3 points.</p><p>At 1st level, you learn an initial magic hack, which is unique to your programming language. You can learn an advanced magic hack with the Advanced Magic Hack feat and a greater magic hack with the Greater Magic Hack feat.</p><h4>TECHNOMANCER SPELLS PER DAY</h4><table border=\"1\" class=\"pf2-table\"><thead><tr style=\"text-align:right\"><th>Your Level</th><th>Cantrips</th><th>1st</th><th>2nd</th><th>3rd</th><th>4th</th><th>5th</th><th>6th</th><th>7th</th><th>8th</th><th>9th</th><th>10th</th></tr></thead><tbody><tr><td>1</td><td>5</td><td>2</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>2</td><td>5</td><td>3</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>3</td><td>5</td><td>3</td><td>2</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>4</td><td>5</td><td>3</td><td>3</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>5</td><td>5</td><td>3</td><td>3</td><td>2</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>6</td><td>5</td><td>3</td><td>3</td><td>3</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>7</td><td>5</td><td>3</td><td>3</td><td>3</td><td>2</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>8</td><td>5</td><td>3</td><td>3</td><td>3</td><td>3</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>9</td><td>5</td><td>3</td><td>3</td><td>3</td><td>3</td><td>2</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>10</td><td>5</td><td>3</td><td>3</td><td>3</td><td>3</td><td>3</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>11</td><td>5</td><td>3</td><td>3</td><td>3</td><td>3</td><td>3</td><td>2</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>12</td><td>5</td><td>3</td><td>3</td><td>3</td><td>3</td><td>3</td><td>3</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>13</td><td>5</td><td>3</td><td>3</td><td>3</td><td>3</td><td>3</td><td>3</td><td>2</td><td>-</td><td>-</td><td>-</td></tr><tr><td>14</td><td>5</td><td>3</td><td>3</td><td>3</td><td>3</td><td>3</td><td>3</td><td>3</td><td>-</td><td>-</td><td>-</td></tr><tr><td>15</td><td>5</td><td>3</td><td>3</td><td>3</td><td>3</td><td>3</td><td>3</td><td>3</td><td>2</td><td>-</td><td>-</td></tr><tr><td>16</td><td>5</td><td>3</td><td>3</td><td>3</td><td>3</td><td>3</td><td>3</td><td>3</td><td>3</td><td>-</td><td>-</td></tr><tr><td>17</td><td>5</td><td>3</td><td>3</td><td>3</td><td>3</td><td>3</td><td>3</td><td>3</td><td>3</td><td>2</td><td>-</td></tr><tr><td>18</td><td>5</td><td>3</td><td>3</td><td>3</td><td>3</td><td>3</td><td>3</td><td>3</td><td>3</td><td>3</td><td>-</td></tr><tr><td>19</td><td>5</td><td>3</td><td>3</td><td>3</td><td>3</td><td>3</td><td>3</td><td>3</td><td>3</td><td>3</td><td>1*</td></tr><tr><td>20</td><td>5</td><td>3</td><td>3</td><td>3</td><td>3</td><td>3</td><td>3</td><td>3</td><td>3</td><td>3</td><td>1*</td></tr><tr><td style=\"text-align:center;height:25px\" colspan=\"12\">* The administrator privileges class feature gives you a 10th-rank spell slot that works a bit differently from other spell slots.</td></tr></tbody></table>"
+        },
+        "Thoughtsense": {
+            "name": "Thoughtsense",
+            "description": "<p>You gain thoughtsense as a vague sense with a range of 20 feet. This enables you to determine when a creature is within range, though this sense detects only thinking creatures; a creature that's unthinking or otherwise immune to mental effects can't be perceived using your thoughtsense. This doesn't give you the ability to read or understand their thoughts.</p>"
         },
         "Through Desperate Times": {
             "name": "Through Desperate Times",
@@ -521,6 +694,10 @@
             "name": "Transcendent Will",
             "description": "<p>The intense experiences you've accumulated through your studies or travels have strengthened your mental fortitude. Your proficiency rank for Will saves increases to master. When you roll a success on a Will save you get a critical success instead.</p>"
         },
+        "Turret": {
+            "name": "Turret",
+            "description": "<p>Your exocortex connects to a deployable turret that is easily collapsed and stored in your custom rig when not in use. You can only deploy one turret, and your turret retains its current HP when stored in your custom rig. It occupies a 5-foot square and provides lesser cover. You can @UUID[Compendium.pf2e.actionspf2e.Item.ust1jJSCZQUhBZIz]{Take Cover} behind your turret. Once deployed, you can fire this turret remotely if you are within 100 feet of the turret, as a ranged Strike originating from the turret's location. Your turret has its own targeting sensors, including darkvision, and doesn't rely on your vision. Your turret uses your attack modifier and shares your multiple attack penalty.</p><p>Your turret is a commercial martial ranged weapon with 2 upgrade slots. You can improve your turret, making it tactical or better, following the typical rules for improving weapons (Starfinder Playtest Rulebook 236). Your turret's upgrade slots are located on your custom rig, rather than the turret itself, and are automatically remotely installed in any turret you Deploy. Your turret has an expend of 0 and does not require ammo. Its level is equal to your level, its AC is equal to your mechanic class DC, and it has Hardness equal to half your level (rounded up). It has trained proficiency in Reflex and Fortitude saves, using your Intelligence modifier to calculate these bonuses. It has 6 Hit Points, plus a number of Hit Points equal to 2 plus your Intelligence modifier for each level you have. Its Broken Threshold is equal to half its total Hit Points (rounded down). During your daily preparations, you automatically repair your turret, restoring it to maximum Hit Points. If your turret is destroyed, the next time you Deploy Turret, you deploy a repaired turret with maximum Hit Points. You can only have one turret deployed at a time.</p><p>At 5th level, your turret's Hardness increases to 10. At 10th level, it increases to 15 and its proficiency rank in Reflex and Fortitude saves increases to expert. At 15th level, its Hardness increases to 20, and its proficiency rank in Reflex and Fortitude saves increases to master.</p><p>Select one of the following arrays for your turret, which determines its damage type and range increment. You can spend 10 minutes modifying your turret using your custom rig to change its selected array.</p><ul><li><strong>Chaingun:</strong> @Damage[1d8[piercing]] damage, range increment 90 feet, analog trait, projectile weapon group</li><li><strong>Disintegrator:</strong> @Damage[1d8[acid]] damage, range increment 60 feet, tech trait, corrosive weapon group</li><li><strong>Laser Beam:</strong> @Damage[1d8[fire]] damage, range increment 60 feet, tech trait, laser weapon group</li><li><strong>Thunderclap:</strong> @Damage[1d8[sonic]] damage, range increment 60 feet, tech trait, sonic weapon group</li><li><strong>Volt Thrower:</strong> @Damage[1d8[electricity]] damage, range increment 60 feet, tech trait, shock weapon group</li><li><strong>Zero Emitter:</strong> @Damage[1d8[cold]] damage, range increment 60 feet, tech trait, cryo weapon group</li></ul>"
+        },
         "Unshakable Juggernaut": {
             "name": "Unshakable Juggernaut",
             "description": "<p>Your proficiency rank for Fortitude saves increases to legendary. When you roll a critical failure on a Fortitude save, you get a failure instead. When you fail a Fortitude save against an effect that deals damage, you halve the damage you take.</p>"
@@ -528,6 +705,14 @@
         "Urban Operator": {
             "name": "Urban Operator",
             "description": "<p>You're accustomed to working in urban environments and can move swiftly through the crowded cityscape. You ignore difficult terrain from trash and crowds, and greater difficult terrain from urban environment trash and crowds are only difficult terrain for you.</p>"
+        },
+        "Versed": {
+            "name": "Versed",
+            "description": "<p>You gain the Sign Language skill feat, even if you don't meet the feat's prerequisites. If a language you know has a tactile version, you also learn the tactile version of those languages. This means that you know the spoken, signed, and tactile languages associated with all languages you know.</p>"
+        },
+        "Viper": {
+            "name": "Viper",
+            "description": "<p>This programming language was originally developed by engineers working for the Aspis Consortium to standardize the manufacturing of hybrid items, especially spell chips and spell gems. While this code was made to help install multilingual hybrid magic items into replica antiques to sell across the galaxy, it's since been implemented as a high-level, general purpose programming language thanks to its emphasis on code readability and multilinguistic compatibility.</p><p><strong>Spell Cache</strong></p><ul><li><strong>1st</strong> @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.74EAtV4JC9Cihtp7]</li><li><strong>2nd</strong> @UUID[Compendium.pf2e.spells-srd.Item.vTQvfYu2llKQedmY]</li><li><strong>3rd</strong> @UUID[Compendium.pf2e.spells-srd.Item.LQzlKbYjZSMFQawP]</li><li><strong>4th</strong> @UUID[Compendium.pf2e.spells-srd.Item.TUj8eugNqAvB1vVR]</li><li><strong>5th</strong> @UUID[Compendium.pf2e.spells-srd.Item.SwUiVavHKMWG7t5K]</li><li><strong>6th</strong> @UUID[Compendium.pf2e.spells-srd.Item.uqlxMQQeSGWEVjki]</li><li><strong>7th</strong> @UUID[Compendium.pf2e.spells-srd.Item.WG91Z5TiR6oO5FOw]</li><li><strong>8th</strong> @UUID[Compendium.pf2e.spells-srd.Item.CeSh8QcVnqP5OlLj]</li><li><strong>9th</strong> @UUID[Compendium.pf2e.spells-srd.Item.qsNeG9KZpODSACMq]</li></ul><p><strong>Magic Hack</strong></p><ul><li><strong>initial:</strong> @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.FSOwKLTmUObuNAo9]</li><li><strong>advanced:</strong> @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.sWVKBEXnmtZkkaGO]</li><li><strong>greater:</strong> @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.hVzdriP7OS26qQSD]</li></ul><p><strong>Spellshape</strong> @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.dej71l4Im3pGJCRf]</p><p><strong>Overclock Boost</strong> (spell gem or spell chip) You can hack other magic traditions. When you Overclock a spell gem or spell chip with spells from another tradition, you can Cast a Spell using that item as a spell of the arcane tradition using your spell DC and attack rolls as normal.</p><p><strong>Jailbreak Spellshape</strong> When you Jailbreak Spell using the Spell Circuit spellshape to Cast a Spell from a spell gem, you can draw the hybrid item as a free action and treat it as an electromag grenade with a level equal to or less than the level of the spell gem until the end of your next turn. For example, a 4th-rank spell gem is treated as an advanced grenade and a 6th-rank spell gem is treated as a superior electromag grenade. If the spell dealt damage, the damage of the electromag grenade uses one type of damage the spell dealt instead of electricity.</p>"
         },
         "Vitality Network": {
             "name": "Vitality Network",
@@ -541,6 +726,10 @@
             "name": "Warped Infinities",
             "description": "<p>You have mastered reality and can make it your plaything. The radius of your quantum field becomes 100 feet. When you activate or Sustain your quantum field, you can modify the area of its effect by excluding any number of squares.</p>"
         },
+        "Weapon Expertise": {
+            "name": "Weapon Expertise",
+            "description": "<p>Through sheer experience, you've improved your technique with your weapons. Your proficiency ranks for simple weapons and unarmed attacks increase to expert.</p>"
+        },
         "Weapon Mastery": {
             "name": "Weapon Mastery",
             "description": "<p>You fully understand your weapons. Your proficiency ranks for simple weapons, martial weapons, and unarmed attacks increase to master.</p>"
@@ -548,6 +737,10 @@
         "Weapon Specialization": {
             "name": "Weapon Specialization",
             "description": "<p>You've learned how to inflict greater injuries with the weapons you know best. You deal 2 additional damage with weapons and unarmed attacks in which you are an expert. This damage increases to 3 damage if you're a master, and 4 damage if you're legendary.</p>"
+        },
+        "Will Expertise": {
+            "name": "Will Expertise",
+            "description": "<p>Your mental defenses grow stronger. Your proficiency rank for Will saves increases to expert.</p>"
         },
         "Willful Defiance": {
             "name": "Willful Defiance",

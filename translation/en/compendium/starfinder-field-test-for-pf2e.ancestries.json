@@ -5,13 +5,29 @@
             "name": "Android (Starfinder)",
             "description": "<p><em>Androids first emerged as synthetic beings crafted by many technologically advanced civilizations throughout the galaxy. The first androids were created by humanoid peoples in their own images, but after the technology that animated the living constructs spread, androids began displaying a fantastic diversity of forms. Androids in the Pact Worlds were originally designed as servants, but today, androids stand as equals to other citizens under the Pact. Many androids have formed their own independent communities, while others integrate seamlessly into Pact Worlds societies. Unlike many other technological constructs, androids are more than intricate synthetic organs and complex programming, and each possesses their own soul.</em></p>\n<p><em>@UUID[Compendium.starfinder-field-test-for-pf2e.sf2e-journals.JournalEntry.q5yEIEjKvnVkwxod.JournalEntryPage.dyusFHHyaQOaQhZ0]{Android}</em></p>"
         },
+        "Astrazoan": {
+            "name": "Astrazoan",
+            "description": "<p><em>Astrazoans have no clear origins or known home world. Their malleable bodies hide a peculiar natural shape they rarely show to anyone. But by changing their bodies to adapt to new situations, astrazoans have found as many homes as they have identities among the varied cultures of the galaxy.</em></p>"
+        },
         "Barathu": {
             "name": "Barathu",
             "description": "<p><em>Barathus are floating jellyfish-like beings that evolved on the gas giant Bretheda. Barathus rewrite their own genetic code instinctively and at will, shaping their bodies into a stunning array of unique forms.</em></p><p>@UUID[Compendium.starfinder-field-test-for-pf2e.sf2e-journals.JournalEntry.q5yEIEjKvnVkwxod.JournalEntryPage.UlFKvIWwOaMazw6k]{Barathu}</p>"
         },
+        "Contemplative": {
+            "name": "Contemplative",
+            "description": "<p><em>Shaped by countless generations' pursuit of mental self-perfection, contemplatives have huge brains equally suited to math and magic. Their natural telekinesis propels them through the air as their measured curiosity drives them to discovery and innovation.</em></p>"
+        },
+        "Dragonkin": {
+            "name": "Dragonkin",
+            "description": "<p><em>Draconic in appearance and fiercely loyal, dragonkin are deeply empathic beings capable of forming a nearly unbreakable spiritual bond with one other creature, which manifests in telepathic communication and tactical synergy.</em></p>"
+        },
         "Human (Starfinder)": {
             "name": "Human (Starfinder)",
             "description": "<p><em>Humans are known for their ability to adapt and thrive in the most rigorous situations, including the mysterious loss of their homeworld, Golarion. Ambitious, creative, and endlessly curious, humans maintain a robust presence in the galaxy, often taking on positions of leadership or acting at the forefront of exploration. Today, humans can be found almost anywhere doing almost anything.</em></p>\n<p><em>@UUID[Compendium.starfinder-field-test-for-pf2e.sf2e-journals.JournalEntry.q5yEIEjKvnVkwxod.JournalEntryPage.3KV2F5LPEQtygvFs]{Human}</em></p>"
+        },
+        "Kalo": {
+            "name": "Kalo",
+            "description": "<p><em>Kalos hail from a watery moon orbiting Bretheda. These aquatic humanoids have art and creativity at the center of their culture, and they employ fluid fighting styles in combat.</em></p>"
         },
         "Kasatha": {
             "name": "Kasatha",
@@ -25,6 +41,10 @@
             "name": "Pahtra",
             "description": "<p><em>Pahtras are a humanoid feline species from a nearby star system. They're highly competitive and are known for their achievements in magic, music, and war. Their homeworld was recently freed from occupation by the Veskarium and they've joined the Pact Worlds.</em></p>\n<p>@UUID[Compendium.starfinder-field-test-for-pf2e.sf2e-journals.JournalEntry.q5yEIEjKvnVkwxod.JournalEntryPage.fOEpHNkexe9KcPFe]{Pahtra}</p>"
         },
+        "Sarcesian": {
+            "name": "Sarcesian",
+            "description": "<p><em>Sarcesians are natural spacefarers who glide through the void of space on butterfly wings of energy and light.</em></p>"
+        },
         "Shirren": {
             "name": "Shirren",
             "description": "<p><em>The insectile shirrens split from the destructive Swarm, forsaking the ruthless hive mind to pursue their own freedom and end the cycle of interstellar violence. Shirrens are a species of telepaths devoted to their own individualism, their communities, and living in harmony with other peoples.</em></p>\n<p>@UUID[Compendium.starfinder-field-test-for-pf2e.sf2e-journals.JournalEntry.q5yEIEjKvnVkwxod.JournalEntryPage.13SfVMj4kCySon7T]{Shirren}</p>"
@@ -36,6 +56,10 @@
         "Vesk": {
             "name": "Vesk",
             "description": "<p><em>Vesk are a warmongering, reptilian people who conquered the eight worlds in their solar system shortly after they developed spaceflight, forming the Veskarium empire. Vesk tend to embrace conflict and respect strength and military might.</em></p>\n<p><em>@UUID[Compendium.starfinder-field-test-for-pf2e.sf2e-journals.JournalEntry.q5yEIEjKvnVkwxod.JournalEntryPage.1lCAkGgIYYkczZ28]{Vesk}</em></p>"
+        },
+        "Vlaka": {
+            "name": "Vlaka",
+            "description": "<p><em>Vlakas are wolflike nomads whose thick fur coats help them survive in the frigid cold, as it is on their home world of Lajok. They have an incredible sense of smell and are often born deaf, blind, or deafblind.</em></p>"
         },
         "Ysoki": {
             "name": "Ysoki",

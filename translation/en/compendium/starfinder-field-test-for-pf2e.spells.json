@@ -9,6 +9,10 @@
             "name": "Accelerate",
             "description": "<p><strong>Paradox</strong> precog</p>\n<hr />\n<p>You speed up the flow of your personal timeline. You become @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Quickened} and can use the additional action to Strike, Stride, or Step.</p>"
         },
+        "Active Defense Firewall": {
+            "name": "Active Defense Firewall",
+            "description": "<p>You bind dangerous magic into your armor. If your next action is to Cast a Spell with a hostile effect that targets one creature, you store the spell in your armor instead. Your armor can only store one spell in this way; you can't cast <em>activate defense firewall</em> while you are under the effect of <em>activate defense firewall</em>. </p><p>When a creature touches or damages you with an unarmed melee attack or non-reach melee weapon, you can Cast the Spell as a reaction, targeting the triggering creature; the triggering creature is @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} against this spell. Only the creature who triggered the reaction is affected by the spell. </p><p>You can Dismiss <em>active defense firewall</em>. If you do, the prepared spell slot used to cast the spell modified by <em>active defense firewall</em> is recovered, but the spell is not. The empty spell slot can be used to prepare a spell with Download Spell.</p>"
+        },
         "Adhere": {
             "name": "Adhere",
             "description": "<p>You create a molecular bond between an object you touch and another object or surface that object is touching. Pulling the object free of that surface requires a successful Athletics check against your spell DC to @UUID[Compendium.pf2e.actionspf2e.Item.SjmKHgI7a5Z9JzBx]{Force Open}. If you instead touch one unoccupied 5-foot square, that surface becomes charged with adhering magic. That space becomes greater difficult terrain.</p>"
@@ -125,6 +129,10 @@
             "name": "Dream of Home",
             "description": "<p>You draw on a creature's thoughts of home and the comfort it finds in that concept, overwhelming the creature with wistful memories of whatever home means to it. The target must attempt a basic Will save or become @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{Fascinated} by the memories.</p>"
         },
+        "Dynamic Frequency Scaling": {
+            "name": "Dynamic Frequency Scaling",
+            "description": "<p>By supplying your own magic energy, you minimize the amount of magic energy used by your hybrid items, protecting their delicate lattice from wear so they can be used again. If your next action is to Cast a Spell from a spell gem, instead of being destroyed, the spell gem becomes a temporary item that can't be sold and only lasts until you use it again or the next time you make your daily preparations (whichever comes first). If your next action is to Cast a Spell from a spell gem that has already been used once today, it is destroyed. </p><p><strong>Jailbreak</strong> If you use Jailbreak Spell to use this spellshape with a spell gem, it only becomes broken on a critical failure.</p>"
+        },
         "Eldritch Bond": {
             "name": "Eldritch Bond",
             "description": "<p>You channel mysterious power from beyond the edges of the known universe to infuse a bonded companion with the essence of an eldritch creature. You grant the target up to two of the following abilities:</p>\n<ul>\n<li>10-foot reach on all melee attacks.</li>\n<li>Gain mental resistance equal to half the creature's level (minimum 1).</li>\n<li>Melee strikes affect incorporeal creatures as if they had the ghost touch upgrade.</li>\n<li>A tentacle unarmed attack that deals 1d8 bludgeoning damage.</li>\n<li>A stinger unarmed attack that deals 1d6 acid damage and has the agile and finesse traits.</li>\n<li>A beam ranged unarmed attack with a range increment of 40 feet that deals 1d6 mental damage.</li>\n<li>Darkvision</li>\n</ul>\n<hr />\n<p><strong>Heightened (3rd)</strong> The damage dealt by the attacks increases by two dice.</p>\n<p><strong>Heightened (5th)</strong> Increase the number of targets to 5 targets. The damage dealt by the attacks increases to two dice.</p>\n<p><strong>Heightened (6th)</strong> Increase the number of targets to 5 targets. The damage dealt by the attacks increases to three dice.</p>\n<p><strong>Heightened (9th)</strong> Increase the number of targets to 5 targets. The damage dealt by the attacks increases to four dice.</p>"
@@ -148,6 +156,10 @@
         "Elemental Weapon": {
             "name": "Elemental Weapon",
             "description": "<p><strong>Connection</strong> elemental</p><hr /><p>You create an advanced, martial, or simple weapon out of elemental energy that materializes in the hands of a bonded creature within 30 feet. Select an elemental trait for the created weapon: air, earth, fire, metal, water, or wood. The weapon is tactical grade and comes fully charged and loaded with basic ammunition and cannot be made of any special materials. The weapon has one fewer upgrade slot but can be upgraded with any upgrades you hold in your hands as a locus when casting this spell, which become inert until the spell ends. The weapon deals damage as normal plus 1d4 additional damage based on the chosen trait: electricity for air, bludgeoning for earth, fire for fire, acid for metal, cold for water, or poison for wood.</p><hr /><p><strong>Heightened (2nd)</strong> You can create a advanced weapon.</p><p><strong>Heightened (5th)</strong> You can create a superior weapon.</p><p><strong>Heightened (6th)</strong> You can create an elite weapon.</p><p><strong>Heightened (8th)</strong> You can create an ultimate weapon.</p><p><strong>Heightened (9th)</strong> You can create a paragon weapon.</p>"
+        },
+        "Energy Sink": {
+            "name": "Energy Sink",
+            "description": "<p>You can divert some of the magic used to contain and direct destructive energy into your armor to protect you from harm. If your next action is to Cast a Spell that deals at least one type of energy damage (acid, cold, electricity, fire, force, sonic, vitality, or void), you gain resistance to an energy damage type of your choice equal to twice the spell's rank for 1 minute. You get the resistance regardless of whether or not your spell dealt damage. </p><p><strong>Jailbreak</strong> If you use Jailbreak Spell with this spellshape, you gain resistance to all energy damage equal to twice the spell's rank.</p>"
         },
         "Entropy Strike": {
             "name": "Entropy Strike",
@@ -188,6 +200,10 @@
         "Gravity Tether": {
             "name": "Gravity Tether",
             "description": "<p>You manipulate the electromagnetic forces acting on a creature. Make a ranged spell attack. The target takes 4d8 electricity damage and is pulled 5 feet closer to you, or 10 feet closer on a critical hit. Moving the target into a barrier, creature, or obstacle causes the target to stop before entering that space.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> You can target two creatures with gravity tether. On a hit, you can move the creatures closer to each other or closer to you. The damage increases by 1d8.</p>"
+        },
+        "Hardlight Simulacrum": {
+            "name": "Hardlight Simulacrum",
+            "description": "<p>You can generate holographic replicas of monsters to fight for you. If the next action you use is to Cast a Spell that has the summon trait, you summon a hardlight simulacrum of the creature instead. A hardlight simulacrum uses the same statistics as the base creature with the following adjustments: It has the construct and tech traits, resistance equal to its level to physical damage (except ghost killer), and immunities to bleed, death effects, disease, doomed, drained, fatigued, healing, nonlethal attacks, paralyzed, poison, sickened, spirit, unconscious, vitality, and void; it loses any abilities and the ability to cast any spells with those traits or that confer those conditions.</p><p><strong>Jailbreak</strong> If you use Jailbreak Spell to use this spellshape, you can Overclock Gear the summoned creature as a free action immediately after it is summoned.</p>"
         },
         "Holographic Creature": {
             "name": "Holographic Creature",
@@ -235,7 +251,15 @@
         },
         "Light Scour": {
             "name": "Light Scour",
-            "description": "<p>A sphere of searing light blossoms into existence to cleanse the universe of the taint of undeath and the metaphysical void. This deals 10d10 vitality damage to all undead creatures in the area with a basic Reflex save. Each living creature in the area restores @Damage[15 + 5 * (@item.level)[healing]] Hit Points. If light scour overlaps with an area of magical darkness or a creature affected by magical darkness, light scour attempts to counteract the darkness effect.</p><hr /><p><strong>Critical Success</strong> The undead creature is unaffected.</p><p><strong>Success</strong> The undead creature takes half damage.</p><p><strong>Failure</strong> The undead creature takes full damage.</p><p><strong>Critical Failure</strong> The creature takes double damage and @Damage[2d10[persistent,vitality]] damage.</p><hr /><p><strong>Heightened (+1)</strong> Increase the vitality damage to undead by 2d10. Increase the healing to living creatures by 5.</p>"
+            "description": "<p>A sphere of searing light blossoms into existence to cleanse the universe of the taint of undeath and the metaphysical void. This deals 10d10 vitality damage to all undead creatures in the area with a basic Reflex save. Each living creature in the area restores @Damage[(15 + 5 * @item.level)[healing]] Hit Points. If light scour overlaps with an area of magical darkness or a creature affected by magical darkness, light scour attempts to counteract the darkness effect.</p><hr /><p><strong>Critical Success</strong> The undead creature is unaffected.</p><p><strong>Success</strong> The undead creature takes half damage.</p><p><strong>Failure</strong> The undead creature takes full damage.</p><p><strong>Critical Failure</strong> The creature takes double damage and @Damage[2d10[persistent,vitality]] damage.</p><hr /><p><strong>Heightened (+1)</strong> Increase the vitality damage to undead by 2d10. Increase the healing to living creatures by 5.</p>"
+        },
+        "Liminal Hyperlink": {
+            "name": "Liminal Hyperlink",
+            "description": "<p>You reprogram reality to link together two spaces. Create two hyperlinks in unoccupied squares in line of effect that are at least 15 feet apart. When a creature enters a hyperlink's space, they emerge in an unoccupied space of their choice adjacent to the other hyperlink. A creature that isn't flying treats all spaces lacking solid ground as occupied. If there is no valid space for the creature to enter, then both hyperlinks collapse and the creature remains in the space where it entered the first hyperlink.</p>"
+        },
+        "Log Spell Execution": {
+            "name": "Log Spell Execution",
+            "description": "<p>You fetch the code from a hybrid item and decode a temporary copy of its executed spell into your spell cache. If your next action is to Cast a Spell from a spell chip or spell gem, add the spell to your spell cache until you use Download Spell to replace a prepared spell with the logged spell, or the next time you cast log spell execution (whichever comes first). You can only use this spellshape to log spells that appear on the arcane spell list. </p><p><strong>Jailbreak</strong> If you use Jailbreak Spell to use this spellshape, you can log a spell of any tradition as an arcane spell, but you must use the Overclock Gear effect of the viper programming language or get a success using @UUID[Compendium.pf2e.feats-srd.Item.uR62fVC9FyQAMCO1]{Trick Magic Item}.</p>"
         },
         "Logic Bomb": {
             "name": "Logic Bomb",
@@ -264,6 +288,22 @@
         "Otherworld Oddity": {
             "name": "Otherworld Oddity",
             "description": "<p><strong>Paradox</strong> anomaly</p>\n<p><strong>Area</strong> 10-foot burst within your quantum field</p>\n<hr />\n<p>You recreate a powerful event from another world in your current reality. All creatures in the area must attempt a Fortitude save. The damage and effects caused by otherworldly phenomenon are determined by rolling 1d6, as detailed on the following table.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> Damage increases by 1d12, persistent damage increases by 1d6, and condition values increase by 1 for conditions with a condition value</p>"
+        },
+        "Overclock Armor": {
+            "name": "Overclock Armor",
+            "description": "<p>You infuse your armor with magical energy to bolster your defense. You materialize a shimmering layer of energy encasing your armor that functions as a @UUID[Compendium.starfinder-field-test-for-pf2e.equipment.Item.8yEnhqeRKBxO02M2]{superior force field}. You then become immune to overclock armor for 10 minutes.</p><hr /><p><strong>Heightened (7th)</strong> The energy functions as an @UUID[Compendium.starfinder-field-test-for-pf2e.equipment.Item.l91L8dHQT2ddmufW]{elite force field} instead.</p><p><strong>Heightened (9th)</strong> The energy functions as an @UUID[Compendium.starfinder-field-test-for-pf2e.equipment.Item.Hqxyg3xDDoqYLNO3]{ultimate force field} instead.</p>"
+        },
+        "Overclock Brain": {
+            "name": "Overclock Brain",
+            "description": "<p>You infuse yourself with magic energy to speed up your attacks. You gain the @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Quickened} condition and can use the extra action each round to Strike.</p>"
+        },
+        "Overclock Lattice": {
+            "name": "Overclock Lattice",
+            "description": "<p>Magical circuitry blazes all over your body and empowers your spell code. When you Cast a Spell by activating a spell chip or spell gem, heighten the spell up to 2 ranks lower than the highest-rank spell slot you have. </p><p><strong>Jailbreak</strong> If you use Jailbreak Spell to use this spellshape, you can heighten the spell up to the same rank as the spell you cast to overclock your gear.</p>"
+        },
+        "Overclock Minion": {
+            "name": "Overclock Minion",
+            "description": "<p>You infuse your minion with leftover magical energy to increase its speed. The target gains the @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Quickened} condition and can only use the extra action each round for Stride or Strike actions.</p>"
         },
         "Overheat": {
             "name": "Overheat",
@@ -323,7 +363,7 @@
         },
         "Rocket Dash": {
             "name": "Rocket Dash",
-            "description": "<p>You emit a rocket of flame from your backside and blast forward. You move in a straight line up to twice your Speed; you can move through spaces occupied by creatures and the movement doesn't trigger reactions. Creatures in the area take 8d12 fire damage, with a basic Reflex save. On a critical failure, a creature also takes @Damage[ceil((@item.level -3)/2)d6[persistent,fire]] damage and is @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled}. You reappear at the end of the line.</p>\n<hr />\n<p><strong>Heightened (+2)</strong> The fire damage increases by 2d12 and the persistent fire damage increases by 1d6.</p>"
+            "description": "<p>You emit a rocket of flame from behind you and blast forward. You move in a straight line up to twice your Speed; you can move through spaces occupied by creatures, and the movement doesn't trigger reactions. Creatures in the area take 8d12 fire damage, with a basic Reflex save. On a critical failure, a creature also takes @Damage[ceil((@item.level -3)/2)d6[persistent,fire]] damage and is @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled}. You reappear at the end of the line.</p><hr /><p><strong>Heightened (+2)</strong> The fire damage increases by 2d12 and the persistent fire damage increases by 1d6.</p>"
         },
         "Root of All Pain": {
             "name": "Root of All Pain",
@@ -365,6 +405,10 @@
             "name": "Sift the Sphere",
             "description": "<p>You ritually sift through the local infosphere and gain mystical insight about a topic. During the casting of this spell, ask about the results of a particular course of action. The spell can predict results up to 30 minutes into the future and reveals the GM's best guess among the following outcomes:</p>\n<ul>\n<li><strong>Weal</strong> The results will be good.</li>\n<li><strong>Woe</strong> The results will be bad.</li>\n<li><strong>Weal and Woe</strong> The results will be a mix of good and bad.</li>\n<li><strong>Nothing</strong> There won't be particularly good or bad results.</li>\n</ul>\n<p>The GM rolls a secret @Check[type:flat|dc:6]. On a failure, the result is always \"nothing.\" This makes it impossible to tell whether a \"nothing\" result is accurate. If anyone asks about the same topic as the first casting of sift the sphere during an additional casting, the GM uses the secret roll result from the first casting. If circumstances change, though, it's possible to get a different result.</p>\n<hr />\n<p><strong>Heightened (+2)</strong> You gain useful counsel about a topic, and the spell can predict results up to 1 week into the future.</p>"
         },
+        "Signal Relay": {
+            "name": "Signal Relay",
+            "description": "<p><strong>Requirements</strong> You have line of effect to a tech minion under your control.</p><hr /><p> If the next action you use is to Cast a Spell that only affects you, the spell affects your minion instead. </p><p><strong>Jailbreak</strong> If you use Jailbreak Spell to use this spellshape with a harmless spell, the spell affects the minion in addition to its original target.</p>"
+        },
         "Singularity Seed": {
             "name": "Singularity Seed",
             "description": "<p><strong>Area</strong> 50-foot radius, 100-foot-tall cylinder</p>\n<hr />\n<p>A tiny particle of incredibly dense mass magically blossoms into a gravitational singularity. You create a singularity in a 5-foot square that is unoccupied by any creatures. All creatures and unsecured objects in the area are moved toward the singularity when the spell is cast, at the end of their turn, and whenever they use an action to move within the area, all depending on their Reflex saving throws. This follows the rules for forced movement. If there's not enough space near the center of the singularity, creatures and objects nearer to the center move first, and others move as far as they can without being blocked, up to the amount set by their saving throw outcomes. A creature within the area of the spell reduces its Speed by half when moving away from the singularity, but can move double its Speed when moving toward it. A creature or object that enters or occupies the square containing the singularity at the start of its turn takes 10d10 void damage. A creature in the singularity can take no actions except an Athletics check against your spell DC to @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escape} the singularity. If a creature was moved into the singularity when it attempted to use a move action and Escapes on the same turn, it can complete the movement without spending an action or attempting an additional Reflex saving throw. Multiple creatures can occupy the square containing the singularity, as they're considered in an extradimensional space. When the spell ends, the singularity disappears, and creatures and objects that were sucked into the singularity appear in the space where you conjured it (or as close as possible to that space, if they can't all fit within it). When the spell is cast, or when creatures move within the area, or end their turn within the area must attempt a Reflex save.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature moves 10 feet toward the center.</p>\n<p><strong>Failure</strong> The creature moves 20 feet toward the center.</p>\n<p><strong>Critical Failure</strong> The creature moves 30 feet toward the center.</p>"
@@ -396,6 +440,10 @@
         "Speak with Computers": {
             "name": "Speak with Computers",
             "description": "<p>You can ask questions of and receive answers from the spirits inhabiting a computer. These synthetic spirits manifest within computer code and often have personalities colored by the nature of the device, its condition, and its applications and personalized settings. A computer's perspective, perception, and knowledge give it a worldview different enough from a human's that it doesn't consider the same details important. Computers can mostly answer questions about creatures that interfaced with them in the past and what information is concealed within their files.</p>\n<hr />\n<p><strong>Heightened (6th)</strong> The duration is 8 hours.</p>"
+        },
+        "Speedrun": {
+            "name": "Speedrun",
+            "description": "<p>You become a flickering echo clipping through the normal parameters of reality. You gain resistance 10 to all damage (except force damage). You gain the cosmic and incorporeal traits, allowing you to phase through walls and move through the air as easily as you would normally walk. You can move through enemy squares (unless the enemy is incorporeal), though your movement still triggers reactions. If your gear is overclocked, you can extend its duration an additional round by making your gear no longer overclocked.</p>"
         },
         "Stumble": {
             "name": "Stumble",
@@ -429,12 +477,16 @@
             "name": "Temporal Bullets",
             "description": "<p><strong>Trigger</strong> you fail (but not critically fails) an attack roll with a weapon</p>\n<hr />\n<p>You rewind time and adjust probability to ensure an attack that just missed still does damage to its intended target. Roll damage as though you hit the target with the Strike, but the target only takes half the damage.</p>"
         },
+        "Thermoelectric Phase Change": {
+            "name": "Thermoelectric Phase Change",
+            "description": "<p>You compile a program to alter the type of energy that's output by your magic. If your next action is to Cast a Spell with no duration that has an elemental trait (air, earth, fire, metal, water, or wood) and deals one type of damage, replace the elemental trait with a different elemental trait and the damage it deals with one of the corresponding damage types: air (electricity or sonic), earth (bludgeoning or piercing), metal (acid or slashing), fire (fire), water (cold), wood (poison). </p><p><strong>Jailbreak</strong> If you use Jailbreak Spell with this spellshape to modify a spell that uses a basic save or spell attack roll, each creature who rolled a critical failure against the spell's basic saving throw or were critically hit by the spell's attack roll additionally takes 1d6 persistent damage of the same type chosen for the spell. Do not increase the amount of persistent damage dealt due to the spell's heightened entry.</p>"
+        },
         "Time Loop": {
             "name": "Time Loop",
             "description": "<p><strong>Paradox</strong> precog</p>\n<hr />\n<p>You trap a creature in a time loop of your creation. The target sees and reacts to a repeating loop of events, based on the result of a Will save. Critical Success The creature is unaffected.</p>\n<p><strong>Success</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 1}.</p>\n<p><strong>Failure</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 2}.</p>\n<p><strong>Critical Failure</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 3} and @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} for 1 minute.</p>\n<hr />\n<p><strong>Heightened (6th)</strong> You can target up to 5 creatures in your quantum field.</p>"
         },
-        "Time’s Edge": {
-            "name": "Time’s Edge",
+        "Time's Edge": {
+            "name": "Time's Edge",
             "description": "<p>You refract latent energy from the Dimension of Time into your current plane in the form of a massive blade, dealing 6d6 slashing damage to all creatures in the area, representing the passage of time within the space. Creatures within the area must attempt a Fortitude save.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature takes half damage.</p>\n<p><strong>Failure</strong> The creature takes full damage and is @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1}.</p>\n<p><strong>Critical Failure</strong> The creature takes double damage and is @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1}</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The damage increases by 2d6.</p>"
         },
         "Uncanny Eruption": {
@@ -449,6 +501,10 @@
             "name": "Vibe Check",
             "description": "<p>You share a mood by psychically projecting an intense emotion into a creature's mind. The target attempts a Will save. On a failure, the target experiences your choice of the following emotions.</p>\n<ul>\n<li><strong>Anger:</strong> On its next turn, the target spends its first action to attack the nearest creature, even if it's an ally.</li>\n<li><strong>Joy:</strong> The target cannot take any hostile actions.</li>\n<li><strong>Fear:</strong> The target becomes @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 2}.</li>\n<li><strong>Sorrow:</strong> The target is @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} and bursts into tears.</li>\n</ul>\n<hr />\n<p><strong>Heightened (4th)</strong> The spell affects all creatures in a 20-foot burst. Each creature must be affected by the same emotion.</p>"
         },
+        "Virtualized Data Transmission": {
+            "name": "Virtualized Data Transmission",
+            "description": "<p><strong>Requirements</strong> You're wielding a ranged weapon with the tech trait.</p><hr /><p>You digitize yourself using your magic to move across the battlefield. If your next action is to Cast a Spell with a range and an area, you teleport yourself and your gear to one open space within the spell's area. You can choose to arrive before or after the spell takes effect. </p><p><strong>Jailbreak</strong> If you use Jailbreak Spell with this spellshape to modify a spell that targets a single creature, you can teleport to any open space within the spell's range.</p><p></p>"
+        },
         "Vital Prism": {
             "name": "Vital Prism",
             "description": "<p>You manifest a shimmering prism of vital energy that wraps itself around a weapon and materializes into magical ammunition, turning any damage that would be caused by the weapon's next shot into an equivalent amount of healing. Strike with the target weapon as part of casting this spell. If the target of the Strike is a living creature, you restore Hit Points equal to the amount of damage the Strike would have dealt. If the target is undead, you deal that much vitality damage to it. You must still roll an attack roll against a willing target.</p>"
@@ -459,7 +515,7 @@
         },
         "Vitality Nova": {
             "name": "Vitality Nova",
-            "description": "<p><strong>Connection</strong> healing</p>\n<p><strong>Transfer Cost</strong> any (minimum 2)</p>\n<hr />\n<p>You release a burst of condensed vitality energy, causing a radiant explosion of healing light. <em>Vitality nova</em> heals all creatures in the area 1 Hit Points for every 2 Hit Points spent to cast it. Treat this healing as a use of Transfer Vitality.</p>\n<ul>\n<li>If you spend 20 or more Hit Points and the spell was cast in an area of magical darkness, vitality nova attempts to counteract the darkness effect.</li>\n<li>If you spend 40 or more Hit Points, creatures healed by the spell can attempt a @Check[type:flat|dc:10|showDC:all] to end persistent bleed damage.</li>\n<li>If you spend 60 more Hit Points, end all persistent damage on creatures healed by this spell.</li>\n</ul>"
+            "description": "<p><strong>Connection</strong> healing</p><p><strong>Transfer Cost</strong> any (minimum 2)</p><hr /><p>You release a burst of condensed vitality energy, causing a radiant explosion of healing light. <em>Vitality nova</em> heals all creatures in the area 1 Hit Points for every 2 Hit Points spent to cast it. Treat this healing as a use of Transfer Vitality.</p><ul><li>If you spend 20 or more Hit Points and the spell was cast in an area of magical darkness, vitality nova attempts to counteract the darkness effect.</li><li>If you spend 40 or more Hit Points, creatures healed by the spell can attempt a @Check[type:flat|dc:10|showDC:all] to end persistent bleed damage.</li><li>If you spend 60 or more Hit Points, end all persistent damage on creatures healed by this spell.</li></ul>"
         },
         "Vitality Web": {
             "name": "Vitality Web",
@@ -471,7 +527,7 @@
         },
         "Void Scour": {
             "name": "Void Scour",
-            "description": "<p>A well of desolate darkness scours all life from the area, dealing 10d10 void damage to all living creatures in the area. Each creature in the area must attempt a Reflex save. If void scour overlaps with an area of magical light or affects a creature affected by magical light, void scour attempts to counteract the light effect.</p><hr /><p><strong>Critical Success</strong> The creature is unaffected.</p><p><strong>Success</strong> The creature takes half damage.</p><p><strong>Failure</strong> The creature takes full damage and @Damage[(@item.level - 6)d6[persistent,void]] damage, and becomes @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1}.</p><p><strong>Critical Failure</strong> The creature takes double damage, @Damage[((@item.level - 6) * 2)d6[persistent,void]] damage, and becomes @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 2}.</p><hr /><p><strong>Heightened (+1)</strong> Increase the initial void damage by 2d10. The void negative damage increases by 1d6 on a failure, or by 2d6 on critical failure.</p>"
+            "description": "<p>A well of desolate darkness scours all life from the area, dealing 10d10 void damage to all living creatures in the area. Each creature in the area must attempt a Reflex save. If void scour overlaps with an area of magical light or affects a creature affected by magical light, void scour attempts to counteract the light effect.</p><hr /><p><strong>Critical Success</strong> The creature is unaffected.</p><p><strong>Success</strong> The creature takes half damage.</p><p><strong>Failure</strong> The creature takes full damage and @Damage[(@item.level - 6)d6[persistent,void]] damage, and becomes @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1}.</p><p><strong>Critical Failure</strong> The creature takes double damage, @Damage[((@item.level - 6) * 2)d6[persistent,void]] damage, and becomes @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 2}.</p><hr /><p><strong>Heightened (+1)</strong> Increase the initial void damage by 2d10. The persistent void damage increases by 1d6 on a failure, or by 2d6 on critical failure.</p>"
         },
         "Void Seed": {
             "name": "Void Seed",

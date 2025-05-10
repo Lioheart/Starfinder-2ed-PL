@@ -1,17 +1,23 @@
 {
     "label": "Heritages",
     "folders": {
+        "Vlaka": "Vlaka",
         "Lashunta": "Lashunta",
         "Ysoki": "Ysoki",
+        "Astrazoan": "Astrazoan",
         "Barathu": "Barathu",
+        "Sarcesian": "Sarcesian",
         "Vesk": "Vesk",
         "Skittermander": "Skittermander",
         "Android": "Android",
         "Pahtra": "Pahtra",
+        "Dragonkin": "Dragonkin",
+        "Contemplative": "Contemplative",
         "Human": "Human",
         "Versatile Heritages": "Versatile Heritages",
         "Shirren": "Shirren",
-        "Kasatha": "Kasatha"
+        "Kasatha": "Kasatha",
+        "Kalo": "Kalo"
     },
     "entries": {
         "Akitonian": {
@@ -26,13 +32,29 @@
             "name": "Ancient Android",
             "description": "<p>Your body was created by an ancient civilization, and your anatomy is forged from obsolete technology that continues to function through a combination of enduring nanites and your own willpower. Choose from one of the following ancient android heritages.</p>\n<p>@UUID[Compendium.pf2e.heritages.Item.VgL18yU7pysdoZZG]{Artisan Android}</p>\n<p>@UUID[Compendium.pf2e.heritages.Item.MQx7miBXUmOHycqJ]{Laborer Android}</p>\n<p>@UUID[Compendium.pf2e.heritages.Item.BjuZKA7lzFSjKbif]{Polyglot Android}</p>\n<p>@UUID[Compendium.pf2e.heritages.Item.RuQSx0QsirIKxwKY]{Warrior Android}</p>"
         },
+        "Aquazoan": {
+            "name": "Aquazoan",
+            "description": "<p>Astrazoans occupying aquatic worlds and communities learn how to integrate gills and fins into their forms and can even manifest these traits when imitating species that do not normally have them. You gain a swim Speed of 20 feet, and you gain the amphibious trait, enabling you to breathe in water and air.</p>"
+        },
         "Artificial Scion": {
             "name": "Artificial Scion",
             "description": "<p>Your body wasn't created in the image of a biological creature; a powerful artificial intelligence created you to interface with other machines. Your physiology is nearly identical to other androids, but uncanny details give away your non-standard origins (for example, you might have impossibly symmetrical features, extra fingers, or double pupils). You become trained in Computers, and you gain the @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.90JAhMkgRdEoul4W]{Phreaker} skill feat.</p>"
         },
+        "Assimilated Astrazoan": {
+            "name": "Assimilated Astrazoan",
+            "description": "<p>Whether you were raised as a member of another species or became fully immersed in their cultures and traditions later, you have completely assimilated to another ancestry and feel as comfortable in that skin as in your natural form. Choose a common ancestry. You can select ancestry feats from the ancestry you chose, in addition to your character's own ancestry. You can select feats that require a physiological feature that you lack but can only benefit from those feats while you are in that ancestry's form; for example, an assimilated astrazoan who selects the shirren @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.fAVZRiRNde07YcbG]{Basic Insectile Flight} feat can only fly while in their shirren form.</p>"
+        },
+        "Asteroid Hopper Sarcesian": {
+            "name": "Asteroid Hopper Sarcesian",
+            "description": "<p>Whether flitting between asteroids in the Diaspora or repairing the outer hull of a starship, you spend a lot of time in the void of space and have pushed yourself to stay exposed just a little longer every time you head out. You can remain in a vacuum much longer than the average sarcesian. You can maintain suspended respiration up to a maximum of 4 hours at a time, rather than 1 hour at a time.</p>"
+        },
         "Azlanti": {
             "name": "Azlanti",
             "description": "<p>You or your ancestors were born on a world controlled by the Azlanti Star Empire. You may have prominent brows, purple eyes, or a widow's peak. Choose one cantrip from the arcane spell list. You can cast this spell as an arcane innate spell at will. A cantrip is heightened to a spell rank equal to half your level rounded up. You can change this cantrip to a different one from the same list once per day by meditating to draw on the power of your runic blood; this is a 10-minute activity that has the concentrate trait.</p>"
+        },
+        "Bloom-Born Kalo": {
+            "name": "Bloom-Born Kalo",
+            "description": "<p>You grew up near a bloom, one of the naturally occurring portals to the First World that randomly open and close across Kalo-Mahoi, and have developed a natural sense for the presence of primal magic around you. You gain the trained proficiency rank in Nature. If you would automatically become trained in Nature (from your background or class, for example), you become trained in another skill of your choice. Additionally, you can cast the @UUID[Compendium.pf2e.spells-srd.Item.gpzpAAAJ1Lza2JVl] cantrip as a primal innate spell at will. A cantrip is heightened to a spell rank equal to half your level rounded up.</p>"
         },
         "Borai": {
             "name": "Borai",
@@ -42,13 +64,33 @@
             "name": "Briskwander Vesk",
             "description": "<p>You come from a line of vesk who were constantly on the move. Your Speed increases by 5 feet.</p>"
         },
+        "Cloned Astrazoan": {
+            "name": "Cloned Astrazoan",
+            "description": "<p>You were either born in a laboratory using genetic samples preserved from a distant ancestor or budded from a parent astrazoan. Your body stubbornly refuses additional external attempts to change you. If you roll a success on a saving throw against a curse, disease, or polymorph effect, you get a critical success instead.</p>"
+        },
+        "Compact Sarcesian": {
+            "name": "Compact Sarcesian",
+            "description": "<p>You're incredibly flexible and can fold your gangly limbs up and around yourself like a contortionist, enabling you to maneuver in small and awkward spaces. You can fit through tight spaces as though you were a Medium creature.</p>"
+        },
+        "Construct Copycat": {
+            "name": "Construct Copycat",
+            "description": "<p>You have reinforced your body with technological augmentations that can be shifted to give yourself the appearance of a constructed creature. You can use Change Shape to assume the appearance of a Small or Medium construct. You gain the Augmented Body general feat.</p>"
+        },
         "Courtier Shirren": {
             "name": "Courtier Shirren",
             "description": "<p>Your telepathy is stronger than most shirrens', allowing you combine physical, verbal, and telepathic communication to better articulate your messages. You can transmit emotions alongside your messages whenever you use limited telepathy. In addition, when a creature communicates with you using limited telepathy or telepathy, you gain a +2 circumstance bonus to Perception checks to @UUID[Compendium.pf2e.actionspf2e.Item.1xRFPTFtWtGJ9ELw]{Sense Motive} against that creature.</p>"
         },
+        "Crèche-Raised Sarcesian": {
+            "name": "Crèche-Raised Sarcesian",
+            "description": "<p>You were raised on an idyllic crèche world and lived closely with dozens of other sarcesian children. You learned how to get along with others and stand out in a crowd early on. You are trained in Diplomacy. If you would automatically become trained in Diplomacy (from your background or class, for example), you instead become trained in a skill of your choice. You gain the @UUID[Compendium.pf2e.feats-srd.Item.KpFetnUqTiweypZk]{Group Impression} skill feat.</p>"
+        },
         "Damaya Lashunta": {
             "name": "Damaya Lashunta",
             "description": "<p>You've chosen the adaptive genetics that lead to becoming a damaya. You may be taller than other lashuntas and are likely encouraged to pursue work as a scholar or politician. You gain an attribute boost to Intelligence and an attribute flaw to Constitution, but the free ancestry boost cannot also be Intelligence. You gain the trained proficiency in Diplomacy. If you would automatically become trained in Diplomacy (from your background or class, for example), you become trained in another skill of your choice. You gain the @UUID[Compendium.pf2e.feats-srd.Item.BocFD2KV0qgUC76x]{Additional Lore} feat.</p>"
+        },
+        "Deep Kalo": {
+            "name": "Deep Kalo",
+            "description": "<p>You were born deep down in the aphotic zone where no light penetrates from the surface, far from the bright cities clustered around Kalo-Mahoi's geothermal oases, You gain echolocation as an imprecise sense with a range of 30 feet, or 60 feet when underwater.</p>"
         },
         "Deep Ysoki": {
             "name": "Deep Ysoki",
@@ -66,9 +108,21 @@
             "name": "Early Stage",
             "description": "<p>You are young and inexperienced compared to other barathus, with an individualistic worldview likely shaped by your interactions with other cultures. You've yet to see the full breadth of the cosmos and haven't adapted yourself to overcome its many threats or understand its various lifeforms. Your form is highly mutable as you haven't yet chosen to specialize or merge with other barathus. You're Small instead of Medium. You gain @UUID[Compendium.pf2e.feats-srd.Item.3G8xUlgCjRmRJNfP]{Quick Squeeze} as a bonus feat. Additionally, you gain resistance to precision damage equal to half your level (minimum 1).</p>"
         },
+        "Electric Kalo": {
+            "name": "Electric Kalo",
+            "description": "<p>You descend from a remote tribe in Kalo-Mahoi's photic zone that developed a bioelectric defense against predators, perhaps due to the influence of a bloom or because of an ancient diet of electric rays. You can cast the @UUID[Compendium.pf2e.spells-srd.Item.kBhaPuzLUSwS6vVf] cantrip as a primal innate spell at will. A cantrip is heightened to a spell rank equal to half your level rounded up. If you cast this spell with only 1 target, you gain electricity resistance equal to half your level (minimum 1) until the end of your next turn.</p><p>@UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.xQvyfiOh05xK2A5A]{Effect: Electric Kalo}</p>"
+        },
+        "Empathic Vlaka": {
+            "name": "Empathic Vlaka",
+            "description": "<p>You instinctively sense when the people around you are feeling strong emotions or inner conflict. You gain a +2 circumstance bonus to Perception checks to @UUID[Compendium.pf2e.actionspf2e.Item.1xRFPTFtWtGJ9ELw]{Sense Motive}. If you aren't actively using Sense Motive on a creature who's enchanted, possessed, or subject to an emotion effect, the GM rolls a secret check, without the usual circumstance bonus and with a –2 circumstance penalty, for you to potentially notice the enchantment, possession, or emotion effect anyway.</p>"
+        },
         "Everwhelp Skittermander": {
             "name": "Everwhelp Skittermander",
             "description": "<p>Despite being a full-grown adult, you've retained your stomachmouth—either through a quirk of evolution, purposeful genetic manipulation, or a biotech augmentation. You gain a jaws unarmed attack that deals 1d6 piercing damage, is in the brawling group, and has the finesse, skittermander, and unarmed traits.</p>"
+        },
+        "Flameheart Dragonkin": {
+            "name": "Flameheart Dragonkin",
+            "description": "<p>The embers burning in your blood keep you safe from the chill of high altitudes. You gain resistance to cold equal to half your level (minimum 1). You treat environmental cold effects as if they were one step less extreme (incredible cold becomes extreme, extreme cold becomes severe, and so on).</p>"
         },
         "Gadraveech Skittermander": {
             "name": "Gadraveech Skittermander",
@@ -78,17 +132,33 @@
             "name": "Golarion Survivor",
             "description": "<p>Your ancestors lived on lost Golarion, and though the circumstances of your family's survival are lost to the Gap, your family taught you ancient traditions from a young age. You become trained with archaic weapons and Golarion Lore, and you learn a bonus language that was spoken in your lineage's region of origin. You gain the @UUID[Compendium.pf2e.feats-srd.Item.I0BhPWqYf1bbzEYg]{Diehard} feat.</p>"
         },
+        "Heartbroken Dragonkin": {
+            "name": "Heartbroken Dragonkin",
+            "description": "<p>In the past your bonded partner died, and you remain devastated by their loss. You gain a +1 circumstance bonus to saving throws against emotion effects. If you roll a success on a saving throw against an emotion effect, you get a critical success instead.</p>"
+        },
         "Hunter-Stalker Pahtra": {
             "name": "Hunter-Stalker Pahtra",
             "description": "<p>You descend from a long line of hunters and your fur is especially well suited to blending into multiple environments. As long as you are in a natural and undeveloped environment, you gain a +2 circumstance bonus to Stealth checks to @UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]{Hide} and @UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{Sneak}, to Survival checks to @UUID[Compendium.pf2e.actionspf2e.Item.49y9Ec4bDii8pcD3]{Subsist}, and to your Survival DC to @UUID[Compendium.pf2e.actionspf2e.Item.SB7cMECVtE06kByk]{Cover Tracks}.</p>"
+        },
+        "Imperious Contemplative": {
+            "name": "Imperious Contemplative",
+            "description": "<p>Whether it's a nurtured response or a natural consequence of your instinctive genius, your brain rewards you with endorphins whenever you witness your inferior rivals flailing helplessly in a mental sea. You gain the @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.wI0g2nRfu2d0YFAd]{Shielding Arrogance} reaction.</p>"
         },
         "Infiltrator Shirren": {
             "name": "Infiltrator Shirren",
             "description": "<p>You descend from shirrens who were originally programmed as infiltrators for the Swarm. Your chitin is iridescent and creates patterns that fascinate and distract most other ancestries. You can @UUID[Compendium.pf2e.actionspf2e.Item.QNAVeNKtHA0EUw4X]{Feint} at a range of 10 feet, rather than solely while within melee reach of your intended target. You gain the @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.Ovf4qgCQRzc9f7BS]{Shimmering Dazzle} action.</p>"
         },
+        "Irreproachable Contemplative": {
+            "name": "Irreproachable Contemplative",
+            "description": "<p>Just as antibodies isolate and eliminate pathogens in the bloodstream, your brain has evolved its own psychic defenses that deflect unwanted thoughts. You gain mental resistance equal to half your level (minimum 1). If you roll a success on a saving throw against a mental effect that would apply the controlled condition, you critically succeed instead.</p>"
+        },
         "Kasath Survivalist": {
             "name": "Kasath Survivalist",
             "description": "<p>You and your ancestors were among those who chose not to abandon your dying homeworld. Your people trek through wasted lands under dim skies, seeking shelter and resources even as they slowly dwindle. You may have finally decided to seek a better life, or perhaps you hope to convince others to return to Kasath with you. You can @UUID[Compendium.pf2e.actionspf2e.Item.JuqmIAnkL9hVGai8]{Hustle} twice as long while exploring before you have to stop. If you're in a group that is Hustling, you increase the total number of minutes the group can Hustle by 10 minutes, or by 20 minutes if you're 13th level or higher. You gain the @UUID[Compendium.pf2e.feats-srd.Item.c9fHUSI5lRdXu1Ic]{Feather Step} feat.</p>"
+        },
+        "Keen Sighted Vlaka": {
+            "name": "Keen Sighted Vlaka",
+            "description": "<p>You have a particularly keen sense of vision, honed through generations of surviving on a world bathed in the dim light of a dying star. You gain darkvision.</p>"
         },
         "Korasha Lashunta": {
             "name": "Korasha Lashunta",
@@ -102,9 +172,17 @@
             "name": "Longsnout Ysoki",
             "description": "<p>The long snouts that run in your family give you a keener sense of smell than most ysoki. You gain imprecise scent with a range of 30 feet. This means you can use your sense of smell to determine a creature's location. The GM will usually double the range if you're downwind from the creature or halve the range if you're upwind.</p>\n<p>In addition, you gain a +2 circumstance bonus to Perception checks to @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Seek} a creature or object within the range of your scent.</p>"
         },
+        "Manifested Contemplative": {
+            "name": "Manifested Contemplative",
+            "description": "<p>Your brainwaves are so powerful that occult magic manifests and dances to the tune of your very thoughts. Choose one cantrip from the occult spell list. You can cast this cantrip as an occult innate spell at will. A cantrip is heightened to a spell rank equal to half your level rounded up.</p>"
+        },
         "Manufacturer": {
             "name": "Manufacturer",
             "description": "<p>Your body is a living laboratory, allowing you to ingest raw materials and refine them into useful medicines and other products. You become trained in Crafting (or another skill of your choice if you're already trained in Crafting and gain the @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.vv4y3sOs3Z5ql1hh]{Pharmaceutical Crafting} feat.</p>"
+        },
+        "Mercurial Dragonkin": {
+            "name": "Mercurial Dragonkin",
+            "description": "<p>Whether by fluke, the whims of fate, or deep-seated fear of codependency, you can't form a permanent partner bond. Instead, you can form a temporary partner bond. The time it takes you to form a partner bond is reduced to 10 minutes, and the duration of this partner bond is reduced to 1 day. You can choose to sever a partner bond early as a single action that has the concentration trait. If you @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.y9tYChycW6xcdT7J]{Transfer Vitality} to your partner, reduce the Hit Point cost by 1 plus 1 for every 4 levels you have (to a minimum of 1).</p>"
         },
         "Merged": {
             "name": "Merged",
@@ -126,6 +204,14 @@
             "name": "Nightstalker Vesk",
             "description": "<p>You've adapted to live your life in darkness, perhaps due to living underground, in poorly lit starship corridors, under smoke-shrouded skies, or on a planet far from its sun. You gain darkvision.</p>"
         },
+        "Nomadic Vlaka": {
+            "name": "Nomadic Vlaka",
+            "description": "<p>You live your life on the move, traveling the galaxy in an endless journey. You gain two additional languages of your choice, chosen from among the common and uncommon languages available to you. When you select the @UUID[Compendium.pf2e.feats-srd.Item.P9HCz0uR6xPHuw72]{Multilingual} skill feat, you gain three new languages instead of two.</p>"
+        },
+        "Outworlder Kalo": {
+            "name": "Outworlder Kalo",
+            "description": "<p>You've spent a significant portion of your life away from the oceans of Kalo-Mahoi, so you're particularly experienced at handling the challenges of life on dry land. Your land Speed is increased by 5 feet (to 25 feet for most kalos).</p>"
+        },
         "Plated Vesk": {
             "name": "Plated Vesk",
             "description": "<p>Your ancestors were the hardiest specimens of vesk, having traveled far and wide while enduring hostile environments. Your scales count as medium armor in the plate armor group that grant a +4 item bonus to AC, a Dex cap of +1, a check penalty of –2, and a Strength threshold of +3, and has the comfort trait. You can wear a flight suit but can't wear other armor. You can etch armor runes onto your scales, but you can't install armor upgrades.</p>"
@@ -141,6 +227,10 @@
         "Renewed Android": {
             "name": "Renewed Android",
             "description": "<p>Many souls have inhabited your synthetic body before you, and you might incorporate a number into your name to honor them. You might know your body's history and strive toward a goal bequeathed to you by a departed soul, or you might seek to unravel the mystery of a forgotten legacy. Muscle memory hints at your body's past, and people you've never met strangely recognize your face. The first time in a day that you lose the @UUID[Compendium.pf2e.conditionitems.Item.yZRUzMqrMmfLu0V1]{Dying} condition, you don't gain a @UUID[Compendium.pf2e.conditionitems.Item.Yl48xTdMh3aeQYL2]{Wounded} condition to match. You become trained in a skill of your choice that has the @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{Recall Knowledge} action, and you gain the @UUID[Compendium.pf2e.feats-srd.Item.1Bt7uCW2WI4sM84P]{Dubious Knowledge} skill feat.</p>"
+        },
+        "Retrograde Contemplative": {
+            "name": "Retrograde Contemplative",
+            "description": "<p>Contemplatives' guided evolution has shrunk their limbs and expanded their immense brains. Rarely, by some genetic quirk, a contemplative like you is born with a body more closely resembling your less specialized ancestors. With longer, stronger limbs, you are still unmistakably a contemplative. You lose the atrophied trait. In addition, you gain 10 Hit Points from your ancestry instead of 6.</p>"
         },
         "Rime Walker Pahtra": {
             "name": "Rime Walker Pahtra",
@@ -158,9 +248,21 @@
             "name": "Scrabbler Skittermander",
             "description": "<p>You never mastered coordinating all six of your arms for manual manipulation, instead using the lowest two of these limbs for extra mobility. You have four arms (rather than six) and four legs (rather than two). You gain a climb speed equal to your base land speed.</p>"
         },
+        "Sharp-Eyed Sarcesian": {
+            "name": "Sharp-Eyed Sarcesian",
+            "description": "<p>Your overlarge eyes have adapted to function well in poor lighting conditions. You gain darkvision.</p>"
+        },
+        "Sharp-Toothed Vlaka": {
+            "name": "Sharp-Toothed Vlaka",
+            "description": "<p>You have the strong jaw and sharp teeth of a predator, making your mouth a dangerous weapon. You gain a jaws unarmed attack that deals 1d6 piercing damage. Your jaws are in the brawling group and have the finesse and unarmed traits.</p>"
+        },
         "Shipborn": {
             "name": "Shipborn",
             "description": "<p>You were one of the kasathas born and raised on the Idari generation ship that now orbits the Pact Worlds' sun. Your family kept hope and tradition alive while enduring the hardships of lengthy space travel. For you, the Idari is the only home you've ever known. When you roll a success on a saving throw against an emotion or fear effect, you get a critical success instead.</p>"
+        },
+        "Shipborn Dragonkin": {
+            "name": "Shipborn Dragonkin",
+            "description": "<p>Your ancestors adapted to live on a starship or in a settlement sized for people much smaller than your own. Being large was a disadvantage—one that subsequent generations shed. Instead of Large, your size is Medium. You gain a +1 circumstance bonus to checks to @UUID[Compendium.pf2e.actionspf2e.Item.kMcV8e5EZUxa6evt]{Squeeze}, and you can use Acrobatics or Athletics when you Squeeze.</p>"
         },
         "Shipborn Ysoki": {
             "name": "Shipborn Ysoki",
@@ -170,9 +272,21 @@
             "name": "Skitter Raised",
             "description": "<p>You've spent most of your life in a tight-knit community, where teamwork is expected, and crowds are just giant group hugs. You gain the @UUID[Compendium.pf2e.feats-srd.Item.KpFetnUqTiweypZk]{Group Impression} skill feat. In addition, you gain a +2 circumstance bonus to checks to @UUID[Compendium.pf2e.actionspf2e.Item.HCl3pzVefiv9ZKQW]{Aid} an ally at a skill check that doesn't have the attack trait.</p>"
         },
+        "Star Marked Vlaka": {
+            "name": "Star Marked Vlaka",
+            "description": "<p>You witnessed the miraculous rebirth of the dying star Sota. Your coat or eyes are marked with starbursts that shine with the light of the stars. With a moment's thought, you can cause these star markings to shed bright light in a 40-foot radius (and dim light to the next 40 feet). This light has the light and occult traits. You can spark or extinguish this light using a single action, which has the concentrate trait. You can't activate this ability when you're beyond the energy of a sun or stars, such as in the Drift or on another plane of existence where these celestial bodies don't exist.</p>"
+        },
         "Stellar Nomad": {
             "name": "Stellar Nomad",
             "description": "<p>You choose to travel abroad, leaving your birthplace to embark on a journey through the wider cosmos. During your daily preparations, you can study a particular faction, philosophy, ancestry, or religion to learn one of their edicts or anathemas and gain a broader understanding of that culture's customs and traditions. While you follow that edict or anathema, you become trained in the associated lore (such as Vesk Lore or Damoritosh Lore). This proficiency lasts until you prepare again. Since this training is temporary, you can't use it as a prerequisite for a permanent character option like a feat or a skill increase.</p>"
+        },
+        "Stellar Sarcesian": {
+            "name": "Stellar Sarcesian",
+            "description": "<p>You have an intrinsic connection to the cosmos and can channel these stellar forces into magic. Choose one cantrip that has at least one of the following traits: darkness, light, vital, or void. You can cast this cantrip as an arcane innate spell at will. A cantrip is heightened to a spell rank equal to half your level rounded up.</p>"
+        },
+        "Stormrider Dragonkin": {
+            "name": "Stormrider Dragonkin",
+            "description": "<p>You were born and raised on a volatile world wracked by destructive storms and powerful winds. Learning to fly in such conditions has conditioned you into an exceptional aerialist. You gain a +2 circumstance bonus to Acrobatics checks to Maneuver in Flight and your fly Speed increases by 5 feet.</p>"
         },
         "Swarm Exile Shirren": {
             "name": "Swarm Exile Shirren",
@@ -181,6 +295,10 @@
         "Tempering": {
             "name": "Tempering",
             "description": "<p>You are undergoing your Tempering, a coming-of-age ritual in which a kasatha rejects the formal traditions of their family and experiences other customs and traditions. You may be one of the Untempered, a kasatha who chooses to continue their Tempering beyond the traditional yearlong period. You become trained in Society and gain the @UUID[Compendium.pf2e.feats-srd.Item.X2jGFfLU5qI5XVot]{Streetwise} feat.</p>"
+        },
+        "Thoughtseeker Contemplative": {
+            "name": "Thoughtseeker Contemplative",
+            "description": "<p>Not content with their own thoughts, some contemplatives opened themselves to other minds seeking knowledge throughout the galaxy, developing far-reaching awareness as a result. You are descended from these psychic explorers or trained extensively with their successors. You gain @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.tFsq726ZjUDAzML0]{Detect Thoughts} as an occult innate cantrip, which you can cast at will. A cantrip is heightened to a spell rank equal to half your level, rounded up. In addition, increase the range of your thoughtsense by 10 feet.</p>"
         },
         "Tunnel Ysoki": {
             "name": "Tunnel Ysoki",
@@ -206,9 +324,17 @@
             "name": "Wavecrested Vesk",
             "description": "<p>You come from a world of warm seas and primal magic that has caused your body to develop soft scales, a wide head, and frilled gill stalks. You gain a swim Speed of 20 feet, and you gain the amphibious trait, enabling you to breathe in water and in air, indefinitely. However, you're ill-suited to overland travel. Reduce your land Speed by 5 feet (to 15 feet for most wavecrested vesk).</p>"
         },
+        "Wild Astrazoan": {
+            "name": "Wild Astrazoan",
+            "description": "<p>While most astrazoans flock to communities in densely populated settlements, some choose to live among nature in the wilderness, forging their own destiny or even defending their paradise from the influence of others. You have only one ancestry you can select for Change Shape, but you can also use Change Shape to transform into an animal with the statistics of a 1st-rank @UUID[Compendium.pf2e.spells-srd.Item.gfPjmG6Fe6D3MFjl]{Pest Form}.</p>"
+        },
         "Winged Shirren": {
             "name": "Winged Shirren",
             "description": "<p>Your ancestors were members of the Swarm who evolved wings. Though you don't possess a fully functional pair of wings, you can develop them over time. When Leaping horizontally, you move an additional 5 feet. You don't automatically fail your checks to @UUID[Compendium.pf2e.actionspf2e.Item.2HJ4yuEFY1Cast4h]{High Jump} or @UUID[Compendium.pf2e.actionspf2e.Item.JUvAvruz7yRQXfz2]{Long Jump} if you don't Stride at least 10 feet first. In addition, when you perform a Long Jump, you can jump a distance up to 10 feet further than the result of your Athletics check (within the normal maximum for your Speed). As long as you can act, you take no damage from falling, regardless of the distance you fall.</p>"
+        },
+        "Winter Coat Vlaka": {
+            "name": "Winter Coat Vlaka",
+            "description": "<p>Your thick fur keeps you warm in cold places like Lajok. You gain cold resistance equal to half your level (minimum 1). You treat environmental cold effects as if they were one step less extreme (incredible cold becomes extreme, extreme cold becomes severe, and so on).</p>"
         }
     }
 }

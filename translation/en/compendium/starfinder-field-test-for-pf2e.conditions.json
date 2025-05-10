@@ -1,6 +1,10 @@
 {
     "label": "Conditions",
     "entries": {
+        "Effect: According to My Calculations": {
+            "name": "Effect: According to My Calculations",
+            "description": "<p>Granted by @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.IJvX7FJ40i84XPuR]{According to My Calculations}</p><p>You gain a circumstance bonus or penalty to your next skill check or attack roll depending on the result.</p>"
+        },
         "Effect: Adaptive Locomotion": {
             "name": "Effect: Adaptive Locomotion",
             "description": "<p>If you select flippers, you gain a swim Speed of 20 feet. If you select hooked pseudopods, you gain a climb Speed of 20 feet.</p>"
@@ -16,6 +20,10 @@
         "Effect: Arcane Intuition": {
             "name": "Effect: Arcane Intuition",
             "description": "<p>You gain a +1 circumstance bonus to counteract checks against spells and ongoing magic effects. If you are legendary in Arcana, you gain a +2 circumstance bonus instead.</p>"
+        },
+        "Effect: Atmospheric Flight": {
+            "name": "Effect: Atmospheric Flight",
+            "description": "<p>Granted by @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.wZyBTTRM2BjC93gg]{Atmospheric Flight}</p><p>You gain a fly Speed equal to your land Speed plus 10 feet.</p>"
         },
         "Effect: Bolstered by Battle": {
             "name": "Effect: Bolstered by Battle",
@@ -45,6 +53,10 @@
             "name": "Effect: Celebrity Serum",
             "description": "<p>Granted by @UUID[Compendium.starfinder-field-test-for-pf2e.equipment.Item.YEuvWZhtsvTqJJo1]{Celebrity Serum}</p><p>You gain a +1 item bonus to Performance checks.</p>"
         },
+        "Effect: Cellular Regeneration": {
+            "name": "Effect: Cellular Regeneration",
+            "description": "<p>Granted by @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.SiVWK0ksapz0Y8UU]{Cellular Regeneration}</p><p>You gain regeneration equal to half your level.</p>"
+        },
         "Effect: Cloud Storage": {
             "name": "Effect: Cloud Storage",
             "description": "<p>Tracks your currently available memory bank</p>"
@@ -56,9 +68,17 @@
         "Effect: Constellation Vortex": {
             "name": "Effect: Constellation Vortex"
         },
+        "Effect: Cooperative": {
+            "name": "Effect: Cooperative",
+            "description": "<p>Granted by @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.LHtaCR4gS4kozJyP]{Cooperative}</p><p>You gain a +2 circumstance bonus to checks to Aid.</p>"
+        },
         "Effect: Deadlift": {
             "name": "Effect: Deadlift",
             "description": "<p>You can carry 4 more Bulk than normal before becoming encumbered. The amount you can carry increases to 6 at expert, 8 at master, and 10 at legendary.</p>"
+        },
+        "Effect: Defensive Formation": {
+            "name": "Effect: Defensive Formation",
+            "description": "<p>Granted by @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.xF4Vse5IwmWveqxI]{Defensive Formation}</p><p>You gain a +1 circumstance bonus to AC and Reflex saving throws.</p>"
         },
         "Effect: Dual Aim": {
             "name": "Effect: Dual Aim",
@@ -68,6 +88,10 @@
             "name": "Effect: Effortless Influencer",
             "description": "<p>Your gain a +1 status bonus to the next check you attempt with the chosen skill (or a +2 bonus if your check was a critical success).</p>"
         },
+        "Effect: Electric Kalo": {
+            "name": "Effect: Electric Kalo",
+            "description": "<p>Granted by @UUID[Compendium.starfinder-field-test-for-pf2e.heritages.Item.ZAOKze0PTYPPbUua]{Electric Kalo}</p><p>You gain electricity resistance equal to half your level (minimum 1).</p>"
+        },
         "Effect: Elemental Harmony": {
             "name": "Effect: Elemental Harmony",
             "description": "<p>You deal an additional 1d4 persistent damage.</p>"
@@ -76,9 +100,17 @@
             "name": "Effect: Elemental Perfect Harmony",
             "description": "<p>You gain resistance to two elements chosen during the mystic's daily preparations.</p>"
         },
+        "Effect: Energy Consumption": {
+            "name": "Effect: Energy Consumption",
+            "description": "<p>Granted by @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.3RqBU4dfoegOPzqw]{Energy Consumption}</p><p>You gain temporary Hit Points equal to your level and the Energy Shielding feat.</p>"
+        },
         "Effect: Enraging Presence": {
             "name": "Effect: Enraging Presence",
             "description": "<p>You gain a +2 status bonus to damage rolls.</p>"
+        },
+        "Effect: Focus Senses": {
+            "name": "Effect: Focus Senses",
+            "description": "<p>Granted by @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.0vqXr3SYakIa19k3]{Focus Senses}</p><p>You gain echolocation (precise) 30 feet.</p>"
         },
         "Effect: Force Field": {
             "name": "Effect: Force Field",
@@ -108,13 +140,33 @@
             "name": "Effect: Harmonic Convergence",
             "description": "<p>You gain a number of temporary Hit Points equal to half your level.</p>"
         },
+        "Effect: Heroic Last Stand": {
+            "name": "Effect: Heroic Last Stand",
+            "description": "<p>Granted by @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.a9ER2amvCuQEJODm]{Heroic Last Stand}</p><p>You gain temporary Hit Points equal to your level. As long as you have these temporary Hit Points, you gain a +1 circumstance bonus to Will saves against fear effects and a +2 circumstance bonus to your Will DC against attempts to Demoralize you.</p>"
+        },
+        "Effect: Holo-Roger": {
+            "name": "Effect: Holo-Roger",
+            "description": "<p>Granted by @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.8zWFGKRXg1SxIwFH]{Holo-Roger}</p><p>You gain a +1 circumstance bonus to Intimidation checks to Coerce.</p>"
+        },
         "Effect: Improvised Mastery": {
             "name": "Effect: Improvised Mastery",
             "description": "<p><strong>Frequency</strong> once per day</p><p><strong>Trigger</strong> You are about to attempt a skill check using a skill that you don't have master proficiency in, but you haven't rolled yet.</p><hr /><p>You trust your instincts to see you through. You gain master proficiency with the triggering skill for the skill check.</p>"
         },
+        "Effect: Infernal Armaments": {
+            "name": "Effect: Infernal Armaments",
+            "description": "<p>Granted by @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.WpJCB3dCycbIzG3w]{Infernal Armaments}</p><p>Your gain a status bonus equal to twice the number of weapon damage dice on your first weapon Strike each round. The damage type of this additional damage is determined by your Hellknight's Order.</p>"
+        },
+        "Effect: Kindle Blaze": {
+            "name": "Effect: Kindle Blaze",
+            "description": "<p>Granted by @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.dp3jTnxAb98E2BCk]{Kindle Blaze}</p><p>You shed bright light in a 30-foot radius and dim light to the next 30 feet. You also gain a +1 circumstance bonus to saves against attacks, spells, and other effects that have the cold trait.</p>"
+        },
         "Effect: Magnetic Field": {
             "name": "Effect: Magnetic Field",
             "description": "<p>Items with the tech trait used within the aura take a –1 circumstance penalty to all checks made using them</p>"
+        },
+        "Effect: Manifest Energy Wings": {
+            "name": "Effect: Manifest Energy Wings",
+            "description": "<p>Granted by @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.NEYVJWYtgl0rRSwg]{Manifest Energy Wings}</p><p>You gain a fly Speed equal to your land Speed plus 10 feet.</p>"
         },
         "Effect: Mark": {
             "name": "Effect: Mark",
@@ -164,9 +216,17 @@
             "name": "Effect: Relentless Endurance",
             "description": "<p>You gain 1d8+4 temporary hit points, plus an additional 1d8+4 for every 4 levels you have beyond 2nd level.</p>"
         },
+        "Effect: Restorative Shapeshifting": {
+            "name": "Effect: Restorative Shapeshifting",
+            "description": "<p>Granted by @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.7yIxWfNZ7yEKs0Fd]{Restorative Shapeshifting}</p><p>You gain a number of temporary Hit Points equal to half your level.</p>"
+        },
         "Effect: Search High and Low": {
             "name": "Effect: Search High and Low",
             "description": "<p>You gain a +2 circumstance bonus to Perception checks to @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Seek}. Increase the bonus to +3 at 7th level, +4 at 12th level, and +5 at 17th level.</p>"
+        },
+        "Effect: Shielding Arrogance": {
+            "name": "Effect: Shielding Arrogance",
+            "description": "<p>Granted by @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.wI0g2nRfu2d0YFAd]{Shielding Arrogance}</p><p>You gain temporary Hit Points equal to your level.</p>"
         },
         "Effect: Shift Energy": {
             "name": "Effect: Shift Energy",
@@ -179,6 +239,14 @@
         "Effect: Size Up": {
             "name": "Effect: Size Up",
             "description": "<p>You gain a +1 circumstance bonus to Deception, Diplomacy, Intimidation, and Perception checks made against your asset or in relation to your asset if the target knows your asset, and a +1 circumstance bonus to attempts to @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{Recall Knowledge} about your asset.</p>"
+        },
+        "Effect: Size of the Ancients": {
+            "name": "Effect: Size of the Ancients",
+            "description": "<p>Granted by @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.ri5qV0g9RwwWLiBk]{Size of the Ancients}</p><p>You grow to size Huge. Your reach increases by 5 feet (or by 10 feet if you are a shipborn dragonkin), and you gain a +4 status bonus to melee damage.</p>"
+        },
+        "Effect: Skillful Encouragement": {
+            "name": "Effect: Skillful Encouragement",
+            "description": "<p>Granted by @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.EFkWRLQwain42TFm]{Skillful Encouragement}</p><p>You gain a +2 circumstance bonus to skill checks.</p>"
         },
         "Effect: Solar Shield": {
             "name": "Effect: Solar Shield",
@@ -200,13 +268,33 @@
             "name": "Effect: Sparkling Performance",
             "description": "<p>You cast dim light in a 20-foot radius. If you are legendary in Performance, you can cast bright light in a 20-foot radius.</p>"
         },
+        "Effect: Sway the Heart, Stoke the Spirit": {
+            "name": "Effect: Sway the Heart, Stoke the Spirit",
+            "description": "<p>Granted by @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.ypSQT2urAcrgaoQ1]{Sway the Heart, Stoke the Spirit}</p><p>You gain a +1 circumstance bonus to Will saves.</p>"
+        },
         "Effect: Tactical Tutelage": {
             "name": "Effect: Tactical Tutelage",
             "description": "<p>Your deal an additional 2d4 precision damage and reduce the target's cover bonus to AC by 1.</p>"
         },
+        "Effect: Telekinetic Sprint": {
+            "name": "Effect: Telekinetic Sprint",
+            "description": "<p>Granted by @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.r1bUsyDwcwuN3MUG]{Telekinetic Sprint}</p><p>You gain a +5-foot status bonus to your Speeds.</p>"
+        },
+        "Effect: Telekinetic Titan": {
+            "name": "Effect: Telekinetic Titan",
+            "description": "<p>Granted by @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.Cj9UI2RZL6WBJ6EB]{Telekinetic Titan}</p><p>You can carry Bulk equal to 7 + the chosen attribute modifier before becoming encumbered, and you can hold and carry a total Bulk of 12 + the chosen attribute modifier. You gain the @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.gNUrQ8jimAvAA0xg]{Telekinetic Lift} action.</p>"
+        },
+        "Effect: Telepredict": {
+            "name": "Effect: Telepredict",
+            "description": "<p>Granted by @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.bqQ80aCjgigKSJMY]{Telepredict}</p><p>You gain a +1 circumstance bonus to Deception checks and Intimidation checks targeting the creature, and to saves against the target's effects that have the fear trait. If you deal mental damage to the target, increase this bonus to +2.</p>"
+        },
         "Effect: Unbound Mind": {
             "name": "Effect: Unbound Mind",
             "description": "<p>You gain a +1 circumstance bonus to saving throws against mental effects.</p>"
+        },
+        "Effect: Undead Slayer": {
+            "name": "Effect: Undead Slayer",
+            "description": "<p>Granted by @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.kC42tjY689rma6Uc]{Undead Slayer}</p><p>You gain access to the critical specialization effects of all weapons and unarmed attacks for attacks you make against the marked creature.</p>"
         },
         "Effect: Unfurl Wings": {
             "name": "Effect: Unfurl Wings",
@@ -223,6 +311,10 @@
         "Effect: Watch Out!": {
             "name": "Effect: Watch Out!",
             "description": "<p>You shout a warning to your ally, granting them a +2 circumstance bonus to AC against the triggering attack.</p>"
+        },
+        "Effect: Willful Defiance": {
+            "name": "Effect: Willful Defiance",
+            "description": "<p>Granted by @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.NUZClDNinM6oVgJN]{Willful Defiance}</p><p>You gain a +1 circumstance bonus to Armor Class and saving throws against the marked creature's attacks, spells, and other effects.</p>"
         },
         "Effect: You'll Have to Go Through Me!": {
             "name": "Effect: You'll Have to Go Through Me!",

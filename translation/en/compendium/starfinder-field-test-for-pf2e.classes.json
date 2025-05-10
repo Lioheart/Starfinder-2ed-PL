@@ -5,6 +5,10 @@
             "name": "Envoy",
             "description": "<p><em>You're a master influencer. You make your way in the universe with a charming smile, quick wit, and keen sense of self-preservation. You're a leader who motivates your teammates, pushes them past their limits, and helps them through tough spots. You excel at getting others to do what you want, but you're always ready to face trouble head on when things take a turn for the worse. You might be a con artist, diplomat, performer, or even a military officer—or you might take on whatever role the situation demands.</em></p><p><em>@UUID[Compendium.starfinder-field-test-for-pf2e.sf2e-journals.JournalEntry.JQAMedkXzpu3xv8N.JournalEntryPage.KIQZaGST8rgB15gX]{Envoy}</em></p>"
         },
+        "Mechanic": {
+            "name": "Mechanic",
+            "description": "<p><em>When it comes to tech, your understanding is unmatched. You're constantly crafting and modifying gear, whether that's computers, explosives, tools, weapons, or items of your own design. You've constructed a sophisticated exocortex, a custom neural implant linking your own mind to your most complex creation: a robot companion, a weapon turret, or remote mines. If something's broken—or needs breaking—you're the one.</em></p>"
+        },
         "Mystic": {
             "name": "Mystic",
             "description": "<p><em>You are a conduit, channeling the fundamental forces that connect and bind everything in the cosmos. You tap into that power to form deep spiritual bonds with close friends. You draw from this supernatural wellspring to empower your allies, restore their health when they're injured. By maintaining and nourishing your bonds, you tap into a cache of life energy you can call upon to supercharge your healing magic. Your powers take unique shape based on the connection you choose.</em></p><p><em>@UUID[Compendium.starfinder-field-test-for-pf2e.sf2e-journals.JournalEntry.JQAMedkXzpu3xv8N.JournalEntryPage.8CF2x5wMiBjJFfgp]{Mystic}</em></p>"
@@ -20,6 +24,10 @@
         "Soldier": {
             "name": "Soldier",
             "description": "<p><em>You are a master of area weapons, heavy armor, and taking punishment. You stand in the thick of the battle and unleash devastating salvos against your foes, while taking withering fire in return. By laying down a barrage of suppressing fire with powerful weapons, you set your allies up to fulfill their respective roles, while encouraging enemies to focus on you.</em></p><p><em>@UUID[Compendium.starfinder-field-test-for-pf2e.sf2e-journals.JournalEntry.JQAMedkXzpu3xv8N.JournalEntryPage.qzqG51UFKlrsJGZS]{Soldier}</em></p>"
+        },
+        "Technomancer": {
+            "name": "Technomancer",
+            "description": "<p><em>You know that magic and technology are all part of the same code—a code you've learned to hack. You're versed in a magical programming language that allows you to overclock your equipment into higher performance and versatility. You've learned to jailbreak your spells, pushing your magic past the limits. You're here to hack reality.</em></p>"
         },
         "Witchwarper": {
             "name": "Witchwarper",
