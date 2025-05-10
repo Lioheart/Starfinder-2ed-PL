@@ -5,13 +5,29 @@
             "name": "Android (Starfinder)",
             "description": "<p><em>Androidy po raz pierwszy pojawiły się jako syntetyczne istoty stworzone przez wiele zaawansowanych technologicznie cywilizacji w całej galaktyce. Pierwsze androidy zostały stworzone przez humanoidalne ludy na ich własne podobieństwo, ale po rozpowszechnieniu się technologii, która ożywiała żywe konstrukty, androidy zaczęły wykazywać fantastyczną różnorodność form. Androidy na Światach Paktu zostały pierwotnie zaprojektowane jako słudzy, ale dziś androidy są równe innym obywatelom Paktu. Wiele androidów utworzyło własne niezależne społeczności, podczas gdy inne płynnie integrują się ze społeczeństwami Światów Paktu. W przeciwieństwie do wielu innych konstrukcji technologicznych, androidy są czymś więcej niż skomplikowanymi syntetycznymi organami i złożonym oprogramowaniem, a każdy z nich posiada własną duszę.</em></p>\n<p><em>@UUID[Compendium.starfinder-field-test-for-pf2e.sf2e-journals.JournalEntry.q5yEIEjKvnVkwxod.JournalEntryPage.dyusFHHyaQOaQhZ0]{Android}</em></p>"
         },
+        "Astrazoan": {
+            "name": "Astrazoan",
+            "description": "<p><em>Astrazoanie nie mają jasnego pochodzenia ani znanej ojczyzny. Ich plastyczne ciała skrywają osobliwy naturalny kształt, który rzadko pokazują innym. Jednak dzięki zdolności dostosowywania się do nowych sytuacji astrazoanie znaleźli tyle domów, ile tożsamości wśród różnorodnych kultur galaktyki.</em></p>"
+        },
         "Barathu": {
             "name": "Barathu",
             "description": "<p><em>Barathowie to pływające meduzopodobne istoty, które wyewoluowały na gazowym gigancie Bretheda. Barathowie przepisują swój kod genetyczny instynktownie i dowolnie, kształtując swoje ciała w oszałamiającą gamę unikalnych form.</em></p><p>@UUID[Compendium.starfinder-field-test-for-pf2e.sf2e-journals.JournalEntry.q5yEIEjKvnVkwxod.JournalEntryPage.UlFKvIWwOaMazw6k]{Barathu}</p>"
         },
+        "Contemplative": {
+            "name": "Kontemplacyjny",
+            "description": "<p><em>Kształtowani przez niezliczone pokolenia dążące do samodoskonalenia umysłowego, kontemplacyjni mają ogromne mózgi, które równie dobrze nadają się do matematyki, jak i magii. Ich naturalna telekineza pozwala im poruszać się w powietrzu, a wyważona ciekawość popycha ich do odkryć i innowacji.</em></p>"
+        },
+        "Dragonkin": {
+            "name": "Smokowaty",
+            "description": "<p><em>Smokowate w wyglądzie i niezwykle lojalne, smoki są istotami głęboko empatycznymi, zdolnymi do tworzenia niemal nierozerwalnej więzi duchowej z innym stworzeniem, która przejawia się w telepatycznej komunikacji i synergii taktycznej.</em></p>"
+        },
         "Human (Starfinder)": {
             "name": "Człowiek (Starfinder)",
             "description": "<p><em>Ludzie są znani ze swojej zdolności do adaptacji i rozwoju w najtrudniejszych sytuacjach, w tym po tajemniczej utracie ich ojczystej planety Golarion. Ambitni, kreatywni i nieskończenie ciekawi, ludzie utrzymują silną obecność w galaktyce, często zajmując stanowiska przywódcze lub działając na czele eksploracji. Obecnie ludzi można spotkać niemal wszędzie i robią oni niemal wszystko.</em></p>\n<p><em>@UUID[Compendium.starfinder-field-test-for-pf2e.sf2e-journals.JournalEntry.q5yEIEjKvnVkwxod.JournalEntryPage.3KV2F5LPEQtygvFs]{Człowiek}</em></p>"
+        },
+        "Kalo": {
+            "name": "Kalo",
+            "description": "<p><em>Kalo pochodzą z wodnego księżyca krążącego wokół Brethedy. Ci wodni humanoidalni stworzenia kultywują sztukę i kreatywność, a w walce stosują płynne style walki.</em></p>"
         },
         "Kasatha": {
             "name": "Kasatha",
@@ -25,6 +41,10 @@
             "name": "Pahtra",
             "description": "<p><em>Pahtry to humanoidalny gatunek kotów z pobliskiego układu gwiezdnego. Są bardzo konkurencyjni i znani ze swoich osiągnięć w magii, muzyce i wojnie. Ich ojczysta planeta została niedawno wyzwolona spod okupacji Veskarium, a oni sami dołączyli do Paktu Światów.</em></p>\n<p>@UUID[Compendium.starfinder-field-test-for-pf2e.sf2e-journals.JournalEntry.q5yEIEjKvnVkwxod.JournalEntryPage.fOEpHNkexe9KcPFe]{Pahtra}</p>"
         },
+        "Sarcesian": {
+            "name": "Sarcesjanin",
+            "description": "<p><em>Sarcesjanie są naturalnymi podróżnikami kosmicznymi, którzy szybują w próżni kosmicznej na skrzydłach motyla z energii i światła.</em></p>"
+        },
         "Shirren": {
             "name": "Shirren",
             "description": "<p><em>Owadożerni shirreni odłączyli się od niszczycielskiego Roju, porzucając bezwzględny umysł roju, aby dążyć do własnej wolności i zakończyć cykl międzygwiezdnej przemocy. Shirreny to gatunek telepatów oddanych własnemu indywidualizmowi, społecznościom i życiu w harmonii z innymi ludami.</em></p>\n<p>@UUID[Compendium.starfinder-field-test-for-pf2e.sf2e-journals.JournalEntry.q5yEIEjKvnVkwxod.JournalEntryPage.13SfVMj4kCySon7T]{Shirren}</p>"
@@ -36,6 +56,10 @@
         "Vesk": {
             "name": "Vesk",
             "description": "<p><em>Vesk to wojowniczy, gadzi lud, który podbił osiem światów w swoim układzie słonecznym wkrótce po opracowaniu lotów kosmicznych, tworząc imperium Veskarium. Vesk mają tendencję do angażowania się w konflikty i szanują siłę i potęgę militarną.</em></p>\n<p><em>@UUID[Compendium.starfinder-field-test-for-pf2e.sf2e-journals.JournalEntry.q5yEIEjKvnVkwxod.JournalEntryPage.1lCAkGgIYYkczZ28]{Vesk}</em></p>"
+        },
+        "Vlaka": {
+            "name": "Vlaka",
+            "description": "<p><em>Vlaka to wilkołaki, które żyją wędrownym trybem życia. Ich grube futro pomaga im przetrwać w lodowatym klimacie ich ojczyzny, świata Lajok. Mają niesamowity węch i często rodzą się głuche, ślepe lub głuchoniewidome.</em></p>"
         },
         "Ysoki": {
             "name": "Ysoki",
