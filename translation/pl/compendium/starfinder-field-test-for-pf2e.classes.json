@@ -5,6 +5,10 @@
             "name": "Wysłannik",
             "description": "<p><em>Jesteś mistrzem wywierania wpływu. Swoją drogę we wszechświecie torujesz czarującym uśmiechem, szybkim dowcipem i bystrym zmysłem samozachowawczym. Jesteś liderem, który motywuje swoich kolegów z zespołu, przekracza ich granice i pomaga im przetrwać trudne chwile. Doskonale radzisz sobie z nakłanianiem innych do robienia tego, co chcesz, ale zawsze jesteś gotowy stawić czoła kłopotom, gdy sprawy przybierają gorszy obrót. Możesz być oszustem, dyplomatą, wykonawcą, a nawet oficerem wojskowym - lub możesz przyjąć dowolną rolę wymaganą przez sytuację.</em></p><p><em>@UUID[Compendium.starfinder-field-test-for-pf2e.sf2e-journals.JournalEntry.JQAMedkXzpu3xv8N.JournalEntryPage.KIQZaGST8rgB15gX]{Wysłannik}</em></p>"
         },
+        "Mechanic": {
+            "name": "Mechanik",
+            "description": "<p><em>Jeśli chodzi o technologię, Twoja wiedza nie ma sobie równych. Nieustannie tworzysz i modyfikujesz sprzęt, czy to komputery, materiały wybuchowe, narzędzia, broń, czy przedmioty własnego projektu. Skonstruowałeś zaawansowany egzoszkielet, niestandardowy implant neuronowy łączący Twój umysł z najbardziej złożonym dziełem Twojej wyobraźni: robotem towarzyszącym, wieżyczką z bronią lub zdalnie sterowanymi minami. Jeśli coś się zepsuło – lub trzeba to zepsuć – to właśnie Ty jesteś odpowiednią osobą.</em></p>"
+        },
         "Mystic": {
             "name": "Mistyk",
             "description": "<p><em>Jesteś przewodnikiem, przekazującym fundamentalne moce, które łączą i wiążą wszystko w kosmosie. Wykorzystujesz tę moc w postaci głębokich duchowych więzi z bliskimi przyjaciółmi. Czerpiesz z tego nadprzyrodzonego źródła, aby wzmocnić swoich sojuszników i przywrócić im zdrowie, gdy są ranni. Utrzymując i pielęgnując swoje więzi, korzystasz z zapasów energii życiowej, którą możesz wykorzystać do wzmocnienia swojej magii uzdrawiania. Twoje moce przybierają unikalny kształt w zależności od wybranego połączenia.</em></p><p><em>@UUID[Compendium.starfinder-field-test-for-pf2e.sf2e-journals.JournalEntry.JQAMedkXzpu3xv8N.JournalEntryPage.8CF2x5wMiBjJFfgp]{Mistyk}</em></p>"
@@ -20,6 +24,10 @@
         "Soldier": {
             "name": "Żołnierz",
             "description": "<p><em>Jesteś mistrzem broni obszarowej, ciężkiego pancerza i przyjmowania ciosów. Stoisz w samym środku bitwy i oddajesz niszczycielskie salwy w kierunku wrogów, jednocześnie przyjmując na siebie ich ostrzał. Prowadząc ostrzał tłumiący za pomocą potężnej broni, pozwalasz sojusznikom wypełniać ich zadania, jednocześnie zachęcając wrogów do skupienia się na tobie.</em></p><p><em>@UUID[Compendium.starfinder-field-test-for-pf2e.sf2e-journals.JournalEntry.JQAMedkXzpu3xv8N.JournalEntryPage.qzqG51UFKlrsJGZS]{Żołnierz}</em></p>"
+        },
+        "Technomancer": {
+            "name": "Technomanta",
+            "description": "<p><em>Wiesz, że magia i technologia są częścią tego samego kodu – kodu, który nauczyłeś się hakować. Znasz magiczny język programowania, który pozwala ci podkręcić sprzęt, zwiększając jego wydajność i wszechstronność. Nauczyłeś się łamać ograniczenia zaklęć, przekraczając granice magii. Jesteś tu, aby hakować rzeczywistość.</em></p>"
         },
         "Witchwarper": {
             "name": "Wiedźma Osnowy",
