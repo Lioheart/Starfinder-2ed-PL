@@ -1,6 +1,10 @@
 {
     "label": "Stany",
     "entries": {
+        "Effect: According to My Calculations": {
+            "name": "Efekt: Według moich obliczeń",
+            "description": "<p>Przyznany przez @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.IJvX7FJ40i84XPuR]{Według moich obliczeń}</p><p>W zależności od wyniku otrzymujesz premię lub karę do następnego testu umiejętności lub rzutu ataku.</p>"
+        },
         "Effect: Adaptive Locomotion": {
             "name": "Efekt: Adaptacyjny Ruch",
             "description": "<p>Jeśli wybierzesz płetwy, zyskujesz szybkość pływania wynoszącą 20 stóp. Jeśli wybierzesz haczykowate nibynóżki, zyskujesz szybkość wspinaczki wynoszącą 20 stóp.</p>"
@@ -16,6 +20,10 @@
         "Effect: Arcane Intuition": {
             "name": "Efekt: Tajemnicza Intuicja",
             "description": "<p>Otrzymujesz premię okolicznościową +1 do rzutów obronnych przeciwko zaklęciom i trwałym efektom magicznym. Jeśli jesteś legendarny w Arkanach, otrzymujesz zamiast tego premię okolicznościową +2.</p>"
+        },
+        "Effect: Atmospheric Flight": {
+            "name": "Efekt: Lot Atmosferyczny",
+            "description": "<p>Przyznany przez @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.wZyBTTRM2BjC93gg]{Lot Atmosferyczny}</p><p>Zyskujesz szybkość lotu równą twojej szybkości poruszania się po lądzie plus 10 stóp.</p>"
         },
         "Effect: Bolstered by Battle": {
             "name": "Efekt: Wzmocniony Walką",
@@ -45,6 +53,10 @@
             "name": "Efekt: Serum dla celebrytów",
             "description": "<p>Przyznany przez @UUID[Compendium.starfinder-field-test-for-pf2e.equipment.Item.YEuvWZhtsvTqJJo1]{Serum dla celebrytów}</p><p>Otrzymujesz premię przedmiotu +1 do testów Występów.</p>"
         },
+        "Effect: Cellular Regeneration": {
+            "name": "Efekt: Regeneracja Komórkowa",
+            "description": "<p>Przyznany przez @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.SiVWK0ksapz0Y8UU]{Regeneracja Komórkowa}</p><p>Zyskujesz regenerację równą połowie twojego poziomu.</p>"
+        },
         "Effect: Cloud Storage": {
             "name": "Efekt: Przechowywanie w Chmurze",
             "description": "<p>Śledzi aktualnie dostępną pamięć</p>"
@@ -56,9 +68,17 @@
         "Effect: Constellation Vortex": {
             "name": "Efekt: Wir Konstelacji"
         },
+        "Effect: Cooperative": {
+            "name": "Efekt: Współpraca",
+            "description": "<p>Przyznany przez @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.LHtaCR4gS4kozJyP]{Współpraca}</p><p>Otrzymujesz premię okolicznościową +2 do rzutów na Wsparcie.</p>"
+        },
         "Effect: Deadlift": {
             "name": "Efekt: Martwy Ciąg",
             "description": "<p>Możesz przenosić o 4 Masy przedmiotów więcej niż normalnie, zanim staniesz się obciążony. Ilość, którą możesz przenosić, wzrasta do 6 na poziomie eksperta, 8 na poziomie mistrza i 10 na poziomie legendarnym.</p>"
+        },
+        "Effect: Defensive Formation": {
+            "name": "Efekt: Formacja Obronna",
+            "description": "<p>Przyznany przez @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.xF4Vse5IwmWveqxI]{Formacja Obronna}</p><p>Otrzymujesz premię okolicznościową +1 do KP i rzutów obronnych na Refleks.</p>"
         },
         "Effect: Dual Aim": {
             "name": "Efekt: Podwójny Cel",
@@ -68,6 +88,10 @@
             "name": "Efekt: Influencer bez Wysiłku",
             "description": "<p>Otrzymujesz premię statusu +1 do następnej próby wybranej umiejętności (lub premię +2, jeśli próba zakończyła się krytycznym sukcesem).</p>"
         },
+        "Effect: Electric Kalo": {
+            "name": "Efekt: Elektryczny Kalo",
+            "description": "<p>Przyznany przez @UUID[Compendium.starfinder-field-test-for-pf2e.heritages.Item.ZAOKze0PTYPPbUua]{Elektryczny Kalo}</p><p>Zyskujesz odporność na elektryczność równą połowie twojego poziomu (minimum 1).</p>"
+        },
         "Effect: Elemental Harmony": {
             "name": "Efekt: Harmonia Żywiołów",
             "description": "<p>Zadajesz dodatkowo 1k4 trwałych obrażeń.</p>"
@@ -76,9 +100,17 @@
             "name": "Efekt: Doskonała Harmonia Żywiołów",
             "description": "<p>Zyskujesz odporność na dwa żywioły wybrane podczas codziennych przygotowań mistyka.</p>"
         },
+        "Effect: Energy Consumption": {
+            "name": "Efekt: Zużycie Energii",
+            "description": "<p>Przyznany przez @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.3RqBU4dfoegOPzqw]{Zużycie Energii}</p><p>Otrzymujesz tymczasowe Punkty Wytrzymałości równe twojemu poziomowi oraz atut Tarcza Energetyczna.</p>"
+        },
         "Effect: Enraging Presence": {
             "name": "Efekt: Prowokująca Obecność",
             "description": "<p>Otrzymujesz premię statusu +2 do rzutów na obrażenia.</p>"
+        },
+        "Effect: Focus Senses": {
+            "name": "Efekt: Skupienie Zmysłów",
+            "description": "<p>Przyznany przez @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.0vqXr3SYakIa19k3]{Skupienie Zmysłów}</p><p>Zyskujesz echolokację (precyzyjną) na odległość 30 stóp.</p>"
         },
         "Effect: Force Field": {
             "name": "Efekt: Pole Siłowe",
@@ -108,13 +140,33 @@
             "name": "Efekt: Harmoniczna Konwergencja",
             "description": "<p>Otrzymujesz tymczasową liczbę Punktów Wytrzymałości równą połowie twojego poziomu.</p>"
         },
+        "Effect: Heroic Last Stand": {
+            "name": "Efekt: Bohaterska Ostatnia Bitwa",
+            "description": "<p>Przyznany przez @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.a9ER2amvCuQEJODm]{Bohaterska Ostatnia Bitwa}</p><p>Otrzymujesz tymczasowe Punkty Wytrzymałości równe twojemu poziomowi. Dopóki posiadasz te tymczasowe Punkty Wytrzymałości, otrzymujesz +1 premię okolicznościową do rzutów obronnych na Wolę przeciwko efektom strachu oraz +2 premię okolicznościową do ST przeciwko próbom zdemoralizowania cię.</p>"
+        },
+        "Effect: Holo-Roger": {
+            "name": "Efekt: Holo-Roger",
+            "description": "<p>Przyznany przez @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.8zWFGKRXg1SxIwFH]{Holo-Roger}</p><p>Otrzymujesz premię okolicznościową +1 do testów Zastraszenia w celu Przymuszania.</p>"
+        },
         "Effect: Improvised Mastery": {
             "name": "Efekt: Mistrzostwo w Improwizacji",
             "description": "<p><strong>Częstotliwość</strong> raz dziennie</p><p><strong>Wyzwalacz</strong> Zamierzasz wykonać test umiejętności, w której nie masz mistrzowskiej biegłości, ale nie wykonałeś jeszcze rzutu.</p><hr /><p>Ufasz swoim instynktom, które pomogą Ci przetrwać. Osiągasz mistrzowską biegłość w umiejętności wyzwalającej dla testu umiejętności.</p>"
         },
+        "Effect: Infernal Armaments": {
+            "name": "Efekt: Piekielne Uzbrojenie",
+            "description": "<p>Przyznany przez @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.WpJCB3dCycbIzG3w]{Piekielne Uzbrojenie}</p><p>Otrzymujesz premię statusu równą dwukrotności liczby kości obrażeń zadawanych przez twoją pierwszą broń podczas każdego ataku w rundzie. Rodzaj tych dodatkowych obrażeń zależy od twojego Zakonu Piekielnego Rycerza.</p>"
+        },
+        "Effect: Kindle Blaze": {
+            "name": "Efekt: Wzniecenie Płomienia",
+            "description": "<p>Przyznany przez @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.dp3jTnxAb98E2BCk]{Wzniecenie Płomienia}</p><p>Rzucasz jasne światło w promieniu 9 metrów i słabe światło w kolejnym promieniu 30 stóp. Otrzymujesz również premię okolicznościową +1 do rzutów obronnych przeciwko atakom, zaklęciom i innym efektom, które mają cechę zimna.</p>"
+        },
         "Effect: Magnetic Field": {
             "name": "Efekt: Pole Magnetyczne",
             "description": "<p>Przedmioty z cechą techniczną używane w aurze otrzymują karę okolicznościową -1 do wszystkich testów wykonywanych przy ich użyciu.</p>"
+        },
+        "Effect: Manifest Energy Wings": {
+            "name": "Efekt: Manifestacja Skrzydeł Energii",
+            "description": "<p>Przyznany przez @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.NEYVJWYtgl0rRSwg]{Manifestacja Skrzydeł Energii}</p><p>Zyskujesz szybkość lotu równą twojej szybkości poruszania się po lądzie plus 10 stóp.</p>"
         },
         "Effect: Mark": {
             "name": "Efekt: Znak",
@@ -164,9 +216,17 @@
             "name": "Efekt: Nieustępliwa Wytrzymałość",
             "description": "<p>Otrzymujesz 1k8+4 tymczasowych punktów wytrzymałości oraz dodatkowe 1k8+4 za każde 4 poziomy powyżej 2. poziomu.</p>"
         },
+        "Effect: Restorative Shapeshifting": {
+            "name": "Efekt: Regeneracyjna Zmiana Kształtu",
+            "description": "<p>Przyznany przez @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.7yIxWfNZ7yEKs0Fd]{Regeneracyjna Zmiana Kształtu}</p><p>Zyskujesz tymczasową liczbę Punktów Wytrzymałości równą połowie twojego poziomu.</p>"
+        },
         "Effect: Search High and Low": {
             "name": "Efekt: Szukaj Wszędzie",
             "description": "<p>Otrzymujesz premię okolicznościową +2 do testów Percepcji na @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Szukanie}. Premia wzrasta do +3 na 7. poziomie, +4 na 12. poziomie i +5 na 17. poziomie.</p>"
+        },
+        "Effect: Shielding Arrogance": {
+            "name": "Efekt: Osłaniająca Arogancja",
+            "description": "<p>Przyznany przez @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.wI0g2nRfu2d0YFAd]{Osłaniająca Arogancja}</p><p>Otrzymujesz tymczasowe Punkty Wytrzymałości równe twojemu poziomowi.</p>"
         },
         "Effect: Shift Energy": {
             "name": "Efekt: Zmiana Energii",
@@ -179,6 +239,14 @@
         "Effect: Size Up": {
             "name": "Efekt: Ocena",
             "description": "<p>Otrzymujesz premię okolicznościową +1 do testów Oszustwa, Dyplomacji, Zastraszania i Percepcji wykonywanych przeciwko twojemu atutowi lub w związku z nim, jeśli cel zna twój atut, oraz premię okolicznościową +1 do prób @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{Przywołania Wiedzy} dotyczących twojego atutu.</p>"
+        },
+        "Effect: Size of the Ancients": {
+            "name": "Efekt: Wielkość Starożytnych",
+            "description": "<p>Przyznany przez @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.ri5qV0g9RwwWLiBk]{Wielkość Starożytnych}</p><p>Rośniesz do wielkości Wielki. Twój zasięg wzrasta o 5 stóp (lub o 10 stóp, jeśli jesteś smokiem urodzonym na statku) i zyskujesz premię +4 do obrażeń zadawanych w walce wręcz.</p>"
+        },
+        "Effect: Skillful Encouragement": {
+            "name": "Efekt: Umiejętna Zachęta",
+            "description": "<p>Przyznany przez @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.EFkWRLQwain42TFm]{Umiejętna Zachęta}</p><p>Otrzymujesz premię okoliczności +2 do testów umiejętności.</p>"
         },
         "Effect: Solar Shield": {
             "name": "Efekt: Tarcza Słoneczna",
@@ -200,13 +268,33 @@
             "name": "Efekt: Błyskotliwy Występ",
             "description": "<p>Rzucasz słabe światło w promieniu 20 stóp. Jeśli jesteś legendarny w Występach, możesz rzucać jasne światło w promieniu 20 stóp.</p>"
         },
+        "Effect: Sway the Heart, Stoke the Spirit": {
+            "name": "Efekt: Porusz Serce, Rozpal Ducha",
+            "description": "<p>Przyznany przez @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.ypSQT2urAcrgaoQ1]{Porusz Serce, Rozpal Ducha}</p><p>Otrzymujesz premię okolicznościową +1 do rzutów obronnych na Wolę.</p>"
+        },
         "Effect: Tactical Tutelage": {
             "name": "Efekt: Strategiczne Doradztwo",
             "description": "<p>Zadaj dodatkowe obrażenia precyzyjne 2k4 i zmniejsz premię do KP celu o 1.</p>"
         },
+        "Effect: Telekinetic Sprint": {
+            "name": "Efekt: Telekinetyczny Sprint",
+            "description": "<p>Przyznany przez @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.r1bUsyDwcwuN3MUG]{Telekinetyczny Sprint}</p><p>Otrzymujesz premię statusową +5 stóp do szybkości.</p>"
+        },
+        "Effect: Telekinetic Titan": {
+            "name": "Efekt: Telekinetyczny Tytan",
+            "description": "<p>Przyznany przez @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.Cj9UI2RZL6WBJ6EB]{Telekinetyczny Tytan}</p><p>Możesz przenosić Masę równą 7 + wybrany modyfikator atrybutu, zanim staniesz się obciążony, a także możesz trzymać i przenosić Masę równą 12 + wybrany modyfikator atrybutu. Zyskujesz akcję @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.gNUrQ8jimAvAA0xg]{Podnoszenie Telekinetyczne}.</p>"
+        },
+        "Effect: Telepredict": {
+            "name": "Efekt: Teleprzewidywanie",
+            "description": "<p>Przyznany przez @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.bqQ80aCjgigKSJMY]{Teleprzewidywanie}</p><p>Otrzymujesz premię okliczności +1 do testów Oszustwa i Zastraszania skierowanych przeciwko stworzeniu oraz do rzutów obronnych przeciwko efektom celu, które mają cechę strachu. Jeśli zadajesz celowi obrażenia psychiczne, zwiększ tę premię do +2.</p>"
+        },
         "Effect: Unbound Mind": {
             "name": "Efekt: Nieskrępowany Umysł",
             "description": "<p>Otrzymujesz premię okolicznościową +1 do rzutów obronnych przeciwko efektom umysłowym.</p>"
+        },
+        "Effect: Undead Slayer": {
+            "name": "Efekt: Pogromca Nieumarłych",
+            "description": "<p>Przyznany przez @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.kC42tjY689rma6Uc]{Pogromca Nieumarłych}</p><p>Zyskujesz dostęp do kluczowych efektów specjalizacji wszystkich broni i ataków bez broni w przypadku ataków wykonywanych przeciwko oznaczonym stworzeniom.</p>"
         },
         "Effect: Unfurl Wings": {
             "name": "Efekt: Rozwinięcie Skrzydeł",
@@ -223,6 +311,10 @@
         "Effect: Watch Out!": {
             "name": "Efekt: Uwaga!",
             "description": "<p>Ostrzegasz sojusznika, przyznając mu premię okolicznościową +2 do KP przeciwko atakowi wywołującemu efekt.</p>"
+        },
+        "Effect: Willful Defiance": {
+            "name": "Efekt: Umyślne Nieposłuszeństwo",
+            "description": "<p>Przyznany przez @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.NUZClDNinM6oVgJN]{Umyślne Nieposłuszeństwo}</p><p>Otrzymujesz premię okoliczności +1 do klasy pancerza i rzutów obronnych przeciwko atakom, zaklęciom i innym efektom zaznaczonego stworzenia.</p>"
         },
         "Effect: You'll Have to Go Through Me!": {
             "name": "Efekt: Po moim trupie!",
